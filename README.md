@@ -79,7 +79,7 @@ Full datasets for anomaly detection and failure identification can be found [her
 ### 4.1. RQ1: Log Parsing Results
 
 - _**Accuracy**_:
-<p align="center"><img src="docs/images/RQ1-accuracy.png" width="700"></p>
+<p align="center"><img src="docs/images/RQ1-accuracy.png" width="1000"></p>
 
 - **_Robustness_**:
 <p align="center"><img src="docs/images/RQ1-robustness.png"></p>
@@ -102,13 +102,13 @@ Full datasets for anomaly detection and failure identification can be found [her
 <p align="center"><img src="docs/images/RQ3-parsing.png" width="700"></p>
 
 - **_Anomaly Detection with Stable Logs_**:
-<p align="center"><img src="docs/images/RQ3-AD-stable.png"></p>
+<p align="center"><img src="docs/images/RQ3-AD-stable.png" width="700"></p>
 
 - **_Anomaly Detection with Unstable Logs_**:
   - _Unstable Log Events_:
-    <p align="center"><img src="docs/images/RQ3-AD-event.png"></p>
+    <p align="center"><img src="docs/images/RQ3-AD-event.png" width="700"></p>
   - _Unstable Log Sequences_
-    <p align="center"><img src="docs/images/RQ3-ad-seq.png"></p>
+    <p align="center"><img src="docs/images/RQ3-ad-seq.png" width="700"></p>
 ### 4.4. RQ4: Compare with Different Pre-trained Models
 
 - **_Log Parsing_**:
