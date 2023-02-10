@@ -1,0 +1,32 @@
+{"text": "REPORT : 7135 5094 152831 240", "label": "REPORT : <*> <*> <*> <*>"}
+{"text": "setTodayTotalDetailSteps=1514038680000##7122##548870##8661##16256##27392978", "label": "setTodayTotalDetailSteps=<*>"}
+{"text": "onExtend:1514038756000 0 0 0", "label": "onExtend:<*> <*> <*> <*>"}
+{"text": " getTodayTotalDetailSteps = 1514038440000##7053##548365##8661##16256##27202475", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": "onExtend:1514043434000 0 0 5", "label": "onExtend:<*> <*> <*> <*>"}
+{"text": "REPORT : 7104 5072 152167 240", "label": "REPORT : <*> <*> <*> <*>"}
+{"text": "setTodayTotalDetailSteps=1514040600000##7189##549659##8661##16256##29344951", "label": "setTodayTotalDetailSteps=<*>"}
+{"text": " getTodayTotalDetailSteps = 1514040240000##7189##549659##8661##16256##28999575", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": "onStandStepChanged 3660", "label": "onStandStepChanged <*>"}
+{"text": "REPORT : 7033 5021 150646 240", "label": "REPORT : <*> <*> <*> <*>"}
+{"text": "saveRealTimeHealthDatasStat() size = 1,totalTime = 48", "label": "saveRealTimeHealthDatasStat() size = <*>,totalTime = <*>"}
+{"text": "calculateCaloriesWithCache totalCalories=129366", "label": "calculateCaloriesWithCache totalCalories=<*>"}
+{"text": "REPORT : 7167 5117 153517 240", "label": "REPORT : <*> <*> <*> <*>"}
+{"text": " getTodayBasicStandardSteps= 1514044800223##3786##0", "label": "getTodayBasicStandardSteps= <*>##<*>##<*>"}
+{"text": "onExtend:1514041326000 0 0 5", "label": "onExtend:<*> <*> <*> <*>"}
+{"text": "REPORT : 7013 5007 150218 240", "label": "REPORT : <*> <*> <*> <*>"}
+{"text": " getTodayTotalDetailSteps = 1514041980000##7214##549659##8661##16256##30736730", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": " getTodayTotalDetailSteps = 1514044320000##7214##549659##8661##16256##33081765", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": "onStandStepChanged 3590", "label": "onStandStepChanged <*>"}
+{"text": "onExtend:1514038678000 1 0 4", "label": "onExtend:<*> <*> <*> <*>"}
+{"text": "setTodayTotalDetailSteps=1514038560000##7079##548566##8661##16256##27310473", "label": "setTodayTotalDetailSteps=<*>"}
+{"text": " getTodayTotalDetailSteps = 1514038680000##7130##548890##8661##16256##27394969", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": "onExtend:1514038532000 1 0 4", "label": "onExtend:<*> <*> <*> <*>"}
+{"text": "setTodayTotalDetailSteps=1514038560000##7058##548554##8661##16256##27285475", "label": "setTodayTotalDetailSteps=<*>"}
+{"text": "setTodayTotalDetailSteps=1514038440000##7028##548365##8661##14261##27185977", "label": "setTodayTotalDetailSteps=<*>"}
+{"text": "closeNotification...", "label": "closeNotification..."}
+{"text": "setTodayTotalDetailSteps=1514044380000##7214##549659##8661##16256##33119761", "label": "setTodayTotalDetailSteps=<*>"}
+{"text": "setTodayTotalDetailSteps=1514038620000##7114##548805##8661##16256##27329972", "label": "setTodayTotalDetailSteps=<*>"}
+{"text": " getTodayTotalDetailSteps = 1514038500000##7054##548458##8661##16256##27204469", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": "onStandStepChanged 3765", "label": "onStandStepChanged <*>"}
+{"text": "setTodayTotalDetailSteps=1514045160000##0##549659##8661##16256##33866758", "label": "setTodayTotalDetailSteps=<*>"}
+{"text": "onExtend:1514041566000 0 0 5", "label": "onExtend:<*> <*> <*> <*>"}

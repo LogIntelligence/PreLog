@@ -1,0 +1,32 @@
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1759 time: 0.2631650", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2711270", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2508061", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: 78dc1847-8848-49cc-933e-9239b12c9dcf] Total vcpu: 16 VCPU, used: 0.00 VCPU", "label": "[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2556710", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1916 time: 0.2717581", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: a015cf14-84bb-4156-a48d-7c4824ac7a9d] disk limit not specified, defaulting to unlimited", "label": "[instance: <*>] disk limit not specified, defaulting to unlimited"}
+{"text": "10.11.21.135,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.0009611", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2529030", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.21.128,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.2267981", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2661738", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2634399", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2652829", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.21.140,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.0032220", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 211 time: 0.1033430", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.21.133,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.0011051", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2747040", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: c62f4f25-982c-4ea2-b5e4-93000edfcfbf] Took 1.02 seconds to destroy the instance on the hypervisor.", "label": "[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor."}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.3740301", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2762442", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2688291", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 200 len: 380 time: 0.0921431", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2472789", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: fecdd5a9-3ca0-4c82-9336-63b7774f738e] Took 21.11 seconds to build instance.", "label": "[instance: <*>] Took <*> seconds to build instance."}
+{"text": "10.11.10.1 \"DELETE /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/17288ea8-cbf4-4f0e-94fe-853fd2735f29 HTTP/1.1\" status: 204 len: 203 time: 0.2726481", "label": "<*> \"DELETE <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2808621", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2707460", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.21.135,10.11.10.1 \"GET /latest/meta-data/ HTTP/1.1\" status: 200 len: 328 time: 0.0007021", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.21.126,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.0012150", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2556951", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 404 len: 296 time: 0.0918391", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.21.132,10.11.10.1 \"GET /latest/meta-data/local-hostname HTTP/1.1\" status: 200 len: 130 time: 0.0007689", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}

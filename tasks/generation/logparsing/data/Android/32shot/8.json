@@ -1,0 +1,32 @@
+{"text": "userActivityNoUpdateLocked: eventTime=261978352, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "scheduleTimeTickEvent triggerAtTime = 509262332", "label": "scheduleTimeTickEvent triggerAtTime = <*>"}
+{"text": "flingToHeight: vel=0.0, expand=false, target=0.0, collapseSpeedUpFactor=1.0, expandBecauseOfFalsing=false", "label": "flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*>"}
+{"text": "setSystemUiVisibility vis=40000500 mask=ffffffff oldVal=80000508 newVal=40000500 diff=c0000008 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)"}
+{"text": "userActivityNoUpdateLocked: eventTime=261849949, event=1, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-113.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261881405, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mobileqq/.activity.SplashActivity bnds=[360,820][536,1011]} from uid 10057 on display 0", "label": "START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>} from uid <*> on display <*>"}
+{"text": "notifyUiVisibilityChanged:vis=0x80000608, SystemUiVisibility=0x80000608", "label": "notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261982379, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "remove(PendingIntent{e4e2534: PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}) changed bounds; rebatching", "label": "remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching"}
+{"text": "schedulePeek", "label": "schedulePeek"}
+{"text": "state.clipTopAmount:197, i:0", "label": "state.clipTopAmount:<*>, i:<*>"}
+{"text": "updateClipping isOverlap:true, getTopPadding=333.0, Translation=-529.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
+{"text": "release:lock=62617001, flg=0x0, tag=\"WindowManager\", name=android\", ws=WorkSource{10113}, uid=1000, pid=1702", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
+{"text": "updateClipping isOverlap:true, getTopPadding=333.0, Translation=-487.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
+{"text": "cleanUpApplicationRecordLocked, reset pid: 23484, euid: 0", "label": "cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261968928, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "DefaultState what=155652", "label": "DefaultState what=<*>"}
+{"text": "onReceive, action:android.intent.action.BATTERY_CHANGED", "label": "onReceive, action:<*>"}
+{"text": "updateClipping isOverlap:true, getTopPadding=333.0, Translation=-497.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261868506, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "Screen frozen for +1s0ms due to Window{ca98d5 u0 com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.NewsDetailXmlActivity}", "label": "Screen frozen for <*> due to Window{<*> u0 <*>}"}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-55.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-321.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-72.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
+{"text": "getLastAudibleStreamVolume  treamType: 3", "label": "getLastAudibleStreamVolume treamType: <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261880856, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "state.clipTopAmount:69, i:0", "label": "state.clipTopAmount:<*>, i:<*>"}
+{"text": "battery changed pluggedType: 0", "label": "battery changed pluggedType: <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261968328, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "ActivityManagerService,attachApplication,callingPid = 12787", "label": "ActivityManagerService,attachApplication,callingPid = <*>"}

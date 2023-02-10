@@ -1,0 +1,32 @@
+{"text": "sys_ia32.c,v 1.32 2002/03/24 13:02:28 ak Exp $", "label": "<*> <*> <*> ak Exp $"}
+{"text": "PCI Interrupt Link [LNKH] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.", "label": "PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled."}
+{"text": "syslog-ng startup succeeded", "label": "syslog-ng startup succeeded"}
+{"text": "not allocating divert_blk for non-ethernet device lo", "label": "not allocating divert_blk for non-ethernet device <*>"}
+{"text": "#39# (Release Date: Mon Sep 27 22:15:07 EDT 2004)", "label": "<*> (Release Date: <*> <*>)"}
+{"text": "LAPIC (acpi_id[0x02] lapic_id[0x06] enabled)", "label": "LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)"}
+{"text": "Initializing.", "label": "Initializing."}
+{"text": "PCI Interrupt Routing Table [\\_SB_.PCI0.VPR0._PRT]", "label": "PCI Interrupt Routing Table [<*>]"}
+{"text": "Starting in permissive mode", "label": "Starting in permissive mode"}
+{"text": "allocating divert_blk for eth1", "label": "allocating divert_blk for <*>"}
+{"text": "Warning: we failed to resolve data source name dadmin2 dadmin3 dadmin4", "label": "Warning: we failed to resolve data source name <*>"}
+{"text": "Warning: we failed to resolve data source name dn142 dn143 dn144 dn145 dn146 dn147 dn148 dn149 dn150 dn151 dn152 dn153 dn154 dn155 dn156 dn157 dn158 dn159 dn160 dn161 dn162 dn163 dn164 dn165 dn166 dn167 dn168 dn169 dn170 dn171 dn172 dn173 dn174 dn175 dn176 dn177 dn178 dn179 dn180 dn181 dn182 dn183 dn184 dn185 dn186 dn187 dn188 dn189 dn190 dn191 dn192 dn193 dn194 dn195 dn196 dn197 dn198 dn199 dn200 dn201 dn202 dn203 dn204 dn205 dn206 dn207 dn208 dn209 dn210 dn211 dn212 dn213 dn214 dn215 dn216 dn217 dn218 dn219 dn220 dn221 dn222 dn223 dn224 dn225 dn226 dn227 dn228 dn229 dn230 dn231 dn232 dn233 dn234 dn235 dn236 dn237 dn238 dn239 dn240 dn241 dn242 dn243 dn244 dn245 dn246 dn247 dn248 dn249 dn250 dn251 dn252 dn253 dn254 dn255 dn256", "label": "Warning: we failed to resolve data source name <*>"}
+{"text": "Processor ANSI SCSI revision: 02", "label": "Processor ANSI SCSI revision: <*>"}
+{"text": "Using 14.318180 MHz HPET timer.", "label": "Using <*> MHz HPET timer."}
+{"text": "Creating Topspin /dev entries:", "label": "Creating Topspin <*> entries:"}
+{"text": "md driver 0.90.0 MAX_MD_DEVS=256, MD_SB_DISKS=27", "label": "md driver <*> MAX_MD_DEVS=<*>, MD_SB_DISKS=<*>"}
+{"text": "Warning: we failed to resolve data source name cn782 cn783 cn784 cn785 cn786 cn787 cn788 cn789 cn790 cn791 cn792 cn793 cn794 cn795 cn796 cn797 cn798 cn799 cn800 cn801 cn802 cn803 cn804 cn805 cn806 cn807 cn808 cn809 cn810 cn811 cn812 cn813 cn814 cn815 cn816 cn817 cn818 cn819 cn820 cn821 cn822 cn823 cn824 cn825 cn826 cn827 cn828 cn829 cn830 cn831 cn832 cn833 cn834 cn835 cn836 cn837 cn838 cn839 cn840 cn841 cn842 cn843 cn844 cn845 cn846 cn847 cn848 cn849 cn850 cn851 cn852 cn853 cn854 cn855 cn856 cn857 cn858 cn859 cn860 cn861 cn862 cn863 cn864 cn865 cn866 cn867 cn868 cn869 cn870 cn871 cn872 cn873 cn874 cn875 cn876 cn877 cn878 cn879 cn880 cn881 cn882 cn883 cn884 cn885 cn886 cn887 cn888 cn889 cn890 cn891 cn892 cn893 cn894 cn895 cn896", "label": "Warning: we failed to resolve data source name <*>"}
+{"text": "PCI Interrupt Routing Table [\\_SB_.PCI0.PICH._PRT]", "label": "PCI Interrupt Routing Table [<*>]"}
+{"text": "not allocating divert_blk for non-ethernet device sit0", "label": "not allocating divert_blk for non-ethernet device <*>"}
+{"text": "Server listening on :: port 22.", "label": "Server listening on :: port <*>."}
+{"text": "LSI Logic MegaRAID driver", "label": "LSI Logic MegaRAID driver"}
+{"text": "Warning: we failed to resolve data source name bn270 bn271 bn272 bn273 bn274 bn275 bn276 bn277 bn278 bn279 bn280 bn281 bn282 bn283 bn284 bn285 bn286 bn287 bn288 bn289 bn290 bn291 bn292 bn293 bn294 bn295 bn296 bn297 bn298 bn299 bn300 bn301 bn302 bn303 bn304 bn305 bn306 bn307 bn308 bn309 bn310 bn311 bn312 bn313 bn314 bn315 bn316 bn317 bn318 bn319 bn320 bn321 bn322 bn323 bn324 bn325 bn326 bn327 bn328 bn329 bn330 bn331 bn332 bn333 bn334 bn335 bn336 bn337 bn338 bn339 bn340 bn341 bn342 bn343 bn344 bn345 bn346 bn347 bn348 bn349 bn350 bn351 bn352 bn353 bn354 bn355 bn356 bn357 bn358 bn359 bn360 bn361 bn362 bn363 bn364 bn365 bn366 bn367 bn368 bn369 bn370 bn371 bn372 bn373 bn374 bn375 bn376 bn377 bn378 bn379 bn380 bn381 bn382 bn383 bn384", "label": "Warning: we failed to resolve data source name <*>"}
+{"text": "(root) CMD (/projects/tbird/temps/get_temps e)", "label": "(<*>) CMD (<*> <*>)"}
+{"text": "Using configuration type 1", "label": "Using configuration type <*>"}
+{"text": "root=LABEL=/ initrd=/x86_64/initrd-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr-admin console=tty0 console=ttyS0,19200 fastboot BOOT_IMAGE=/x86_64/vmlinuz-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr", "label": "<*>=LABEL=/ initrd=<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*>"}
+{"text": "PCI Root Bridge [PCI0] (00:00)", "label": "PCI <*> Bridge [PCI0] (<*>)"}
+{"text": "apic_id 8, version 32, address 0xfec00000, GSI 0-23", "label": "apic_id <*>, version <*>, address <*>, GSI <*>"}
+{"text": "xinetd startup succeeded", "label": "xinetd startup succeeded"}
+{"text": "LAPIC (acpi_id[0x04] lapic_id[0x07] enabled)", "label": "LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)"}
+{"text": "Processor [CPU0] (supports C1)", "label": "Processor [<*>] (supports C1)"}
+{"text": "passed.", "label": "passed."}
+{"text": "Direct-Access ANSI SCSI revision: 02", "label": "Direct-Access ANSI SCSI revision: <*>"}

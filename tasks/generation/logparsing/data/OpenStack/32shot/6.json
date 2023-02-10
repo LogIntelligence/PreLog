@@ -1,0 +1,32 @@
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2641821", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] memory limit: 96258.00 MB, free: 95746.00 MB", "label": "[instance: <*>] memory limit: <*> MB, free: <*> MB"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1759 time: 0.2750871", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] disk limit not specified, defaulting to unlimited", "label": "[instance: <*>] disk limit not specified, defaulting to unlimited"}
+{"text": "[instance: 63a0d960-70b6-44c6-b606-491478a5cadf] Total disk: 15 GB, used: 0.00 GB", "label": "[instance: <*>] Total disk: <*> GB, used: <*> GB"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2755542", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] VM Started (Lifecycle Event)", "label": "[instance: <*>] VM Started (Lifecycle Event)"}
+{"text": "[instance: 43204226-2f87-4da7-b7ee-4d20cc66e846] Took 20.14 seconds to build instance.", "label": "[instance: <*>] Took <*> seconds to build instance."}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2524779", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2735391", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2527661", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2657590", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2571361", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2645810", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2577119", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 211 time: 0.1072969", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/be793e89-2cc3-4f99-9884-9c6a624a84bc HTTP/1.1\" status: 200 len: 1708 time: 0.1866481", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: 95960536-049b-41f6-9049-05fc479b6a7c] Instance destroyed successfully.", "label": "[instance: <*>] Instance destroyed successfully."}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 211 time: 0.1063731", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1583 time: 0.1981771", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2457120", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.21.132,10.11.10.1 \"GET /latest/meta-data/ HTTP/1.1\" status: 200 len: 328 time: 0.0013649", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "While synchronizing instance power states, found 1 instances in the database and 0 instances on the hypervisor.", "label": "While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor."}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2686541", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1916 time: 0.2717581", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: af5f7392-f7d4-4298-b647-c98924c64aa1] Total disk: 15 GB, used: 0.00 GB", "label": "[instance: <*>] Total disk: <*> GB, used: <*> GB"}
+{"text": "[instance: 43204226-2f87-4da7-b7ee-4d20cc66e846] Total disk: 15 GB, used: 0.00 GB", "label": "[instance: <*>] Total disk: <*> GB, used: <*> GB"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2553751", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: 63a0d960-70b6-44c6-b606-491478a5cadf] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU", "label": "[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 211 time: 0.1012239", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] Terminating instance", "label": "[instance: <*>] Terminating instance"}
+{"text": "[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Took 1.11 seconds to destroy the instance on the hypervisor.", "label": "[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor."}

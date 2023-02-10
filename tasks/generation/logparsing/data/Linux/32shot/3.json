@@ -1,0 +1,32 @@
+{"text": "Couldn't authenticate user", "label": "Couldn't authenticate user"}
+{"text": "connection from 210.245.165.136 () at Wed Jun 22 13:16:32 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "rpc.idmapd startup succeeded", "label": "rpc.idmapd startup succeeded"}
+{"text": "Normal zone: 28334 pages, LIFO batch:6", "label": "Normal zone: <*> pages, LIFO batch:<*>"}
+{"text": "audit(1122475266.4294965305:0): initialized", "label": "audit(<*>:<*>): initialized"}
+{"text": "ACPI: Subsystem revision 20040326", "label": "ACPI: Subsystem revision <*>"}
+{"text": "PCI: Invalid ACPI-PCI IRQ routing table", "label": "PCI: Invalid ACPI-PCI IRQ routing table"}
+{"text": "BIOS-provided physical RAM map:", "label": "BIOS-provided physical RAM map:"}
+{"text": "connection from 221.4.102.93 () at Thu Jul  7 23:09:47 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "ACPI disabled because your bios is from 2000 and too old", "label": "ACPI disabled because your bios is from <*> and too old"}
+{"text": "Calibrating delay loop... 1445.88 BogoMIPS", "label": "Calibrating delay loop... <*> BogoMIPS"}
+{"text": "NET: Registered protocol family 16", "label": "NET: Registered protocol family <*>"}
+{"text": "Version 1.0.6 Starting", "label": "Version <*> Starting"}
+{"text": "connection from 208.62.55.75 () at Wed Jun 29 10:48:18 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "connection from 218.146.61.230 () at Sun Jul 17 08:06:14 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "zapping low mappings.", "label": "zapping low mappings."}
+{"text": "Console: colour VGA+ 80x25", "label": "Console: colour VGA+ <*>"}
+{"text": "Kernel command line: ro root=LABEL=/ rhgb quiet", "label": "Kernel command line: ro <*>=LABEL=/ rhgb quiet"}
+{"text": "CPU: Intel Pentium III (Coppermine) stepping 06", "label": "CPU: Intel Pentium III (Coppermine) stepping <*>"}
+{"text": "PID hash table entries: 512 (order 9: 4096 bytes)", "label": "PID hash table entries: <*> (order <*>: <*> bytes)"}
+{"text": "Initializing Cryptographic API", "label": "Initializing Cryptographic API"}
+{"text": "Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)", "label": "Dquot-cache hash table entries: <*> (order <*>, <*> bytes)"}
+{"text": "CPU: L2 cache: 256K", "label": "CPU: L2 cache: <*>"}
+{"text": "Checking 'hlt' instruction... OK.", "label": "Checking 'hlt' instruction... OK."}
+{"text": "PCI: Probing PCI hardware (bus 00)", "label": "PCI: Probing PCI hardware (bus <*>)"}
+{"text": "usbcore: registered new driver hub", "label": "usbcore: registered new driver hub"}
+{"text": "irqbalance startup succeeded", "label": "irqbalance startup succeeded"}
+{"text": "connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:50 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:55 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "126MB LOWMEM available.", "label": "<*> LOWMEM available."}
+{"text": "ACPI: ACPI tables contain no PCI IRQ routing entries", "label": "ACPI: ACPI tables contain no PCI IRQ routing entries"}
+{"text": "Intel machine check reporting enabled on CPU#0.", "label": "Intel machine check reporting enabled on CPU#<*>."}

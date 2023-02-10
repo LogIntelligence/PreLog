@@ -1,0 +1,32 @@
+{"text": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.122.38:50010 is added to blk_-5861348317118763621 size 28500222", "label": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>"}
+{"text": "PacketResponder 0 for block blk_-4684475480143348818 terminating", "label": "PacketResponder <*> for block <*> terminating"}
+{"text": "PacketResponder 0 for block blk_-9132218772786220159 terminating", "label": "PacketResponder <*> for block <*> terminating"}
+{"text": "Deleting block blk_1369784431092292099 file /mnt/hadoop/dfs/data/current/subdir36/blk_1369784431092292099", "label": "Deleting block <*> file <*>"}
+{"text": "Received block blk_4294115716822011564 of size 67108864 from /10.251.43.210", "label": "Received block <*> of size <*> from <*>"}
+{"text": "PacketResponder 2 for block blk_-5321676321043683563 terminating", "label": "PacketResponder <*> for block <*> terminating"}
+{"text": "Deleting block blk_153508158653341141 file /mnt/hadoop/dfs/data/current/subdir50/blk_153508158653341141", "label": "Deleting block <*> file <*>"}
+{"text": "BLOCK* NameSystem.delete: blk_4516306414837452219 is added to invalidSet of 10.251.127.47:50010", "label": "BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>"}
+{"text": "Receiving block blk_-7820996703068538967 src: /10.251.35.1:59569 dest: /10.251.35.1:50010", "label": "Receiving block <*> src: <*> dest: <*>"}
+{"text": "Received block blk_-6966935672736779591 of size 67108864 from /10.251.90.64", "label": "Received block <*> of size <*> from <*>"}
+{"text": "Received block blk_9212264480425680329 of size 67108864 from /10.251.123.1", "label": "Received block <*> of size <*> from <*>"}
+{"text": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.43.192:50010 is added to blk_325981833999429148 size 67108864", "label": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>"}
+{"text": "Received block blk_-9167880724995702718 of size 67108864 from /10.251.214.225", "label": "Received block <*> of size <*> from <*>"}
+{"text": "10.251.67.225:50010:Got exception while serving blk_-6900989714336081087 to /10.251.25.237:", "label": "<*>:Got exception while serving <*> to <*>:"}
+{"text": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.30.6:50010 is added to blk_1119272693889755844 size 67108864", "label": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>"}
+{"text": "BLOCK* NameSystem.delete: blk_-323838382557775734 is added to invalidSet of 10.251.202.209:50010", "label": "BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>"}
+{"text": "BLOCK* NameSystem.allocateBlock: /user/root/randtxt2/_temporary/_task_200811101024_0002_m_000809_0/part-00809. blk_7550266985912909372", "label": "BLOCK* NameSystem.allocateBlock: <*> <*>"}
+{"text": "Deleting block blk_8556592730481313831 file /mnt/hadoop/dfs/data/current/blk_8556592730481313831", "label": "Deleting block <*> file <*>"}
+{"text": "Deleting block blk_6973321719929905054 file /mnt/hadoop/dfs/data/current/subdir14/blk_6973321719929905054", "label": "Deleting block <*> file <*>"}
+{"text": "BLOCK* NameSystem.allocateBlock: /user/root/randtxt3/_temporary/_task_200811101024_0007_m_000585_0/part-00585. blk_8561332122820208519", "label": "BLOCK* NameSystem.allocateBlock: <*> <*>"}
+{"text": "Deleting block blk_4658551441818960395 file /mnt/hadoop/dfs/data/current/subdir19/blk_4658551441818960395", "label": "Deleting block <*> file <*>"}
+{"text": "PacketResponder 1 for block blk_1927336911952959118 terminating", "label": "PacketResponder <*> for block <*> terminating"}
+{"text": "PacketResponder 2 for block blk_-5215520749152394224 terminating", "label": "PacketResponder <*> for block <*> terminating"}
+{"text": "Receiving block blk_2583125615128303019 src: /10.251.71.97:54431 dest: /10.251.71.97:50010", "label": "Receiving block <*> src: <*> dest: <*>"}
+{"text": "PacketResponder 0 for block blk_-1733154814375651491 terminating", "label": "PacketResponder <*> for block <*> terminating"}
+{"text": "Receiving block blk_-3261177124784025140 src: /10.251.29.239:43937 dest: /10.251.29.239:50010", "label": "Receiving block <*> src: <*> dest: <*>"}
+{"text": "Receiving block blk_7193551490488433552 src: /10.251.74.227:44191 dest: /10.251.74.227:50010", "label": "Receiving block <*> src: <*> dest: <*>"}
+{"text": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.42.16:50010 is added to blk_-3253005280055520211 size 67108864", "label": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>"}
+{"text": "BLOCK* NameSystem.delete: blk_-3316519570098743145 is added to invalidSet of 10.251.70.211:50010", "label": "BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>"}
+{"text": "BLOCK* NameSystem.delete: blk_-8632488927959646482 is added to invalidSet of 10.251.39.64:50010", "label": "BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>"}
+{"text": "BLOCK* NameSystem.delete: blk_5689009809369418749 is added to invalidSet of 10.251.91.84:50010", "label": "BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>"}
+{"text": "Received block blk_-7247291679155656679 of size 67108864 from /10.250.10.176", "label": "Received block <*> of size <*> from <*>"}

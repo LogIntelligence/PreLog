@@ -1,0 +1,32 @@
+{"text": "Processed session termination for sessionid: 0x14f4a6318b8002f", "label": "Processed session termination for sessionid: <*>"}
+{"text": "Received connection request /10.10.34.13:59037", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.12:56830", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:47500", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.12:48600", "label": "Received connection request <*>:<*>"}
+{"text": "Connection request from old client /10.10.34.12:56424; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>:<*>; will be dropped if server is in r-o mode"}
+{"text": "Accepted socket connection from /10.10.34.26:56952", "label": "Accepted socket connection from <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:32891", "label": "Received connection request <*>:<*>"}
+{"text": "Closed socket connection for client /10.10.34.11:40581 which had sessionid 0x34ed9ac1c1e0093", "label": "Closed socket connection for client <*>:<*> which had sessionid <*>"}
+{"text": "Connection request from old client /10.10.34.34:55584; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>:<*>; will be dropped if server is in r-o mode"}
+{"text": "Received connection request /10.10.34.11:45957", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:49590", "label": "Received connection request <*>:<*>"}
+{"text": "Connection broken for id 3, my id = 1, error =", "label": "Connection broken for id <*>, my id = <*>, error ="}
+{"text": "Connection request from old client /10.10.34.30:55417; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>:<*>; will be dropped if server is in r-o mode"}
+{"text": "Received connection request /10.10.34.11:47145", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:58282", "label": "Received connection request <*>:<*>"}
+{"text": "Closed socket connection for client /10.10.34.13:36187 which had sessionid 0x24f0557806a001b", "label": "Closed socket connection for client <*>:<*> which had sessionid <*>"}
+{"text": "Expiring session 0x24edfaa87170002, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
+{"text": "Established session 0x14ed93111f20079 with negotiated timeout 20000 for client /10.10.34.11:49800", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "Client attempting to establish new session at /10.10.34.12:36322", "label": "Client attempting to establish new session at <*>:<*>"}
+{"text": "Established session 0x24ed9311942007e with negotiated timeout 10000 for client /10.10.34.12:54673", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "Closed socket connection for client /10.10.34.12:33342 which had sessionid 0x34f0557885e0002", "label": "Closed socket connection for client <*>:<*> which had sessionid <*>"}
+{"text": "Processed session termination for sessionid: 0x24edfaa8717002d", "label": "Processed session termination for sessionid: <*>"}
+{"text": "Connection request from old client /10.10.34.13:37229; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>:<*>; will be dropped if server is in r-o mode"}
+{"text": "Established session 0x34ed9ac1c1e00d1 with negotiated timeout 10000 for client /10.10.34.11:49255", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "Accepted socket connection from /10.10.34.12:59323", "label": "Accepted socket connection from <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:46424", "label": "Received connection request <*>:<*>"}
+{"text": "Client attempting to establish new session at /10.10.34.15:54175", "label": "Client attempting to establish new session at <*>:<*>"}
+{"text": "Connection broken for id 1, my id = 3, error =", "label": "Connection broken for id <*>, my id = <*>, error ="}
+{"text": "Client attempting to establish new session at /10.10.34.11:40061", "label": "Client attempting to establish new session at <*>:<*>"}
+{"text": "Client attempting to establish new session at /10.10.34.12:54235", "label": "Client attempting to establish new session at <*>:<*>"}
+{"text": "Established session 0x14ee3e057ed002c with negotiated timeout 10000 for client /10.10.34.19:43049", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}

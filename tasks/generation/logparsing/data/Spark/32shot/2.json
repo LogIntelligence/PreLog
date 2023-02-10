@@ -1,0 +1,32 @@
+{"text": "Got assigned task 374", "label": "Got assigned task <*>"}
+{"text": "Running task 24.0 in stage 27.0 (TID 1264)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Started reading broadcast variable 29", "label": "Started reading broadcast variable <*>"}
+{"text": "Times: total = 42, boot = -101, init = 143, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Times: total = 65, boot = 10, init = 45, finish = 10", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Finished task 37.0 in stage 26.0 (TID 1237). 2705 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Running task 2.0 in stage 7.0 (TID 312)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Times: total = 39, boot = -134, init = 173, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Partition rdd_30_2 not found, computing it", "label": "Partition <*> not found, computing it"}
+{"text": "Running task 1.0 in stage 29.0 (TID 1321)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Reading broadcast variable 31 took 8 ms", "label": "Reading broadcast variable <*> took <*> ms"}
+{"text": "Starting executor ID 5 on host mesos-slave-07", "label": "Starting executor ID <*> on host <*>"}
+{"text": "Got assigned task 1237", "label": "Got assigned task <*>"}
+{"text": "Got assigned task 3", "label": "Got assigned task <*>"}
+{"text": "Running task 1.0 in stage 2.0 (TID 101)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Finished task 81.0 in stage 24.0 (TID 1136). 2364 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000040_1125' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000040", "label": "Saved output of task '<*>' to <*>"}
+{"text": "Times: total = 37, boot = -88, init = 125, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Got assigned task 576", "label": "Got assigned task <*>"}
+{"text": "Running task 10.0 in stage 26.0 (TID 1210)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:182300+7292", "label": "Input split: <*>"}
+{"text": "Finished task 26.0 in stage 27.0 (TID 1266). 2267 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Finished task 0.0 in stage 20.0 (TID 807). 2076 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Got assigned task 758", "label": "Got assigned task <*>"}
+{"text": "Finished task 12.0 in stage 27.0 (TID 1252). 2486 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Got assigned task 273", "label": "Got assigned task <*>"}
+{"text": "Block rdd_42_15 stored as bytes in memory (estimated size 913.0 B, free 817.5 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)"}
+{"text": "Times: total = 41, boot = 35, init = 5, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Got assigned task 1302", "label": "Got assigned task <*>"}
+{"text": "Got assigned task 1320", "label": "Got assigned task <*>"}
+{"text": "Finished task 3.0 in stage 27.0 (TID 1243). 2651 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Got assigned task 1287", "label": "Got assigned task <*>"}

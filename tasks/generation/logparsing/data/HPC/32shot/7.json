@@ -1,0 +1,32 @@
+{"text": "Fan speeds ( 3552 3534 3375 4192 3515 3479 )", "label": "Fan speeds ( <*> <*> <*> <*> <*> <*> )"}
+{"text": "ClusterFileSystem: ServerFileSystem domain root_domain is no longer served by node node-160", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "ClusterFileSystem: ServerFileSystem domain root26_domain is no longer served by node node-57", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "inconsistent nodesets node-32 0x00000002 <ok> node-34 0x000001fe <ok> node-33 0x000001fe <ok> node-35 0x000001fe <ok>", "label": "inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <*>"}
+{"text": "ClusterFileSystem: ServerFileSystem domain storage211 is no longer served by node node-4", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "halt  (command 1982)", "label": "halt (command <*>)"}
+{"text": "NIFF: node node-254 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "NIFF: node node-234 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "wait  (command 3519)", "label": "wait (command <*>)"}
+{"text": "wait  (command 2424)", "label": "wait (command <*>)"}
+{"text": "NIFF: node node-104 has detected an available network connection on network 5.5.224.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "NIFF: node node-178 has detected an available network connection on network 0.0.0.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "ClusterFileSystem: ServerFileSystem domain root18_tmp is no longer served by node node-241", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "NIFF: node node-69 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "wait  (command 2347)", "label": "wait (command <*>)"}
+{"text": "wait  (command 3973)", "label": "wait (command <*>)"}
+{"text": "Targeting domains:node-D4 and nodes:node-[128-135] child of command 2401", "label": "Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>"}
+{"text": "NIFF: node node-77 has detected an available network connection on network 5.5.224.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "wait  (command 2257)", "label": "wait (command <*>)"}
+{"text": "Component State Change: Component \\042alt0\\042 is in the unavailable state (HWID=5089)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)"}
+{"text": "closing", "label": "closing"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage132", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "Component State Change: Component \\042alt0\\042 is in the unavailable state (HWID=2478)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)"}
+{"text": "boot  (command 3194)", "label": "boot (command <*>)"}
+{"text": "boot  (command 3318)", "label": "boot (command <*>)"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage321", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "wait  (command 2517)", "label": "wait (command <*>)"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage234", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "boot  (command 4109)", "label": "boot (command <*>)"}
+{"text": "risBoot (command 1903) Error: Timed out while waiting for SRM prompt: <ABORT code completed>", "label": "risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>"}
+{"text": "boot  (command 3512)", "label": "boot (command <*>)"}
+{"text": "wait  (command 2885)", "label": "wait (command <*>)"}

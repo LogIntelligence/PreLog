@@ -1,0 +1,32 @@
+{"text": "generating core.1172", "label": "generating core.<*>"}
+{"text": "iar 003a9260 dear 012924f8", "label": "iar <*> dear <*>"}
+{"text": "generating core.48433", "label": "generating core.<*>"}
+{"text": "generating core.10930", "label": "generating core.<*>"}
+{"text": "iar 003a90fc dear 00b35db8", "label": "iar <*> dear <*>"}
+{"text": "iar 001066ac dear 025252bc", "label": "iar <*> dear <*>"}
+{"text": "iar 00106704 dear 0245d57c", "label": "iar <*> dear <*>"}
+{"text": "generating core.631", "label": "generating core.<*>"}
+{"text": "debug interrupt enable............0", "label": "debug interrupt enable............<*>"}
+{"text": "generating core.5927", "label": "generating core.<*>"}
+{"text": "generating core.21016", "label": "generating core.<*>"}
+{"text": "Node card VPD check: U01 node in processor card slot J08 do not match. VPD ecid 075F04E8A27BFFFF07021C3096ED, found 04D78137922FFFFF040E1C3052ED", "label": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>"}
+{"text": "generating core.11357", "label": "generating core.<*>"}
+{"text": "generating core.57863", "label": "generating core.<*>"}
+{"text": "exception syndrome register: 0x08000000", "label": "exception syndrome register: <*>"}
+{"text": "generating core.2409", "label": "generating core.<*>"}
+{"text": "CE sym 29, at 0x0ea9fd60, mask 0x40", "label": "CE sym <*>, at <*>, mask <*>"}
+{"text": "39190074 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions"}
+{"text": "iar 00106448 dear 0246dbec", "label": "iar <*> dear <*>"}
+{"text": "generating core.149", "label": "generating core.<*>"}
+{"text": "generating core.122", "label": "generating core.<*>"}
+{"text": "ciod: generated 64 core files for program /home/spelce1/HPCC_IBM/TomAndJeff/bin/tested_copro/tested_copro.rts", "label": "ciod: generated <*> core files for program <*>"}
+{"text": "generating core.6917", "label": "generating core.<*>"}
+{"text": "generating core.29433", "label": "generating core.<*>"}
+{"text": "generating core.323", "label": "generating core.<*>"}
+{"text": "Lustre mount FAILED : bglio46 : point /p/gb1", "label": "Lustre mount FAILED : <*> : point <*>"}
+{"text": "1 ddr error(s) detected and corrected on rank 0, symbol 9 over 986 seconds", "label": "<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds"}
+{"text": "generating core.1781", "label": "generating core.<*>"}
+{"text": "155918940 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions"}
+{"text": "generating core.2880", "label": "generating core.<*>"}
+{"text": "generating core.47256", "label": "generating core.<*>"}
+{"text": "minus normalized number..................0", "label": "minus normalized number..................<*>"}

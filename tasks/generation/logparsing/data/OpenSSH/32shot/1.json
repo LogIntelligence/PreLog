@@ -1,0 +1,32 @@
+{"text": "Failed password for git from 183.62.140.253 port 48527 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 187.141.143.180 port 38937 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 39715 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for ftp from 5.188.10.180 port 54715 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "input_userauth_request: invalid user test2 [preauth]", "label": "input_userauth_request: invalid user <*> [preauth]"}
+{"text": "Failed password for root from 112.95.230.3 port 45378 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 40993 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Invalid user redhat from 187.141.143.180", "label": "Invalid user <*> from <*>"}
+{"text": "input_userauth_request: invalid user  0101 [preauth]", "label": "input_userauth_request: invalid user <*> [preauth]"}
+{"text": "Failed password for root from 183.62.140.253 port 44590 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 45179 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for invalid user support from 103.99.0.122 port 60735 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
+{"text": "Did not receive identification string from 181.214.87.4", "label": "Did not receive identification string from <*>"}
+{"text": "Failed password for root from 183.62.140.253 port 43821 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 187.141.143.180 port 41667 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 50263 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 51965 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 55368 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Invalid user chen from 202.100.179.208", "label": "Invalid user <*> from <*>"}
+{"text": "Failed password for root from 183.62.140.253 port 38241 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Invalid user vnc from 187.141.143.180", "label": "Invalid user <*> from <*>"}
+{"text": "Failed password for root from 183.62.140.253 port 58869 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Invalid user admin from 103.207.39.16", "label": "Invalid user <*> from <*>"}
+{"text": "Failed password for root from 187.141.143.180 port 39319 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 123.235.32.19 port 45568 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 60637 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 50726 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for invalid user www from 187.141.143.180 port 56816 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
+{"text": "Failed password for invalid user ubnt from 103.99.0.122 port 64908 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 56571 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for invalid user test from 103.99.0.122 port 60250 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
+{"text": "Failed password for invalid user matlab from 52.80.34.196 port 46199 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}

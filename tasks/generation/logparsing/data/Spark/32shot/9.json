@@ -1,0 +1,32 @@
+{"text": "Times: total = 38, boot = -123, init = 161, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Times: total = 53, boot = 14, init = 34, finish = 5", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Partition rdd_11_1 not found, computing it", "label": "Partition <*> not found, computing it"}
+{"text": "Block rdd_16_1 stored as bytes in memory (estimated size 351.0 B, free 387.4 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)"}
+{"text": "Got assigned task 3", "label": "Got assigned task <*>"}
+{"text": "Times: total = 42, boot = -343, init = 384, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Running task 2.0 in stage 10.0 (TID 430)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Got assigned task 998", "label": "Got assigned task <*>"}
+{"text": "Finished task 13.0 in stage 27.0 (TID 1253). 2522 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Finished task 33.0 in stage 28.0 (TID 1313). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000044_1129' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000044", "label": "Saved output of task '<*>' to <*>"}
+{"text": "Partition rdd_42_16 not found, computing it", "label": "Partition <*> not found, computing it"}
+{"text": "Finished task 2.0 in stage 28.0 (TID 1282). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Block rdd_42_2 stored as bytes in memory (estimated size 850.0 B, free 806.5 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)"}
+{"text": "Partition rdd_42_6 not found, computing it", "label": "Partition <*> not found, computing it"}
+{"text": "Times: total = 38, boot = -59, init = 96, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Finished task 5.0 in stage 26.0 (TID 1205). 2705 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Running task 2.0 in stage 0.0 (TID 2)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Finished task 7.0 in stage 26.0 (TID 1207). 2699 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Finished task 1.0 in stage 12.0 (TID 494). 2105 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Got assigned task 1246", "label": "Got assigned task <*>"}
+{"text": "Finished task 14.0 in stage 29.0 (TID 1334). 2128 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Running task 7.0 in stage 26.0 (TID 1207)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Running task 4.0 in stage 15.0 (TID 639)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Running task 21.0 in stage 29.0 (TID 1341)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Finished task 9.0 in stage 27.0 (TID 1249). 2427 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Got assigned task 1306", "label": "Got assigned task <*>"}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000164_1159' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000164", "label": "Saved output of task '<*>' to <*>"}
+{"text": "Times: total = 39, boot = 21, init = 18, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Got assigned task 101", "label": "Got assigned task <*>"}
+{"text": "Finished task 22.0 in stage 29.0 (TID 1342). 2171 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Got assigned task 1258", "label": "Got assigned task <*>"}

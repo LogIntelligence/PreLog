@@ -1,0 +1,32 @@
+{"text": "Block broadcast_18 stored as values in memory (estimated size 9.6 KB, free 464.0 KB)", "label": "Block <*> stored as values in memory (estimated size <*>, free <*>)"}
+{"text": "Got assigned task 789", "label": "Got assigned task <*>"}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000040_1125' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000040", "label": "Saved output of task '<*>' to <*>"}
+{"text": "Times: total = 38, boot = -112, init = 150, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Finished task 82.0 in stage 24.0 (TID 1137). 2364 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Times: total = 41, boot = -59, init = 99, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Running task 12.0 in stage 26.0 (TID 1212)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Got assigned task 1320", "label": "Got assigned task <*>"}
+{"text": "Got assigned task 494", "label": "Got assigned task <*>"}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000120_1145' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000120", "label": "Saved output of task '<*>' to <*>"}
+{"text": "Running task 2.0 in stage 8.0 (TID 349)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Running task 38.0 in stage 28.0 (TID 1318)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:160424+7292", "label": "Input split: <*>"}
+{"text": "Got assigned task 1310", "label": "Got assigned task <*>"}
+{"text": "mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id", "label": "mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id"}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000080_1135' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000080", "label": "Saved output of task '<*>' to <*>"}
+{"text": "Running task 7.0 in stage 29.0 (TID 1327)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Got assigned task 940", "label": "Got assigned task <*>"}
+{"text": "Finished task 37.0 in stage 27.0 (TID 1277). 2349 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Running task 5.0 in stage 29.0 (TID 1325)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Running task 81.0 in stage 24.0 (TID 1136)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Partition rdd_30_4 not found, computing it", "label": "Partition <*> not found, computing it"}
+{"text": "Finished task 2.0 in stage 10.0 (TID 430). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Running task 120.0 in stage 24.0 (TID 1145)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Times: total = 1077, boot = 865, init = 206, finish = 6", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Running task 2.0 in stage 22.0 (TID 912)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Finished task 4.0 in stage 13.0 (TID 559). 2241 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Got assigned task 1274", "label": "Got assigned task <*>"}
+{"text": "Finished task 1.0 in stage 1.0 (TID 56). 2428 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Got assigned task 878", "label": "Got assigned task <*>"}
+{"text": "Times: total = 40, boot = 5, init = 35, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Times: total = 41, boot = -160, init = 200, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}

@@ -1,0 +1,32 @@
+{"text": "Connection request from old client /10.10.34.25:44819; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>:<*>; will be dropped if server is in r-o mode"}
+{"text": "Processed session termination for sessionid: 0x34ee30a5c530011", "label": "Processed session termination for sessionid: <*>"}
+{"text": "Processed session termination for sessionid: 0x14ed93111f20000", "label": "Processed session termination for sessionid: <*>"}
+{"text": "Received connection request /10.10.34.13:44795", "label": "Received connection request <*>:<*>"}
+{"text": "Expiring session 0x24f3fdaf7380008, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
+{"text": "Received connection request /10.10.34.12:47180", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.12:56173", "label": "Received connection request <*>:<*>"}
+{"text": "******* GOODBYE /10.10.34.13:57502 ********", "label": "******* GOODBYE <*>:<*> ********"}
+{"text": "Client attempting to establish new session at /10.10.34.40:58713", "label": "Client attempting to establish new session at <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:49095", "label": "Received connection request <*>:<*>"}
+{"text": "Client attempting to establish new session at /10.10.34.13:58180", "label": "Client attempting to establish new session at <*>:<*>"}
+{"text": "Processed session termination for sessionid: 0x34ed9ac1c1e00ae", "label": "Processed session termination for sessionid: <*>"}
+{"text": "Received connection request /10.10.34.12:57449", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.12:57965", "label": "Received connection request <*>:<*>"}
+{"text": "Accepted socket connection from /10.10.34.14:46136", "label": "Accepted socket connection from <*>:<*>"}
+{"text": "Established session 0x34ede65503f0025 with negotiated timeout 10000 for client /10.10.34.11:50961", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "Accepted socket connection from /10.10.34.34:56149", "label": "Accepted socket connection from <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:48609", "label": "Received connection request <*>:<*>"}
+{"text": "Established session 0x34edfaa9c22003a with negotiated timeout 10000 for client /10.10.34.16:42267", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:45406", "label": "Received connection request <*>:<*>"}
+{"text": "Established session 0x14edfaa86f60013 with negotiated timeout 10000 for client /10.10.34.27:44600", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "******* GOODBYE /10.10.34.12:35276 ********", "label": "******* GOODBYE <*>:<*> ********"}
+{"text": "Received connection request /10.10.34.13:33255", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.12:49670", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:47512", "label": "Received connection request <*>:<*>"}
+{"text": "Notification: 3 (n.leader), 0xb0000007b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0xb (n.peerEPoch), FOLLOWING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)"}
+{"text": "Received connection request /10.10.34.12:50546", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:47340", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:45053", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:48254", "label": "Received connection request <*>:<*>"}
+{"text": "Expiring session 0x14edfaa86f6002a, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
+{"text": "Connection request from old client /10.10.34.11:51043; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>:<*>; will be dropped if server is in r-o mode"}

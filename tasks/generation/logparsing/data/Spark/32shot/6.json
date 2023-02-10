@@ -1,0 +1,32 @@
+{"text": "Got assigned task 1267", "label": "Got assigned task <*>"}
+{"text": "Running task 11.0 in stage 29.0 (TID 1331)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Finished task 3.0 in stage 19.0 (TID 798). 2667 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Running task 121.0 in stage 24.0 (TID 1146)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Running task 4.0 in stage 27.0 (TID 1244)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Times: total = 40, boot = 22, init = 18, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Got assigned task 643", "label": "Got assigned task <*>"}
+{"text": "Finished task 15.0 in stage 28.0 (TID 1295). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Times: total = 39, boot = 16, init = 22, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Got assigned task 919", "label": "Got assigned task <*>"}
+{"text": "Finished task 1.0 in stage 21.0 (TID 867). 2333 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Finished task 18.0 in stage 29.0 (TID 1338). 2128 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Times: total = 40, boot = 7, init = 33, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Partition rdd_42_7 not found, computing it", "label": "Partition <*> not found, computing it"}
+{"text": "Partition rdd_42_39 not found, computing it", "label": "Partition <*> not found, computing it"}
+{"text": "Times: total = 43, boot = -104, init = 146, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Running task 7.0 in stage 27.0 (TID 1247)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Got assigned task 926", "label": "Got assigned task <*>"}
+{"text": "Finished task 1.0 in stage 28.0 (TID 1281). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Block rdd_2_0 stored as bytes in memory (estimated size 913.0 B, free 323.0 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)"}
+{"text": "Running task 1.0 in stage 17.0 (TID 706)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Got assigned task 42", "label": "Got assigned task <*>"}
+{"text": "Finished task 17.0 in stage 26.0 (TID 1217). 2701 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000122_1147' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000122", "label": "Saved output of task '<*>' to <*>"}
+{"text": "Got assigned task 838", "label": "Got assigned task <*>"}
+{"text": "Running task 33.0 in stage 27.0 (TID 1273)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Times: total = 42, boot = -4121, init = 4162, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Finished task 3.0 in stage 15.0 (TID 638). 2667 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Finished task 81.0 in stage 24.0 (TID 1136). 2364 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0147/blockmgr-70293f72-844a-4b39-9ad6-fb0ad7e364e4", "label": "Created local directory at <*>"}
+{"text": "Times: total = 40, boot = -82, init = 122, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Got assigned task 984", "label": "Got assigned task <*>"}

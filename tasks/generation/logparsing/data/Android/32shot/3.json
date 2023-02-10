@@ -1,0 +1,32 @@
+{"text": "acquire lock=237091223, flags=0x1, tag=\"WiredAccessoryManager\", name=android, ws=null, uid=1000, pid=1702", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261968928, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-200.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
+{"text": "cancelNotification,cancelNotificationLocked,callingUid = 10037,callingPid = 2227", "label": "cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261988739, event=1, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "acquire lock=233570404, flags=0x1, tag=\"View Lock\", name=com.android.systemui, ws=null, uid=10037, pid=2227", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
+{"text": "setSystemUiVisibility vis=40000600 mask=ffffffff oldVal=40000500 newVal=40000600 diff=300 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)"}
+{"text": "release:lock=219829192, flg=0x0, tag=\"AudioMix\", name=audioserver\", ws=null, uid=1041, pid=0", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261983733, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261884464, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "onTrackingStopped: true", "label": "onTrackingStopped: <*>"}
+{"text": "ActivityRecord info: ActivityInfo{80c2e70 com.tencent.mm.ui.LauncherUI}, euid: 0", "label": "ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*>"}
+{"text": "isWiredHeadsetOn...", "label": "isWiredHeadsetOn..."}
+{"text": "setWiredDeviceConnectionState  type: -2147483632  state: 0", "label": "setWiredDeviceConnectionState type: <*> state: <*>"}
+{"text": "cleanUpApplicationRecordLocked, reset pid: 12236, euid: 0", "label": "cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>"}
+{"text": "getLastAudibleStreamVolume  treamType: 2", "label": "getLastAudibleStreamVolume treamType: <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261851646, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "acquire lock=149977903, flags=0x1, tag=\"AudioMix\", name=audioserver, ws=null, uid=1041, pid=0", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
+{"text": "isSimPinSecure mSimDatas is null or empty", "label": "isSimPinSecure mSimDatas is <*> or empty"}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-29.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
+{"text": "sending alarm Alarm{2741459 type 3 when 509267844 PendingIntent{f75f81e: PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}},repeatInterval = 0,listenerTag =null", "label": "sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}},repeatInterval = <*>,listenerTag =<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261887070, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "ActivityManagerService,attachApplication,callingPid = 13003", "label": "ActivityManagerService,attachApplication,callingPid = <*>"}
+{"text": "schedulePeek", "label": "schedulePeek"}
+{"text": "userActivityNoUpdateLocked: eventTime=261967011, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261980307, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "Taking screenshot from Surface with crop:[Rect(0, 48 - 720, 1208)], width:[432], height:[696], minLayer:[21080], maxLayer:[21085], inRotation:[false], rot:[0]", "label": "Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[<*>], rot:[<*>]"}
+{"text": "Destroying surface Surface(name=com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.destroyOrSaveSurface:2201 com.android.server.wm.WindowManagerService.tryStartExitingAnimation:3299 com.android.server.wm.WindowManagerService.relayoutWindow:3179 com.android.server.wm.Session.relayout:215 android.view.IWindowSession$Stub.onTransact:286 com.android.server.wm.Session.onTransact:136", "label": "Destroying surface Surface(name=<*>) called by <*>"}
+{"text": "scheduleTimeTickEvent triggerAtTime = 509322332", "label": "scheduleTimeTickEvent triggerAtTime = <*>"}
+{"text": "ACTION_BATTERY_CHANGED AMP: 0; Volt: 0", "label": "ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*>"}
+{"text": "cleanUpApplicationRecordLocked, pid: 12025, restart: false", "label": "cleanUpApplicationRecordLocked, pid: <*>, restart: <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261843648, event=0, flags=0x1, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}

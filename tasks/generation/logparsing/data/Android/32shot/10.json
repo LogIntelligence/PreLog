@@ -1,0 +1,32 @@
+{"text": "userActivityNoUpdateLocked: eventTime=261850777, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "overlapAmount:95.0, previousNotificationEnd:0.0, newYTranslation:-95.0, location:4, i:0, getTopPadding:333.0, getLocationOnScreen():-428", "label": "overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():<*>"}
+{"text": "isBluetoothScoOn...", "label": "isBluetoothScoOn..."}
+{"text": "Scheduling restart of crashed service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService in 1000ms", "label": "Scheduling restart of crashed service <*> in <*>"}
+{"text": "overlapAmount:119.0, previousNotificationEnd:0.0, newYTranslation:-119.0, location:4, i:0, getTopPadding:333.0, getLocationOnScreen():-452", "label": "overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():<*>"}
+{"text": "setSpeakerphoneOn  on: true", "label": "setSpeakerphoneOn on: <*>"}
+{"text": "ActivityManagerService,attachApplication,callingPid = 13003", "label": "ActivityManagerService,attachApplication,callingPid = <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261950909, event=0, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "getMode...", "label": "getMode..."}
+{"text": "ActivityManagerService,attachApplication,callingPid = 13175", "label": "ActivityManagerService,attachApplication,callingPid = <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261885816, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "acquire lock=189667585, flags=0x1, tag=\"*launch*\", name=android, ws=WorkSource{10112}, uid=1000, pid=1702", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
+{"text": "START u0 {flg=0x24000000 cmp=com.tencent.mm/.ui.LauncherUI (has extras)} from uid 10112 on display 0", "label": "START u0 {flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>"}
+{"text": "updateClipping isOverlap:true, getTopPadding=333.0, Translation=-338.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
+{"text": "Killing 23484:com.android.calendar/u0a13 (adj 906): empty for 1810s", "label": "Killing <*> (adj <*>): empty for <*>"}
+{"text": "setSystemUiVisibility vis=40000500 mask=ffffffff oldVal=80000508 newVal=40000500 diff=c0000008 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)"}
+{"text": "state.clipTopAmount:180, i:0", "label": "state.clipTopAmount:<*>, i:<*>"}
+{"text": "flingToHeight: vel=2849.079, expand=true, target=553.0, collapseSpeedUpFactor=1.0, expandBecauseOfFalsing=false", "label": "flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*>"}
+{"text": "acquire lock=166121161, flags=0x1, tag=\"RILJ_ACK_WL\", name=com.android.phone, ws=null, uid=1001, pid=2626", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
+{"text": "abandonAudioFocus", "label": "abandonAudioFocus"}
+{"text": "sending alarm Alarm{aa90550 type 3 when 509142332 PendingIntent{1749923: PendingIntentRecord{9600e20 android broadcastIntent}}},repeatInterval = 0,listenerTag =time_tick", "label": "sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick"}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-321.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261980307, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261970966, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "getTasks: caller 10113 does not hold REAL_GET_TASKS; limiting output", "label": "getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output"}
+{"text": "Destroying surface Surface(name=SurfaceView - com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity) called by com.android.server.wm.WindowStateAnimator.destroyDeferredSurfaceLocked:942 com.android.server.wm.WindowManagerService.performDeferredDestroyWindow:3407 com.android.server.wm.Session.performDeferredDestroy:225 android.view.IWindowSession$Stub.onTransact:398 com.android.server.wm.Session.onTransact:136 android.os.Binder.execTransact:565 <bottom of call stack> <bottom of call stack>", "label": "Destroying surface Surface(name=<*>) called by <*>"}
+{"text": "*** unregister callback for null", "label": "*** unregister callback for <*>"}
+{"text": "Bad activity token: android.os.BinderProxy@2bd79ce", "label": "Bad activity token: <*>@<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261988799, event=0, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261972223, event=0, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "state.clipTopAmount:69, i:0", "label": "state.clipTopAmount:<*>, i:<*>"}
+{"text": "ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000", "label": "ChargingSpeed Wattage: <*> ST: <*> --> <*>"}

@@ -1,0 +1,32 @@
+{"text": "CE sym 6, at 0x1880a8e0, mask 0x40", "label": "CE sym <*>, at <*>, mask <*>"}
+{"text": "CE sym 28, at 0x0fe65820, mask 0x04", "label": "CE sym <*>, at <*>, mask <*>"}
+{"text": "CE sym 16, at 0x18fa5d40, mask 0x80", "label": "CE sym <*>, at <*>, mask <*>"}
+{"text": "generating core.7518", "label": "generating core.<*>"}
+{"text": "generating core.22273", "label": "generating core.<*>"}
+{"text": "instruction address: 0x0062fe04", "label": "instruction address: <*>"}
+{"text": "generating core.26186", "label": "generating core.<*>"}
+{"text": "117400328 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions"}
+{"text": "generating core.20970", "label": "generating core.<*>"}
+{"text": "iar 00106834 dear 0245cd0c", "label": "iar <*> dear <*>"}
+{"text": "CE sym 9, at 0x123b6ca0, mask 0x20", "label": "CE sym <*>, at <*>, mask <*>"}
+{"text": "generating core.14349", "label": "generating core.<*>"}
+{"text": "generating core.32755", "label": "generating core.<*>"}
+{"text": "generating core.31691", "label": "generating core.<*>"}
+{"text": "generating core.34955", "label": "generating core.<*>"}
+{"text": "generating core.10930", "label": "generating core.<*>"}
+{"text": "CE sym 0, at 0x1b8594e0, mask 0x40", "label": "CE sym <*>, at <*>, mask <*>"}
+{"text": "generating core.9386", "label": "generating core.<*>"}
+{"text": "iar 001066c4 dear 0252529c", "label": "iar <*> dear <*>"}
+{"text": "generating core.31006", "label": "generating core.<*>"}
+{"text": "critical input interrupt (unit=0x0b bit=0x0b): warning for torus z- wire", "label": "critical input interrupt (unit=<*> bit=<*>): warning for torus z- wire"}
+{"text": "generating core.3638", "label": "generating core.<*>"}
+{"text": "iar 003a92a0 dear 00efd518", "label": "iar <*> dear <*>"}
+{"text": "generating core.20015", "label": "generating core.<*>"}
+{"text": "generating core.14250", "label": "generating core.<*>"}
+{"text": "generating core.1227", "label": "generating core.<*>"}
+{"text": "iar 003a92a0 dear 00efd358", "label": "iar <*> dear <*>"}
+{"text": "generating core.2348", "label": "generating core.<*>"}
+{"text": "iar 001066c4 dear 0252528c", "label": "iar <*> dear <*>"}
+{"text": "generating core.10140", "label": "generating core.<*>"}
+{"text": "generating core.1715", "label": "generating core.<*>"}
+{"text": "generating core.114", "label": "generating core.<*>"}

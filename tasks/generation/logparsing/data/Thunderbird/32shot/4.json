@@ -1,0 +1,32 @@
+{"text": "removing telnet", "label": "removing <*>"}
+{"text": "Mounting other filesystems: failed", "label": "Mounting other filesystems: failed"}
+{"text": "xinetd startup succeeded", "label": "xinetd startup succeeded"}
+{"text": "jA9JBWEr014256: from=root, size=1593894, class=0, nrcpts=1, msgid=<200511091911.jA9JBWEr014256@badmin1>, relay=#7#@localhost", "label": "<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost"}
+{"text": "PCI Interrupt Routing Table [\\_SB_.PCI0.PALO._PRT]", "label": "PCI Interrupt Routing Table [<*>]"}
+{"text": "Power Button (FF) [PWRF]", "label": "Power Button (FF) [PWRF]"}
+{"text": "LAPIC (acpi_id[0x03] lapic_id[0x01] enabled)", "label": "LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)"}
+{"text": "kernel time sync disabled 0041", "label": "kernel time sync disabled <*>"}
+{"text": "Reading included configuration file: /etc/xinetd.d/krb5-telnet [file=/etc/xinetd.d/krb5-telnet] [line=13]", "label": "Reading included configuration file: <*> [file=<*>] [line=<*>]"}
+{"text": "jA9J1dQ7016560: from=root, size=1595423, class=0, nrcpts=1, msgid=<200511091901.jA9J1dQ7016560@aadmin1>, relay=#7#@localhost", "label": "<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost"}
+{"text": "Compressed image found at block 0", "label": "Compressed image found at block <*>"}
+{"text": "Disk quotas dquot_6.5.1", "label": "Disk quotas <*>"}
+{"text": "Assuming 33MHz system bus speed for PIO modes; override with idebus=xx", "label": "Assuming <*> system bus speed for PIO modes; override with idebus=xx"}
+{"text": "apic_id 8, version 32, address 0xfec00000, GSI 0-23", "label": "apic_id <*>, version <*>, address <*>, GSI <*>"}
+{"text": "My unqualified host name (aadmin1) unknown; sleeping for retry", "label": "My unqualified host name (<*>) unknown; sleeping for retry"}
+{"text": "PE/PV Model: 1x2 SCSI BP Rev: 1.0", "label": "PE/PV Model: <*> SCSI BP Rev: <*>"}
+{"text": "registered new driver hub", "label": "registered new driver hub"}
+{"text": "Registering netfilter hooks", "label": "Registering netfilter hooks"}
+{"text": "allocating divert_blk for eth0", "label": "allocating divert_blk for <*>"}
+{"text": "Processor [CPU3] (supports C1)", "label": "Processor [<*>] (supports C1)"}
+{"text": "RRD_update (/var/lib/ganglia/rrds/D Nodes/dn731/pkts_out.rrd): illegal attempt to update using time 1131563089 when last update time is 1131563089 (minimum one second step)", "label": "RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)"}
+{"text": "PCI interrupt 0000:00:06.0[A] -> GSI 16 (level, low) -> IRQ 169", "label": "PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>"}
+{"text": "jA9J1WFE024258: to=root, ctladdr=root (0/0), delay=00:00:03, xdelay=00:00:00, mailer=relay, pri=1627080, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]", "label": "<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]"}
+{"text": "Reading included configuration file: /etc/xinetd.d/chargen [file=/etc/xinetd.conf] [line=15]", "label": "Reading included configuration file: <*> [file=<*>] [line=<*>]"}
+{"text": "RRD_update (/var/lib/ganglia/rrds/unspecified/badmin3/disk_total.rrd): illegal attempt to update using time 1131559854 when last update time is 1131559854 (minimum one second step)", "label": "RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)"}
+{"text": "Changing permissions on special file /dev/logsurfer", "label": "Changing permissions on special file <*>"}
+{"text": "Warning: we failed to resolve data source name bn270 bn271 bn272 bn273 bn274 bn275 bn276 bn277 bn278 bn279 bn280 bn281 bn282 bn283 bn284 bn285 bn286 bn287 bn288 bn289 bn290 bn291 bn292 bn293 bn294 bn295 bn296 bn297 bn298 bn299 bn300 bn301 bn302 bn303 bn304 bn305 bn306 bn307 bn308 bn309 bn310 bn311 bn312 bn313 bn314 bn315 bn316 bn317 bn318 bn319 bn320 bn321 bn322 bn323 bn324 bn325 bn326 bn327 bn328 bn329 bn330 bn331 bn332 bn333 bn334 bn335 bn336 bn337 bn338 bn339 bn340 bn341 bn342 bn343 bn344 bn345 bn346 bn347 bn348 bn349 bn350 bn351 bn352 bn353 bn354 bn355 bn356 bn357 bn358 bn359 bn360 bn361 bn362 bn363 bn364 bn365 bn366 bn367 bn368 bn369 bn370 bn371 bn372 bn373 bn374 bn375 bn376 bn377 bn378 bn379 bn380 bn381 bn382 bn383 bn384", "label": "Warning: we failed to resolve data source name <*>"}
+{"text": "gmetad startup succeeded", "label": "gmetad startup succeeded"}
+{"text": "PCI Interrupt Routing Table [\\_SB_.PCI0.PBHI.PXB2._PRT]", "label": "PCI Interrupt Routing Table [<*>]"}
+{"text": "Warning: we failed to resolve data source name an782 an783 an784 an785 an786 an787 an788 an789 an790 an791 an792 an793 an794 an795 an796 an797 an798 an799 an800 an801 an802 an803 an804 an805 an806 an807 an808 an809 an810 an811 an812 an813 an814 an815 an816 an817 an818 an819 an820 an821 an822 an823 an824 an825 an826 an827 an828 an829 an830 an831 an832 an833 an834 an835 an836 an837 an838 an839 an840 an841 an842 an843 an844 an845 an846 an847 an848 an849 an850 an851 an852 an853 an854 an855 an856 an857 an858 an859 an860 an861 an862 an863 an864 an865 an866 an867 an868 an869 an870 an871 an872 an873 an874 an875 an876 an877 an878 an879 an880 an881 an882 an883 an884 an885 an886 an887 an888 an889 an890 an891 an892 an893 an894 an895 an896", "label": "Warning: we failed to resolve data source name <*>"}
+{"text": "PCI Interrupt Routing Table [\\_SB_.PCI0.PBLO._PRT]", "label": "PCI Interrupt Routing Table [<*>]"}
+{"text": "Registered protocol family 17", "label": "Registered protocol family <*>"}

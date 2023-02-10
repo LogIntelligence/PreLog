@@ -1,0 +1,32 @@
+{"text": "ciod: Error loading /home/greeno/raptor.new.dev.3d.BGL.CXX_XL.MPI.ex: invalid or missing program image, No such file or directory", "label": "ciod: Error loading <*>: invalid or missing program image, No such file or directory"}
+{"text": "generating core.851", "label": "generating core.<*>"}
+{"text": "generating core.59042", "label": "generating core.<*>"}
+{"text": "10640 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.", "label": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt."}
+{"text": "generating core.2275", "label": "generating core.<*>"}
+{"text": "generating core.536", "label": "generating core.<*>"}
+{"text": "generating core.15459", "label": "generating core.<*>"}
+{"text": "CE sym 1, at 0x01d7eaa0, mask 0x02", "label": "CE sym <*>, at <*>, mask <*>"}
+{"text": "generating core.7777", "label": "generating core.<*>"}
+{"text": "CE sym 0, at 0x1b8594e0, mask 0x40", "label": "CE sym <*>, at <*>, mask <*>"}
+{"text": "iar 00106448 dear 0246dbbc", "label": "iar <*> dear <*>"}
+{"text": "generating core.30706", "label": "generating core.<*>"}
+{"text": "Ido chip status changed: FF:F2:9F:16:E2:23:00:0D:60:E9:1D:DC ip=10.0.0.151 v=9 t=4 status=M Fri Jul 01 08:16:53 PDT 2005", "label": "Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*>"}
+{"text": "CE sym 6, at 0x0148b640, mask 0x10", "label": "CE sym <*>, at <*>, mask <*>"}
+{"text": "Ido chip status changed: FF:F2:9F:15:7B:E0:00:0D:60:EA:84:1F ip=10.7.0.130 v=13 t=1 status=M Sat Sep 17 07:49:04 PDT 2005", "label": "Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*>"}
+{"text": "generating core.25367", "label": "generating core.<*>"}
+{"text": "generating core.2961", "label": "generating core.<*>"}
+{"text": "generating core.50", "label": "generating core.<*>"}
+{"text": "total of 1 ddr error(s) detected and corrected over 2487 seconds", "label": "total of <*> ddr error(s) detected and corrected over <*> seconds"}
+{"text": "iar 0010671c dear 0245b72c", "label": "iar <*> dear <*>"}
+{"text": "generating core.14852", "label": "generating core.<*>"}
+{"text": "Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=00ce22e8 e6200003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007", "label": "Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>"}
+{"text": "iar 00106678 dear 0252523c", "label": "iar <*> dear <*>"}
+{"text": "generating core.28529", "label": "generating core.<*>"}
+{"text": "generating core.15648", "label": "generating core.<*>"}
+{"text": "generating core.5381", "label": "generating core.<*>"}
+{"text": "generating core.7167", "label": "generating core.<*>"}
+{"text": "ciod: generated 128 core files for program /g/g24/germann2/SPaSM_mini/MEAM/r13", "label": "ciod: generated <*> core files for program <*>"}
+{"text": "generating core.2522", "label": "generating core.<*>"}
+{"text": "CE sym 25, at 0x1a544020, mask 0x40", "label": "CE sym <*>, at <*>, mask <*>"}
+{"text": "generating core.28011", "label": "generating core.<*>"}
+{"text": "generating core.5520", "label": "generating core.<*>"}

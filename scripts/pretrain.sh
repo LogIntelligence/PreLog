@@ -7,7 +7,7 @@ MAX_UPDATE=100000
 WARMUP_UPDATES=10000
 MAX_SENTENCES=8
 MAX_TOKENS=2048
-UPDATE_FREQ=32
+UPDATE_FREQ=1
 
 
 fairseq-train $DATA_DIR \
@@ -55,6 +55,6 @@ fairseq-train $DATA_DIR \
     --skip-invalid-size-inputs-valid-test \
     --ddp-backend=legacy_ddp \
     --log-format tqdm \
-    --log-interval 10 \
+    --log-interval 1 \
     --fp16 --fp16-init-scale 4 --threshold-loss-scale 1 --fp16-scale-window 128 \
     --checkpoint-activations

@@ -1,0 +1,32 @@
+{"text": "10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.4763680", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2508061", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: d6b7bd36-2943-4363-9235-fffdd89ea40e] VM Started (Lifecycle Event)", "label": "[instance: <*>] VM Started (Lifecycle Event)"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2724411", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2753000", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: 63a0d960-70b6-44c6-b606-491478a5cadf] Took 20.03 seconds to spawn the instance on the hypervisor.", "label": "[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor."}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2719712", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2630000", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2640181", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2716691", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "Creating event network-vif-plugged:98dbd0a6-013e-4cd9-9986-fa32e5d6dd32 for instance ae3a1b5d-eec1-45bb-b76a-c59d83b1471f", "label": "Creating event network-vif-plugged:<*> for instance <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2581029", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 211 time: 0.0968180", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2796071", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] Total memory: 64172 MB, used: 512.00 MB", "label": "[instance: <*>] Total memory: <*> MB, used: <*> MB"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2621021", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: 95960536-049b-41f6-9049-05fc479b6a7c] VM Started (Lifecycle Event)", "label": "[instance: <*>] VM Started (Lifecycle Event)"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2577181", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: bf8c824d-f099-4433-a41e-e3da7578262e] Total memory: 64172 MB, used: 512.00 MB", "label": "[instance: <*>] Total memory: <*> MB, used: <*> MB"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2796719", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2740800", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2618630", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2505140", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: d96a117b-0193-4549-bdcc-63b917273d1d] Total vcpu: 16 VCPU, used: 0.00 VCPU", "label": "[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU"}
+{"text": "10.11.21.139,10.11.10.1 \"GET /latest/meta-data/block-device-mapping/ami HTTP/1.1\" status: 200 len: 119 time: 0.2219629", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: fecdd5a9-3ca0-4c82-9336-63b7774f738e] Claim successful", "label": "[instance: <*>] Claim successful"}
+{"text": "10.11.21.127,10.11.10.1 \"GET /openstack/2013-10-17/vendor_data.json HTTP/1.1\" status: 200 len: 124 time: 0.2370040", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: 17288ea8-cbf4-4f0e-94fe-853fd2735f29] disk limit not specified, defaulting to unlimited", "label": "[instance: <*>] disk limit not specified, defaulting to unlimited"}
+{"text": "10.11.21.140,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.2314420", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: 17288ea8-cbf4-4f0e-94fe-853fd2735f29] Took 1.00 seconds to destroy the instance on the hypervisor.", "label": "[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor."}
+{"text": "10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 404 len: 296 time: 0.0926130", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 200 len: 380 time: 0.0921431", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>"}

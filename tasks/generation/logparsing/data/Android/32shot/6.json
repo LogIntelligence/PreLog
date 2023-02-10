@@ -1,0 +1,32 @@
+{"text": "userActivityNoUpdateLocked: eventTime=261879585, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "getLastAudibleStreamVolume  treamType: 5", "label": "getLastAudibleStreamVolume treamType: <*>"}
+{"text": "acquire lock=237091223, flags=0x1, tag=\"WiredAccessoryManager\", name=android, ws=null, uid=1000, pid=1702", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
+{"text": "abandonAudioFocus", "label": "abandonAudioFocus"}
+{"text": "cleanUpApplicationRecordLocked, reset pid: 5769, euid: 0", "label": "cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>"}
+{"text": "ACTION_BATTERY_CHANGED AMP: 0; Volt: 0", "label": "ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*>"}
+{"text": "acquire lock=189667585, flags=0x1, tag=\"*launch*\", name=android, ws=WorkSource{10113}, uid=1000, pid=1702", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
+{"text": "visible is system.ownerinfo.show", "label": "visible is <*>"}
+{"text": "release:lock=264232593, flg=0x0, tag=\"AudioMix\", name=audioserver\", ws=null, uid=1041, pid=0", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
+{"text": "release:lock=155645244, flg=0x0, tag=\"AudioMix\", name=audioserver\", ws=null, uid=1041, pid=0", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
+{"text": "ActivityManagerService,attachApplication,callingPid = 13175", "label": "ActivityManagerService,attachApplication,callingPid = <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261872817, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261851646, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "getLastAudibleStreamVolume  treamType: 8", "label": "getLastAudibleStreamVolume treamType: <*>"}
+{"text": "sending alarm Alarm{aa90550 type 3 when 509142332 PendingIntent{1749923: PendingIntentRecord{9600e20 android broadcastIntent}}},repeatInterval = 0,listenerTag =time_tick", "label": "sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick"}
+{"text": "state.clipTopAmount:197, i:0", "label": "state.clipTopAmount:<*>, i:<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261973840, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261972153, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261985554, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "cleanUpApplicationRecord -- 5769", "label": "cleanUpApplicationRecord -- <*>"}
+{"text": "DefaultState what=155652", "label": "DefaultState what=<*>"}
+{"text": "release:lock=189667585, flg=0x0, tag=\"*launch*\", name=android\", ws=WorkSource{10020}, uid=1000, pid=1702", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
+{"text": "Taking screenshot from Surface with crop:[Rect(0, 48 - 720, 1208)], width:[432], height:[696], minLayer:[21080], maxLayer:[21085], inRotation:[false], rot:[0]", "label": "Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[<*>], rot:[<*>]"}
+{"text": "setSpeakerphoneOn on:true", "label": "setSpeakerphoneOn on:<*>"}
+{"text": "START u0 {flg=0x24000000 cmp=com.tencent.mm/.ui.LauncherUI (has extras)} from uid 10112 on display 0", "label": "START u0 {flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>"}
+{"text": "setSystemUiVisibility vis=40000600 mask=ffffffff oldVal=40000500 newVal=40000600 diff=300 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)"}
+{"text": "userActivityNoUpdateLocked: eventTime=261870612, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "getLastAudibleStreamVolume  treamType: 7", "label": "getLastAudibleStreamVolume treamType: <*>"}
+{"text": "Start proc 13003:com.tencent.mobileqq:qzone/u0a111 for service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService", "label": "Start proc <*> for service <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261986874, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261849942, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261972159, event=1, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}

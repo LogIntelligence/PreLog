@@ -1,0 +1,32 @@
+{"text": "Warning: we failed to resolve data source name cn270 cn271 cn272 cn273 cn274 cn275 cn276 cn277 cn278 cn279 cn280 cn281 cn282 cn283 cn284 cn285 cn286 cn287 cn288 cn289 cn290 cn291 cn292 cn293 cn294 cn295 cn296 cn297 cn298 cn299 cn300 cn301 cn302 cn303 cn304 cn305 cn306 cn307 cn308 cn309 cn310 cn311 cn312 cn313 cn314 cn315 cn316 cn317 cn318 cn319 cn320 cn321 cn322 cn323 cn324 cn325 cn326 cn327 cn328 cn329 cn330 cn331 cn332 cn333 cn334 cn335 cn336 cn337 cn338 cn339 cn340 cn341 cn342 cn343 cn344 cn345 cn346 cn347 cn348 cn349 cn350 cn351 cn352 cn353 cn354 cn355 cn356 cn357 cn358 cn359 cn360 cn361 cn362 cn363 cn364 cn365 cn366 cn367 cn368 cn369 cn370 cn371 cn372 cn373 cn374 cn375 cn376 cn377 cn378 cn379 cn380 cn381 cn382 cn383 cn384", "label": "Warning: we failed to resolve data source name <*>"}
+{"text": "Creating Topspin /dev entries:", "label": "Creating Topspin <*> entries:"}
+{"text": "Using MMCONFIG at e0000000", "label": "Using MMCONFIG at <*>"}
+{"text": "Reading included configuration file: /etc/xinetd.d/daytime [file=/etc/xinetd.d/daytime] [line=11]", "label": "Reading included configuration file: <*> [file=<*>] [line=<*>]"}
+{"text": "Processor ANSI SCSI revision: 02", "label": "Processor ANSI SCSI revision: <*>"}
+{"text": "eth0: e1000_watchdog: NIC Link is Up 1000 Mbps Full Duplex", "label": "eth0: <*>: NIC Link is Up <*> Mbps Full Duplex"}
+{"text": "PS/2 mouse device common for all mice", "label": "PS/<*> mouse device common for all mice"}
+{"text": "removing kshell", "label": "removing <*>"}
+{"text": "root=LABEL=/ initrd=/x86_64/initrd-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr-admin console=tty0 console=ttyS0,19200 fastboot BOOT_IMAGE=/x86_64/vmlinuz-2.6.9-5.0.5.EL-lustre-1.4.2-perfctr", "label": "<*>=LABEL=/ initrd=<*> console=<*> console=<*>,<*> fastboot BOOT_IMAGE=<*>"}
+{"text": "IOAPIC (id[0x08] address[0xfec00000] gsi_base[0])", "label": "IOAPIC (id[<*>] address[<*>] gsi_base[<*>])"}
+{"text": "Unregistering netfilter hooks", "label": "Unregistering netfilter hooks"}
+{"text": "synchronized to #3#, stratum 1", "label": "synchronized to <*>, stratum <*>"}
+{"text": "INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)", "label": "INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl)"}
+{"text": "LAPIC_NMI (acpi_id[0x03] high edge lint[0x1])", "label": "LAPIC_NMI (acpi_id[<*>] high edge lint[<*>])"}
+{"text": "not allocating divert_blk for non-ethernet device sit0", "label": "not allocating divert_blk for non-ethernet device <*>"}
+{"text": "LAPIC (acpi_id[0x03] lapic_id[0x01] enabled)", "label": "LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)"}
+{"text": "RRD_update (/var/lib/ganglia/rrds/D Nodes/dn731/pkts_out.rrd): illegal attempt to update using time 1131563473 when last update time is 1131563473 (minimum one second step)", "label": "RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)"}
+{"text": "scanning scsi channel 1 [virtual] for logical drives", "label": "scanning scsi channel <*> [virtual] for logical drives"}
+{"text": "removing telnet", "label": "removing <*>"}
+{"text": "jA9J1Wd7019391: from=root, size=1594553, class=0, nrcpts=1, msgid=<200511091901.jA9J1Wd7019391@cadmin1>, relay=#7#@localhost", "label": "<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost"}
+{"text": "PCI Interrupt Routing Table [\\_SB_.PCI0.PALO._PRT]", "label": "PCI Interrupt Routing Table [<*>]"}
+{"text": "registered new driver usbfs", "label": "registered new driver usbfs"}
+{"text": "PCI Interrupt Routing Table [\\_SB_.PCI0.VPR0._PRT]", "label": "PCI Interrupt Routing Table [<*>]"}
+{"text": "probe of vesafb0 failed with error -6", "label": "probe of vesafb0 failed with error <*>"}
+{"text": "PCI Interrupt Routing Table [\\_SB_.PCI0.PBHI.PXB2._PRT]", "label": "PCI Interrupt Routing Table [<*>]"}
+{"text": "removing klogin", "label": "removing <*>"}
+{"text": "INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)", "label": "INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> high level)"}
+{"text": "time reset +0.182379 s", "label": "time reset +<*> s"}
+{"text": "PCI Interrupt Link [LNKB] (IRQs 3 4 5 6 7 10 *11 12)", "label": "PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>)"}
+{"text": "xinetd Version 2.3.13 started with libwrap loadavg options compiled in.", "label": "xinetd Version <*> started with libwrap loadavg options compiled in."}
+{"text": "Warning: we failed to resolve data source name bn526 bn527 bn528 bn529 bn530 bn531 bn532 bn533 bn534 bn535 bn536 bn537 bn538 bn539 bn540 bn541 bn542 bn543 bn544 bn545 bn546 bn547 bn548 bn549 bn550 bn551 bn552 bn553 bn554 bn555 bn556 bn557 bn558 bn559 bn560 bn561 bn562 bn563 bn564 bn565 bn566 bn567 bn568 bn569 bn570 bn571 bn572 bn573 bn574 bn575 bn576 bn577 bn578 bn579 bn580 bn581 bn582 bn583 bn584 bn585 bn586 bn587 bn588 bn589 bn590 bn591 bn592 bn593 bn594 bn595 bn596 bn597 bn598 bn599 bn600 bn601 bn602 bn603 bn604 bn605 bn606 bn607 bn608 bn609 bn610 bn611 bn612 bn613 bn614 bn615 bn616 bn617 bn618 bn619 bn620 bn621 bn622 bn623 bn624 bn625 bn626 bn627 bn628 bn629 bn630 bn631 bn632 bn633 bn634 bn635 bn636 bn637 bn638 bn639 bn640", "label": "Warning: we failed to resolve data source name <*>"}
+{"text": "jA9J1WSU011176: from=root, size=1593894, class=0, nrcpts=1, msgid=<200511091901.jA9J1WSU011176@badmin1>, relay=#7#@localhost", "label": "<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost"}

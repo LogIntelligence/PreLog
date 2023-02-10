@@ -1,0 +1,32 @@
+{"text": "Invalid user nagios from 187.141.143.180", "label": "Invalid user <*> from <*>"}
+{"text": "Failed password for root from 60.2.12.12 port 65244 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 43414 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 51867 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 33150 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 34091 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Invalid user ubuntu from 187.141.143.180", "label": "Invalid user <*> from <*>"}
+{"text": "Failed password for invalid user 0 from 5.188.10.180 port 49811 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
+{"text": "pam_unix(sshd:session): session opened for user fztu by (uid=0)", "label": "pam_unix(sshd:session): session opened for user <*> by (uid=<*>)"}
+{"text": "Failed password for root from 183.62.140.253 port 54339 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for invalid user admin from 103.207.39.212 port 58447 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
+{"text": "Invalid user admin from 103.207.39.212", "label": "Invalid user <*> from <*>"}
+{"text": "Failed password for root from 183.62.140.253 port 57660 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 40993 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 187.141.143.180 port 48339 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 45902 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.5.5.195  user=root", "label": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>"}
+{"text": "Failed password for root from 183.62.140.253 port 50263 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for invalid user support from 103.207.39.16 port 33310 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
+{"text": "Failed password for invalid user inspur from 175.102.13.6 port 47130 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 103.99.0.122 port 58123 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 39715 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Did not receive identification string from 123.235.32.19", "label": "Did not receive identification string from <*>"}
+{"text": "Failed password for root from 112.95.230.3 port 57138 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=106.5.5.195  user=root", "label": "PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>"}
+{"text": "Failed password for root from 183.62.140.253 port 40139 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for invalid user support from 103.207.39.212 port 52644 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 43821 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 44921 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 52269 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
+{"text": "Failed password for invalid user 1234 from 5.188.10.180 port 45541 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
+{"text": "Failed password for root from 183.62.140.253 port 60637 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}

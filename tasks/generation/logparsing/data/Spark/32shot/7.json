@@ -1,0 +1,32 @@
+{"text": "attempt_201706092018_0024_m_000002_998: Committed", "label": "<*>: Committed"}
+{"text": "Finished task 3.0 in stage 21.0 (TID 878). 2333 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Times: total = 108, boot = 28, init = 79, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Finished task 2.0 in stage 22.0 (TID 912). 2667 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Running task 10.0 in stage 26.0 (TID 1210)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Times: total = 40, boot = 10, init = 29, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Running task 39.0 in stage 28.0 (TID 1319)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Times: total = 54, boot = 21, init = 28, finish = 5", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Reading broadcast variable 38 took 11 ms", "label": "Reading broadcast variable <*> took <*> ms"}
+{"text": "Partition rdd_42_37 not found, computing it", "label": "Partition <*> not found, computing it"}
+{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:131256+7292", "label": "Input split: <*>"}
+{"text": "Times: total = 38, boot = -37, init = 75, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Got assigned task 1313", "label": "Got assigned task <*>"}
+{"text": "Finished task 4.0 in stage 18.0 (TID 759). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Registered BlockManager", "label": "Registered BlockManager"}
+{"text": "Times: total = 39, boot = -79, init = 118, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Running task 8.0 in stage 27.0 (TID 1248)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Running task 28.0 in stage 26.0 (TID 1228)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Times: total = 48, boot = 8, init = 35, finish = 5", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Running task 19.0 in stage 27.0 (TID 1259)", "label": "Running task <*> in stage <*> (TID <*>)"}
+{"text": "Times: total = 40, boot = -74, init = 113, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Block broadcast_11_piece0 stored as bytes in memory (estimated size 5.4 KB, free 344.7 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)"}
+{"text": "Partition rdd_42_7 not found, computing it", "label": "Partition <*> not found, computing it"}
+{"text": "Block broadcast_31 stored as values in memory (estimated size 9.8 KB, free 405.1 KB)", "label": "Block <*> stored as values in memory (estimated size <*>, free <*>)"}
+{"text": "Times: total = 38, boot = -156, init = 194, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Finished task 1.0 in stage 0.0 (TID 1). 2703 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Block rdd_30_3 stored as bytes in memory (estimated size 251.0 B, free 406.3 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)"}
+{"text": "Finished task 2.0 in stage 10.0 (TID 430). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Block broadcast_14_piece0 stored as bytes in memory (estimated size 5.8 KB, free 392.3 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)"}
+{"text": "Times: total = 38, boot = -170, init = 208, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
+{"text": "Finished task 29.0 in stage 29.0 (TID 1349). 2128 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "Partition rdd_16_0 not found, computing it", "label": "Partition <*> not found, computing it"}

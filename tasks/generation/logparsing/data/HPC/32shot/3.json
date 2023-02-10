@@ -1,0 +1,32 @@
+{"text": "NIFF: node node-142 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage1144", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "NIFF: node node-240 has detected an available network connection on network 5.5.224.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage112", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "boot  (command 2520)", "label": "boot (command <*>)"}
+{"text": "Fan speeds ( 3534 3534 3375 4115 3497 3479 )", "label": "Fan speeds ( <*> <*> <*> <*> <*> <*> )"}
+{"text": "ServerFileSystem: ServerFileSystem domain root14_local is full", "label": "ServerFileSystem: ServerFileSystem domain <*> is full"}
+{"text": "ClusterFileSystem: ServerFileSystem domain root6_domain is no longer served by node node-37", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "wait  (command 3649)", "label": "wait (command <*>)"}
+{"text": "boot  (command 3317)", "label": "boot (command <*>)"}
+{"text": "boot  (command 2417)", "label": "boot (command <*>)"}
+{"text": "boot  (command 3512)", "label": "boot (command <*>)"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage1644", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "NIFF: node node-162 detected a failed network connection on network 5.5.224.0 via interface alt0", "label": "NIFF: node node-<*> detected a failed network connection on network <*> via interface alt0"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage1542", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-160", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage622", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "boot  (command 2686)", "label": "boot (command <*>)"}
+{"text": "NIFF: node node-142 has detected an available network connection on network 0.0.0.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "NIFF: node node-254 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "NIFF: node node-214 has detected an available network connection on network 5.5.226.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "NIFF: node node-205 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "NIFF: node node-232 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "NIFF: node node-208 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "NIFF: node node-17 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "boot  (command 1999)", "label": "boot (command <*>)"}
+{"text": "boot  (command 3624)", "label": "boot (command <*>)"}
+{"text": "Component State Change: Component \\042alt0\\042 is in the unavailable state (HWID=2538)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)"}
+{"text": "boot  (command 4176)", "label": "boot (command <*>)"}
+{"text": "wait  (command 3078)", "label": "wait (command <*>)"}
+{"text": "ClusterFileSystem: ServerFileSystem domain storage343 is no longer served by node node-11", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "wait  (command 2270)", "label": "wait (command <*>)"}

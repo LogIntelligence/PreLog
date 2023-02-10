@@ -1,0 +1,32 @@
+{"text": "[instance: bf8c824d-f099-4433-a41e-e3da7578262e] Took 0.53 seconds to deallocate network for instance.", "label": "[instance: <*>] Took <*> seconds to deallocate network for instance."}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2684422", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.21.139,10.11.10.1 \"GET /latest/meta-data/ HTTP/1.1\" status: 200 len: 328 time: 0.0009460", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2596920", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2634540", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.21.139,10.11.10.1 \"GET /latest/meta-data/security-groups HTTP/1.1\" status: 200 len: 123 time: 0.0008359", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.21.123,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.0010512", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2457120", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2587130", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2711699", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 200 len: 380 time: 0.1030841", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 200 len: 380 time: 0.0919530", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] VM Paused (Lifecycle Event)", "label": "[instance: <*>] VM Paused (Lifecycle Event)"}
+{"text": "10.11.21.135,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.0009611", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: 43204226-2f87-4da7-b7ee-4d20cc66e846] Instance spawned successfully.", "label": "[instance: <*>] Instance spawned successfully."}
+{"text": "10.11.21.140,10.11.10.1 \"GET /openstack/2013-10-17 HTTP/1.1\" status: 200 len: 157 time: 0.2332909", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] Claim successful", "label": "[instance: <*>] Claim successful"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2697771", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] VM Started (Lifecycle Event)", "label": "[instance: <*>] VM Started (Lifecycle Event)"}
+{"text": "[instance: 70c1714b-c11b-4c88-b300-239afe1f5ff8] Deleting instance files /var/lib/nova/instances/70c1714b-c11b-4c88-b300-239afe1f5ff8_del", "label": "[instance: <*>] Deleting instance files <*>"}
+{"text": "[instance: c62f4f25-982c-4ea2-b5e4-93000edfcfbf] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU", "label": "[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1759 time: 0.2671440", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2659788", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2772589", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2707500", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 211 time: 0.0951850", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: af5f7392-f7d4-4298-b647-c98924c64aa1] Total memory: 64172 MB, used: 512.00 MB", "label": "[instance: <*>] Total memory: <*> MB, used: <*> MB"}
+{"text": "[instance: 17288ea8-cbf4-4f0e-94fe-853fd2735f29] Total vcpu: 16 VCPU, used: 0.00 VCPU", "label": "[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2680290", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2614441", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] Instance destroyed successfully.", "label": "[instance: <*>] Instance destroyed successfully."}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1575 time: 0.1902869", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}

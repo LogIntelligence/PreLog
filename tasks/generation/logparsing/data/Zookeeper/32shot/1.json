@@ -1,0 +1,32 @@
+{"text": "Received connection request /10.10.34.11:59416", "label": "Received connection request <*>:<*>"}
+{"text": "Established session 0x14f4a6318b80005 with negotiated timeout 10000 for client /10.10.34.11:56492", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:49590", "label": "Received connection request <*>:<*>"}
+{"text": "Processed session termination for sessionid: 0x24ed93119420094", "label": "Processed session termination for sessionid: <*>"}
+{"text": "Connection request from old client /10.10.34.12:54643; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>:<*>; will be dropped if server is in r-o mode"}
+{"text": "Received connection request /10.10.34.13:45053", "label": "Received connection request <*>:<*>"}
+{"text": "Client attempting to establish new session at /10.10.34.11:54632", "label": "Client attempting to establish new session at <*>:<*>"}
+{"text": "Expiring session 0x24ede63a01b003b, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
+{"text": "Received connection request /10.10.34.13:44842", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:45343", "label": "Received connection request <*>:<*>"}
+{"text": "******* GOODBYE /10.10.34.11:52476 ********", "label": "******* GOODBYE <*>:<*> ********"}
+{"text": "Connection request from old client /10.10.34.25:58975; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>:<*>; will be dropped if server is in r-o mode"}
+{"text": "Received connection request /10.10.34.11:49518", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.12:47258", "label": "Received connection request <*>:<*>"}
+{"text": "Processed session termination for sessionid: 0x34ed9ac1c1e007a", "label": "Processed session termination for sessionid: <*>"}
+{"text": "Received connection request /10.10.34.12:56322", "label": "Received connection request <*>:<*>"}
+{"text": "Accepted socket connection from /10.10.34.11:54078", "label": "Accepted socket connection from <*>:<*>"}
+{"text": "Established session 0x24f4a631df9000e with negotiated timeout 10000 for client /10.10.34.16:53681", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "Expiring session 0x24edfaa87170002, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
+{"text": "******* GOODBYE /10.10.34.13:57502 ********", "label": "******* GOODBYE <*>:<*> ********"}
+{"text": "Accepted socket connection from /10.10.34.13:54310", "label": "Accepted socket connection from <*>:<*>"}
+{"text": "Established session 0x14edfaa86f60013 with negotiated timeout 10000 for client /10.10.34.27:44600", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:47464", "label": "Received connection request <*>:<*>"}
+{"text": "Connection request from old client /10.10.34.13:50545; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>:<*>; will be dropped if server is in r-o mode"}
+{"text": "Received connection request /10.10.34.12:47623", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:59783", "label": "Received connection request <*>:<*>"}
+{"text": "Established session 0x24ede63a01b000a with negotiated timeout 10000 for client /10.10.34.13:52286", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "Expiring session 0x34ee30a5c53002a, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
+{"text": "Received connection request /10.10.34.13:45770", "label": "Received connection request <*>:<*>"}
+{"text": "Processed session termination for sessionid: 0x14ede63a5a70023", "label": "Processed session termination for sessionid: <*>"}
+{"text": "Server environment:zookeeper.version=3.4.5--1, built on 06/10/2013 17:26 GMT", "label": "Server environment:<*>"}
+{"text": "Closed socket connection for client /10.10.34.13:54294 (no session established for client)", "label": "Closed socket connection for client <*>:<*> (no session established for client)"}

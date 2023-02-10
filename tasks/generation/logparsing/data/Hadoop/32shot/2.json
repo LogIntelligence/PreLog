@@ -1,0 +1,32 @@
+{"text": "JVM with ID: jvm_1445144423722_0020_m_000007 given task: attempt_1445144423722_0020_m_000005_0", "label": "JVM with ID: <*> given task: <*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 72 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 312 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 345 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 42 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 240 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "ATTEMPT_START task_1445144423722_0020_m_000000", "label": "ATTEMPT_START <*>"}
+{"text": "Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0", "label": "Processing the event EventType: <*> for container <*> taskAttempt <*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 56 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskEventDispatcher", "label": "Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>"}
+{"text": "IPC Server listener on 62260: starting", "label": "IPC Server listener on <*>: starting"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 263 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Recalculating schedule, headroom=<memory:5120, vCores:-22>", "label": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 206 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 53 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 347 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Registered webapp guice modules", "label": "Registered webapp guice modules"}
+{"text": "Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0", "label": "Processing the event EventType: <*> for container <*> taskAttempt <*>"}
+{"text": "task_1445144423722_0020_m_000000 Task Transitioned from NEW to SCHEDULED", "label": "<*> Task Transitioned from NEW to SCHEDULED"}
+{"text": "TaskAttempt: [attempt_1445144423722_0020_m_000004_0] using containerId: [container_1445144423722_0020_01_000006 on NM: [MSRA-SA-41.fareast.corp.microsoft.com:7109]", "label": "TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>]"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 47 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce", "label": "Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce"}
+{"text": "After Scheduling: PendingReds:1 ScheduledMaps:2 ScheduledReds:0 AssignedMaps:8 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:8 ContRel:0 HostLocal:5 RackLocal:3", "label": "After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 152 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.10875365", "label": "Progress of TaskAttempt <*> is : <*>"}
+{"text": "We launched 1 speculations.  Sleeping 15000 milliseconds.", "label": "We launched <*> speculations. Sleeping <*> milliseconds."}
+{"text": "getResources() for application_1445144423722_0020: ask=0 release= 1 newContainers=0 finishedContainers=1 resourcelimit=<memory:1024, vCores:-26> knownNMs=4", "label": "getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 70 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 140 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 346 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter", "label": "OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter"}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.10501281", "label": "Progress of TaskAttempt <*> is : <*>"}

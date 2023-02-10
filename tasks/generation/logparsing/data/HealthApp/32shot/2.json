@@ -1,0 +1,32 @@
+{"text": "setTodayTotalDetailSteps=1514038440000##7008##548365##8661##12456##27174269", "label": "setTodayTotalDetailSteps=<*>"}
+{"text": "onStandStepChanged 3700", "label": "onStandStepChanged <*>"}
+{"text": "setTodayTotalDetailSteps=1514038440000##7009##548365##8661##12551##27174951", "label": "setTodayTotalDetailSteps=<*>"}
+{"text": "REPORT : 7107 5074 152231 240", "label": "REPORT : <*> <*> <*> <*>"}
+{"text": " getTodayTotalDetailSteps = 1514038740000##7173##549047##8661##16256##27444985", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": "setTodayTotalDetailSteps=1514044380000##7214##549659##8661##16256##33140770", "label": "setTodayTotalDetailSteps=<*>"}
+{"text": "onExtend:1514044494000 0 0 5", "label": "onExtend:<*> <*> <*> <*>"}
+{"text": " getTodayTotalDetailSteps = 1514043540000##7214##549659##8661##16256##32254765", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": " getTodayTotalDetailSteps = 1514038560000##7099##548577##8661##16256##27315983", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": "onExtend:1514044806000 0 0 0", "label": "onExtend:<*> <*> <*> <*>"}
+{"text": " getTodayTotalDetailSteps = 1514038740000##7181##549251##8661##16256##27446989", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": "calculateCaloriesWithCache totalCalories=129516", "label": "calculateCaloriesWithCache totalCalories=<*>"}
+{"text": "onExtend:1514038668000 2 0 4", "label": "onExtend:<*> <*> <*> <*>"}
+{"text": "saveStatData() type =40004,time = 1513958400000,statClient = 2,who is 1", "label": "saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*>"}
+{"text": " getTodayTotalDetailSteps = 1514038740000##7170##548996##8661##16256##27444484", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": " getTodayTotalDetailSteps = 1514038440000##7014##548365##8661##12931##27177463", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": "REPORT : 7025 5015 150475 240", "label": "REPORT : <*> <*> <*> <*>"}
+{"text": " getTodayTotalDetailSteps = 1514044320000##7214##549659##8661##16256##33041763", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": "setTodayTotalDetailSteps=1514038740000##7186##549404##8661##16256##27448983", "label": "setTodayTotalDetailSteps=<*>"}
+{"text": "calculateCaloriesWithCache totalCalories=127867", "label": "calculateCaloriesWithCache totalCalories=<*>"}
+{"text": " getTodayTotalDetailSteps = 1514038560000##7056##548553##8661##16256##27284971", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": "timeStamp back,extendReportTimeStamp=1514040836000", "label": "timeStamp back,extendReportTimeStamp=<*>"}
+{"text": "setTodayTotalDetailSteps=1514038620000##7114##548860##8661##16256##27330470", "label": "setTodayTotalDetailSteps=<*>"}
+{"text": "onExtend:1514040348000 0 0 5", "label": "onExtend:<*> <*> <*> <*>"}
+{"text": "onStandStepChanged 3585", "label": "onStandStepChanged <*>"}
+{"text": "calculateCaloriesWithCache totalCalories=126775", "label": "calculateCaloriesWithCache totalCalories=<*>"}
+{"text": "onStandStepChanged 3613", "label": "onStandStepChanged <*>"}
+{"text": " getTodayTotalDetailSteps = 1514042160000##7214##549659##8661##16256##30906310", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
+{"text": "deleteHealthNotification()", "label": "deleteHealthNotification()"}
+{"text": "REPORT : 7128 5089 152681 240", "label": "REPORT : <*> <*> <*> <*>"}
+{"text": "setTodayTotalDetailSteps=1514042280000##7214##549659##8661##16256##31004759", "label": "setTodayTotalDetailSteps=<*>"}
+{"text": "REPORT : 7205 5144 154331 240", "label": "REPORT : <*> <*> <*> <*>"}

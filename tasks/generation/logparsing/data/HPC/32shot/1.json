@@ -1,0 +1,32 @@
+{"text": "NIFF: node node-253 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "boot  (command 2257)", "label": "boot (command <*>)"}
+{"text": "boot  (command 3615)", "label": "boot (command <*>)"}
+{"text": "ClusterFileSystem: ServerFileSystem domain root28_domain is no longer served by node node-219", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "wait  (command 3709)", "label": "wait (command <*>)"}
+{"text": "wait  (command 3079)", "label": "wait (command <*>)"}
+{"text": "boot  (command 2790)", "label": "boot (command <*>)"}
+{"text": "boot  (command 2625)", "label": "boot (command <*>)"}
+{"text": "wait  (command 2154)", "label": "wait (command <*>)"}
+{"text": "NIFF: node node-104 has detected an available network connection on network 5.5.224.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "NIFF: node node-244 has detected an available network connection on network 5.5.224.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "NIFF: node node-171 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "NIFF: node node-155 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "wait  (command 4117)", "label": "wait (command <*>)"}
+{"text": "boot (command 2092) Error: HALT asserted\\  cannot continue", "label": "boot (command <*>) Error: HALT asserted\\ cannot continue"}
+{"text": "NIFF: node node-178 has detected an available network connection on network 0.0.0.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "boot  (command 1981)", "label": "boot (command <*>)"}
+{"text": "NIFF: node node-26 has detected an available network connection on network 5.5.226.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "boot  (command 2392)", "label": "boot (command <*>)"}
+{"text": "Targeting domains:node-D3 and nodes:node-[104-127] child of command 1963", "label": "Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage242", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "boot  (command 2686)", "label": "boot (command <*>)"}
+{"text": "wait  (command 3690)", "label": "wait (command <*>)"}
+{"text": "ClusterFileSystem: ServerFileSystem domain cluster_var_backup is no longer served by node node-224", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "ClusterFileSystem: ServerFileSystem domain root28_domain is no longer served by node node-96", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage1024", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "ClusterFileSystem: ServerFileSystem domain root14_local is no longer served by node node-77", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "ClusterFileSystem: ServerFileSystem domain storage211 is no longer served by node node-4", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "boot  (command 2619)", "label": "boot (command <*>)"}
+{"text": "boot  (command 1967)", "label": "boot (command <*>)"}
+{"text": "NIFF: node node-233 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "Targeting domains:node-D7 and nodes:node-[224\\ 228\\ 232]", "label": "Targeting domains:node-<*> nodes:node-<*>"}

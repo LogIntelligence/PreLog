@@ -1,0 +1,32 @@
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 214 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "task_1445144423722_0020_m_000003 Task Transitioned from SCHEDULED to RUNNING", "label": "<*> Task Transitioned from SCHEDULED to RUNNING"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 234 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "attempt_1445144423722_0020_m_000002_1 TaskAttempt Transitioned from NEW to UNASSIGNED", "label": "<*> TaskAttempt Transitioned from NEW to UNASSIGNED"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 159 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 252 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 160 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 300 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 74 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "task_1445144423722_0020_m_000007 Task Transitioned from SCHEDULED to RUNNING", "label": "<*> Task Transitioned from SCHEDULED to RUNNING"}
+{"text": "attempt_1445144423722_0020_m_000009_0 TaskAttempt Transitioned from ASSIGNED to RUNNING", "label": "<*> TaskAttempt Transitioned from ASSIGNED to RUNNING"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 311 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "job_1445144423722_0020Job Transitioned from NEW to INITED", "label": "<*> Transitioned from NEW to INITED"}
+{"text": "JVM with ID: jvm_1445144423722_0020_m_000005 given task: attempt_1445144423722_0020_m_000003_0", "label": "JVM with ID: <*> given task: <*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 268 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0", "label": "Processing the event EventType: <*> for container <*> taskAttempt <*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 238 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 326 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 273 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 146 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.06741504", "label": "Progress of TaskAttempt <*> is : <*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 255 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "attempt_1445144423722_0020_m_000005_0 TaskAttempt Transitioned from NEW to UNASSIGNED", "label": "<*> TaskAttempt Transitioned from NEW to UNASSIGNED"}
+{"text": "Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@7317849d", "label": "Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@<*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 205 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 336 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 257 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "task_1445144423722_0020_m_000004 Task Transitioned from SCHEDULED to RUNNING", "label": "<*> Task Transitioned from SCHEDULED to RUNNING"}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.4156165", "label": "Progress of TaskAttempt <*> is : <*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 334 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "attempt_1445144423722_0020_m_000007_0 TaskAttempt Transitioned from ASSIGNED to RUNNING", "label": "<*> TaskAttempt Transitioned from ASSIGNED to RUNNING"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 289 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}

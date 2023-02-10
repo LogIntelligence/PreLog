@@ -1,0 +1,32 @@
+{"text": "Received connection request /10.10.34.12:57449", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.12:55346", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.12:48751", "label": "Received connection request <*>:<*>"}
+{"text": "Client attempting to establish new session at /10.10.34.40:42622", "label": "Client attempting to establish new session at <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:47234", "label": "Received connection request <*>:<*>"}
+{"text": "Client attempting to establish new session at /10.10.34.11:53821", "label": "Client attempting to establish new session at <*>:<*>"}
+{"text": "Notification: 3 (n.leader), 0x100001564 (n.zxid), 0x3 (n.round), FOLLOWING (n.state), 3 (n.sid), 0x2 (n.peerEPoch), FOLLOWING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)"}
+{"text": "Notification: 3 (n.leader), 0x10000006b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0x1 (n.peerEPoch), LOOKING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)"}
+{"text": "Received connection request /10.10.34.11:48814", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:47464", "label": "Received connection request <*>:<*>"}
+{"text": "Processed session termination for sessionid: 0x24ed93119420008", "label": "Processed session termination for sessionid: <*>"}
+{"text": "Received connection request /10.10.34.12:47931", "label": "Received connection request <*>:<*>"}
+{"text": "Expiring session 0x24ed93119420033, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
+{"text": "Expiring session 0x24edfaa87170002, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
+{"text": "Expiring session 0x14ed93111f20020, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
+{"text": "Received connection request /10.10.34.11:59783", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.12:56834", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:58823", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:45307", "label": "Received connection request <*>:<*>"}
+{"text": "Established session 0x14f4a6318b80013 with negotiated timeout 10000 for client /10.10.34.20:43137", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "Established session 0x24ed931194200af with negotiated timeout 10000 for client /10.10.34.16:56646", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "Notification: 2 (n.leader), 0xa0000009a (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 1 (n.sid), 0xa (n.peerEPoch), LEADING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)"}
+{"text": "Received connection request /10.10.34.13:60366", "label": "Received connection request <*>:<*>"}
+{"text": "Client attempting to establish new session at /10.10.34.41:45882", "label": "Client attempting to establish new session at <*>:<*>"}
+{"text": "Client attempting to establish new session at /10.10.34.35:59458", "label": "Client attempting to establish new session at <*>:<*>"}
+{"text": "Closed socket connection for client /10.10.34.11:53520 which had sessionid 0x24ed9311942005f", "label": "Closed socket connection for client <*>:<*> which had sessionid <*>"}
+{"text": "Received connection request /10.10.34.13:47340", "label": "Received connection request <*>:<*>"}
+{"text": "Got user-level KeeperException when processing sessionid:0x34ed93485090001 type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper", "label": "Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>"}
+{"text": "Received connection request /10.10.34.12:56830", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:33225", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:45644", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.12:54857", "label": "Received connection request <*>:<*>"}

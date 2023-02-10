@@ -1,0 +1,32 @@
+{"text": "FADT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd6b0", "label": "<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>"}
+{"text": "not allocating divert_blk for non-ethernet device lo", "label": "not allocating divert_blk for non-ethernet device <*>"}
+{"text": "IOAPIC (id[0x0a] address[0xfec83000] gsi_base[64])", "label": "IOAPIC (id[<*>] address[<*>] gsi_base[<*>])"}
+{"text": "xinetd Version 2.3.13 started with libwrap loadavg options compiled in.", "label": "xinetd Version <*> started with libwrap loadavg options compiled in."}
+{"text": "Using configuration type 1", "label": "Using configuration type <*>"}
+{"text": "Assuming 33MHz system bus speed for PIO modes; override with idebus=xx", "label": "Assuming <*> system bus speed for PIO modes; override with idebus=xx"}
+{"text": "Probing PCI hardware (bus 00)", "label": "Probing PCI hardware (bus <*>)"}
+{"text": "Subsystem revision 20040816", "label": "Subsystem revision <*>"}
+{"text": "Using ACPI for IRQ routing", "label": "Using ACPI for IRQ routing"}
+{"text": "RRD_update (/var/lib/ganglia/rrds/D Nodes/dn731/pkts_out.rrd): illegal attempt to update using time 1131563089 when last update time is 1131563089 (minimum one second step)", "label": "RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)"}
+{"text": "Processor [CPU0] (supports C1)", "label": "Processor [<*>] (supports C1)"}
+{"text": "Using software bounce buffering for IO (SWIOTLB)", "label": "Using software bounce buffering for IO (SWIOTLB)"}
+{"text": "Mounted root (ext2 filesystem).", "label": "Mounted <*> (ext2 filesystem)."}
+{"text": "Reading included configuration file: /etc/xinetd.d/kshell [file=/etc/xinetd.d/kshell] [line=13]", "label": "Reading included configuration file: <*> [file=<*>] [line=<*>]"}
+{"text": "Reading included configuration file: /etc/xinetd.d/ktalk [file=/etc/xinetd.d/ktalk] [line=13]", "label": "Reading included configuration file: <*> [file=<*>] [line=<*>]"}
+{"text": "Unregistering netfilter hooks", "label": "Unregistering netfilter hooks"}
+{"text": "RRD_update (/var/lib/ganglia/rrds/C Nodes/cn776/pkts_out.rrd): illegal attempt to update using time 1131559854 when last update time is 1131559854 (minimum one second step)", "label": "RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)"}
+{"text": "apic_id 8, version 32, address 0xfec00000, GSI 0-23", "label": "apic_id <*>, version <*>, address <*>, GSI <*>"}
+{"text": "My unqualified host name (aadmin1) unknown; sleeping for retry", "label": "My unqualified host name (<*>) unknown; sleeping for retry"}
+{"text": "Warning: we failed to resolve data source name cn142 cn143 cn144 cn145 cn146 cn147 cn148 cn149 cn150 cn151 cn152 cn153 cn154 cn155 cn156 cn157 cn158 cn159 cn160 cn161 cn162 cn163 cn164 cn165 cn166 cn167 cn168 cn169 cn170 cn171 cn172 cn173 cn174 cn175 cn176 cn177 cn178 cn179 cn180 cn181 cn182 cn183 cn184 cn185 cn186 cn187 cn188 cn189 cn190 cn191 cn192 cn193 cn194 cn195 cn196 cn197 cn198 cn199 cn200 cn201 cn202 cn203 cn204 cn205 cn206 cn207 cn208 cn209 cn210 cn211 cn212 cn213 cn214 cn215 cn216 cn217 cn218 cn219 cn220 cn221 cn222 cn223 cn224 cn225 cn226 cn227 cn228 cn229 cn230 cn231 cn232 cn233 cn234 cn235 cn236 cn237 cn238 cn239 cn240 cn241 cn242 cn243 cn244 cn245 cn246 cn247 cn248 cn249 cn250 cn251 cn252 cn253 cn254 cn255 cn256", "label": "Warning: we failed to resolve data source name <*>"}
+{"text": "eth0: e1000_watchdog: NIC Link is Up 1000 Mbps Full Duplex", "label": "eth0: <*>: NIC Link is Up <*> Mbps Full Duplex"}
+{"text": "Registered protocol family 1", "label": "Registered protocol family <*>"}
+{"text": "Warning: we failed to resolve data source name bn782 bn783 bn784 bn785 bn786 bn787 bn788 bn789 bn790 bn791 bn792 bn793 bn794 bn795 bn796 bn797 bn798 bn799 bn800 bn801 bn802 bn803 bn804 bn805 bn806 bn807 bn808 bn809 bn810 bn811 bn812 bn813 bn814 bn815 bn816 bn817 bn818 bn819 bn820 bn821 bn822 bn823 bn824 bn825 bn826 bn827 bn828 bn829 bn830 bn831 bn832 bn833 bn834 bn835 bn836 bn837 bn838 bn839 bn840 bn841 bn842 bn843 bn844 bn845 bn846 bn847 bn848 bn849 bn850 bn851 bn852 bn853 bn854 bn855 bn856 bn857 bn858 bn859 bn860 bn861 bn862 bn863 bn864 bn865 bn866 bn867 bn868 bn869 bn870 bn871 bn872 bn873 bn874 bn875 bn876 bn877 bn878 bn879 bn880 bn881 bn882 bn883 bn884 bn885 bn886 bn887 bn888 bn889 bn890 bn891 bn892 bn893 bn894 bn895 bn896", "label": "Warning: we failed to resolve data source name <*>"}
+{"text": "(supports S0 S4 S5)", "label": "(supports <*>)"}
+{"text": "syslog-ng version 1.6.7 starting", "label": "syslog-ng version <*> starting"}
+{"text": "Processor ANSI SCSI revision: 02", "label": "Processor ANSI SCSI revision: <*>"}
+{"text": "Interpreter enabled", "label": "Interpreter enabled"}
+{"text": "Registering netfilter hooks", "label": "Registering netfilter hooks"}
+{"text": "Warning: we failed to resolve data source name dn526 dn527 dn528 dn529 dn530 dn531 dn532 dn533 dn534 dn535 dn536 dn537 dn538 dn539 dn540 dn541 dn542 dn543 dn544 dn545 dn546 dn547 dn548 dn549 dn550 dn551 dn552 dn553 dn554 dn555 dn556 dn557 dn558 dn559 dn560 dn561 dn562 dn563 dn564 dn565 dn566 dn567 dn568 dn569 dn570 dn571 dn572 dn573 dn574 dn575 dn576 dn577 dn578 dn579 dn580 dn581 dn582 dn583 dn584 dn585 dn586 dn587 dn588 dn589 dn590 dn591 dn592 dn593 dn594 dn595 dn596 dn597 dn598 dn599 dn600 dn601 dn602 dn603 dn604 dn605 dn606 dn607 dn608 dn609 dn610 dn611 dn612 dn613 dn614 dn615 dn616 dn617 dn618 dn619 dn620 dn621 dn622 dn623 dn624 dn625 dn626 dn627 dn628 dn629 dn630 dn631 dn632 dn633 dn634 dn635 dn636 dn637 dn638 dn639 dn640", "label": "Warning: we failed to resolve data source name <*>"}
+{"text": "eth1: e1000_probe: Intel(R) PRO/1000 Network Connection", "label": "<*>: <*>: Intel(R) PRO/<*> Network Connection"}
+{"text": "LAPIC (acpi_id[0x03] lapic_id[0x01] enabled)", "label": "LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)"}
+{"text": "Disabled at runtime.", "label": "Disabled at runtime."}

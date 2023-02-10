@@ -1,0 +1,32 @@
+{"text": "attempt_1445144423722_0020_m_000005_0 TaskAttempt Transitioned from ASSIGNED to RUNNING", "label": "<*> TaskAttempt Transitioned from ASSIGNED to RUNNING"}
+{"text": "JVM with ID: jvm_1445144423722_0020_m_000009 given task: attempt_1445144423722_0020_m_000007_0", "label": "JVM with ID: <*> given task: <*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 86 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.5806522", "label": "Progress of TaskAttempt <*> is : <*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 106 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 233 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Task succeeded with attempt attempt_1445144423722_0020_m_000003_0", "label": "Task succeeded with attempt <*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 208 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.4956123", "label": "Progress of TaskAttempt <*> is : <*>"}
+{"text": "Assigned container container_1445144423722_0020_01_000011 to attempt_1445144423722_0020_m_000009_0", "label": "Assigned container <*> to <*>"}
+{"text": "Received completed container container_1445144423722_0020_01_000005", "label": "Received completed container <*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 320 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 100 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 149 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "DataStreamer Exception", "label": "DataStreamer Exception"}
+{"text": "attempt_1445144423722_0020_m_000007_0 TaskAttempt Transitioned from ASSIGNED to RUNNING", "label": "<*> TaskAttempt Transitioned from ASSIGNED to RUNNING"}
+{"text": "Error Recovery for block BP-1347369012-10.190.173.170-1444972147527:blk_1073743512_2731 in pipeline 10.86.169.121:50010, 10.190.173.170:50010: bad datanode 10.190.173.170:50010", "label": "Error Recovery for block BP-<*> in pipeline <*>, <*>: bad datanode <*>"}
+{"text": "JVM with ID : jvm_1445144423722_0020_m_000004 asked for a task", "label": "JVM with ID : <*> asked for a task"}
+{"text": "Recalculating schedule, headroom=<memory:4096, vCores:-23>", "label": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>"}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.29115766", "label": "Progress of TaskAttempt <*> is : <*>"}
+{"text": "task_1445144423722_0020_m_000004 Task Transitioned from SCHEDULED to RUNNING", "label": "<*> Task Transitioned from SCHEDULED to RUNNING"}
+{"text": "attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED", "label": "<*> TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 176 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 188 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000004 taskAttempt attempt_1445144423722_0020_m_000002_0", "label": "Processing the event EventType: <*> for container <*> taskAttempt <*>"}
+{"text": "All maps assigned. Ramping up all remaining reduces:1", "label": "All maps assigned. Ramping up all remaining reduces:<*>"}
+{"text": "attempt_1445144423722_0020_m_000006_0 TaskAttempt Transitioned from ASSIGNED to RUNNING", "label": "<*> TaskAttempt Transitioned from ASSIGNED to RUNNING"}
+{"text": "Container complete event for unknown container id container_1445144423722_0020_01_000012", "label": "Container complete event for unknown container id <*>"}
+{"text": "Upper limit on the thread pool size is 500", "label": "Upper limit on the thread pool size is <*>"}
+{"text": "Scheduling a redundant attempt for task task_1445144423722_0020_m_000000", "label": "Scheduling a redundant attempt for task <*>"}
+{"text": "Starting Socket Reader #1 for port 62260", "label": "Starting Socket Reader #<*> for port <*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 55 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}

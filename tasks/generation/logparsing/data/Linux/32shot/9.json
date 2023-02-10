@@ -1,0 +1,32 @@
+{"text": "connection from 208.62.55.75 () at Wed Jun 29 10:48:13 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "On node 0 totalpages: 32430", "label": "On node <*> totalpages: <*>"}
+{"text": "Kernel command line: ro root=LABEL=/ rhgb quiet", "label": "Kernel command line: ro <*>=LABEL=/ rhgb quiet"}
+{"text": "PCI: Using configuration type 1", "label": "PCI: Using configuration type <*>"}
+{"text": "BIOS-provided physical RAM map:", "label": "BIOS-provided physical RAM map:"}
+{"text": "Linux agpgart interface v0.100 (c) Dave Jones", "label": "Linux agpgart interface <*> (c) Dave Jones"}
+{"text": "PCI: Probing PCI hardware (bus 00)", "label": "PCI: Probing PCI hardware (bus <*>)"}
+{"text": "connection from 221.4.102.93 () at Thu Jul  7 23:09:47 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "SELinux:  Starting in permissive mode", "label": "SELinux: Starting in permissive mode"}
+{"text": "Transparent bridge - 0000:00:1e.0", "label": "Transparent bridge - <*>"}
+{"text": "Console: colour VGA+ 80x25", "label": "Console: colour VGA+ <*>"}
+{"text": "Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)", "label": "Inode-cache hash table entries: <*> (order: <*>, <*> bytes)"}
+{"text": "ACPI: ACPI tables contain no PCI IRQ routing entries", "label": "ACPI: ACPI tables contain no PCI IRQ routing entries"}
+{"text": "Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)", "label": "Dentry cache hash table entries: <*> (order: <*>, <*> bytes)"}
+{"text": "connection from 221.4.102.93 () at Thu Jul  7 23:09:50 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "Enabling unmasked SIMD FPU exception support... done.", "label": "Enabling unmasked SIMD FPU exception support... done."}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:57 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "ROOT LOGIN ON tty2", "label": "<*> LOGIN ON tty2"}
+{"text": "connection from 218.146.61.230 () at Sun Jul 17 08:06:14 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "connection from 208.62.55.75 () at Wed Jun 29 10:48:10 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=200.60.37.201", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>"}
+{"text": "BIOS-e820: 0000000000000000 - 00000000000a0000 (usable)", "label": "BIOS-e820: <*> - <*> (usable)"}
+{"text": "session closed for user root", "label": "session closed for user <*>"}
+{"text": "pci_hotplug: PCI Hot Plug PCI Core version: 0.5", "label": "pci_hotplug: PCI Hot Plug PCI Core version: <*>"}
+{"text": "portmap startup succeeded", "label": "portmap startup succeeded"}
+{"text": "PID hash table entries: 512 (order 9: 4096 bytes)", "label": "PID hash table entries: <*> (order <*>: <*> bytes)"}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:55 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "sdpd startup succeeded", "label": "sdpd startup succeeded"}
+{"text": "connection from 210.245.165.136 () at Wed Jun 22 13:16:32 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "Initializing random number generator:  succeeded", "label": "Initializing random number generator: succeeded"}
+{"text": "Checking 'hlt' instruction... OK.", "label": "Checking 'hlt' instruction... OK."}
+{"text": "connection from 208.62.55.75 () at Wed Jun 29 10:48:15 2005", "label": "connection from <*> (<*>) at <*>"}

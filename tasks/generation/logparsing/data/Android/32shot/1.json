@@ -1,0 +1,32 @@
+{"text": "setSpeakerphoneOn  on: true", "label": "setSpeakerphoneOn on: <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261982379, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "Marking notification as seen 0|com.tencent.mobileqq|121|null|10111", "label": "Marking notification as seen <*>|<*>|<*>|<*>|<*>"}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-102.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
+{"text": "remove(PendingIntent{19abed0: PendingIntentRecord{a485420 com.tencent.qt.qtl broadcastIntent}}) changed bounds; rebatching", "label": "remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching"}
+{"text": "userActivityNoUpdateLocked: eventTime=261950783, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261980307, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "cancelNotification,cancelNotificationLocked,callingUid = 10111,callingPid = 28601", "label": "cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261849942, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261975077, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261867854, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261851646, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "cleanUpApplicationRecordLocked, reset pid: 12236, euid: 0", "label": "cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>"}
+{"text": "getLastAudibleStreamVolume  treamType: 3", "label": "getLastAudibleStreamVolume treamType: <*>"}
+{"text": "START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.tencent.mobileqq/.activity.SplashActivity bnds=[360,820][536,1011]} from uid 10057 on display 0", "label": "START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>} from uid <*> on display <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261972153, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "getLastAudibleStreamVolume  treamType: 0", "label": "getLastAudibleStreamVolume treamType: <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261885300, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261976180, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "acquire lock=233570404, flags=0x1, tag=\"View Lock\", name=com.android.systemui, ws=null, uid=10037, pid=2227", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
+{"text": "getMode...", "label": "getMode..."}
+{"text": "ACTIVITY check resid: com.example.android.notepad, size=1", "label": "ACTIVITY check resid: <*>, size=<*>"}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-293.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
+{"text": "START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.android.notepad/.NotePadActivity bnds=[8,820][184,1011]} from uid 10057 on display 0", "label": "START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>} from uid <*> on display <*>"}
+{"text": "cleanUpApplicationRecord -- 12236", "label": "cleanUpApplicationRecord -- <*>"}
+{"text": "setWiredDeviceConnectionState  type: -2147483632  state: 0", "label": "setWiredDeviceConnectionState type: <*> state: <*>"}
+{"text": "onTouchEvent::0, x=271.0, y=14.0", "label": "onTouchEvent::<*>, x=<*>, y=<*>"}
+{"text": "ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000", "label": "ChargingSpeed Wattage: <*> ST: <*> --> <*>"}
+{"text": "userActivityNoUpdateLocked: eventTime=261868506, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "ACTIVITY check resid: com.example.android.notepad, size=0", "label": "ACTIVITY check resid: <*>, size=<*>"}
+{"text": "state.clipTopAmount:180, i:0", "label": "state.clipTopAmount:<*>, i:<*>"}
+{"text": "setDataSource(166, 0, 576460752303423487)", "label": "setDataSource(<*>, <*>, <*>)"}

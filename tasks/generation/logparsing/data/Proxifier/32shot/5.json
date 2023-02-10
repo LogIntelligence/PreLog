@@ -1,0 +1,32 @@
+{"text": "d.dropbox.com:443 close, 6579 bytes (6.42 KB) sent, 5944 bytes (5.80 KB) received, lifetime 01:01", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "qdun-data.qq.com:443 close, 261 bytes sent, 70 bytes received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "beacon.tingyun.com:80 close, 42307 bytes (41.3 KB) sent, 279 bytes received, lifetime 01:00", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "lh6.googleusercontent.com:443 close, 471 bytes sent, 4693 bytes (4.58 KB) received, lifetime 00:10", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "info.pinyin.sogou.com:80 close, 1035 bytes (1.01 KB) sent, 40820 bytes (39.8 KB) received, lifetime 00:30", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "r2---sn-i3b7kne6.googlevideo.com:443 close, 17742 bytes (17.3 KB) sent, 11581393 bytes (11.0 MB) received, lifetime 01:08", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "www.weibo.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS"}
+{"text": "clients6.google.com:443 close, 3216 bytes (3.14 KB) sent, 2391 bytes (2.33 KB) received, lifetime 05:04", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 428 bytes sent, 5365 bytes (5.23 KB) received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 1578 bytes (1.54 KB) sent, 392726 bytes (383 KB) received, lifetime 00:31", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 697 bytes sent, 889 bytes received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "120.204.0.139:8080 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001", "label": "<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>"}
+{"text": "lh6.googleusercontent.com:443 close, 471 bytes sent, 4694 bytes (4.58 KB) received, lifetime 00:13", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 3690 bytes (3.60 KB) sent, 1306 bytes (1.27 KB) received, lifetime 02:03", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 493 bytes sent, 523 bytes received, lifetime 00:01", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 493 bytes sent, 523 bytes received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 16493 bytes (16.1 KB) sent, 315731 bytes (308 KB) received, lifetime 02:37", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 408 bytes sent, 421 bytes received, lifetime 00:03", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 18965 bytes (18.5 KB) sent, 9771 bytes (9.54 KB) received, lifetime 02:05", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 811 bytes sent, 186 bytes received, lifetime 00:01", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 722 bytes sent, 310 bytes received, lifetime 00:01", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "server26401.teamviewer.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS"}
+{"text": "c.cnzz.com:80 close, 0 bytes sent, 0 bytes received, lifetime 00:30", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "203.205.151.204:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:14", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "yt3.ggpht.com:443 close, 733 bytes sent, 229 bytes received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 435 bytes sent, 356 bytes received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 935 bytes sent, 6675 bytes (6.51 KB) received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 1225 bytes (1.19 KB) sent, 1093 bytes (1.06 KB) received, lifetime 00:01", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "github.com:443 close, 9626 bytes (9.40 KB) sent, 287127 bytes (280 KB) received, lifetime 00:34", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "clients6.google.com:443 close, 2867 bytes (2.79 KB) sent, 1014 bytes received, lifetime 05:12", "label": "<*> close, <*> sent, <*> received, lifetime <*>"}
+{"text": "xf-com-update-doctor.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS"}

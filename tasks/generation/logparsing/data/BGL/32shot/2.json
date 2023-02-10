@@ -1,0 +1,32 @@
+{"text": "ciod: Error loading /p/gb1/stella/UMT2K/1372/umt2k_DD: invalid or missing program image, Permission denied", "label": "ciod: Error loading <*>: invalid or missing program image, Permission denied"}
+{"text": "ciod: generated 64 core files for program /home/rfisher/sodscaling/flash2", "label": "ciod: generated <*> core files for program <*>"}
+{"text": "generating core.14700", "label": "generating core.<*>"}
+{"text": "generating core.29367", "label": "generating core.<*>"}
+{"text": "CE sym 25, at 0x12127ee0, mask 0x10", "label": "CE sym <*>, at <*>, mask <*>"}
+{"text": "generating core.1626", "label": "generating core.<*>"}
+{"text": "generating core.1818", "label": "generating core.<*>"}
+{"text": "generating core.319", "label": "generating core.<*>"}
+{"text": "generating core.3276", "label": "generating core.<*>"}
+{"text": "CE sym 15, at 0x0bde77e0, mask 0x04", "label": "CE sym <*>, at <*>, mask <*>"}
+{"text": "CE sym 12, at 0x1b786f60, mask 0x04", "label": "CE sym <*>, at <*>, mask <*>"}
+{"text": "iar 00106b8c dear 0245ce8c", "label": "iar <*> dear <*>"}
+{"text": "Lustre mount FAILED : bglio344 : point /p/gb1", "label": "Lustre mount FAILED : <*> : point <*>"}
+{"text": "special purpose registers:", "label": "special purpose registers:"}
+{"text": "generating core.10607", "label": "generating core.<*>"}
+{"text": "generating core.14142", "label": "generating core.<*>"}
+{"text": "generating core.28011", "label": "generating core.<*>"}
+{"text": "generating core.22325", "label": "generating core.<*>"}
+{"text": "generating core.1103", "label": "generating core.<*>"}
+{"text": "generating core.430", "label": "generating core.<*>"}
+{"text": "39190074 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions"}
+{"text": "generating core.1820", "label": "generating core.<*>"}
+{"text": "generating core.7672", "label": "generating core.<*>"}
+{"text": "generating core.9578", "label": "generating core.<*>"}
+{"text": "ciod: LOGIN chdir(/home/germann2/BGL-demo) failed: No such file or directory", "label": "ciod: LOGIN chdir(<*>) failed: No such file or directory"}
+{"text": "generating core.3055", "label": "generating core.<*>"}
+{"text": "generating core.786", "label": "generating core.<*>"}
+{"text": "generating core.306", "label": "generating core.<*>"}
+{"text": "generating core.27867", "label": "generating core.<*>"}
+{"text": "generating core.226", "label": "generating core.<*>"}
+{"text": "generating core.19592", "label": "generating core.<*>"}
+{"text": "generating core.24337", "label": "generating core.<*>"}

@@ -1,0 +1,32 @@
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 252 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 120 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "attempt_1445144423722_0020_r_000000_0 TaskAttempt Transitioned from NEW to UNASSIGNED", "label": "<*> TaskAttempt Transitioned from NEW to UNASSIGNED"}
+{"text": "OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter", "label": "OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter"}
+{"text": "JVM with ID : jvm_1445144423722_0020_m_000003 asked for a task", "label": "JVM with ID : <*> asked for a task"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 318 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 248 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 109 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 227 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 117 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 203 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "task_1445144423722_0020_m_000004 Task Transitioned from SCHEDULED to RUNNING", "label": "<*> Task Transitioned from SCHEDULED to RUNNING"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 280 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "2 failures on node MININT-FNANLI5.fareast.corp.microsoft.com", "label": "<*> failures on node MININT-<*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 177 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.22765201", "label": "Progress of TaskAttempt <*> is : <*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 311 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "task_1445144423722_0020_m_000003 Task Transitioned from SCHEDULED to RUNNING", "label": "<*> Task Transitioned from SCHEDULED to RUNNING"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 106 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 321 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Registering class org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncher$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerLauncherRouter", "label": "Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>"}
+{"text": "Upper limit on the thread pool size is 500", "label": "Upper limit on the thread pool size is <*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 126 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "job_1445144423722_0020Job Transitioned from NEW to INITED", "label": "<*> Transitioned from NEW to INITED"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 221 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Using mapred newApiCommitter.", "label": "Using mapred newApiCommitter."}
+{"text": "queue: default", "label": "queue: default"}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.25258622", "label": "Progress of TaskAttempt <*> is : <*>"}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 153 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "After Scheduling: PendingReds:1 ScheduledMaps:3 ScheduledReds:0 AssignedMaps:7 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:7 ContRel:0 HostLocal:4 RackLocal:3", "label": "After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>"}
+{"text": "KILLING attempt_1445144423722_0020_m_000001_0", "label": "KILLING <*>"}
+{"text": "getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:1024, vCores:-26> knownNMs=4", "label": "getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*>"}

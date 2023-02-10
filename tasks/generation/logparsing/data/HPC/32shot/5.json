@@ -1,0 +1,32 @@
+{"text": "wait  (command 2582)", "label": "wait (command <*>)"}
+{"text": "ambient=23", "label": "ambient=<*>"}
+{"text": "wait  (command 1975)", "label": "wait (command <*>)"}
+{"text": "wait  (command 3525)", "label": "wait (command <*>)"}
+{"text": "Component State Change: Component \\042alt0\\042 is in the unavailable state (HWID=2608)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)"}
+{"text": "Targeting domains:node-D7 and nodes:node-[224\\ 228\\ 232]", "label": "Targeting domains:node-<*> nodes:node-<*>"}
+{"text": "boot  (command 4118)", "label": "boot (command <*>)"}
+{"text": "ClusterFileSystem: ServerFileSystem domain root12_tmp is no longer served by node node-11", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "NIFF: node node-44 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "NIFF: node node-69 detected a failed network connection on network 5.5.224.0 via interface alt0", "label": "NIFF: node node-<*> detected a failed network connection on network <*> via interface alt0"}
+{"text": "NIFF: node node-163 has detected an available network connection on network 0.0.0.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "Fan speeds ( 3534 3534 3375 4272 3497 3479 )", "label": "Fan speeds ( <*> <*> <*> <*> <*> <*> )"}
+{"text": "Component State Change: Component \\042SCSI-WWID:01000010:6005-08b4-0001-00c6-0006-3000-003d-0000\\042 is in the unavailable state (HWID=1973)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)"}
+{"text": "boot  (command 3320)", "label": "boot (command <*>)"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage1644", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-192", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "wait  (command 3612)", "label": "wait (command <*>)"}
+{"text": "psu failure\\ ambient=31", "label": "psu failure\\ ambient=<*>"}
+{"text": "NIFF: node node-205 has detected an available network connection on network 5.5.224.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "boot  (command 3951)", "label": "boot (command <*>)"}
+{"text": "wait  (command 3319)", "label": "wait (command <*>)"}
+{"text": "wait  (command 2354)", "label": "wait (command <*>)"}
+{"text": "ClusterFileSystem: ServerFileSystem domain cluster_var_backup is no longer served by node node-224", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "ClusterFileSystem: ServerFileSystem domain root17_domain is no longer served by node node-240", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "wait  (command 2057)", "label": "wait (command <*>)"}
+{"text": "boot  (command 3572)", "label": "boot (command <*>)"}
+{"text": "NIFF: node node-139 has detected an available network connection on network 5.5.224.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "power/control problem", "label": "power/control problem"}
+{"text": "Targeting domains:node-D2 and nodes:node-84", "label": "Targeting domains:node-<*> nodes:node-<*>"}
+{"text": "boot  (command 2790)", "label": "boot (command <*>)"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage112", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "boot  (command 2464)", "label": "boot (command <*>)"}

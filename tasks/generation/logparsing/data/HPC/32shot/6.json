@@ -1,0 +1,32 @@
+{"text": "boot  (command 1978)", "label": "boot (command <*>)"}
+{"text": "NIFF: node node-30 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "wait  (command 2963)", "label": "wait (command <*>)"}
+{"text": "boot  (command 3964)", "label": "boot (command <*>)"}
+{"text": "ClusterFileSystem: ServerFileSystem domain cluster_var_backup is no longer served by node node-224", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "NIFF: node node-217 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "Targeting domains:node-D0 and nodes:node-0", "label": "Targeting domains:node-<*> nodes:node-<*>"}
+{"text": "wait  (command 3079)", "label": "wait (command <*>)"}
+{"text": "wait  (command 3649)", "label": "wait (command <*>)"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage141", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "Component State Change: Component \\042alt0\\042 is in the unavailable state (HWID=3180)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)"}
+{"text": "wait  (command 3690)", "label": "wait (command <*>)"}
+{"text": "boot  (command 3413)", "label": "boot (command <*>)"}
+{"text": "ServerFileSystem: ServerFileSystem domain root10_local is full", "label": "ServerFileSystem: ServerFileSystem domain <*> is full"}
+{"text": "Component State Change: Component \\042SCSI-WWID:01000010:6005-08b4-0001-00c6-0006-3000-003d-0000\\042 is in the unavailable state (HWID=1973)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)"}
+{"text": "boot  (command 2257)", "label": "boot (command <*>)"}
+{"text": "Targeting domains:node-D4 and nodes:node-[136-159] child of command 1964", "label": "Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>"}
+{"text": "NIFF: node node-254 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "wait  (command 2885)", "label": "wait (command <*>)"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage221", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-160", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "ClusterFileSystem: ServerFileSystem domain sc_cluster_backup is no longer served by node node-0", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "NIFF: node node-218 has detected an available network connection on network 5.5.224.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "NIFF: node node-248 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "wait  (command 3334)", "label": "wait (command <*>)"}
+{"text": "Fan speeds ( 3534 3534 3375 4470 3497 3479 )", "label": "Fan speeds ( <*> <*> <*> <*> <*> <*> )"}
+{"text": "Component State Change: Component \\042alt0\\042 is in the unavailable state (HWID=2538)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)"}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage234", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>"}
+{"text": "Component State Change: Component \\042alt0\\042 is in the unavailable state (HWID=3713)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)"}
+{"text": "Command has been aborted", "label": "Command has been aborted"}
+{"text": "wait  (command 4110)", "label": "wait (command <*>)"}
+{"text": "wait  (command 2517)", "label": "wait (command <*>)"}

@@ -1,0 +1,32 @@
+{"text": "[instance: d6b7bd36-2943-4363-9235-fffdd89ea40e] vcpu limit not specified, defaulting to unlimited", "label": "[instance: <*>] vcpu limit not specified, defaulting to unlimited"}
+{"text": "10.11.21.136,10.11.10.1 \"GET /latest/meta-data/block-device-mapping/root HTTP/1.1\" status: 200 len: 124 time: 0.2360520", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: c62f4f25-982c-4ea2-b5e4-93000edfcfbf] VM Started (Lifecycle Event)", "label": "[instance: <*>] VM Started (Lifecycle Event)"}
+{"text": "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] Took 0.99 seconds to destroy the instance on the hypervisor.", "label": "[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor."}
+{"text": "[instance: 127e769a-4fe6-4548-93b1-513ac51e0452] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU", "label": "[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU"}
+{"text": "[instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] Took 19.05 seconds to spawn the instance on the hypervisor.", "label": "[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor."}
+{"text": "10.11.21.132,10.11.10.1 \"GET /latest/meta-data/placement/ HTTP/1.1\" status: 200 len: 134 time: 0.0007560", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: bf8c824d-f099-4433-a41e-e3da7578262e] VM Started (Lifecycle Event)", "label": "[instance: <*>] VM Started (Lifecycle Event)"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2497211", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2536151", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2421730", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "Creating event network-vif-plugged:72791ba0-33ef-44f2-9d88-d7c8f313cb46 for instance a015cf14-84bb-4156-a48d-7c4824ac7a9d", "label": "Creating event network-vif-plugged:<*> for instance <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2589149", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.21.141,10.11.10.1 \"GET /openstack/2013-10-17 HTTP/1.1\" status: 200 len: 157 time: 0.0009151", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2634912", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: d54b44eb-2d1a-4aa2-ba6b-074d35f8f12c] VM Started (Lifecycle Event)", "label": "[instance: <*>] VM Started (Lifecycle Event)"}
+{"text": "[instance: af5f7392-f7d4-4298-b647-c98924c64aa1] Took 21.11 seconds to build instance.", "label": "[instance: <*>] Took <*> seconds to build instance."}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1874 time: 0.1925120", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.21.138,10.11.10.1 \"GET /openstack/2013-10-17/user_data HTTP/1.1\" status: 404 len: 176 time: 0.0009220", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1759 time: 0.2809780", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: c62f4f25-982c-4ea2-b5e4-93000edfcfbf] Instance spawned successfully.", "label": "[instance: <*>] Instance spawned successfully."}
+{"text": "10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.6913249", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2585039", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2607520", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1874 time: 0.1984708", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: 43204226-2f87-4da7-b7ee-4d20cc66e846] Took 19.37 seconds to spawn the instance on the hypervisor.", "label": "[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor."}
+{"text": "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] vcpu limit not specified, defaulting to unlimited", "label": "[instance: <*>] vcpu limit not specified, defaulting to unlimited"}
+{"text": "10.11.21.142,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.2429230", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "10.11.21.136,10.11.10.1 \"GET /openstack/2013-10-17/vendor_data.json HTTP/1.1\" status: 200 len: 124 time: 0.2191730", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "[instance: 70c1714b-c11b-4c88-b300-239afe1f5ff8] Total disk: 15 GB, used: 0.00 GB", "label": "[instance: <*>] Total disk: <*> GB, used: <*> GB"}
+{"text": "[instance: 17288ea8-cbf4-4f0e-94fe-853fd2735f29] Instance destroyed successfully.", "label": "[instance: <*>] Instance destroyed successfully."}
+{"text": "10.11.21.123,10.11.10.1 \"GET /latest/meta-data/ HTTP/1.1\" status: 200 len: 328 time: 0.0009170", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}

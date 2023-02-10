@@ -1,0 +1,32 @@
+{"text": "10650 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.", "label": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt."}
+{"text": "ciod: LOGIN chdir(/p/gb1/stella/RAPTOR/2183) failed: Input/output error", "label": "ciod: LOGIN chdir(<*>) failed: Input/output error"}
+{"text": "generating core.1588", "label": "generating core.<*>"}
+{"text": "generating core.26835", "label": "generating core.<*>"}
+{"text": "generating core.10793", "label": "generating core.<*>"}
+{"text": "generating core.23119", "label": "generating core.<*>"}
+{"text": "Lustre mount FAILED : bglio617 : block_id : location", "label": "Lustre mount FAILED : <*> : block_id : location"}
+{"text": "iar 00149f88 dear 00996f88", "label": "iar <*> dear <*>"}
+{"text": "47332148 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions"}
+{"text": "generating core.15425", "label": "generating core.<*>"}
+{"text": "generating core.34256", "label": "generating core.<*>"}
+{"text": "Lustre mount FAILED : bglio78 : block_id : location", "label": "Lustre mount FAILED : <*> : block_id : location"}
+{"text": "generating core.47314", "label": "generating core.<*>"}
+{"text": "116249832 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions"}
+{"text": "iar 00106704 dear 0245b83c", "label": "iar <*> dear <*>"}
+{"text": "generating core.2522", "label": "generating core.<*>"}
+{"text": "Kernel detected 35591540 integer alignment exceptions (35591533) iar 0x0023f108, dear 0x1feaa260 (35591534) iar 0x00265564, dear 0x1feaa1c0 (35591535) iar 0x00265574, dear 0x1feaa1e0 (35591536) iar 0x00265578, dear 0x1feaa200 (35591537) iar 0x00265588, dear 0x1feaa220 (35591538) iar 0x0026558c, dear 0x1feaa240 (35591539) iar 0x00265594, dear 0x1feaa260 (35591540) iar 0x00265598, dear 0x1feaa280", "label": "Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>"}
+{"text": "28298332 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions"}
+{"text": "633283776 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions"}
+{"text": "generating core.2079", "label": "generating core.<*>"}
+{"text": "441348 floating point alignment exceptions", "label": "<*> floating point alignment exceptions"}
+{"text": "CE sym 0, at 0x1b8584e0, mask 0x80", "label": "CE sym <*>, at <*>, mask <*>"}
+{"text": "generating core.18540", "label": "generating core.<*>"}
+{"text": "iar 0014a150 dear 0072b9f8", "label": "iar <*> dear <*>"}
+{"text": "generating core.41557", "label": "generating core.<*>"}
+{"text": "generating core.10860", "label": "generating core.<*>"}
+{"text": "generating core.42553", "label": "generating core.<*>"}
+{"text": "generating core.12927", "label": "generating core.<*>"}
+{"text": "generating core.2599", "label": "generating core.<*>"}
+{"text": "generating core.2117", "label": "generating core.<*>"}
+{"text": "generating core.149", "label": "generating core.<*>"}
+{"text": "generating core.58109", "label": "generating core.<*>"}

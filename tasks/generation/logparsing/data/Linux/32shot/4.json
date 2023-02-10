@@ -1,0 +1,32 @@
+{"text": "Starting pcmcia:  succeeded", "label": "Starting pcmcia: succeeded"}
+{"text": "Setting network parameters:  succeeded", "label": "Setting network parameters: succeeded"}
+{"text": "Intel machine check architecture supported.", "label": "Intel machine check architecture supported."}
+{"text": "BIOS-e820: 0000000000100000 - 0000000007eae000 (usable)", "label": "BIOS-e820: <*> - <*> (usable)"}
+{"text": "Security Scaffold v1.0.0 initialized", "label": "Security Scaffold <*> initialized"}
+{"text": "ROOT LOGIN ON tty2", "label": "<*> LOGIN ON tty2"}
+{"text": "Couldn't authenticate user", "label": "Couldn't authenticate user"}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:55 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "zapping low mappings.", "label": "zapping low mappings."}
+{"text": "session opened for user root by LOGIN(uid=0)", "label": "session opened for user <*> by LOGIN(uid=<*>)"}
+{"text": "CPU: L2 cache: 256K", "label": "CPU: L2 cache: <*>"}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:44 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "DMA zone: 4096 pages, LIFO batch:1", "label": "DMA zone: <*> pages, LIFO batch:<*>"}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:48 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "Intel machine check reporting enabled on CPU#0.", "label": "Intel machine check reporting enabled on CPU#<*>."}
+{"text": "connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:04 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "connection from 216.12.111.241 () at Thu Jul 21 09:04:43 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "Normal zone: 28334 pages, LIFO batch:6", "label": "Normal zone: <*> pages, LIFO batch:<*>"}
+{"text": "connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:02 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "imps2: Auto-detected intellimouse PS/2", "label": "imps2: Auto-detected intellimouse PS/<*>"}
+{"text": "Initializing CPU#0", "label": "Initializing CPU#<*>"}
+{"text": "PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0", "label": "PCI: Using IRQ router PIIX/ICH [<*>/<*>] at <*>"}
+{"text": "Transparent bridge - 0000:00:1e.0", "label": "Transparent bridge - <*>"}
+{"text": "hcid startup succeeded", "label": "hcid startup succeeded"}
+{"text": "Initializing Cryptographic API", "label": "Initializing Cryptographic API"}
+{"text": "SELinux:  Initializing.", "label": "SELinux: Initializing."}
+{"text": "Received SNMP packet(s) from 67.170.148.126", "label": "Received SNMP packet(s) from <*>"}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:47 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "Checking 'hlt' instruction... OK.", "label": "Checking 'hlt' instruction... OK."}
+{"text": "Linux Plug and Play Support v0.97 (c) Adam Belay", "label": "Linux Plug and Play Support <*> (c) Adam Belay"}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:46 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:51 2005", "label": "connection from <*> (<*>) at <*>"}

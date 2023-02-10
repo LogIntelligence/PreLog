@@ -1,0 +1,32 @@
+{"text": "Connection request from old client /10.10.34.20:44648; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>:<*>; will be dropped if server is in r-o mode"}
+{"text": "Received connection request /10.10.34.12:56483", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:59925", "label": "Received connection request <*>:<*>"}
+{"text": "Closed socket connection for client /10.10.34.35:48997 which had sessionid 0x14f4a6318b80024", "label": "Closed socket connection for client <*>:<*> which had sessionid <*>"}
+{"text": "Client attempting to establish new session at /10.10.34.15:54175", "label": "Client attempting to establish new session at <*>:<*>"}
+{"text": "Client attempting to establish new session at /10.10.34.11:50301", "label": "Client attempting to establish new session at <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:60213", "label": "Received connection request <*>:<*>"}
+{"text": "Established session 0x24f1724b8af0009 with negotiated timeout 10000 for client /10.10.34.21:44834", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "Accepted socket connection from /10.10.34.13:54649", "label": "Accepted socket connection from <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:60936", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:53230", "label": "Received connection request <*>:<*>"}
+{"text": "Established session 0x34ed9ac1c1e00d1 with negotiated timeout 10000 for client /10.10.34.11:49255", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:60068", "label": "Received connection request <*>:<*>"}
+{"text": "******* GOODBYE /10.10.34.11:52844 ********", "label": "******* GOODBYE <*>:<*> ********"}
+{"text": "Starting quorum peer", "label": "Starting quorum peer"}
+{"text": "Expiring session 0x34ed9ac1c1e002b, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
+{"text": "Established session 0x14ed93111f200df with negotiated timeout 10000 for client /10.10.34.13:37467", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
+{"text": "Closed socket connection for client /10.10.34.12:56372 which had sessionid 0x34ede65503f0030", "label": "Closed socket connection for client <*>:<*> which had sessionid <*>"}
+{"text": "Closed socket connection for client /10.10.34.17:51214 which had sessionid 0x14ede63a5a70053", "label": "Closed socket connection for client <*>:<*> which had sessionid <*>"}
+{"text": "Received connection request /10.10.34.11:59513", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:45644", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:44866", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.13:44795", "label": "Received connection request <*>:<*>"}
+{"text": "Received connection request /10.10.34.11:46592", "label": "Received connection request <*>:<*>"}
+{"text": "Expiring session 0x34ede65503f0036, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
+{"text": "Client attempting to establish new session at /10.10.34.21:37904", "label": "Client attempting to establish new session at <*>:<*>"}
+{"text": "Processed session termination for sessionid: 0x14edfaa86f60047", "label": "Processed session termination for sessionid: <*>"}
+{"text": "Expiring session 0x14edfaa86f6002a, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
+{"text": "Received connection request /10.10.34.13:47342", "label": "Received connection request <*>:<*>"}
+{"text": "Closed socket connection for client /10.10.34.11:34266 which had sessionid 0x24f4a631df9000a", "label": "Closed socket connection for client <*>:<*> which had sessionid <*>"}
+{"text": "Accepted socket connection from /10.10.34.13:50224", "label": "Accepted socket connection from <*>:<*>"}
+{"text": "Expiring session 0x14f3fdae8ba0017, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}

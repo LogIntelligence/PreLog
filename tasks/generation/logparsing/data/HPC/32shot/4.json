@@ -1,0 +1,32 @@
+{"text": "boot  (command 1911)", "label": "boot (command <*>)"}
+{"text": "NIFF: node node-23 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "boot  (command 3928)", "label": "boot (command <*>)"}
+{"text": "Component State Change: Component \\042alt0\\042 is in the unavailable state (HWID=3891)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)"}
+{"text": "Fan speeds ( 3534 3534 3375 4470 3497 3479 )", "label": "Fan speeds ( <*> <*> <*> <*> <*> <*> )"}
+{"text": "boot  (command 3473)", "label": "boot (command <*>)"}
+{"text": "NIFF: node node-205 has detected an available network connection on network 5.5.224.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "ClusterFileSystem: ServerFileSystem domain cluster_root_backup is no longer served by node node-96", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "Component State Change: Component \\042alt0\\042 is in the unavailable state (HWID=5089)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)"}
+{"text": "wait  (command 3087)", "label": "wait (command <*>)"}
+{"text": "wait  (command 2189)", "label": "wait (command <*>)"}
+{"text": "NIFF: node node-45 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "boot  (command 1910)", "label": "boot (command <*>)"}
+{"text": "ClusterFileSystem: ServerFileSystem domain root1_domain_backup is no longer served by node node-96", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "boot  (command 2999)", "label": "boot (command <*>)"}
+{"text": "wait  (command 3709)", "label": "wait (command <*>)"}
+{"text": "wait  (command 2322)", "label": "wait (command <*>)"}
+{"text": "Command has been aborted", "label": "Command has been aborted"}
+{"text": "ClusterFileSystem: ServerFileSystem domain root28_domain is no longer served by node node-96", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "ClusterFileSystem: ServerFileSystem domain root5_domain is no longer served by node node-196", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "wait  (command 2347)", "label": "wait (command <*>)"}
+{"text": "boot  (command 2550)", "label": "boot (command <*>)"}
+{"text": "inconsistent nodesets node-32 0x00000002 <ok> node-34 0x000001fe <ok> node-33 0x000001fe <ok> node-35 0x000001fe <ok>", "label": "inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <*>"}
+{"text": "boot  (command 2141)", "label": "boot (command <*>)"}
+{"text": "wait  (command 2354)", "label": "wait (command <*>)"}
+{"text": "NIFF: node node-255 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
+{"text": "NIFF: node node-237 has detected an available network connection on network 5.5.226.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "boot  (command 4170)", "label": "boot (command <*>)"}
+{"text": "ServerFileSystem: ServerFileSystem domain root1_local is full", "label": "ServerFileSystem: ServerFileSystem domain <*> is full"}
+{"text": "ClusterFileSystem: ServerFileSystem domain root17_domain is no longer served by node node-240", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
+{"text": "wait  (command 2484)", "label": "wait (command <*>)"}
+{"text": "NIFF: node node-148 has detected an available network connection on network 5.5.226.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}

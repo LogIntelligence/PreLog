@@ -1,0 +1,32 @@
+{"text": "PID hash table entries: 512 (order 9: 4096 bytes)", "label": "PID hash table entries: <*> (order <*>: <*> bytes)"}
+{"text": "audit: initializing netlink socket (disabled)", "label": "audit: initializing netlink socket (disabled)"}
+{"text": "connection from 216.12.111.241 () at Thu Jul 21 09:04:43 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "pci_hotplug: PCI Hot Plug PCI Core version: 0.5", "label": "pci_hotplug: PCI Hot Plug PCI Core version: <*>"}
+{"text": "klogd 1.4.1, log source = /proc/kmsg started.", "label": "klogd <*>, log source = <*> started."}
+{"text": "imps2: Auto-detected intellimouse PS/2", "label": "imps2: Auto-detected intellimouse PS/<*>"}
+{"text": "syslogd startup succeeded", "label": "syslogd startup succeeded"}
+{"text": "Detected 731.219 MHz processor.", "label": "Detected <*> MHz processor."}
+{"text": "Initializing Cryptographic API", "label": "Initializing Cryptographic API"}
+{"text": "Mount-cache hash table entries: 512 (order: 0, 4096 bytes)", "label": "Mount-cache hash table entries: <*> (order: <*>, <*> bytes)"}
+{"text": "NET: Registered protocol family 16", "label": "NET: Registered protocol family <*>"}
+{"text": "connection from 208.62.55.75 () at Wed Jun 29 10:48:05 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "Intel machine check reporting enabled on CPU#0.", "label": "Intel machine check reporting enabled on CPU#<*>."}
+{"text": "Using tsc for high-res timesource", "label": "Using tsc for high-res timesource"}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:44 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "connection from 208.62.55.75 () at Wed Jun 29 10:48:15 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "Calibrating delay loop... 1445.88 BogoMIPS", "label": "Calibrating delay loop... <*> BogoMIPS"}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:31:00 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:42 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "isapnp: No Plug & Play device found", "label": "isapnp: No Plug & Play device found"}
+{"text": "On node 0 totalpages: 32430", "label": "On node <*> totalpages: <*>"}
+{"text": "SELinux:  Starting in permissive mode", "label": "SELinux: Starting in permissive mode"}
+{"text": "connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:23 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "VFS: Disk quotas dquot_6.5.1", "label": "VFS: Disk quotas <*>"}
+{"text": "Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)", "label": "Dquot-cache hash table entries: <*> (order <*>, <*> bytes)"}
+{"text": "Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 09:04:50 EDT 2004", "label": "Linux version <*> (bhcompile@bugs.build.redhat.com) (gcc version <*> (Red Hat Linux <*>)) <*>"}
+{"text": "PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0", "label": "PCI: Using IRQ router PIIX/ICH [<*>/<*>] at <*>"}
+{"text": "You can enable it with acpi=force", "label": "You can enable it with acpi=force"}
+{"text": "ROOT LOGIN ON tty2", "label": "<*> LOGIN ON tty2"}
+{"text": "connection from 211.107.232.1 () at Fri Jul 15 23:42:44 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "ACPI disabled because your bios is from 2000 and too old", "label": "ACPI disabled because your bios is from <*> and too old"}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=85.44.47.166  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>"}
