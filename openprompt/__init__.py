@@ -1,4 +1,4 @@
-__version__ = "1.0.1"
+__version__ = "1.0.1beta"
 from .pipeline_base import PromptDataLoader, PromptModel, PromptForClassification, PromptForGeneration
 from .utils import *
 from .prompt_base import Template, Verbalizer
