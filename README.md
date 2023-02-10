@@ -87,13 +87,13 @@ Full datasets for anomaly detection and failure identification can be found [her
 ### 4.2. RQ2: Anomaly Detection Results
 
 - **_With Stable Logs_**:
-<p align="center"><img src="docs/images/RQ2-stable.png"></p>
+<p align="center"><img src="docs/images/RQ2-stable.png" width="700"></p>
 
 - **_With Unstable Log Events_**:
-<p align="center"><img src="docs/images/RQ2-events.png"></p>
+<p align="center"><img src="docs/images/RQ2-events.png" width="700"></p>
 
 - **_With UnStable Log Sequences_**:
-<p align="center"><img src="docs/images/RQ2-sequences.png"></p>
+<p align="center"><img src="docs/images/RQ2-sequences.png" width="700"></p>
 
 
 ### 4.3. RQ3: Ablation Study
