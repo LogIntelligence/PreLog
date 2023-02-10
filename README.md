@@ -123,3 +123,7 @@ Full datasets for anomaly detection and failure identification can be found [her
     <p align="center"><img src="docs/images/RQ4-ad-event.png"></p>
   - _Unstable Log Sequences_
     <p align="center"><img src="docs/images/RQ4-ad-seq.png"></p>
+
+### 4.5. Preliminary Results for Failure Identification on OpenStack
+
+<p align="center"><img src="docs/images/failure-identification.png"></p>
