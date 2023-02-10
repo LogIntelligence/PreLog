@@ -1,6 +1,10 @@
 # PCLLog
 Code for "Pre-training with Contrastive Learning for Unified Log Analytics"
 
+**Abstract**: Large-scale software-intensive systems often produce a large volume of logs to record runtime status and events for troubleshooting purposes. The rich information included in log data enables a variety of log analytics tasks, such as log parsing and anomaly detection. Over the years, many approaches have been proposed for automated log analytics. However, these approaches usually design separate models for each specific task, which cannot be generalized to other tasks. They are also not robust when dealing with logs from heterogeneous sources. In this paper, we propose PCLLog, a novel pre-training sequence-to-sequence model to enable unified log analytics. PCLLog is pre-trained on a large amount of unlabelled log data to capture the semantic meaning of logs. We design two log-specific pre-training objectives, including entry-level and sequence-level objectives, which enable PCLLog to better understand the hidden structure and semantic meaning of logs. Then, we perform prompt tuning of the pre-trained model for downstream tasks. Besides, by converting downstream tasks’ objectives into the next token prediction problem, we can handle different log analytics tasks in a unified manner. Our experimental results for two downstream tasks (log template generation and log-based anomaly detection) show that PCLLog outperforms the state-of-the-art approaches that are specifically designed for each downstream task.
+
+## 1. Framework
+<p align="center"><img src="docs/images/architecture.png" width="500"><br>An overview of PCLLog</p>
 
 ## 2. Requirements
 ### 2.1. Environment
@@ -69,16 +73,53 @@ $ python train.py \
     --verbalizer failure_identification/verbalizer.txt
 ```
 
-Full datasets for anomaly detection and failure identification can be found here.
+Full datasets for anomaly detection and failure identification can be found [here](https://figshare.com/s/b62ffa904644863a2b89).
 
 ## 4. Results
-### 4.1. RQ1
+### 4.1. RQ1: Log Parsing Results
+
+- _**Accuracy**_:
+<p align="center"><img src="docs/images/RQ1-accuracy.png" width="700"></p>
+
+- **_Robustness_**:
+<p align="center"><img src="docs/images/RQ1-robustness.png"></p>
+
+### 4.2. RQ2: Anomaly Detection Results
+
+- **_With Stable Logs_**:
+<p align="center"><img src="docs/images/RQ2-stable.png"></p>
+
+- **_With Unstable Log Events_**:
+<p align="center"><img src="docs/images/RQ2-events.png"></p>
+
+- **_With UnStable Log Sequences_**:
+<p align="center"><img src="docs/images/RQ2-sequences.png"></p>
 
 
-### 4.2. RQ2
+### 4.3. RQ3: Ablation Study
+
+- **_Log Parsing_**:
+<p align="center"><img src="docs/images/RQ3-parsing.png" width="700"></p>
+
+- **_Anomaly Detection with Stable Logs_**:
+<p align="center"><img src="docs/images/RQ3-AD-stable.png"></p>
+
+- **_Anomaly Detection with Unstable Logs_**:
+  - _Unstable Log Events_:
+    <p align="center"><img src="docs/images/RQ3-AD-event.png"></p>
+  - _Unstable Log Sequences_
+    <p align="center"><img src="docs/images/RQ3-ad-seq.png"></p>
+### 4.4. RQ4: Compare with Different Pre-trained Models
+
+- **_Log Parsing_**:
+<p align="center"><img src="docs/images/RQ4-logparsing.png" width="700"></p>
 
 
-### 4.3. RQ3
+- **_Anomaly Detection with Stable Logs_**:
+<p align="center"><img src="docs/images/RQ4-ad-stable.png"></p>
 
-
-### 4.4. RQ4
+- **_Anomaly Detection with Unstable Logs_**:
+  - _Unstable Log Events_:
+    <p align="center"><img src="docs/images/RQ4-ad-event.png"></p>
+  - _Unstable Log Sequences_
+    <p align="center"><img src="docs/images/RQ4-ad-seq.png"></p>
