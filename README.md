@@ -82,7 +82,7 @@ Full datasets for anomaly detection and failure identification can be found [her
 <p align="center"><img src="docs/images/RQ1-accuracy.png" width="1000"></p>
 
 - **_Robustness_**:
-<p align="center"><img src="docs/images/RQ1-robustness.png"></p>
+<p align="center"><img src="docs/images/RQ1-robustness.png" width="700"></p>
 
 ### 4.2. RQ2: Anomaly Detection Results
 
