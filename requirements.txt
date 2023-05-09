@@ -28,4 +28,3 @@ cffi~=1.15.1
 tokenizers~=0.13.2
 dill~=0.3.5.1
 rouge-score~=0.1.2
-fairseq~=0.12.2

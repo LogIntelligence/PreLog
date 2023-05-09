@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DATA_DIR="data/logs"
-SAVE_DIR=pcllog_pretrain
+SAVE_DIR=prelog_pretrain
 
 MAX_UPDATE=100000
 WARMUP_UPDATES=10000
@@ -28,12 +28,12 @@ fairseq-train $DATA_DIR \
     --replace-length 0 \
     --rotate 0 \
     --mask-random 0.1 \
-    --task pcllog \
+    --task prelog \
     --negative-sampling \
     --contrastive-weight 0.1 \
     --sequence-insert-delete 0.1 \
     --sequence-disorder 0.5 \
-    --criterion pcllog_contrastive \
+    --criterion prelog_contrastive \
     --contrastive-weight 0.1 \
     --dropout 0.1 \
     --attention-dropout 0.1 \
