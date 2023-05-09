@@ -12,7 +12,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-""" PyTorch PCLLog model."""
+""" PyTorch PreLog model."""
 import copy
 import math
 import random
@@ -43,31 +43,31 @@ from transformers.utils import (
     logging,
     replace_return_docstrings,
 )
-from .configuration_pcllog import PCLLogConfig
+from .configuration_prelog import PreLogConfig
 
 
 logger = logging.get_logger(__name__)
 
-_CHECKPOINT_FOR_DOC = "facebook/PCLLog-base"
-_CONFIG_FOR_DOC = "PCLLogConfig"
+_CHECKPOINT_FOR_DOC = "facebook/PreLog-base"
+_CONFIG_FOR_DOC = "PreLogConfig"
 
 # Base model docstring
 _EXPECTED_OUTPUT_SHAPE = [1, 8, 768]
 
 # SequenceClassification docstring
-_CHECKPOINT_FOR_SEQUENCE_CLASSIFICATION = "valhalla/PCLLog-large-sst2"
+_CHECKPOINT_FOR_SEQUENCE_CLASSIFICATION = "valhalla/PreLog-large-sst2"
 _SEQ_CLASS_EXPECTED_LOSS = 0.0
 _SEQ_CLASS_EXPECTED_OUTPUT = "'POSITIVE'"
 
 # QuestionAsnwering docstring
-_CHECKPOINT_FOR_QA = "valhalla/PCLLog-large-finetuned-squadv1"
+_CHECKPOINT_FOR_QA = "valhalla/PreLog-large-finetuned-squadv1"
 _QA_EXPECTED_LOSS = 0.59
 _QA_EXPECTED_OUTPUT = "' nice puppet'"
 
 
-PCLLog_PRETRAINED_MODEL_ARCHIVE_LIST = [
-    "facebook/PCLLog-large",
-    # see all PCLLog models at https://huggingface.co/models?filter=PCLLog
+PreLog_PRETRAINED_MODEL_ARCHIVE_LIST = [
+    "facebook/PreLog-large",
+    # see all PreLog models at https://huggingface.co/models?filter=PreLog
 ]
 
 
@@ -116,13 +116,13 @@ def _expand_mask(mask: torch.Tensor, dtype: torch.dtype, tgt_len: Optional[int] 
     return inverted_mask.masked_fill(inverted_mask.to(torch.bool), torch.finfo(dtype).min)
 
 
-class PCLLogLearnedPositionalEmbedding(nn.Embedding):
+class PreLogLearnedPositionalEmbedding(nn.Embedding):
     """
     This module learns positional embeddings up to a fixed maximum size.
     """
 
     def __init__(self, num_embeddings: int, embedding_dim: int):
-        # PCLLog is set up so that if padding_idx is specified then offset the embedding ids by 2
+        # PreLog is set up so that if padding_idx is specified then offset the embedding ids by 2
         # and adjust num_embeddings appropriately. Other models don't have this hack
         self.offset = 2
         super().__init__(num_embeddings + self.offset, embedding_dim)
@@ -138,7 +138,7 @@ class PCLLogLearnedPositionalEmbedding(nn.Embedding):
         return super().forward(positions + self.offset)
 
 
-class PCLLogAttention(nn.Module):
+class PreLogAttention(nn.Module):
     """Multi-headed attention from 'Attention Is All You Need' paper"""
 
     def __init__(
@@ -292,11 +292,11 @@ class PCLLogAttention(nn.Module):
         return attn_output, attn_weights_reshaped, past_key_value
 
 
-class PCLLogEncoderLayer(nn.Module):
-    def __init__(self, config: PCLLogConfig):
+class PreLogEncoderLayer(nn.Module):
+    def __init__(self, config: PreLogConfig):
         super().__init__()
         self.embed_dim = config.d_model
-        self.self_attn = PCLLogAttention(
+        self.self_attn = PreLogAttention(
             embed_dim=self.embed_dim,
             num_heads=config.encoder_attention_heads,
             dropout=config.attention_dropout,
@@ -360,12 +360,12 @@ class PCLLogEncoderLayer(nn.Module):
         return outputs
 
 
-class PCLLogDecoderLayer(nn.Module):
-    def __init__(self, config: PCLLogConfig):
+class PreLogDecoderLayer(nn.Module):
+    def __init__(self, config: PreLogConfig):
         super().__init__()
         self.embed_dim = config.d_model
 
-        self.self_attn = PCLLogAttention(
+        self.self_attn = PreLogAttention(
             embed_dim=self.embed_dim,
             num_heads=config.decoder_attention_heads,
             dropout=config.attention_dropout,
@@ -376,7 +376,7 @@ class PCLLogDecoderLayer(nn.Module):
         self.activation_dropout = config.activation_dropout
 
         self.self_attn_layer_norm = nn.LayerNorm(self.embed_dim)
-        self.encoder_attn = PCLLogAttention(
+        self.encoder_attn = PreLogAttention(
             self.embed_dim,
             config.decoder_attention_heads,
             dropout=config.attention_dropout,
@@ -477,7 +477,7 @@ class PCLLogDecoderLayer(nn.Module):
         return outputs
 
 
-class PCLLogClassificationHead(nn.Module):
+class PreLogClassificationHead(nn.Module):
     """Head for sentence-level classification tasks."""
 
     def __init__(
@@ -501,12 +501,12 @@ class PCLLogClassificationHead(nn.Module):
         return hidden_states
 
 
-class PCLLogPretrainedModel(PreTrainedModel):
-    config_class = PCLLogConfig
+class PreLogPretrainedModel(PreTrainedModel):
+    config_class = PreLogConfig
     base_model_prefix = "model"
     supports_gradient_checkpointing = True
     _keys_to_ignore_on_load_unexpected = [r"encoder.version", r"decoder.version"]
-    _no_split_modules = [r"PCLLogEncoderLayer", r"PCLLogDecoderLayer"]
+    _no_split_modules = [r"PreLogEncoderLayer", r"PreLogDecoderLayer"]
 
     def _init_weights(self, module):
         std = self.config.init_std
@@ -520,7 +520,7 @@ class PCLLogPretrainedModel(PreTrainedModel):
                 module.weight.data[module.padding_idx].zero_()
 
     def _set_gradient_checkpointing(self, module, value=False):
-        if isinstance(module, (PCLLogDecoder, PCLLogEncoder)):
+        if isinstance(module, (PreLogDecoder, PreLogEncoder)):
             module.gradient_checkpointing = value
 
     @property
@@ -534,15 +534,15 @@ class PCLLogPretrainedModel(PreTrainedModel):
         return dummy_inputs
 
 
-class PretrainedPCLLogModel(PCLLogPretrainedModel):
+class PretrainedPreLogModel(PreLogPretrainedModel):
     def __init_subclass__(self):
         warnings.warn(
-            "The class `PretrainedPCLLogModel` has been depreciated, please use `PCLLogPretrainedModel` instead.",
+            "The class `PretrainedPreLogModel` has been depreciated, please use `PreLogPretrainedModel` instead.",
             FutureWarning,
         )
 
 
-PCLLog_START_DOCSTRING = r"""
+PreLog_START_DOCSTRING = r"""
     This model inherits from [`PreTrainedModel`]. Check the superclass documentation for the generic methods the
     library implements for all its model (such as downloading or saving, resizing the input embeddings, pruning heads
     etc.)
@@ -552,20 +552,20 @@ PCLLog_START_DOCSTRING = r"""
     and behavior.
 
     Parameters:
-        config ([`PCLLogConfig`]):
+        config ([`PreLogConfig`]):
             Model configuration class with all the parameters of the model. Initializing with a config file does not
             load the weights associated with the model, only the configuration. Check out the
             [`~PreTrainedModel.from_pretrained`] method to load the model weights.
 """
 
-PCLLog_GENERATION_EXAMPLE = r"""
+PreLog_GENERATION_EXAMPLE = r"""
     Summarization example:
 
     ```python
-    >>> from transformers import AutoTokenizer, PCLLogForConditionalGeneration
+    >>> from transformers import AutoTokenizer, PreLogForConditionalGeneration
 
-    >>> model = PCLLogForConditionalGeneration.from_pretrained("facebook/PCLLog-large-cnn")
-    >>> tokenizer = AutoTokenizer.from_pretrained("facebook/PCLLog-large-cnn")
+    >>> model = PreLogForConditionalGeneration.from_pretrained("facebook/PreLog-large-cnn")
+    >>> tokenizer = AutoTokenizer.from_pretrained("facebook/PreLog-large-cnn")
 
     >>> ARTICLE_TO_SUMMARIZE = (
     ...     "PG&E stated it scheduled the blackouts in response to forecasts for high winds "
@@ -583,10 +583,10 @@ PCLLog_GENERATION_EXAMPLE = r"""
     Mask filling example:
 
     ```python
-    >>> from transformers import AutoTokenizer, PCLLogForConditionalGeneration
+    >>> from transformers import AutoTokenizer, PreLogForConditionalGeneration
 
-    >>> tokenizer = AutoTokenizer.from_pretrained("facebook/PCLLog-base")
-    >>> model = PCLLogForConditionalGeneration.from_pretrained("facebook/PCLLog-base")
+    >>> tokenizer = AutoTokenizer.from_pretrained("facebook/PreLog-base")
+    >>> model = PreLogForConditionalGeneration.from_pretrained("facebook/PreLog-base")
 
     >>> TXT = "My friends are <mask> but they eat too many carbs."
     >>> input_ids = tokenizer([TXT], return_tensors="pt")["input_ids"]
@@ -601,7 +601,7 @@ PCLLog_GENERATION_EXAMPLE = r"""
     ```
 """
 
-PCLLog_INPUTS_DOCSTRING = r"""
+PreLog_INPUTS_DOCSTRING = r"""
     Args:
         input_ids (`torch.LongTensor` of shape `(batch_size, sequence_length)`):
             Indices of input sequence tokens in the vocabulary. Padding will be ignored by default should you provide
@@ -626,7 +626,7 @@ PCLLog_INPUTS_DOCSTRING = r"""
 
             [What are decoder input IDs?](../glossary#decoder-input-ids)
 
-            PCLLog uses the `eos_token_id` as the starting token for `decoder_input_ids` generation. If `past_key_values`
+            PreLog uses the `eos_token_id` as the starting token for `decoder_input_ids` generation. If `past_key_values`
             is used, optionally only the last `decoder_input_ids` have to be input (see `past_key_values`).
 
             For translation and summarization training, `decoder_input_ids` should be provided. If no
@@ -636,7 +636,7 @@ PCLLog_INPUTS_DOCSTRING = r"""
             Default behavior: generate a tensor that ignores pad tokens in `decoder_input_ids`. Causal mask will also
             be used by default.
 
-            If you want to change padding behavior, you should read [`modeling_PCLLog._prepare_decoder_attention_mask`]
+            If you want to change padding behavior, you should read [`modeling_PreLog._prepare_decoder_attention_mask`]
             and modify to your needs. See diagram 1 in [the paper](https://arxiv.org/abs/1910.13461) for more
             information on the default strategy.
         head_mask (`torch.Tensor` of shape `(encoder_layers, encoder_attention_heads)`, *optional*):
@@ -698,17 +698,17 @@ PCLLog_INPUTS_DOCSTRING = r"""
 """
 
 
-class PCLLogEncoder(PCLLogPretrainedModel):
+class PreLogEncoder(PreLogPretrainedModel):
     """
     Transformer encoder consisting of *config.encoder_layers* self attention layers. Each layer is a
-    [`PCLLogEncoderLayer`].
+    [`PreLogEncoderLayer`].
 
     Args:
-        config: PCLLogConfig
+        config: PreLogConfig
         embed_tokens (nn.Embedding): output embedding
     """
 
-    def __init__(self, config: PCLLogConfig, embed_tokens: Optional[nn.Embedding] = None):
+    def __init__(self, config: PreLogConfig, embed_tokens: Optional[nn.Embedding] = None):
         super().__init__(config)
 
         self.dropout = config.dropout
@@ -724,11 +724,11 @@ class PCLLogEncoder(PCLLogPretrainedModel):
         if embed_tokens is not None:
             self.embed_tokens.weight = embed_tokens.weight
 
-        self.embed_positions = PCLLogLearnedPositionalEmbedding(
+        self.embed_positions = PreLogLearnedPositionalEmbedding(
             config.max_position_embeddings,
             embed_dim,
         )
-        self.layers = nn.ModuleList([PCLLogEncoderLayer(config) for _ in range(config.encoder_layers)])
+        self.layers = nn.ModuleList([PreLogEncoderLayer(config) for _ in range(config.encoder_layers)])
         self.layernorm_embedding = nn.LayerNorm(embed_dim)
 
         self.gradient_checkpointing = False
@@ -875,16 +875,16 @@ class PCLLogEncoder(PCLLogPretrainedModel):
         )
 
 
-class PCLLogDecoder(PCLLogPretrainedModel):
+class PreLogDecoder(PreLogPretrainedModel):
     """
-    Transformer decoder consisting of *config.decoder_layers* layers. Each layer is a [`PCLLogDecoderLayer`]
+    Transformer decoder consisting of *config.decoder_layers* layers. Each layer is a [`PreLogDecoderLayer`]
 
     Args:
-        config: PCLLogConfig
+        config: PreLogConfig
         embed_tokens (nn.Embedding): output embedding
     """
 
-    def __init__(self, config: PCLLogConfig, embed_tokens: Optional[nn.Embedding] = None):
+    def __init__(self, config: PreLogConfig, embed_tokens: Optional[nn.Embedding] = None):
         super().__init__(config)
         self.dropout = config.dropout
         self.layerdrop = config.decoder_layerdrop
@@ -897,11 +897,11 @@ class PCLLogDecoder(PCLLogPretrainedModel):
         if embed_tokens is not None:
             self.embed_tokens.weight = embed_tokens.weight
 
-        self.embed_positions = PCLLogLearnedPositionalEmbedding(
+        self.embed_positions = PreLogLearnedPositionalEmbedding(
             config.max_position_embeddings,
             config.d_model,
         )
-        self.layers = nn.ModuleList([PCLLogDecoderLayer(config) for _ in range(config.decoder_layers)])
+        self.layers = nn.ModuleList([PreLogDecoderLayer(config) for _ in range(config.decoder_layers)])
         self.layernorm_embedding = nn.LayerNorm(config.d_model)
 
         self.gradient_checkpointing = False
@@ -1155,20 +1155,20 @@ class PCLLogDecoder(PCLLogPretrainedModel):
 
 
 @add_start_docstrings(
-    "The bare PCLLog Model outputting raw hidden-states without any specific head on top.",
-    PCLLog_START_DOCSTRING,
+    "The bare PreLog Model outputting raw hidden-states without any specific head on top.",
+    PreLog_START_DOCSTRING,
 )
-class PCLLogModel(PCLLogPretrainedModel):
+class PreLogModel(PreLogPretrainedModel):
     _keys_to_ignore_on_load_missing = ["encoder.embed_tokens.weight", "decoder.embed_tokens.weight"]
 
-    def __init__(self, config: PCLLogConfig):
+    def __init__(self, config: PreLogConfig):
         super().__init__(config)
 
         padding_idx, vocab_size = config.pad_token_id, config.vocab_size
         self.shared = nn.Embedding(vocab_size, config.d_model, padding_idx)
 
-        self.encoder = PCLLogEncoder(config, self.shared)
-        self.decoder = PCLLogDecoder(config, self.shared)
+        self.encoder = PreLogEncoder(config, self.shared)
+        self.decoder = PreLogDecoder(config, self.shared)
 
         # Initialize weights and apply final processing
         self.post_init()
@@ -1187,7 +1187,7 @@ class PCLLogModel(PCLLogPretrainedModel):
     def get_decoder(self):
         return self.decoder
 
-    @add_start_docstrings_to_model_forward(PCLLog_INPUTS_DOCSTRING)
+    @add_start_docstrings_to_model_forward(PreLog_INPUTS_DOCSTRING)
     @add_code_sample_docstrings(
         checkpoint=_CHECKPOINT_FOR_DOC,
         output_type=Seq2SeqModelOutput,
@@ -1213,7 +1213,7 @@ class PCLLogModel(PCLLogPretrainedModel):
         return_dict: Optional[bool] = None,
     ) -> Union[Tuple, Seq2SeqModelOutput]:
 
-        # different to other models, PCLLog automatically creates decoder_input_ids from
+        # different to other models, PreLog automatically creates decoder_input_ids from
         # input_ids if no decoder_input_ids are provided
         if decoder_input_ids is None and decoder_inputs_embeds is None:
             if input_ids is None:
@@ -1284,9 +1284,9 @@ class PCLLogModel(PCLLogPretrainedModel):
 
 
 @add_start_docstrings(
-    "The PCLLog Model with a language modeling head. Can be used for summarization.", PCLLog_START_DOCSTRING
+    "The PreLog Model with a language modeling head. Can be used for summarization.", PreLog_START_DOCSTRING
 )
-class PCLLogForConditionalGeneration(PCLLogPretrainedModel):
+class PreLogForConditionalGeneration(PreLogPretrainedModel):
     base_model_prefix = "model"
     _keys_to_ignore_on_load_missing = [
         r"final_logits_bias",
@@ -1295,9 +1295,9 @@ class PCLLogForConditionalGeneration(PCLLogPretrainedModel):
         "decoder.embed_tokens.weight",
     ]
 
-    def __init__(self, config: PCLLogConfig):
+    def __init__(self, config: PreLogConfig):
         super().__init__(config)
-        self.model = PCLLogModel(config)
+        self.model = PreLogModel(config)
         self.register_buffer("final_logits_bias", torch.zeros((1, self.model.shared.num_embeddings)))
         self.lm_head = nn.Linear(config.d_model, self.model.shared.num_embeddings, bias=False)
 
@@ -1330,9 +1330,9 @@ class PCLLogForConditionalGeneration(PCLLogPretrainedModel):
     def set_output_embeddings(self, new_embeddings):
         self.lm_head = new_embeddings
 
-    @add_start_docstrings_to_model_forward(PCLLog_INPUTS_DOCSTRING)
+    @add_start_docstrings_to_model_forward(PreLog_INPUTS_DOCSTRING)
     @replace_return_docstrings(output_type=Seq2SeqLMOutput, config_class=_CONFIG_FOR_DOC)
-    @add_end_docstrings(PCLLog_GENERATION_EXAMPLE)
+    @add_end_docstrings(PreLog_GENERATION_EXAMPLE)
     def forward(
         self,
         input_ids: torch.LongTensor = None,
@@ -1459,18 +1459,18 @@ class PCLLogForConditionalGeneration(PCLLogPretrainedModel):
 
 @add_start_docstrings(
     """
-    PCLLog model with a sequence classification/head on top (a linear layer on top of the pooled output) e.g. for GLUE
+    PreLog model with a sequence classification/head on top (a linear layer on top of the pooled output) e.g. for GLUE
     tasks.
     """,
-    PCLLog_START_DOCSTRING,
+    PreLog_START_DOCSTRING,
 )
-class PCLLogForSequenceClassification(PCLLogPretrainedModel):
+class PreLogForSequenceClassification(PreLogPretrainedModel):
     _keys_to_ignore_on_load_missing = ["encoder.embed_tokens.weight", "decoder.embed_tokens.weight"]
 
-    def __init__(self, config: PCLLogConfig, **kwargs):
+    def __init__(self, config: PreLogConfig, **kwargs):
         super().__init__(config, **kwargs)
-        self.model = PCLLogModel(config)
-        self.classification_head = PCLLogClassificationHead(
+        self.model = PreLogModel(config)
+        self.classification_head = PreLogClassificationHead(
             config.d_model,
             config.d_model,
             config.num_labels,
@@ -1479,7 +1479,7 @@ class PCLLogForSequenceClassification(PCLLogPretrainedModel):
         self.model._init_weights(self.classification_head.dense)
         self.model._init_weights(self.classification_head.out_proj)
 
-    @add_start_docstrings_to_model_forward(PCLLog_INPUTS_DOCSTRING)
+    @add_start_docstrings_to_model_forward(PreLog_INPUTS_DOCSTRING)
     @add_code_sample_docstrings(
         checkpoint=_CHECKPOINT_FOR_SEQUENCE_CLASSIFICATION,
         output_type=Seq2SeqSequenceClassifierOutput,
@@ -1587,12 +1587,12 @@ class PCLLogForSequenceClassification(PCLLogPretrainedModel):
 
 @add_start_docstrings(
     """
-    PCLLog Model with a span classification head on top for extractive question-answering tasks like SQuAD (a linear
+    PreLog Model with a span classification head on top for extractive question-answering tasks like SQuAD (a linear
     layer on top of the hidden-states output to compute `span start logits` and `span end logits`).
     """,
-    PCLLog_START_DOCSTRING,
+    PreLog_START_DOCSTRING,
 )
-class PCLLogForQuestionAnswering(PCLLogPretrainedModel):
+class PreLogForQuestionAnswering(PreLogPretrainedModel):
     _keys_to_ignore_on_load_missing = ["encoder.embed_tokens.weight", "decoder.embed_tokens.weight"]
 
     def __init__(self, config):
@@ -1601,12 +1601,12 @@ class PCLLogForQuestionAnswering(PCLLogPretrainedModel):
         config.num_labels = 2
         self.num_labels = config.num_labels
 
-        self.model = PCLLogModel(config)
+        self.model = PreLogModel(config)
         self.qa_outputs = nn.Linear(config.hidden_size, config.num_labels)
 
         self.model._init_weights(self.qa_outputs)
 
-    @add_start_docstrings_to_model_forward(PCLLog_INPUTS_DOCSTRING)
+    @add_start_docstrings_to_model_forward(PreLog_INPUTS_DOCSTRING)
     @add_code_sample_docstrings(
         checkpoint=_CHECKPOINT_FOR_QA,
         output_type=Seq2SeqQuestionAnsweringModelOutput,
@@ -1709,7 +1709,7 @@ class PCLLogForQuestionAnswering(PCLLogPretrainedModel):
         )
 
 
-class PCLLogDecoderWrapper(PCLLogPretrainedModel):
+class PreLogDecoderWrapper(PreLogPretrainedModel):
     """
     This wrapper class is a helper class to correctly load pretrained checkpoints when the causal language model is
     used in combination with the [`EncoderDecoderModel`] framework.
@@ -1717,7 +1717,7 @@ class PCLLogDecoderWrapper(PCLLogPretrainedModel):
 
     def __init__(self, config):
         super().__init__(config)
-        self.decoder = PCLLogDecoder(config)
+        self.decoder = PreLogDecoder(config)
 
     def forward(self, *args, **kwargs):
         return self.decoder(*args, **kwargs)
@@ -1725,11 +1725,11 @@ class PCLLogDecoderWrapper(PCLLogPretrainedModel):
 
 @add_start_docstrings(
     """
-    PCLLog decoder with with a language modeling head on top (linear layer with weights tied to the input embeddings).
+    PreLog decoder with with a language modeling head on top (linear layer with weights tied to the input embeddings).
     """,
-    PCLLog_START_DOCSTRING,
+    PreLog_START_DOCSTRING,
 )
-class PCLLogForCausalLM(PCLLogPretrainedModel):
+class PreLogForCausalLM(PreLogPretrainedModel):
     _keys_to_ignore_on_load_missing = ["lm_head.weight"]
 
     def __init__(self, config):
@@ -1737,7 +1737,7 @@ class PCLLogForCausalLM(PCLLogPretrainedModel):
         config.is_decoder = True
         config.is_encoder_decoder = False
         super().__init__(config)
-        self.model = PCLLogDecoderWrapper(config)
+        self.model = PreLogDecoderWrapper(config)
 
         self.lm_head = nn.Linear(config.hidden_size, config.vocab_size, bias=False)
 

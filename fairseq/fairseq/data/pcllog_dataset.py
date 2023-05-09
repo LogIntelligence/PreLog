@@ -129,7 +129,7 @@ def collate(
     return batch
 
 
-class PCLLogDataset(FairseqDataset):
+class PreLogDataset(FairseqDataset):
     """
     A wrapper around TokenBlockDataset for BART dataset.
 

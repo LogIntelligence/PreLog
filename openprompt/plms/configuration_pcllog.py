@@ -12,7 +12,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-""" PCLLog model configuration"""
+""" PreLog model configuration"""
 import warnings
 from collections import OrderedDict
 from typing import Any, Mapping, Optional
@@ -26,18 +26,16 @@ from transformers.utils import TensorType, is_torch_available, logging
 
 logger = logging.get_logger(__name__)
 
-PCLLog_PRETRAINED_CONFIG_ARCHIVE_MAP = {
-    "facebook/PCLLog-large": "https://huggingface.co/facebook/PCLLog-large/resolve/main/config.json",
-    # See all PCLLog models at https://huggingface.co/models?filter=PCLLog
+PreLog_PRETRAINED_CONFIG_ARCHIVE_MAP = {
 }
 
 
-class PCLLogConfig(PretrainedConfig):
+class PreLogConfig(PretrainedConfig):
     r"""
-    This is the configuration class to store the configuration of a [`PCLLogModel`]. It is used to instantiate a PCLLog
+    This is the configuration class to store the configuration of a [`PreLogModel`]. It is used to instantiate a PreLog
     model according to the specified arguments, defining the model architecture. Instantiating a configuration with the
-    defaults will yield a similar configuration to that of the PCLLog
-    [facebook/PCLLog-large](https://huggingface.co/facebook/PCLLog-large) architecture.
+    defaults will yield a similar configuration to that of the PreLog
+    [facebook/PreLog-large](https://huggingface.co/facebook/PreLog-large) architecture.
 
     Configuration objects inherit from [`PretrainedConfig`] and can be used to control the model outputs. Read the
     documentation from [`PretrainedConfig`] for more information.
@@ -45,8 +43,8 @@ class PCLLogConfig(PretrainedConfig):
 
     Args:
         vocab_size (`int`, *optional*, defaults to 50265):
-            Vocabulary size of the PCLLog model. Defines the number of different tokens that can be represented by the
-            `inputs_ids` passed when calling [`PCLLogModel`] or [`TFPCLLogModel`].
+            Vocabulary size of the PreLog model. Defines the number of different tokens that can be represented by the
+            `inputs_ids` passed when calling [`PreLogModel`] or [`TFPreLogModel`].
         d_model (`int`, *optional*, defaults to 1024):
             Dimensionality of the layers and the pooler layer.
         encoder_layers (`int`, *optional*, defaults to 12):
@@ -88,12 +86,12 @@ class PCLLogConfig(PretrainedConfig):
         use_cache (`bool`, *optional*, defaults to `True`):
             Whether or not the model should return the last key/values attentions (not used by all models).
         num_labels (`int`, *optional*, defaults to 3):
-            The number of labels to use in [`PCLLogForSequenceClassification`].
+            The number of labels to use in [`PreLogForSequenceClassification`].
         forced_eos_token_id (`int`, *optional*, defaults to 2):
             The id of the token to force as the last generated token when `max_length` is reached. Usually set to
             `eos_token_id`.
     """
-    model_type = "PCLLog"
+    model_type = "PreLog"
     keys_to_ignore_at_inference = ["past_key_values"]
     attribute_map = {"num_attention_heads": "encoder_attention_heads", "hidden_size": "d_model"}
 
@@ -159,7 +157,7 @@ class PCLLogConfig(PretrainedConfig):
             **kwargs,
         )
 
-        # ensure backward compatibility for PCLLog CNN models
+        # ensure backward compatibility for PreLog CNN models
         if self.forced_bos_token_id is None and kwargs.get("force_bos_token_to_be_generated", False):
             self.forced_bos_token_id = self.bos_token_id
             warnings.warn(
@@ -168,7 +166,7 @@ class PCLLogConfig(PretrainedConfig):
             )
 
 
-class PCLLogOnnxConfig(OnnxSeq2SeqConfigWithPast):
+class PreLogOnnxConfig(OnnxSeq2SeqConfigWithPast):
     @property
     def inputs(self) -> Mapping[str, Mapping[int, str]]:
         if self.task in ["default", "seq2seq-lm"]:

@@ -14,7 +14,7 @@ from omegaconf import II, MISSING
 from fairseq import utils
 from fairseq.data import (
     AppendTokenDataset,
-    PCLLogDataset,
+    PreLogDataset,
     Dictionary,
     IdDataset,
     NestedDictionaryDataset,
@@ -40,7 +40,7 @@ MASK_LENGTH_CHOICES = ChoiceEnum(["subword", "word", "span-poisson"])
 
 
 @dataclass
-class PCLLogConfig(FairseqDataclass):
+class PreLogConfig(FairseqDataclass):
     data: str = field(
         default=MISSING,
         metadata={"help": "path to data directory"},
@@ -155,13 +155,13 @@ class PCLLogConfig(FairseqDataclass):
     )
 
 
-@register_task("pcllog", dataclass=PCLLogConfig)
-class PCLLogTask(FairseqTask):
+@register_task("prelog", dataclass=PreLogConfig)
+class PreLogTask(FairseqTask):
     """
-    PCLLog task for applying sequence to sequence PCLLog. (ie. BART)
+    PreLog task for applying sequence to sequence PreLog. (ie. BART)
     """
 
-    cfg: PCLLogConfig
+    cfg: PreLogConfig
 
     def __init__(self, cfg, dictionary):
         super().__init__(cfg)
@@ -171,7 +171,7 @@ class PCLLogTask(FairseqTask):
         self.mask_idx = self.dictionary.add_symbol("<mask>")
 
     @classmethod
-    def setup_task(cls, cfg: PCLLogConfig, **kwargs):
+    def setup_task(cls, cfg: PreLogConfig, **kwargs):
         """Setup the task."""
         paths = utils.split_paths(cfg.data)
         assert len(paths) > 0
@@ -241,7 +241,7 @@ class PCLLogTask(FairseqTask):
             else None
         )
 
-        self.datasets[split] = PCLLogDataset(
+        self.datasets[split] = PreLogDataset(
             dataset,
             dataset.sizes,
             self.dictionary,
@@ -265,7 +265,7 @@ class PCLLogTask(FairseqTask):
             sequence_disorder=self.cfg.sequence_disorder,
         )
         logger.info(
-            "Split: {0}, Loaded {1} samples of PCLLog_dataset".format(
+            "Split: {0}, Loaded {1} samples of PreLog_dataset".format(
                 split,
                 len(self.datasets[split]),
             )

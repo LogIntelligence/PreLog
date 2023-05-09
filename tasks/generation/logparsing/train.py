@@ -115,7 +115,7 @@ if __name__ == '__main__':
                         help="Path to the train file")
     parser.add_argument("--test-file", type=str, default='./data/HDFS/test.json',
                         help="Path to the test file")
-    parser.add_argument("--outdir", type=str, default='PCLLog',
+    parser.add_argument("--outdir", type=str, default='PreLog',
                         help="Path to the test file")
     parser.add_argument(
         "--fp16",

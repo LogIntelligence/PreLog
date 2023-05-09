@@ -17,8 +17,8 @@ from transformers import BertConfig, BertTokenizer, BertModel, BertForMaskedLM, 
     BartConfig, BartTokenizer, BartForConditionalGeneration
 from collections import namedtuple
 from yacs.config import CfgNode
-from .modelling_pcllog import PCLLogForConditionalGeneration
-from .configuration_pcllog import PCLLogConfig
+from .modelling_prelog import PreLogForConditionalGeneration
+from .configuration_prelog import PreLogConfig
 
 from openprompt.utils.logging import logger
 
@@ -68,9 +68,9 @@ _MODEL_CLASSES = {
         'wrapper': BARTTokenizerWrapper
     }),
     'plclog': ModelClass(**{
-        'config': PCLLogConfig,
+        'config': PreLogConfig,
         'tokenizer': BartTokenizer,
-        'model': PCLLogForConditionalGeneration,
+        'model': PreLogForConditionalGeneration,
         'wrapper': BARTTokenizerWrapper
     }),
     't5-lm': ModelClass(**{

@@ -23,7 +23,7 @@ TASK_CLASS_NAMES = set()
 
 def setup_task(cfg: FairseqDataclass, **kwargs):
     task = None
-    task_name = getattr(cfg, "task", "pcllog")
+    task_name = getattr(cfg, "task", "prelog")
 
     if isinstance(task_name, str):
         # legacy tasks

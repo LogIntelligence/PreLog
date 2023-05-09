@@ -31,7 +31,7 @@ class Similarity(nn.Module):
 
 
 @dataclass
-class PCLLogCriterionConfig(FairseqDataclass):
+class PreLogCriterionConfig(FairseqDataclass):
     entry_level: bool = field(
         default=False,
         metadata={"help": "loss for log-entry level"},
@@ -51,8 +51,8 @@ class PCLLogCriterionConfig(FairseqDataclass):
     sentence_avg: bool = II("optimization.sentence_avg")
 
 
-@register_criterion("pcllog_contrastive", dataclass=PCLLogCriterionConfig)
-class PCLLogCriterion(FairseqCriterion):
+@register_criterion("prelog_contrastive", dataclass=PreLogCriterionConfig)
+class PreLogCriterion(FairseqCriterion):
     def __init__(self, task, sentence_avg, entry_level=False, sequence_level=False, contrastive_weight=0.1, hard_negative_weight=1.0):
         super().__init__(task)
         self.hard_negative_weight = hard_negative_weight
