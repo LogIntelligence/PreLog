@@ -37,7 +37,7 @@ Pre-training with a small set of data
 
 ```shell
 $ ./scripts/preprocess.sh
-$ ./script/pretrain.sh
+$ ./scripts/pretrain.sh
 ```
 
 ### 3.2. Prompt Tuning PreLog
