@@ -1,24 +1,12 @@
-# PCLLog
+# PreLog
 
-Code for "Pre-training with Contrastive Learning for Unified Log Analytics"
+Code for "PreLog: A Pre-trained Model for Log Analytics"
 
-**Abstract**: Large-scale software-intensive systems often produce a large volume of logs to record runtime status and
-events for troubleshooting purposes. The rich information included in log data enables a variety of log analytics tasks,
-such as log parsing and anomaly detection. Over the years, many approaches have been proposed for automated log
-analytics. However, these approaches usually design separate models for each specific task, which cannot be generalized
-to other tasks. They are also not robust when dealing with logs from heterogeneous sources. In this paper, we propose
-PCLLog, a novel pre-training sequence-to-sequence model to enable unified log analytics. PCLLog is pre-trained on a
-large amount of unlabelled log data to capture the semantic meaning of logs. We design two log-specific pre-training
-objectives, including entry-level and sequence-level objectives, which enable PCLLog to better understand the hidden
-structure and semantic meaning of logs. Then, we perform prompt tuning of the pre-trained model for downstream tasks.
-Besides, by converting downstream tasks’ objectives into the next token prediction problem, we can handle different log
-analytics tasks in a unified manner. Our experimental results for two downstream tasks (log template generation and
-log-based anomaly detection) show that PCLLog outperforms the state-of-the-art approaches that are specifically designed
-for each downstream task.
+**Abstract**: Large-scale software-intensive systems often produce a large volume of logs to record runtime status and events for troubleshooting purposes. The rich information included in log data enables a variety of log analytics tasks, such as log parsing and anomaly detection. Over the years, many approaches have been proposed for automated log analytics. However, these approaches usually design separate models for each specific task, which cannot be generalized to other tasks. They are also not robust when dealing with logs from heterogeneous sources. In this paper, we propose PreLog, a novel pre-trained sequence-to- sequence model for log analytics. PreLog is pre-trained on a large amount of unlabelled log data to capture the semantic meaning of logs. We design two log-specific pre-training objectives, including entry-level and sequence-level objectives, which enable PreLog to better understand the hidden structure and semantic meaning of logs. Then, we perform prompt tuning of the pre-trained model for downstream tasks. Besides, by converting downstream tasks’ objectives into the next token prediction problem, we can handle different log analytics tasks in a unified manner. Our experimental results for two downstream tasks (log template generation and log-based anomaly detection) show that PreLog outperforms the state-of-the-art approaches that are specifically designed for each downstream task.
 
 ## 1. Framework
 
-<p align="center"><img src="docs/images/architecture.png" width="1000"><br>An overview of PCLLog</p>
+<p align="center"><img src="docs/images/architecture.png" width="1000"><br>An overview of PreLog</p>
 
 ## 2. Requirements
 
@@ -39,11 +27,11 @@ $ cd fairseq && python setup.py install
 ### 2.2. Models and data
 
 Download and upzip checkpoint for pre-training, a small set of pre-training data, and the pre-trained
-PCLLog [here](https://figshare.com/s/b62ffa904644863a2b89).
+PreLog [here](https://figshare.com/s/b62ffa904644863a2b89).
 
 ## 3. Usage
 
-### 3.1. Pre-training PCLLog
+### 3.1. Pre-training PreLog
 
 Pre-training with a small set of data
 
@@ -52,7 +40,7 @@ $ ./scripts/preprocess.sh
 $ ./script/pretrain.sh
 ```
 
-### 3.2. Prompt Tuning PCLLog
+### 3.2. Prompt Tuning PreLog
 
 #### 3.2.1. Generation Task
 
@@ -65,10 +53,10 @@ The code for baselines is adopted from [LogPAI](https://github.com/logpai/logpar
 ```shell
 $ cd tasks/generation/logparsing
 $ python train.py --dataset HDFS \
-    --model-path ../../../models/PCLLog \
+    --model-path ../../../models/PreLog \
     --train-file ./datasets/HDFS/32shot/1.json \
     --test-file ./datasets/HDFS/test.json \
-    --outdir 32shot/itr_1/PCLLog
+    --outdir 32shot/itr_1/PreLog
 ```
 
 - Run benchmark on 16 datasets:
@@ -95,7 +83,7 @@ $ ./benchmark
 $ cd task/classification
 $ python train.py \
     --dataset BGL \
-    --model-path ../../models/PCLLog \
+    --model-path ../../models/PreLog \
     --train-file anomaly_detection/data/train.json \
     --test-file anomaly_detection/data/test.json \
     --prompt-template prompt_template.txt \
@@ -125,7 +113,7 @@ of failures, including:
 $ cd task/classification
 $ python train.py \
     --dataset OpenStack \
-    --model-path ../../models/PCLLog \
+    --model-path ../../models/PreLog \
     --train-file failure_identification/data/train.json \
     --test-file failure_identification/data/test.json \
     --prompt-template prompt_template.txt \
@@ -177,22 +165,32 @@ found [here](https://figshare.com/s/b62ffa904644863a2b89).
     - _Unstable Log Sequences_
       <p align="center"><img src="docs/images/RQ3-ad-seq.png" width="700"></p>
 
-### 4.4. RQ4: Compare with Different Pre-trained Models
+[//]: # ()
+[//]: # (### 4.4. RQ4: Compare with Different Pre-trained Models)
 
-- **_Log Parsing_**:
+[//]: # ()
+[//]: # (- **_Log Parsing_**:)
 
-<p align="center"><img src="docs/images/RQ4-logparsing.png" width="700"></p>
+[//]: # ()
+[//]: # (<p align="center"><img src="docs/images/RQ4-logparsing.png" width="700"></p>)
 
-- **_Anomaly Detection with Stable Logs_**:
+[//]: # ()
+[//]: # (- **_Anomaly Detection with Stable Logs_**:)
 
-<p align="center"><img src="docs/images/RQ4-ad-stable.png"></p>
+[//]: # ()
+[//]: # (<p align="center"><img src="docs/images/RQ4-ad-stable.png"></p>)
 
-- **_Anomaly Detection with Unstable Logs_**:
-    - _Unstable Log Events_:
-      <p align="center"><img src="docs/images/RQ4-ad-event.png"></p>
-    - _Unstable Log Sequences_
-      <p align="center"><img src="docs/images/RQ4-ad-seq.png"></p>
+[//]: # ()
+[//]: # (- **_Anomaly Detection with Unstable Logs_**:)
 
-### 4.5. Preliminary Results for Failure Identification on OpenStack
+[//]: # (    - _Unstable Log Events_:)
+
+[//]: # (      <p align="center"><img src="docs/images/RQ4-ad-event.png"></p>)
+
+[//]: # (    - _Unstable Log Sequences_)
+
+[//]: # (      <p align="center"><img src="docs/images/RQ4-ad-seq.png"></p>)
+
+### 4.4. Preliminary Results for Failure Identification on OpenStack
 
 <p align="center"><img src="docs/images/failure-identification.png"></p>
