@@ -103,11 +103,11 @@ of failures, including:
    decreasing the responsiveness time of this component led to the timeout error, and also by stopping the DHCP service
    that is charged for assigning IP to VM, the VM network is disturbed practically
 
-   |            | **\#Sequences** |
-      |:---------------:| :---------: |
-   | **Type 1** |       167       |
-   | **Type 2** |       225       |
-   | **Type 3** |       169       |
+|                          | **\#Sequences** |
+|:------------------------:| :---------: |
+|   **VM is destroyed**    |       167       |
+| **VM's disk is removed** |       225       |
+| **Network disturbance**  |       169       |
 
 ```shell
 $ cd task/classification

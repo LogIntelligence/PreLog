@@ -67,7 +67,7 @@ _MODEL_CLASSES = {
         'model': BartForConditionalGeneration,
         'wrapper': BARTTokenizerWrapper
     }),
-    'plclog': ModelClass(**{
+    'prelog': ModelClass(**{
         'config': PreLogConfig,
         'tokenizer': BartTokenizer,
         'model': PreLogForConditionalGeneration,
