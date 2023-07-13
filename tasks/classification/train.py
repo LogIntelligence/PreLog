@@ -88,9 +88,9 @@ def main(args):
     scheduler = get_polynomial_decay_schedule_with_warmup(optimizer, num_warmup_steps=max_steps * 0.1,
                                                           num_training_steps=max_steps)
     logger.info("***** Running training *****")
-    logger.info("  Num examples = ", len(dataset))
+    logger.info(f"  Num examples = {len(dataset)}")
 
-    logger.info("  Total optimization steps = ", max_steps)
+    logger.info(f"  Total optimization steps = {max_steps}")
     global_step = 0
     prompt_model.to(device)
     prompt_model.train()
