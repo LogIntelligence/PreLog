@@ -19,6 +19,11 @@ from tqdm import tqdm
 from sklearn.metrics import classification_report
 from accelerate import Accelerator
 from accelerate import DistributedDataParallelKwargs
+from logging import getLogger
+import logging
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                    datefmt='%m/%d/%Y %H:%M:%S')
 
 batch_size = 16
 
@@ -39,6 +44,10 @@ def preprocess(line):
 def main(args):
     ddp_kwargs = DistributedDataParallelKwargs(find_unused_parameters=True)
     accelerator = Accelerator(kwargs_handlers=[ddp_kwargs])
+
+    logger = getLogger(__name__)
+    logger.setLevel(logging.INFO if accelerator.is_local_main_process else logging.DEBUG)
+    logger.info(accelerator.state)
     device = accelerator.device
 
     seq_dataset = load_dataset("json", data_files={"train": args.train_file})
@@ -78,10 +87,10 @@ def main(args):
     optimizer = AdamW(optimizer_grouped_parameters, lr=lr, eps=adam_epsilon)
     scheduler = get_polynomial_decay_schedule_with_warmup(optimizer, num_warmup_steps=max_steps * 0.1,
                                                           num_training_steps=max_steps)
-    print("***** Running training *****")
-    print("  Num examples = ", len(dataset))
+    logger.info("***** Running training *****")
+    logger.info("  Num examples = ", len(dataset))
 
-    print("  Total optimization steps = ", max_steps)
+    logger.info("  Total optimization steps = ", max_steps)
     global_step = 0
     prompt_model.to(device)
     prompt_model.train()
@@ -156,8 +165,8 @@ def main(args):
 
     ground_truth = [classes[x] for x in ground_truth]
 
-    print('******* results *******')
-    print(classification_report(ground_truth[:len(predictions)], predictions, digits=3))
+    logger.info('******* results *******')
+    logger.info(classification_report(ground_truth[:len(predictions)], predictions, digits=3))
 
 
 if __name__ == '__main__':
