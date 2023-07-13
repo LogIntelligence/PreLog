@@ -20,10 +20,10 @@ from sklearn.metrics import classification_report
 from accelerate import Accelerator
 from accelerate import DistributedDataParallelKwargs
 
-batch_size = 2
+batch_size = 16
 
-max_steps = 500
-gradient_accumulation_steps = 16
+max_steps = 100
+gradient_accumulation_steps = 8
 lr = 5e-5
 adam_epsilon = 1e-8
 max_grad_norm = 1.0
