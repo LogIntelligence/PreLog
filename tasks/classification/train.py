@@ -25,11 +25,11 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S')
 
-batch_size = 16
+batch_size = 1
 
-max_steps = 100
-gradient_accumulation_steps = 8
-lr = 3e-5
+# max_steps = 500
+gradient_accumulation_steps = 1
+lr = 5e-5
 adam_epsilon = 1e-8
 max_grad_norm = 1.0
 # ----------------
@@ -43,10 +43,10 @@ def preprocess(line):
 
 def main(args):
     ddp_kwargs = DistributedDataParallelKwargs(find_unused_parameters=True)
-    accelerator = Accelerator(kwargs_handlers=[ddp_kwargs])
+    accelerator = Accelerator()#kwargs_handlers=[ddp_kwargs])
 
     logger = getLogger(__name__)
-    logger.setLevel(logging.INFO if accelerator.is_local_main_process else logging.DEBUG)
+    logger.setLevel(logging.INFO if accelerator.is_local_main_process else logging.ERROR)
     logger.info(accelerator.state)
     device = accelerator.device
 
@@ -85,17 +85,17 @@ def main(args):
          'weight_decay': 0.0}
     ]
     optimizer = AdamW(optimizer_grouped_parameters, lr=lr, eps=adam_epsilon)
-    scheduler = get_polynomial_decay_schedule_with_warmup(optimizer, num_warmup_steps=max_steps * 0.1,
-                                                          num_training_steps=max_steps)
+    scheduler = get_polynomial_decay_schedule_with_warmup(optimizer, num_warmup_steps=args.max_steps * 0.1,
+                                                          num_training_steps=args.max_steps)
     logger.info("***** Running training *****")
-    logger.info("  Num examples = ", len(dataset))
+    logger.info(f"  Num examples = {len(dataset)}")
 
-    logger.info("  Total optimization steps = ", max_steps)
+    logger.info(f"  Total optimization steps = {args.max_steps}")
     global_step = 0
     prompt_model.to(device)
     prompt_model.train()
     total_step = 0
-    progress_bar = tqdm(range(max_steps), disable=not accelerator.is_local_main_process)
+    progress_bar = tqdm(range(args.max_steps), disable=not accelerator.is_local_main_process)
     criterion = CrossEntropyLoss()
 
     prompt_model.to(device)
@@ -103,11 +103,11 @@ def main(args):
     prompt_model, optimizer, scheduler, data_loader = accelerator.prepare(prompt_model, optimizer, scheduler,
                                                                           data_loader)
 
-    for idx in range(0, max_steps):
+    for idx in range(0, args.max_steps):
         total_loss = 0.0
         sum_loss = 0.0
         for batch_idx, batch in enumerate(data_loader):
-            batch = {k: v.to(device) for k, v in batch.items()}
+            # batch = {k: v.to(device) for k, v in batch.items()}
             total_step += 1
             labels = batch['guid']
             logits, _ = prompt_model(batch)
@@ -125,9 +125,9 @@ def main(args):
                 progress_bar.set_description(f"Loss: {float(sum_loss)}")
                 sum_loss = 0.
                 global_step += 1
-            if global_step >= max_steps:
+            if global_step >= args.max_steps:
                 break
-        if global_step >= max_steps:
+        if global_step >= args.max_steps:
             break
     progress_bar.close()
 
@@ -139,7 +139,7 @@ def main(args):
 
     test_data_loader = PromptDataLoader(
         dataset=test_dataset,
-        batch_size=2,
+        batch_size=batch_size,
         tokenizer=tokenizer,
         template=promptTemplate,
         tokenizer_wrapper_class=WrapperClass,
@@ -157,7 +157,7 @@ def main(args):
     predictions = []
     with torch.no_grad():
         for batch in tqdm(test_data_loader, disable=not accelerator.is_local_main_process):
-            batch = {k: v.to(device) for k, v in batch.items()}
+            # batch = {k: v.to(device) for k, v in batch.items()}
             ground_truth.extend(accelerator.gather(batch['guid']).detach().clone().cpu().tolist())
             logits, _ = prompt_model(batch)
             preds = torch.argmax(logits, dim=-1)
@@ -174,8 +174,8 @@ if __name__ == '__main__':
         description="Simple example of training script.")
     parser.add_argument("--dataset", type=str, default="HDFS",
                         help="Dataset")
-    parser.add_argument("--rtime", type=int, default=1,
-                        help="iteration")
+    parser.add_argument("--max-steps", type=int, default=500,
+                        help="Max training steps")
     parser.add_argument("--model-name", type=str, default="bart",
                         help="Name of the trained model")
     parser.add_argument("--model-path", type=str, default="last_model",
