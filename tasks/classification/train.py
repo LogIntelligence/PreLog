@@ -36,7 +36,7 @@ def preprocess(line):
 
 def grouping(data, window_size=50):
     x = []
-    for i in range(0, len(data) // window_size):
+    for i in range(0, len(data) // window_size + 1):
         x.append(preprocess("</s>".join(data[i * window_size:(i + 1) * window_size])))
     return len(x), x
 
