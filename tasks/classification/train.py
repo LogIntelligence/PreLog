@@ -219,7 +219,6 @@ def main(args):
             y_pred.append(Counter(window_y_pred).most_common(1)[0][0])
         logger.info('******* results *******')
         logger.info(classification_report(y_true, y_pred, digits=3))
->>>>>>> 0382130e368a2ad7f6191f7d002eed191422bf24
 
 
 if __name__ == '__main__':
@@ -245,7 +244,7 @@ if __name__ == '__main__':
     parser.add_argument("--lr", type=float, default=1e-5, help="Learning rate")
     parser.add_argument("--lr-scheduler-type", type=str, default="linear", help="Learning rate scheduler type")
     parser.add_argument("--max-length", type=int, default=512, help="Max length")
-    parser.add_argument("--gradient-accumulation-steps", type=int, default=1,
+    parser.add_argument("--gradient-accumulation-steps", type=int, default=4,
                         help="Gradient accumulation steps")
     parser.add_argument("--max-grad-norm", type=float, default=1.0, help="Max grad norm")
     parser.add_argument("--seed", type=int, default=42, help="Seed")
