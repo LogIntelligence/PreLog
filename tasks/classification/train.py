@@ -184,39 +184,40 @@ def main(args):
         logger.info(classification_report(ground_truth[:len(predictions)], predictions, digits=3))
     else:
         y_true, y_pred = [], []
-        for inp in tqdm(test_dataset, disable=not accelerator.is_local_main_process,
-                        total=len(test_dataset)):
-            n_samples, windows = grouping(inp['text'], args.window_size)
-            label = inp['labels']
-            y_true.append(label)
-            x_test = [
-                InputExample(
-                    guid=label,
-                    text_a=preprocess("</s>".join(window))
+        with torch.no_grad():
+            for inp in tqdm(test_dataset, disable=not accelerator.is_local_main_process, total=len(test_dataset)):
+                n_samples, windows = grouping(inp['text'], args.window_size)
+                label = inp['labels']
+                y_true.append(label)
+                window_y_pred = []
+                x_test = []
+                for window in windows:
+                    x_test.append(
+                        InputExample(
+                            guid=label,
+                            text_a=preprocess("</s>".join(window))
+                        )
+                    )
+                test_loader = PromptDataLoader(
+                    dataset=x_test,
+                    batch_size=args.batch_size,
+                    tokenizer=tokenizer,
+                    template=promptTemplate,
+                    tokenizer_wrapper_class=WrapperClass,
+                    shortenable=True,
+                    max_seq_length=max_length,
+                    decoder_max_length=5,
+                    shuffle=True,
                 )
-                for window in windows
-            ]
-            test_loader = PromptDataLoader(
-                dataset=x_test,
-                batch_size=args.batch_size,
-                tokenizer=tokenizer,
-                template=promptTemplate,
-                tokenizer_wrapper_class=WrapperClass,
-                shortenable=True,
-                max_seq_length=max_length,
-                decoder_max_length=5,
-                shuffle=True,
-            )
-            prompt_model, test_loader = accelerator.prepare(prompt_model, test_loader)
-            window_y_pred = []
-            with torch.no_grad():
+                prompt_model, test_loader = accelerator.prepare(prompt_model, test_loader)
                 for batch in test_loader:
                     batch = {k: v.to(device) for k, v in batch.items()}
                     logits, _ = prompt_model(batch)
                     preds = torch.argmax(logits, dim=-1)
                     window_y_pred.extend(
-                        [classes[x] for x in accelerator.gather(preds).detach().clone().cpu().tolist()])
-            y_pred.append(Counter(window_y_pred).most_common(1)[0][0])
+                        [classes[x] for x in accelerator.gather(preds).detach().clone().cpu().tolist()]
+                    )
+                y_pred.append(Counter(window_y_pred).most_common(1)[0][0])
         logger.info('******* results *******')
         logger.info(classification_report(y_true, y_pred, digits=3))
 
