@@ -184,7 +184,8 @@ def main(args):
         logger.info(classification_report(ground_truth[:len(predictions)], predictions, digits=3))
     else:
         y_true, y_pred = [], []
-        for inp in test_dataset:
+        for inp in tqdm(test_dataset, disable=not accelerator.is_local_main_process,
+                        total=len(test_dataset)):
             n_samples, windows = grouping(inp['text'], args.window_size)
             label = inp['labels']
             y_true.append(label)
@@ -209,7 +210,7 @@ def main(args):
             prompt_model, test_loader = accelerator.prepare(prompt_model, test_loader)
             window_y_pred = []
             with torch.no_grad():
-                for batch in tqdm(test_loader, disable=not accelerator.is_local_main_process):
+                for batch in test_loader:
                     batch = {k: v.to(device) for k, v in batch.items()}
                     logits, _ = prompt_model(batch)
                     preds = torch.argmax(logits, dim=-1)
