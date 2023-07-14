@@ -25,10 +25,10 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S')
 
-batch_size = 1
+batch_size = 24
 
 # max_steps = 500
-gradient_accumulation_steps = 1
+gradient_accumulation_steps = 4
 lr = 5e-5
 adam_epsilon = 1e-8
 max_grad_norm = 1.0
@@ -43,7 +43,7 @@ def preprocess(line):
 
 def main(args):
     ddp_kwargs = DistributedDataParallelKwargs(find_unused_parameters=True)
-    accelerator = Accelerator()#kwargs_handlers=[ddp_kwargs])
+    accelerator = Accelerator(kwargs_handlers=[ddp_kwargs])
 
     logger = getLogger(__name__)
     logger.setLevel(logging.INFO if accelerator.is_local_main_process else logging.ERROR)
@@ -107,7 +107,7 @@ def main(args):
         total_loss = 0.0
         sum_loss = 0.0
         for batch_idx, batch in enumerate(data_loader):
-            # batch = {k: v.to(device) for k, v in batch.items()}
+            batch = {k: v.to(device) for k, v in batch.items()}
             total_step += 1
             labels = batch['guid']
             logits, _ = prompt_model(batch)
@@ -157,7 +157,7 @@ def main(args):
     predictions = []
     with torch.no_grad():
         for batch in tqdm(test_data_loader, disable=not accelerator.is_local_main_process):
-            # batch = {k: v.to(device) for k, v in batch.items()}
+            batch = {k: v.to(device) for k, v in batch.items()}
             ground_truth.extend(accelerator.gather(batch['guid']).detach().clone().cpu().tolist())
             logits, _ = prompt_model(batch)
             preds = torch.argmax(logits, dim=-1)
