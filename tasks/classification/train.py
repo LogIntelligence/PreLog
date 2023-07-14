@@ -184,6 +184,7 @@ def main(args):
         logger.info(classification_report(ground_truth[:len(predictions)], predictions, digits=3))
     else:
         y_true, y_pred = [], []
+        # prompt_model = accelerator.prepare(prompt_model)
         with torch.no_grad():
             for inp in tqdm(test_dataset, disable=not accelerator.is_local_main_process, total=len(test_dataset)):
                 n_samples, windows = grouping(inp['text'], args.window_size)
@@ -209,7 +210,7 @@ def main(args):
                     decoder_max_length=5,
                     shuffle=True,
                 )
-                prompt_model, test_loader = accelerator.prepare(prompt_model, test_loader)
+                test_loader = accelerator.prepare(test_loader)
                 for batch in test_loader:
                     batch = {k: v.to(device) for k, v in batch.items()}
                     logits, _ = prompt_model(batch)
