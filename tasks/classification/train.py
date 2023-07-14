@@ -189,7 +189,7 @@ def main(args):
             for inp in tqdm(test_dataset, disable=not accelerator.is_local_main_process, total=len(test_dataset)):
                 n_samples, windows = grouping(inp['text'], args.window_size)
                 label = inp['labels']
-                y_true.append(label)
+                y_true.append(classes[label])
                 window_y_pred = []
                 x_test = []
                 for window in windows:
