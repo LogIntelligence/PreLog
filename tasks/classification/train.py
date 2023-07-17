@@ -222,7 +222,7 @@ def main(args):
                     y_pred.append('normal')
                 else:
                     window_y_pred = [x for x in window_y_pred if x != 'normal']
-                    y_pred.append(Counter(window_y_pred).most_common(1)[0][0])
+                    y_pred.append(window_y_pred[0])
 
         logger.info('******* results *******')
         logger.info(classification_report(y_true, y_pred, digits=3))
