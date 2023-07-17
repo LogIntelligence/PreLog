@@ -243,8 +243,8 @@ if __name__ == '__main__':
     parser.add_argument("--verbalizer", type=str, default="verbalizer.txt",
                         help="Verbalizer file")
     parser.add_argument("--batch-size", type=int, default=32, help="Batch size")
-    parser.add_argument("--lr", type=float, default=1e-5, help="Learning rate")
-    parser.add_argument("--lr-scheduler-type", type=str, default="linear", help="Learning rate scheduler type")
+    parser.add_argument("--lr", type=float, default=5e-5, help="Learning rate")
+    parser.add_argument("--lr-scheduler-type", type=str, default="polynomial", help="Learning rate scheduler type")
     parser.add_argument("--max-length", type=int, default=512, help="Max length")
     parser.add_argument("--gradient-accumulation-steps", type=int, default=4,
                         help="Gradient accumulation steps")
