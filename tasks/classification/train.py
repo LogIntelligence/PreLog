@@ -218,7 +218,12 @@ def main(args):
                     window_y_pred.extend(
                         [classes[x] for x in accelerator.gather(preds).detach().clone().cpu().tolist()]
                     )
-                y_pred.append(Counter(window_y_pred).most_common(1)[0][0])
+                if all([x == 'normal' for x in window_y_pred]):
+                    y_pred.append('normal')
+                else:
+                    window_y_pred = [x for x in window_y_pred if x != 'normal']
+                    y_pred.append(Counter(window_y_pred).most_common(1)[0][0])
+
         logger.info('******* results *******')
         logger.info(classification_report(y_true, y_pred, digits=3))
 
