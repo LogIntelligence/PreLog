@@ -273,7 +273,7 @@ if __name__ == '__main__':
 
     parser.add_argument("--grouping", default=False, help="Grouping", action='store_true')
     parser.add_argument("--window-size", type=int, default=10, help="Window size")
-    parser.add_argument("--is-training", default=False, help="Training", action='store_true')
+    parser.add_argument("--do-train", default=False, help="Do train", action='store_true')
     parser.add_argument("--output-dir", type=str, default="output", help="Output dir")
 
     args = parser.parse_args()
