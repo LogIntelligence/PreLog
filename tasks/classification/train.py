@@ -26,6 +26,14 @@ from collections import Counter
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S')
 
+ddp_kwargs = DistributedDataParallelKwargs(find_unused_parameters=True)
+accelerator = Accelerator(kwargs_handlers=[ddp_kwargs])
+
+logger = getLogger(__name__)
+logger.setLevel(logging.INFO if accelerator.is_local_main_process else logging.ERROR)
+logger.info(accelerator.state)
+device = accelerator.device
+
 no_decay = ['bias', 'LayerNorm.weight']
 
 
@@ -41,18 +49,7 @@ def grouping(data, window_size=50):
     return len(x), x
 
 
-def main(args):
-    with open(args.verbalizer, 'r') as f:
-        verbalizer = f.readlines()
-        classes = [x.strip() for x in verbalizer]
-    ddp_kwargs = DistributedDataParallelKwargs(find_unused_parameters=True)
-    accelerator = Accelerator(kwargs_handlers=[ddp_kwargs])
-
-    logger = getLogger(__name__)
-    logger.setLevel(logging.INFO if accelerator.is_local_main_process else logging.ERROR)
-    logger.info(accelerator.state)
-    device = accelerator.device
-
+def train(tokenizer, prompt_model, promptTemplate, max_length, WrapperClass, args):
     train_dataset = load_dataset("json", data_files={"train": args.train_file})['train']
     X, Y = [], []
     for inp in train_dataset:
@@ -65,15 +62,6 @@ def main(args):
             Y.append(inp['labels'])
 
     dataset = [InputExample(guid=y, text_a=x) for x, y in zip(X, Y)]
-
-    plm, tokenizer, model_config, WrapperClass = load_plm(args.model_name, args.model_path)
-
-    max_length = max(tokenizer.max_model_input_sizes.values())
-
-    promptTemplate = ManualTemplate(tokenizer=tokenizer).from_file(args.prompt_template)
-    promptVerbalizer = ManualVerbalizer(classes=classes, tokenizer=tokenizer).from_file(args.verbalizer)
-
-    prompt_model = PromptForClassification(plm=plm, template=promptTemplate, verbalizer=promptVerbalizer)
 
     data_loader = PromptDataLoader(
         dataset=dataset,
@@ -141,6 +129,32 @@ def main(args):
         if global_step >= args.max_steps:
             break
     progress_bar.close()
+    # save model
+    accelerator.wait_for_everyone()
+    unwrapped_model = accelerator.unwrap_model(prompt_model)
+    if accelerator.is_local_main_process:
+        unwrapped_model.save_pretrained(args.output_dir)
+        tokenizer.save_pretrained(args.output_dir)
+    return prompt_model
+
+
+def eval():
+    pass
+
+
+def main(args):
+    with open(args.verbalizer, 'r') as f:
+        verbalizer = f.readlines()
+        classes = [x.strip() for x in verbalizer]
+    plm, tokenizer, model_config, WrapperClass = load_plm(args.model_name, args.model_path)
+
+    promptTemplate = ManualTemplate(tokenizer=tokenizer).from_file(args.prompt_template)
+    promptVerbalizer = ManualVerbalizer(classes=['abnormal', 'normal'], tokenizer=tokenizer).from_file(args.verbalizer)
+
+    max_length = max(tokenizer.max_model_input_sizes.values())
+    prompt_model = PromptForClassification(plm=plm, template=promptTemplate, verbalizer=promptVerbalizer)
+    if args.do_train:
+        prompt_model = train(tokenizer, prompt_model, promptTemplate, WrapperClass, max_length, args)
 
     prompt_model.eval()
     test_dataset = load_dataset(
@@ -259,5 +273,8 @@ if __name__ == '__main__':
 
     parser.add_argument("--grouping", default=False, help="Grouping", action='store_true')
     parser.add_argument("--window-size", type=int, default=10, help="Window size")
+    parser.add_argument("--is-training", default=False, help="Training", action='store_true')
+    parser.add_argument("--output-dir", type=str, default="output", help="Output dir")
+
     args = parser.parse_args()
     main(args)

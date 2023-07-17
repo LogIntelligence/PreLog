@@ -136,3 +136,4 @@ dmypy.json
 tasks/classification/failure_identification/result.txt
 fairseq/fairseq/data/data_utils_fast.cpp
 fairseq/fairseq/data/token_block_utils_fast.cpp
+/ad_data
