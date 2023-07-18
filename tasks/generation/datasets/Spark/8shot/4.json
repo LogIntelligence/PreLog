@@ -1,0 +1,8 @@
+{"text": "Got assigned task 1343", "label": "Got assigned task <*>", "type": 1}
+{"text": "Times: total = 38, boot = -170, init = 208, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Found block rdd_42_16 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Found block rdd_6_3 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Found block rdd_2_4 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Finished task 4.0 in stage 26.0 (TID 1204). 2703 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Saved output of task 'attempt_201706092018_0025_m_000004_1199' to hdfs://10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000004", "label": "Saved output of task '<*>' to hdfs://<*>", "type": 1}
+{"text": "Running task 27.0 in stage 29.0 (TID 1347)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}

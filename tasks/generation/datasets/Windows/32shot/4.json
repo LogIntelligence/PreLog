@@ -1,0 +1,32 @@
+{"text": "Read out cached package applicability for package: Package_for_KB3142024~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 112, CurrentState:112", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
+{"text": "Session: 30546354_2902518195 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Warning: Unrecognized packageExtended attribute.", "label": "Warning: Unrecognized packageExtended attribute.", "type": 1}
+{"text": "Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]", "label": "Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]", "type": 1}
+{"text": "0000000a Performing 1 operations; 1 are not lock/unlock and follow:", "label": "<*> Performing <*> operations; <*> are not lock/unlock and follow:", "type": 1}
+{"text": "Session: 30546174_97232568 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Session: 30546174_169696713 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Read out cached package applicability for package: Package_for_KB3076949~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
+{"text": "Session: 30546354_3357084195 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Warning: Unrecognized packageExtended attribute.", "label": "Warning: Unrecognized packageExtended attribute.", "type": 1}
+{"text": "Read out cached package applicability for package: Package_for_KB3004361~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Warning: Unrecognized packageExtended attribute.", "label": "Warning: Unrecognized packageExtended attribute.", "type": 1}
+{"text": "Session: 30546354_3226336716 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Warning: Unrecognized packageExtended attribute.", "label": "Warning: Unrecognized packageExtended attribute.", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Session: 30546354_3226626733 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "00000009@2016/9/28:16:01:03.072 PopulateComponentFamiliesKey - End", "label": "<*>@<*>/<*>/<*>:<*>:<*>:<*> PopulateComponentFamiliesKey - End", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Session: 30546174_107333146 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Warning: Unrecognized packageExtended attribute.", "label": "Warning: Unrecognized packageExtended attribute.", "type": 1}
+{"text": "Session: 30546354_3327172484 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "00000001@2016/9/27:20:30:31.455 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed806eb5d @0x7fef9fb9b6d @0x7fef9f8358f @0xff83e97c @0xff83d799 @0xff83db2f)", "label": "<*>@<*>/<*>/<*>:<*>:<*>:<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>)", "type": 1}
+{"text": "Warning: Unrecognized packageExtended attribute.", "label": "Warning: Unrecognized packageExtended attribute.", "type": 1}
+{"text": "Read out cached package applicability for package: Package_for_KB3010788~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 112, CurrentState:112", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
+{"text": "Session: 30546354_3204965494 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Session: 30546354_3215406091 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Session: 30546354_3220876404 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Session: 30546354_3229346889 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}

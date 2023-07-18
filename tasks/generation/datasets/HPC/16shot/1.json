@@ -1,0 +1,16 @@
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "configured out", "label": "configured out", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "ClusterFileSystem: ServerFileSystem domain root30_domain is no longer served by node node-0", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "ambient=27", "label": "ambient=<*>", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "Fan speeds ( 3552 3534 3375 **** 3515 3479 )", "label": "Fan speeds ( <*> <*> <*> **** <*> <*> )", "type": 1}
+{"text": "ambient=29", "label": "ambient=<*>", "type": 1}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage1432", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "not responding", "label": "not responding", "type": 1}

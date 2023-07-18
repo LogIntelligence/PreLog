@@ -1,0 +1,64 @@
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "HBM brightnessIn =38", "label": "HBM brightnessIn =<*>", "type": 1}
+{"text": "updateDimmedActivatedHideSensitive overlap:true", "label": "updateDimmedActivatedHideSensitive overlap:<*>", "type": 1}
+{"text": "logNotificationVisibilityChanges runInThread start", "label": "logNotificationVisibilityChanges runInThread start", "type": 1}
+{"text": "shouldBlockLocation  ret:false", "label": "shouldBlockLocation ret:<*>", "type": 1}
+{"text": "Destroying surface Surface(name=com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.destroyOrSaveSurface:2201 com.android.server.wm.AppWindowToken.destroySurfaces:374 com.android.server.wm.AppWindowToken.notifyAppStopped:400 com.android.server.wm.WindowManagerService.notifyAppStopped:4869 com.android.server.am.ActivityStack.activityStoppedLocked:1393 com.android.server.am.ActivityManagerService.activityStopped:7690", "label": "Destroying surface Surface(name=<*>) called by <*>", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "updateDimmedActivatedHideSensitive overlap:true", "label": "updateDimmedActivatedHideSensitive overlap:<*>", "type": 1}
+{"text": "ACTION_BATTERY_CHANGED pluggedType: 0", "label": "ACTION_BATTERY_CHANGED pluggedType: <*>", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "getRecentTasks: num=10,flags=62,totalTasks=46", "label": "getRecentTasks: num=<*>,flags=<*>,totalTasks=<*>", "type": 1}
+{"text": "state.clipTopAmount:-1, i:0", "label": "state.clipTopAmount:<*>, i:<*>", "type": 1}
+{"text": "userActivityNoUpdateLocked: eventTime=261986874, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>", "type": 1}
+{"text": "HBM brightnessOut =38", "label": "HBM brightnessOut =<*>", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "acquire lock=120758482, flags=0x1, tag=\"RILJ_ACK_WL\", name=com.android.phone, ws=null, uid=1001, pid=2626", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>", "type": 1}
+{"text": "removeNotificationChildren", "label": "removeNotificationChildren", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "shouldBlockLocation running ...", "label": "shouldBlockLocation running ...", "type": 1}
+{"text": "cancelNotificationWithTag pid 28601,uid = 10111,tag = null,pkg =com.tencent.mobileqq,id =123", "label": "cancelNotificationWithTag pid <*>,uid = <*>,tag = <*>,pkg =<*>,id =<*>", "type": 1}
+{"text": "getTasks: caller 10111 does not hold REAL_GET_TASKS; limiting output", "label": "getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "notifyUiVisibilityChanged:vis=0x508, SystemUiVisibility=0x508", "label": "notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>", "type": 1}
+{"text": "cancelAutohide", "label": "cancelAutohide", "type": 1}
+{"text": "release:lock=226887582, flg=0x0, tag=\"SCREEN_FROZEN\", name=android\", ws=null, uid=1000, pid=1702", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>", "type": 1}
+{"text": "ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000", "label": "ChargingSpeed Wattage: <*> ST: <*> --> <*>", "type": 1}
+{"text": "updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?true", "label": "updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?true", "type": 1}
+{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "querySoundEffectsEnabled...", "label": "querySoundEffectsEnabled...", "type": 1}
+{"text": "Acquiring suspend blocker \"PowerManagerService.WakeLocks\".", "label": "Acquiring suspend blocker \"PowerManagerService.WakeLocks\".", "type": 1}
+{"text": "release:lock=155645244, flg=0x0, tag=\"AudioMix\", name=audioserver\", ws=null, uid=1041, pid=0", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>", "type": 1}
+{"text": "cancelAutohide", "label": "cancelAutohide", "type": 1}
+{"text": "onNotificationExpansionChanged called", "label": "onNotificationExpansionChanged called", "type": 1}
+{"text": "interceptKeyTq keycode=4 interactive=true keyguardActive=false policyFlags=2b000002 down false canceled false", "label": "interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=<*> down <*> canceled <*>", "type": 1}
+{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "HBM brightnessOut =38", "label": "HBM brightnessOut =<*>", "type": 1}
+{"text": "HBM brightnessIn =38", "label": "HBM brightnessIn =<*>", "type": 1}
+{"text": "cancelNotification,index:-1", "label": "cancelNotification,index:<*>", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "removeNotificationChildren", "label": "removeNotificationChildren", "type": 1}
+{"text": "getTasks: caller 10111 does not hold REAL_GET_TASKS; limiting output", "label": "getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "cancelPeek: false", "label": "cancelPeek: <*>", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "getRunningAppProcesses: caller 10113 does not hold REAL_GET_TASKS; limiting output", "label": "getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "shouldBlockLocation  ret:true", "label": "shouldBlockLocation ret:<*>", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "shouldBlockLocation  ret:false", "label": "shouldBlockLocation ret:<*>", "type": 1}
+{"text": "cancelNotification,index:-1", "label": "cancelNotification,index:<*>", "type": 1}
+{"text": "HBM brightnessIn =38", "label": "HBM brightnessIn =<*>", "type": 1}
+{"text": "onNotificationVisibilityChanged called", "label": "onNotificationVisibilityChanged called", "type": 1}
+{"text": "updateDimmedActivatedHideSensitive overlap:false", "label": "updateDimmedActivatedHideSensitive overlap:<*>", "type": 1}
+{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "enqueueNotificationInternal: n.getKey = 0|com.tencent.mobileqq|121|null|10111", "label": "enqueueNotificationInternal: n.getKey = <*>", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "removeNotificationChildren", "label": "removeNotificationChildren", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-497.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>", "type": 1}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=0.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>", "type": 1}
+{"text": "Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }", "label": "Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "release:lock=149977903, flg=0x0, tag=\"AudioMix\", name=audioserver\", ws=null, uid=1041, pid=0", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}

@@ -1,0 +1,32 @@
+{"text": "Built 1 zonelists", "label": "Built <*> zonelists", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.22.3.51  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:03:00 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=220-135-151-1.hinet-ip.hinet.net  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "connection from 210.118.170.95 () at Sat Jun 25 09:20:24 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "session opened for user news by (uid=0)", "label": "session opened for user <*> by (uid=<*>)", "type": 1}
+{"text": "session closed for user news", "label": "session closed for user <*>", "type": 1}
+{"text": "connection from 212.65.68.82 () at Sat Jul 16 08:14:07 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=203.251.225.101  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=p15105218.pureserver.info  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "check pass; user unknown", "label": "check pass; user unknown", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h64-187-1-131.gtconnect.net  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}
+{"text": "ACPI: Interpreter disabled.", "label": "ACPI: Interpreter disabled.", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "cupsd startup succeeded", "label": "cupsd startup succeeded", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.22.3.51  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:58 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=82.77.200.128  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "check pass; user unknown", "label": "check pass; user unknown", "type": 1}
+{"text": "connection from 63.197.98.106 (adsl-63-197-98-106.dsl.mtry01.pacbell.net) at Mon Jul  4 12:52:44 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=209.152.168.249  user=guest", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "session closed for user test", "label": "session closed for user <*>", "type": 1}

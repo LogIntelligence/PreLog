@@ -1,0 +1,4 @@
+{"text": "Finished task 1.0 in stage 23.0 (TID 940). 2223 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Times: total = 42, boot = -4134, init = 4175, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Times: total = 38, boot = -123, init = 161, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Running task 1.0 in stage 2.0 (TID 101)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}

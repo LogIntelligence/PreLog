@@ -1,0 +1,4 @@
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2574868", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1583 time: 0.1843870", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "[instance: a015cf14-84bb-4156-a48d-7c4824ac7a9d] Total vcpu: 16 VCPU, used: 0.00 VCPU", "label": "[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2731631", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}

@@ -1,0 +1,64 @@
+{"text": "Fan speeds ( 3552 3534 3375 **** 3515 3479 )", "label": "Fan speeds ( <*> <*> <*> **** <*> <*> )", "type": 1}
+{"text": "wait  (command 3141)", "label": "wait (command <*>)", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "ambient=29", "label": "ambient=<*>", "type": 1}
+{"text": "boot  (command 2423)", "label": "boot (command <*>)", "type": 1}
+{"text": "not responding", "label": "not responding", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "ambient=31", "label": "ambient=<*>", "type": 1}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage444", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "configured out", "label": "configured out", "type": 1}
+{"text": "Fan speeds ( 3552 3534 3375 **** 3515 3479 )", "label": "Fan speeds ( <*> <*> <*> **** <*> <*> )", "type": 1}
+{"text": "not responding", "label": "not responding", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "wait  (command 3079)", "label": "wait (command <*>)", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "starting", "label": "starting", "type": 1}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage112", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>", "type": 1}
+{"text": "not responding", "label": "not responding", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "ambient=34", "label": "ambient=<*>", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "active", "label": "active", "type": 1}
+{"text": "boot  (command 3964)", "label": "boot (command <*>)", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "ambient=29", "label": "ambient=<*>", "type": 1}
+{"text": "not responding", "label": "not responding", "type": 1}
+{"text": "not responding", "label": "not responding", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "wait  (command 3837)", "label": "wait (command <*>)", "type": 1}
+{"text": "ambient=30", "label": "ambient=<*>", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "ambient=30", "label": "ambient=<*>", "type": 1}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage742", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "Component State Change: Component \\042alt0\\042 is in the unavailable state (HWID=4159)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "ClusterFileSystem: ServerFileSystem domain root19_domain is no longer served by node node-114", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "Link error", "label": "Link error", "type": 1}
+{"text": "Fan speeds ( 3552 3534 3375 4470 3515 3479 )", "label": "Fan speeds ( <*> <*> <*> <*> <*> <*> )", "type": 1}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage1231", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>", "type": 1}
+{"text": "boot  (command 2160)", "label": "boot (command <*>)", "type": 1}
+{"text": "ambient=31", "label": "ambient=<*>", "type": 1}
+{"text": "boot  (command 1999)", "label": "boot (command <*>)", "type": 1}
+{"text": "boot  (command 3519)", "label": "boot (command <*>)", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}

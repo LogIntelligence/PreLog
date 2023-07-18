@@ -1,0 +1,16 @@
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "ClusterFileSystem: ServerFileSystem domain root1_tmp_backup is no longer served by node node-96", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>", "type": 1}
+{"text": "configured out", "label": "configured out", "type": 1}
+{"text": "Fan speeds ( 3552 3534 3375 **** 3515 3479 )", "label": "Fan speeds ( <*> <*> <*> **** <*> <*> )", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "ambient=33", "label": "ambient=<*>", "type": 1}
+{"text": "Link error on broadcast tree Interconnect-1T00:00:2:0", "label": "Link error on broadcast tree Interconnect-<*>:<*>:<*>:<*>", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "ambient=30", "label": "ambient=<*>", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}

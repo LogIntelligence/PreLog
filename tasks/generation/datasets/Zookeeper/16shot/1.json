@@ -1,0 +1,16 @@
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Received connection request /10.10.34.12:55648", "label": "Received connection request <*>:<*>", "type": 1}
+{"text": "Established session 0x14ee3e057ed002c with negotiated timeout 10000 for client /10.10.34.19:43049", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>", "type": 1}
+{"text": "Client attempting to establish new session at /10.10.34.11:54632", "label": "Client attempting to establish new session at <*>:<*>", "type": 1}
+{"text": "Accepted socket connection from /10.10.34.13:54298", "label": "Accepted socket connection from <*>:<*>", "type": 1}
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
+{"text": "Connection broken for id 188978561024, my id = 3, error =", "label": "Connection broken for id <*>, my id = <*>, error =", "type": 1}
+{"text": "Interrupted while waiting for message on queue", "label": "Interrupted while waiting for message on queue", "type": 1}
+{"text": "Received connection request /10.10.34.13:47115", "label": "Received connection request <*>:<*>", "type": 1}
+{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
+{"text": "Received connection request /10.10.34.13:47282", "label": "Received connection request <*>:<*>", "type": 1}
+{"text": "Connection broken for id 188978561024, my id = 1, error =", "label": "Connection broken for id <*>, my id = <*>, error =", "type": 1}
+{"text": "Received connection request /10.10.34.13:60070", "label": "Received connection request <*>:<*>", "type": 1}
+{"text": "Interrupted while waiting for message on queue", "label": "Interrupted while waiting for message on queue", "type": 1}
+{"text": "Closed socket connection for client /10.10.34.19:57338 which had sessionid 0x14f05578bd8000d", "label": "Closed socket connection for client <*>:<*> which had sessionid <*>", "type": 1}

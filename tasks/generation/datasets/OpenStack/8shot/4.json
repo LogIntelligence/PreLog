@@ -1,0 +1,8 @@
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking", "label": "image <*> at (<*>): checking", "type": 1}
+{"text": "[instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] Deletion of /var/lib/nova/instances/ae3a1b5d-eec1-45bb-b76a-c59d83b1471f_del complete", "label": "[instance: <*>] Deletion of <*> complete", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking", "label": "image <*> at (<*>): checking", "type": 1}
+{"text": "[instance: 95960536-049b-41f6-9049-05fc479b6a7c] VM Stopped (Lifecycle Event)", "label": "[instance: <*>] VM Stopped (Lifecycle Event)", "type": 1}
+{"text": "Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Active base files: <*>", "type": 1}
+{"text": "[instance: 17288ea8-cbf4-4f0e-94fe-853fd2735f29] Instance spawned successfully.", "label": "[instance: <*>] Instance spawned successfully.", "type": 1}
+{"text": "[instance: fecdd5a9-3ca0-4c82-9336-63b7774f738e] Took 0.54 seconds to deallocate network for instance.", "label": "[instance: <*>] Took <*> seconds to deallocate network for instance.", "type": 1}
+{"text": "[instance: fecdd5a9-3ca0-4c82-9336-63b7774f738e] VM Stopped (Lifecycle Event)", "label": "[instance: <*>] VM Stopped (Lifecycle Event)", "type": 1}

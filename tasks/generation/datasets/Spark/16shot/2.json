@@ -1,0 +1,16 @@
+{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:131256+7292", "label": "Input split: hdfs://<*>", "type": 1}
+{"text": "Block rdd_2_0 stored as bytes in memory (estimated size 913.0 B, free 323.0 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Finished task 1.0 in stage 20.0 (TID 821). 2076 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Running task 15.0 in stage 27.0 (TID 1255)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Times: total = 53, boot = 15, init = 33, finish = 5", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Running task 4.0 in stage 17.0 (TID 719)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Got assigned task 1202", "label": "Got assigned task <*>", "type": 1}
+{"text": "Times: total = 42, boot = 16, init = 25, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Times: total = 38, boot = 12, init = 26, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Got assigned task 79", "label": "Got assigned task <*>", "type": 1}
+{"text": "Found block rdd_42_26 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Running task 14.0 in stage 26.0 (TID 1214)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Running task 11.0 in stage 26.0 (TID 1211)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Block broadcast_8_piece0 stored as bytes in memory (estimated size 21.4 KB, free 35.4 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Got assigned task 1222", "label": "Got assigned task <*>", "type": 1}
+{"text": "Got assigned task 1250", "label": "Got assigned task <*>", "type": 1}

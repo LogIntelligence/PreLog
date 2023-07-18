@@ -1,0 +1,8 @@
+{"text": "10.11.21.135,10.11.10.1 \"GET /latest/meta-data/reservation-id HTTP/1.1\" status: 200 len: 127 time: 0.2272091", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Base or swap file too young to remove: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Base or swap file too young to remove: <*>", "type": 1}
+{"text": "[instance: d96a117b-0193-4549-bdcc-63b917273d1d] Took 0.45 seconds to deallocate network for instance.", "label": "[instance: <*>] Took <*> seconds to deallocate network for instance.", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/63a0d960-70b6-44c6-b606-491478a5cadf HTTP/1.1\" status: 200 len: 1708 time: 0.1946359", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking", "label": "image <*> at (<*>): checking", "type": 1}
+{"text": "[instance: be793e89-2cc3-4f99-9884-9c6a624a84bc] During sync_power_state the instance has a pending task (spawning). Skip.", "label": "[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.", "type": 1}
+{"text": "[instance: faf974ea-cba5-4e1b-93f4-3a3bc606006f] VM Resumed (Lifecycle Event)", "label": "[instance: <*>] VM Resumed (Lifecycle Event)", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2625270", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}

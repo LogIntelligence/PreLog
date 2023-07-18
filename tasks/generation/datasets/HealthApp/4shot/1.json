@@ -1,0 +1,4 @@
+{"text": "REPORT : 7047 5031 150946 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
+{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}
+{"text": "onStandStepChanged 3584", "label": "onStandStepChanged <*>", "type": 1}
+{"text": "getBinderPackageName packageName = com.huawei.health", "label": "getBinderPackageName packageName = com.huawei.health", "type": 1}

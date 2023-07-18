@@ -1,0 +1,32 @@
+{"text": "onExtend:1514039424000 0 0 0", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "REPORT : 7086 5059 151782 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
+{"text": "onReceive action: android.intent.action.SCREEN_ON", "label": "onReceive action: android.intent.action.SCREEN_ON", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514042520000##7214##549659##8661##16256##31243766", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038980000##7189##549659##8661##16256##27706526", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "onExtend:1514040786000 0 0 5", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "timeStamp back,extendReportTimeStamp=1514042082000", "label": "timeStamp back,extendReportTimeStamp=<*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514044560000##7214##549659##8661##16256##33306763", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "processHandleBroadcastAction action:android.intent.action.SCREEN_ON", "label": "processHandleBroadcastAction action:android.intent.action.SCREEN_ON", "type": 1}
+{"text": "onExtend:1514044475000 0 0 0", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "setTodayTotalDetailSteps=1514039400000##7189##549659##8661##16256##28163940", "label": "setTodayTotalDetailSteps=<*>", "type": 1}
+{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}
+{"text": "REPORT : 7066 5045 151353 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
+{"text": "theDayChanged 1514044800216", "label": "theDayChanged <*>", "type": 1}
+{"text": "onReceive action: android.intent.action.SCREEN_ON", "label": "onReceive action: android.intent.action.SCREEN_ON", "type": 1}
+{"text": "onStandStepChanged 3761", "label": "onStandStepChanged <*>", "type": 1}
+{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}
+{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}
+{"text": "calculateAltitudeWithCache totalAltitude=0", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038560000##7068##548559##8661##16256##27287972", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=129002", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": "setTodayTotalDetailSteps=1514044380000##7214##549659##8661##16256##33118758", "label": "setTodayTotalDetailSteps=<*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038560000##7060##548555##8661##16256##27285968", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "setTodayTotalDetailSteps=1514042280000##7214##549659##8661##16256##31004759", "label": "setTodayTotalDetailSteps=<*>", "type": 1}
+{"text": "calculateAltitudeWithCache totalAltitude=0", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}
+{"text": "REPORT : 7211 5148 154459 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
+{"text": "onStandStepChanged 3786", "label": "onStandStepChanged <*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=130673", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": "onExtend:1514038803000 2 0 4", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514044380000##7214##549659##8661##16256##33138759", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "onExtend:1514044249000 0 0 0", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "onStandStepChanged 3759", "label": "onStandStepChanged <*>", "type": 1}

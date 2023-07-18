@@ -1,0 +1,8 @@
+{"text": "com.apple.Safari.SafeBrowsing.Update: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 1268 seconds.  Ignoring.", "label": "com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring.", "type": 1}
+{"text": "Cocoa scripting error for '0x02120002': four character codes must be four characters long.", "label": "Cocoa scripting error for '<*>': four character codes must be four characters long.", "type": 1}
+{"text": "Location icon should now be in state 'Inactive'", "label": "Location icon should now be in state 'Inactive'", "type": 1}
+{"text": "Cocoa scripting error for '0x008b6fb5': four character codes must be four characters long.", "label": "Cocoa scripting error for '<*>': four character codes must be four characters long.", "type": 1}
+{"text": "com.apple.CacheDelete.daily: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 65594 seconds.  Ignoring.", "label": "com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring.", "type": 1}
+{"text": "setting hostname to \"authorMacBook-Pro.local\"", "label": "setting hostname to \"<*>\"", "type": 1}
+{"text": "AirPort: Link Up on awdl0", "label": "AirPort: Link Up on awdl0", "type": 1}
+{"text": "nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from 0x8000000000000000 to 0x4", "label": "<*> successfully changed NAT64 ifstate from <*> to <*>", "type": 1}

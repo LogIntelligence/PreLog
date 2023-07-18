@@ -1,0 +1,4 @@
+{"text": "synchronized to 10.100.26.250, stratum 3", "label": "synchronized to <*>, stratum <*>", "type": 1}
+{"text": "synchronized to 10.100.18.250, stratum 3", "label": "synchronized to <*>, stratum <*>", "type": 1}
+{"text": "data_thread() got not answer from any [Thunderbird_A7] datasource", "label": "data_thread() got not answer from any [<*>] datasource", "type": 1}
+{"text": "Using HPET based timekeeping.", "label": "Using HPET based timekeeping.", "type": 1}

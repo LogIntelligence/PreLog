@@ -1,0 +1,64 @@
+{"text": "Reduce slow start threshold not met. completedMapsForReduceSlowstart 1", "label": "Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>", "type": 1}
+{"text": "Reduce slow start threshold not met. completedMapsForReduceSlowstart 1", "label": "Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>", "type": 1}
+{"text": "ERROR IN CONTACTING RM.", "label": "ERROR IN CONTACTING RM.", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.3638923", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "ERROR IN CONTACTING RM.", "label": "ERROR IN CONTACTING RM.", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.19211523", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 279 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 132 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "ERROR IN CONTACTING RM.", "label": "ERROR IN CONTACTING RM.", "type": 1}
+{"text": "ERROR IN CONTACTING RM.", "label": "ERROR IN CONTACTING RM.", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 191 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "Assigned container container_1445144423722_0020_01_000006 to attempt_1445144423722_0020_m_000004_0", "label": "Assigned container <*> to <*>", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.33995733", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 259 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "ERROR IN CONTACTING RM.", "label": "ERROR IN CONTACTING RM.", "type": 1}
+{"text": "Recalculating schedule, headroom=<memory:0, vCores:-27>", "label": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 252 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "Recalculating schedule, headroom=<memory:0, vCores:-27>", "label": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)", "label": "Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)", "type": 1}
+{"text": "Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)", "label": "Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.103304505", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.36319977", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "JVM with ID: jvm_1445144423722_0020_m_000008 given task: attempt_1445144423722_0020_m_000006_0", "label": "JVM with ID: <*> given task: <*>", "type": 1}
+{"text": "Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000004 taskAttempt attempt_1445144423722_0020_m_000002_0", "label": "Processing the event EventType: <*> for container <*> taskAttempt <*>", "type": 1}
+{"text": "TaskAttempt: [attempt_1445144423722_0020_m_000009_0] using containerId: [container_1445144423722_0020_01_000011 on NM: [MSRA-SA-39.fareast.corp.microsoft.com:28345]", "label": "TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>:<*>]", "type": 1}
+{"text": "attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP", "label": "<*> TaskAttempt Transitioned from RUNNING to FAIL_CONTAINER_CLEANUP", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "ERROR IN CONTACTING RM.", "label": "ERROR IN CONTACTING RM.", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.2783809", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 129 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "Reduce slow start threshold not met. completedMapsForReduceSlowstart 1", "label": "Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.19247705", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000002 taskAttempt attempt_1445144423722_0020_m_000000_0", "label": "Processing the event EventType: <*> for container <*> taskAttempt <*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)", "label": "Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.43890014", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)", "label": "Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)", "type": 1}
+{"text": "ATTEMPT_START task_1445144423722_0020_m_000007", "label": "ATTEMPT_START <*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.27772525", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "Recalculating schedule, headroom=<memory:0, vCores:-27>", "label": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>", "type": 1}
+{"text": "ERROR IN CONTACTING RM.", "label": "ERROR IN CONTACTING RM.", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 160 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000001_0 is : 0.36319977", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)", "label": "Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Recalculating schedule, headroom=<memory:0, vCores:-27>", "label": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>", "type": 1}
+{"text": "Reduce slow start threshold not met. completedMapsForReduceSlowstart 1", "label": "Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>", "type": 1}
+{"text": "Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack", "label": "Resolved <*> to <*>", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 309 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.19266446", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000004_0 is : 0.44968578", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}

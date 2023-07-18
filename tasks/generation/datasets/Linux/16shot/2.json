@@ -1,0 +1,16 @@
+{"text": "session opened for user test by (uid=509)", "label": "session opened for user <*> by (uid=<*>)", "type": 1}
+{"text": "connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul 17 15:09:15 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=n219076184117.netvigator.com  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "connection from 211.107.232.1 () at Fri Jul 15 23:42:43 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}
+{"text": "connection from 211.72.151.162 () at Mon Jul 18 03:26:49 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=adsl-70-242-75-179.dsl.ksc2mo.swbell.net", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}
+{"text": "session closed for user cyrus", "label": "session closed for user <*>", "type": 1}
+{"text": "connection from 84.102.20.2 () at Sun Jul 24 02:38:22 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 210.245.165.136 () at Wed Jun 22 13:16:30 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 211.72.2.106 () at Tue Jul  5 13:52:23 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 82.83.227.67 (dsl-082-083-227-067.arcor-ip.net) at Sun Jul 10 07:24:34 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "ALERT exited abnormally with [1]", "label": "ALERT exited abnormally with [<*>]", "type": 1}

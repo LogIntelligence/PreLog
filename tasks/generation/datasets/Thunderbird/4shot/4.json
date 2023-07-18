@@ -1,0 +1,4 @@
+{"text": "synchronized to 10.100.20.250, stratum 3", "label": "synchronized to <*>, stratum <*>", "type": 1}
+{"text": "Wait for ready failed before probe !", "label": "Wait for ready failed before probe !", "type": 1}
+{"text": "data_thread() got not answer from any [Thunderbird_C1] datasource", "label": "data_thread() got not answer from any [<*>] datasource", "type": 1}
+{"text": "[ib_sm_sweep.c:1455]: No topology change", "label": "[ib_sm_sweep.c:<*>]: No topology change", "type": 1}

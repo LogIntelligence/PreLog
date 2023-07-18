@@ -1,0 +1,16 @@
+{"text": "Running task 32.0 in stage 27.0 (TID 1272)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Got assigned task 1263", "label": "Got assigned task <*>", "type": 1}
+{"text": "Finished task 0.0 in stage 12.0 (TID 480). 2155 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Found block rdd_2_0 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Got assigned task 1166", "label": "Got assigned task <*>", "type": 1}
+{"text": "Finished task 35.0 in stage 26.0 (TID 1235). 2705 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Finished task 34.0 in stage 28.0 (TID 1314). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Got assigned task 4", "label": "Got assigned task <*>", "type": 1}
+{"text": "Block broadcast_29_piece0 stored as bytes in memory (estimated size 5.7 KB, free 379.5 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Times: total = 39, boot = -104, init = 143, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Times: total = 42, boot = 22, init = 19, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Times: total = 41, boot = -107, init = 148, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Got assigned task 1214", "label": "Got assigned task <*>", "type": 1}
+{"text": "Block broadcast_20_piece0 stored as bytes in memory (estimated size 5.5 KB, free 416.7 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Block rdd_42_32 stored as bytes in memory (estimated size 993.0 B, free 832.1 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Times: total = 39, boot = 23, init = 16, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}

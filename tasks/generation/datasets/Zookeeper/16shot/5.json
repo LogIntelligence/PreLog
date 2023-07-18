@@ -1,0 +1,16 @@
+{"text": "Connection broken for id 188978561024, my id = 2, error =", "label": "Connection broken for id <*>, my id = <*>, error =", "type": 1}
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "FOLLOWING", "label": "FOLLOWING", "type": 1}
+{"text": "Closed socket connection for client /10.10.34.11:54983 which had sessionid 0x14ed93111f200f0", "label": "Closed socket connection for client <*>:<*> which had sessionid <*>", "type": 1}
+{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
+{"text": "Interrupted while waiting for message on queue", "label": "Interrupted while waiting for message on queue", "type": 1}
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Received connection request /10.10.34.12:56173", "label": "Received connection request <*>:<*>", "type": 1}
+{"text": "Connection request from old client /10.10.34.33:39730; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>:<*>; will be dropped if server is in r-o mode", "type": 1}
+{"text": "Unexpected exception causing shutdown while sock still open", "label": "Unexpected exception causing shutdown while sock still open", "type": 1}
+{"text": "Interrupted while waiting for message on queue", "label": "Interrupted while waiting for message on queue", "type": 1}
+{"text": "Established session 0x14ed93111f2005f with negotiated timeout 10000 for client /10.10.34.36:32876", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>", "type": 1}
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Accepted socket connection from /10.10.34.16:56610", "label": "Accepted socket connection from <*>:<*>", "type": 1}
+{"text": "Received connection request /10.10.34.13:58452", "label": "Received connection request <*>:<*>", "type": 1}

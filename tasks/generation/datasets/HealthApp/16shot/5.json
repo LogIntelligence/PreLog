@@ -1,0 +1,16 @@
+{"text": "processHandleBroadcastAction action:android.intent.action.TIME_TICK", "label": "processHandleBroadcastAction action:android.intent.action.TIME_TICK", "type": 1}
+{"text": "onStandStepChanged 3786", "label": "onStandStepChanged <*>", "type": 1}
+{"text": "processHandleBroadcastAction action:android.intent.action.TIME_TICK", "label": "processHandleBroadcastAction action:android.intent.action.TIME_TICK", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038560000##7086##548570##8661##16256##27312467", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}
+{"text": "REPORT : 7202 5142 154266 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
+{"text": "REPORT : 7095 5065 151974 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=130673", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": "onExtend:1514038670000 2 0 4", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "processHandleBroadcastAction action:android.intent.action.TIME_TICK", "label": "processHandleBroadcastAction action:android.intent.action.TIME_TICK", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=131208", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": "onStandStepChanged 3597", "label": "onStandStepChanged <*>", "type": 1}
+{"text": "REPORT : 7075 5051 151546 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
+{"text": "REPORT : 7189 5132 153988 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038440000##7025##548365##8661##13976##27183974", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038740000##7174##549098##8661##16256##27445485", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}

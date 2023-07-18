@@ -1,0 +1,16 @@
+{"text": "connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:54 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "session opened for user news by (uid=0)", "label": "session opened for user <*> by (uid=<*>)", "type": 1}
+{"text": "connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "check pass; user unknown", "label": "check pass; user unknown", "type": 1}
+{"text": "session opened for user cyrus by (uid=0)", "label": "session opened for user <*> by (uid=<*>)", "type": 1}
+{"text": "connection from 202.82.200.188 () at Fri Jul  1 07:57:30 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "session opened for user cyrus by (uid=0)", "label": "session opened for user <*> by (uid=<*>)", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h64-187-1-131.gtconnect.net  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "session opened for user cyrus by (uid=0)", "label": "session opened for user <*> by (uid=<*>)", "type": 1}
+{"text": "check pass; user unknown", "label": "check pass; user unknown", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.181.236.180  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "session opened for user cyrus by (uid=0)", "label": "session opened for user <*> by (uid=<*>)", "type": 1}
+{"text": "session opened for user cyrus by (uid=0)", "label": "session opened for user <*> by (uid=<*>)", "type": 1}

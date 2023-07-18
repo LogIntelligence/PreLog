@@ -1,0 +1,32 @@
+{"text": "updateClipping isOverlap:true, getTopPadding=333.0, Translation=-529.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>", "type": 1}
+{"text": "Releasing suspend blocker \"PowerManagerService.WakeLocks\".", "label": "Releasing suspend blocker \"PowerManagerService.WakeLocks\".", "type": 1}
+{"text": "HBM brightnessOut =38", "label": "HBM brightnessOut =<*>", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "notifyUiVisibilityChanged:vis=0x40000600, SystemUiVisibility=0x40000600", "label": "notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>", "type": 1}
+{"text": "shouldBlockLocation running ...", "label": "shouldBlockLocation running ...", "type": 1}
+{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "cancelPeek: false", "label": "cancelPeek: <*>", "type": 1}
+{"text": "Skipping, withExcluded: false, tr.intent:Intent { flg=0x18800000 cmp=com.tencent.mm/.plugin.base.stub.WXEntryActivity (has extras) }", "label": "Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> (has extras) }", "type": 1}
+{"text": "HBM brightnessIn =38", "label": "HBM brightnessIn =<*>", "type": 1}
+{"text": "received broadcast android.intent.action.TIME_TICK", "label": "received broadcast <*>", "type": 1}
+{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "closeQs", "label": "closeQs", "type": 1}
+{"text": "getRunningAppProcesses: caller 10113 does not hold REAL_GET_TASKS; limiting output", "label": "getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "updateDimmedActivatedHideSensitive overlap:true", "label": "updateDimmedActivatedHideSensitive overlap:<*>", "type": 1}
+{"text": "getRunningAppProcesses: caller 10113 does not hold REAL_GET_TASKS; limiting output", "label": "getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "HBM brightnessIn =38", "label": "HBM brightnessIn =<*>", "type": 1}
+{"text": "enqueueNotificationInternal: n.getKey = 0|com.tencent.mm|4097|null|10112", "label": "enqueueNotificationInternal: n.getKey = <*>", "type": 1}
+{"text": "HBM brightnessIn =38", "label": "HBM brightnessIn =<*>", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "cleanUpApplicationRecordLocked, reset pid: 12236, euid: 0", "label": "cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>", "type": 1}
+{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "updateDimmedActivatedHideSensitive overlap:false", "label": "updateDimmedActivatedHideSensitive overlap:<*>", "type": 1}
+{"text": "HBM brightnessOut =38", "label": "HBM brightnessOut =<*>", "type": 1}
+{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "onNotificationVisibilityChanged called", "label": "onNotificationVisibilityChanged called", "type": 1}
+{"text": "RefreshBatteryInfo isBatteryLow: 23", "label": "RefreshBatteryInfo isBatteryLow: <*>", "type": 1}
+{"text": "Destroying surface Surface(name=InputMethod) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.destroyOrSaveSurface:2201 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementInner:517 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementLoop:291 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:233 com.android.server.wm.WindowManagerService$H.handleMessage:8670 android.os.Handler.dispatchMessage:105", "label": "Destroying surface Surface(name=<*>) called by <*>", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}

@@ -1,0 +1,8 @@
+{"text": "calculateCaloriesWithCache totalCalories=130673", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": "onStandStepChanged 3583", "label": "onStandStepChanged <*>", "type": 1}
+{"text": "REPORT : 7154 5107 153238 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
+{"text": "upLoadOneMinuteDataToEngine time=25233979,0,46,0,20002", "label": "upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*>", "type": 1}
+{"text": "REPORT : 7124 5086 152596 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
+{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}
+{"text": "onExtend:1514038544000 1 0 4", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "processHandleBroadcastAction action:android.intent.action.TIME_TICK", "label": "processHandleBroadcastAction action:android.intent.action.TIME_TICK", "type": 1}

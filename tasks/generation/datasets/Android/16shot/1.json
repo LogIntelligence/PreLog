@@ -1,0 +1,16 @@
+{"text": "getRunningAppProcesses: caller 10027 does not hold REAL_GET_TASKS; limiting output", "label": "getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "getTasks: caller 10111 does not hold REAL_GET_TASKS; limiting output", "label": "getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "cancelPeek: false", "label": "cancelPeek: <*>", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "getRunningAppProcesses: caller 10111 does not hold REAL_GET_TASKS; limiting output", "label": "getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "resumeSuspendedAutohide", "label": "resumeSuspendedAutohide", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "getRunningAppProcesses: caller 10113 does not hold REAL_GET_TASKS; limiting output", "label": "getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "cancelAutohide", "label": "cancelAutohide", "type": 1}
+{"text": "stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=false", "label": "stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=<*>", "type": 1}
+{"text": "suspendAutohide", "label": "suspendAutohide", "type": 1}
