@@ -20,21 +20,29 @@ import numpy as np
 from torch.utils.data import DataLoader
 from tqdm.auto import tqdm
 
-import transformers, datasets
-
+import transformers
+import datasets
 from collections import Counter
-
 from data_loader import parsing_v1, map_template_v3, preprocess, generate_template
-
 from datasets import disable_caching
+import logging
+from logging import getLogger
+
+accelerator = Accelerator()
+
+logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
+logger = getLogger(__name__)
+
+logger.setLevel(logging.INFO if accelerator.is_local_main_process else logging.ERROR)
+logger.info(accelerator.state)
+device = accelerator.device
 
 disable_caching()
 
 metric = evaluate.load("rouge")
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
-accelerator = Accelerator()
 
+# device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 
 def postprocess_text(preds, labels):
@@ -56,8 +64,8 @@ def compute_metrics(eval_preds):
     labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
     decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
 
-    print(decoded_preds)
-    print(labels)
+    # print(decoded_preds)
+    # print(labels)
 
     # Some simple post-processing
     decoded_preds, decoded_labels = postprocess_text(
@@ -152,8 +160,8 @@ if __name__ == '__main__':
     training_args = Seq2SeqTrainingArguments(
         output_dir=f"./p_models/{args.outdir}/{args.dataset}_full/",
         learning_rate=5e-5,
-        per_device_train_batch_size=4,
-        per_device_eval_batch_size=4,
+        per_device_train_batch_size=8,
+        per_device_eval_batch_size=8,
         max_steps=2000,
         weight_decay=0.0,
         do_train=True,
@@ -165,7 +173,7 @@ if __name__ == '__main__':
         lr_scheduler_type='polynomial',
         warmup_ratio=0.1,
         optim='adamw_torch',
-        gradient_accumulation_steps=16,
+        gradient_accumulation_steps=8,
         # label_smoothing_factor=0.1,
         predict_with_generate=True,
         generation_max_length=256,
@@ -185,10 +193,10 @@ if __name__ == '__main__':
         compute_metrics=compute_metrics,
     )
     outputs = trainer.train()
-    print(outputs)
+    logger.info(outputs)
     trainer.save_model(f"./p_models/{args.outdir}/{args.dataset}_full/last/")
-    print(trainer.predict(train_dataset,
-                          max_length=256))
+    logger.info(trainer.predict(train_dataset,
+                                max_length=256))
     # model = trainer.model
 
     '''
@@ -233,4 +241,4 @@ if __name__ == '__main__':
     gf, rs = postprocess_text(gf, rs)
     result = metric.compute(predictions=rs, references=gf, use_stemmer=True)
     result = {k: round(v * 100, 2) for k, v in result.items()}
-    print(result)
+    logger.info(result)
