@@ -1,0 +1,64 @@
+{"text": "lh6.googleusercontent.com:443 close, 471 bytes sent, 4693 bytes (4.58 KB) received, lifetime 00:13", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "rm.api.weibo.com:80 close, 0 bytes sent, 0 bytes received, lifetime 00:05", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 1301 bytes (1.27 KB) sent, 434 bytes received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "get.sogou.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "s.youtube.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "d0.sina.com.cn:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "r18---sn-vgqsenes.googlevideo.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "ss.bdimg.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "api.github.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "client-cf.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "pdlxf-doctor.qq.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "sestat.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "clients6.google.com:443 close, 7738 bytes (7.55 KB) sent, 8620 bytes (8.41 KB) received, lifetime 07:17", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "oimagea5.ydstatic.com:80 error : A connection request was canceled before the completion.", "label": "<*> error : A connection request was canceled before the completion.", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 1578 bytes (1.54 KB) sent, 392726 bytes (383 KB) received, lifetime 00:31", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "mail.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 896 bytes sent, 375 bytes received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "pic01.ishuhui.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "safebrowsing.googleapis.com:443 close, 1848 bytes (1.80 KB) sent, 3191 bytes (3.11 KB) received, lifetime 04:00", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:01", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 2844 bytes (2.77 KB) sent, 279 bytes received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 1036 bytes (1.01 KB) sent, 4343 bytes (4.24 KB) received, lifetime 00:02", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "r6---sn-i3b7knl6.googlevideo.com:443 close, 733 bytes sent, 151 bytes received, lifetime 00:15", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 468 bytes sent, 3515 bytes (3.43 KB) received, lifetime 00:01", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "clients6.google.com:443 close, 2867 bytes (2.79 KB) sent, 1014 bytes received, lifetime 05:39", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 1731 bytes (1.69 KB) sent, 864 bytes received, lifetime 02:53", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "15.client-channel.google.com:443 close, 474 bytes sent, 4464 bytes (4.35 KB) received, lifetime 00:11", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 845 bytes sent, 12076 bytes (11.7 KB) received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "collector.githubapp.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "csi.gstatic.com:443 close, 1397 bytes (1.36 KB) sent, 5154 bytes (5.03 KB) received, lifetime 04:01", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 101 bytes sent, 3449 bytes (3.36 KB) received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "notifications.google.com:443 close, 733 bytes sent, 229 bytes received, lifetime 00:13", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 1327 bytes (1.29 KB) sent, 3250 bytes (3.17 KB) received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "d.dropbox.com:443 close, 1021 bytes sent, 4906 bytes (4.79 KB) received, lifetime 01:01", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 534 bytes sent, 388 bytes received, lifetime 00:05", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 508 bytes sent, 47293 bytes (46.1 KB) received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:18", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "dup.baidustatic.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "hangouts.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "clients5.google.com:443 close, 465 bytes sent, 4790 bytes (4.67 KB) received, lifetime 01:08", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "www.google.com:443 close, 2020 bytes (1.97 KB) sent, 17986 bytes (17.5 KB) received, lifetime 04:01", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "t12.baidu.com:80 close, 0 bytes sent, 0 bytes received, lifetime 00:10", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "www.3367.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "ubmcmm.baidustatic.com:80 close, 0 bytes sent, 0 bytes received, lifetime 00:19", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 2301 bytes (2.24 KB) sent, 9442 bytes (9.22 KB) received, lifetime 00:07", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "plus.google.com:443 close, 470 bytes sent, 4793 bytes (4.68 KB) received, lifetime 00:16", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "googleads.g.doubleclick.net:443 close, 749 bytes sent, 229 bytes received, lifetime 00:11", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "user-images.githubusercontent.com:443 close, 335 bytes sent, 4369 bytes (4.26 KB) received, lifetime 03:15", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "block.dropbox.com:443 close, 0 bytes sent, 0 bytes received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}

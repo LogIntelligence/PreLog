@@ -1,0 +1,16 @@
+{"text": "Finished task 0.0 in stage 5.0 (TID 206). 2198 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Times: total = 39, boot = -106, init = 145, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Got assigned task 1141", "label": "Got assigned task <*>", "type": 1}
+{"text": "Finished task 4.0 in stage 11.0 (TID 479). 2667 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Times: total = 41, boot = -98, init = 139, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Running task 3.0 in stage 14.0 (TID 598)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Times: total = 37, boot = -88, init = 125, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Finished task 22.0 in stage 26.0 (TID 1222). 2703 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000083_1138' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000083", "label": "Saved output of task '<*>' to hdfs://<*>", "type": 1}
+{"text": "Finished task 1.0 in stage 27.0 (TID 1241). 2428 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Times: total = 38, boot = -784, init = 822, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000120_1145' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000120", "label": "Saved output of task '<*>' to hdfs://<*>", "type": 1}
+{"text": "Reading broadcast variable 21 took 11 ms", "label": "Reading broadcast variable <*> took <*> ms", "type": 1}
+{"text": "Partition rdd_11_1 not found, computing it", "label": "Partition <*> not found, computing it", "type": 1}
+{"text": "Found block rdd_30_4 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Finished task 3.0 in stage 6.0 (TID 278). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}

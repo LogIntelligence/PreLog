@@ -1,0 +1,64 @@
+{"text": "data address: 0x00000002", "label": "data address: <*>", "type": 1}
+{"text": "16 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected", "label": "<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected", "type": 1}
+{"text": "10712 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.", "label": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.", "type": 1}
+{"text": "iar 001061e8 dear 0247015c", "label": "iar <*> dear <*>", "type": 1}
+{"text": "generating core.55384", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.7915", "label": "generating core.<*>", "type": 1}
+{"text": "byte ordering exception.....................0", "label": "byte ordering exception.....................<*>", "type": 1}
+{"text": "115325776 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions", "type": 1}
+{"text": "floating point instr. enabled.....1", "label": "floating point instr. enabled.....<*>", "type": 1}
+{"text": "generating core.29755", "label": "generating core.<*>", "type": 1}
+{"text": "lr:00004ed0 cr:28244842 xer:20000002 ctr:00086000", "label": "lr:<*> cr:<*> xer:<*> ctr:<*>", "type": 1}
+{"text": "30646810 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions", "type": 1}
+{"text": "Kernel detected 3853444 integer alignment exceptions (3853437) iar 0x00544ea8, dear 0x01ef5e20 (3853438) iar 0x00544eb8, dear 0x01ef5e40 (3853439) iar 0x00544ea8, dear 0x01ef5e60 (3853440) iar 0x00544eb8, dear 0x01ef5e80 (3853441) iar 0x00544ee0, dear 0x01ef5ea0 (3853442) iar 0x00544ef0, dear 0x01ef5ec0 (3853443) iar 0x00544ee0, dear 0x01ef5ee0 (3853444) iar 0x00544ef0, dear 0x01ef5f00", "label": "Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>", "type": 1}
+{"text": "generating core.5861", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.16623", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.4535", "label": "generating core.<*>", "type": 1}
+{"text": "Can not get assembly information for node card", "label": "Can not get assembly information for node card", "type": 1}
+{"text": "ciod: Error loading /g/g90/glosli/src/ddcMD/ddcMD1.1.17/bin/ddcMDbglV: invalid or missing program image, No such file or directory", "label": "ciod: Error loading <*>: invalid or missing program image, No such file or directory", "type": 1}
+{"text": "generating core.17150", "label": "generating core.<*>", "type": 1}
+{"text": "ciod: LOGIN chdir(/home/germann2/SPaSM_static) failed: No such file or directory", "label": "ciod: LOGIN chdir(<*>) failed: No such file or directory", "type": 1}
+{"text": "generating core.22783", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.1414", "label": "generating core.<*>", "type": 1}
+{"text": "iar 00149f88 dear 0099be48", "label": "iar <*> dear <*>", "type": 1}
+{"text": "iar 00106bd8 dear 0245cd9c", "label": "iar <*> dear <*>", "type": 1}
+{"text": "generating core.9369", "label": "generating core.<*>", "type": 1}
+{"text": "ciod: LOGIN chdir(/bgl/apps/SWL/performance/MINIBEN///2005.09.20-18.06.05) failed: No such file or directory", "label": "ciod: LOGIN chdir(<*>) failed: No such file or directory", "type": 1}
+{"text": "generating core.14911", "label": "generating core.<*>", "type": 1}
+{"text": "data storage interrupt", "label": "data storage interrupt", "type": 1}
+{"text": "generating core.10607", "label": "generating core.<*>", "type": 1}
+{"text": "iar 00106228 dear 0244c21c", "label": "iar <*> dear <*>", "type": 1}
+{"text": "generating core.3980", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.47007", "label": "generating core.<*>", "type": 1}
+{"text": "fpr29=0xffffffff ffffffff ffffffff ffffffff", "label": "fpr29=<*>", "type": 1}
+{"text": "generating core.10930", "label": "generating core.<*>", "type": 1}
+{"text": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The 2.5 volt rail is OK. The 1.5 volt rail is OK.", "label": "Node card status: no ALERTs are active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD IS NOT ASSERTED. PGOOD ERROR LATCH IS ACTIVE. MPGOOD IS NOT OK. MPGOOD ERROR LATCH IS ACTIVE. The <*> volt rail is OK. The <*> volt rail is OK.", "type": 1}
+{"text": "iar 0010671c dear 0245b72c", "label": "iar <*> dear <*>", "type": 1}
+{"text": "iar 00106988 dear 02f7bd6c", "label": "iar <*> dear <*>", "type": 1}
+{"text": "machine check: i-fetch......................0", "label": "machine check: i-fetch......................<*>", "type": 1}
+{"text": "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.", "label": "<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.", "type": 1}
+{"text": "generating core.31192", "label": "generating core.<*>", "type": 1}
+{"text": "4 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected", "label": "<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected", "type": 1}
+{"text": "data TLB error interrupt", "label": "data TLB error interrupt", "type": 1}
+{"text": "iar 00106210 dear 0244c1dc", "label": "iar <*> dear <*>", "type": 1}
+{"text": "iar 00106210 dear 0244c1dc", "label": "iar <*> dear <*>", "type": 1}
+{"text": "1146800 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions", "type": 1}
+{"text": "machine state register: 0x00002000", "label": "machine state register: <*>", "type": 1}
+{"text": "CE sym 12, at 0x1b786f60, mask 0x04", "label": "CE sym <*>, at <*>, mask <*>", "type": 1}
+{"text": "data storage interrupt", "label": "data storage interrupt", "type": 1}
+{"text": "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.", "label": "<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.", "type": 1}
+{"text": "458720 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions", "type": 1}
+{"text": "program interrupt: privileged instruction...0", "label": "program interrupt: privileged instruction...<*>", "type": 1}
+{"text": "instruction cache parity error corrected", "label": "instruction cache parity error corrected", "type": 1}
+{"text": "generating core.122", "label": "generating core.<*>", "type": 1}
+{"text": "program interrupt", "label": "program interrupt", "type": 1}
+{"text": "instruction address: 0x00004ed8", "label": "instruction address: <*>", "type": 1}
+{"text": "generating core.1172", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.9785", "label": "generating core.<*>", "type": 1}
+{"text": "iar 0014a150 dear 0098e178", "label": "iar <*> dear <*>", "type": 1}
+{"text": "8 floating point alignment exceptions", "label": "<*> floating point alignment exceptions", "type": 1}
+{"text": "program interrupt: imprecise exception......0", "label": "program interrupt: imprecise exception......<*>", "type": 1}
+{"text": "iar 0010653c dear 0245a63c", "label": "iar <*> dear <*>", "type": 1}
+{"text": "generating core.10860", "label": "generating core.<*>", "type": 1}
+{"text": "iar 00106200 dear 0247019c", "label": "iar <*> dear <*>", "type": 1}
+{"text": "generating core.430", "label": "generating core.<*>", "type": 1}

@@ -1,0 +1,4 @@
+{"text": "ARPT: 671958.142550: wl0: setup_keepalive: Local port: 49791, Remote port: 5223", "label": "ARPT: <*>: wl0: setup_keepalive: Local port: <*>, Remote port: <*>", "type": 1}
+{"text": "ARPT: 621131.293163: wl0: Roamed or switched channel, reason #8, bssid 5c:50:15:4c:18:13, last RSSI -64", "label": "ARPT: <*>: wl0: Roamed or switched channel, reason #<*>, bssid <*>:<*>:<*>:<*>, last RSSI <*>", "type": 1}
+{"text": "__73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value 2", "label": "<*>-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value <*>", "type": 1}
+{"text": "CCFile::captureLogRun() Exiting CCFile::captureLogRun", "label": "CCFile::captureLogRun() Exiting CCFile::captureLogRun", "type": 1}

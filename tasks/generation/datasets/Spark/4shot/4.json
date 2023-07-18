@@ -1,0 +1,4 @@
+{"text": "SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)", "label": "SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)", "type": 1}
+{"text": "Block rdd_16_4 stored as bytes in memory (estimated size 263.0 B, free 386.4 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Times: total = 39, boot = 19, init = 20, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Partition rdd_42_26 not found, computing it", "label": "Partition <*> not found, computing it", "type": 1}

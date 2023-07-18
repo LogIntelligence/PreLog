@@ -1,0 +1,32 @@
+{"text": "Read out cached package applicability for package: Package_for_KB3184471~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 0, CurrentState:0", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Read out cached package applicability for package: Package_for_KB3164035~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 112, CurrentState:112", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
+{"text": "Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Session: 30546173_4289083966 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Read out cached package applicability for package: Package_for_KB2985461~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
+{"text": "Warning: Unrecognized packageExtended attribute.", "label": "Warning: Unrecognized packageExtended attribute.", "type": 1}
+{"text": "00000006 Created NT transaction (seq 1) result 0x00000000, handle @0x214", "label": "<*> Created NT transaction (seq <*>) result <*>, handle @<*>", "type": 1}
+{"text": "Session: 30546174_181797405 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Session: 30546174_99222682 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Read out cached package applicability for package: Package_for_KB3046269~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Read out cached package applicability for package: Package_for_KB2862335~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: 112, CurrentState:112", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
+{"text": "Session: 30546174_143845234 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Read out cached package applicability for package: Package_for_KB3022777~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Read out cached package applicability for package: Package_for_KB3108371~31bf3856ad364e35~amd64~~6.1.1.0, ApplicableState: 112, CurrentState:112", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "Session: 30546174_91382233 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Warning: Unrecognized packageExtended attribute.", "label": "Warning: Unrecognized packageExtended attribute.", "type": 1}
+{"text": "Session: 30546354_2896247836 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Session: 30546354_3198345115 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "Read out cached package applicability for package: Package_for_KB3071756~31bf3856ad364e35~amd64~~6.1.1.2, ApplicableState: 112, CurrentState:112", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}

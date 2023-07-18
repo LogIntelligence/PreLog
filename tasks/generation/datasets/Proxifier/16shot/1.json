@@ -1,0 +1,16 @@
+{"text": "get.sogou.com:80 close, 651 bytes sent, 346 bytes received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "info.pinyin.sogou.com:80 close, 561 bytes sent, 166 bytes received, lifetime 00:30", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "play.google.com:443 close, 3874 bytes (3.78 KB) sent, 2186 bytes (2.13 KB) received, lifetime 08:13", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "log.getdropbox.com:80 close, 739 bytes sent, 404 bytes received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "d0.sina.com.cn:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "fonts.gstatic.com:443 close, 463 bytes sent, 4786 bytes (4.67 KB) received, lifetime 00:23", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 1165 bytes (1.13 KB) sent, 815 bytes received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:12", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "d.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}

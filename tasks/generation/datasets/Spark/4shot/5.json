@@ -1,0 +1,4 @@
+{"text": "Started reading broadcast variable 14", "label": "Started reading broadcast variable <*>", "type": 1}
+{"text": "Times: total = 39, boot = -126, init = 165, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Finished task 0.0 in stage 10.0 (TID 402). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Running task 84.0 in stage 24.0 (TID 1141)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}

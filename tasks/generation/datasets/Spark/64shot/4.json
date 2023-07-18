@@ -1,0 +1,64 @@
+{"text": "Got assigned task 1332", "label": "Got assigned task <*>", "type": 1}
+{"text": "Times: total = 38, boot = -727, init = 765, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Found block rdd_2_0 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Found block rdd_42_20 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Block broadcast_3_piece0 stored as bytes in memory (estimated size 152.0 B, free 318.1 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Block rdd_42_22 stored as bytes in memory (estimated size 737.0 B, free 822.5 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Got assigned task 1341", "label": "Got assigned task <*>", "type": 1}
+{"text": "Got assigned task 1281", "label": "Got assigned task <*>", "type": 1}
+{"text": "Finished task 1.0 in stage 23.0 (TID 940). 2223 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Times: total = 40, boot = -107, init = 147, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Found block rdd_2_4 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Finished task 25.0 in stage 28.0 (TID 1305). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Block rdd_30_0 stored as bytes in memory (estimated size 324.0 B, free 405.4 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Partition rdd_42_26 not found, computing it", "label": "Partition <*> not found, computing it", "type": 1}
+{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:153132+7292", "label": "Input split: hdfs://<*>", "type": 1}
+{"text": "Finished task 1.0 in stage 6.0 (TID 261). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Found block rdd_21_0 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Connecting to driver: spark://CoarseGrainedScheduler@10.10.34.11:48069", "label": "Connecting to driver: spark://<*>", "type": 1}
+{"text": "Block rdd_42_7 stored as bytes in memory (estimated size 640.0 B, free 812.2 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Block rdd_16_2 stored as bytes in memory (estimated size 230.0 B, free 387.0 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Found block rdd_16_3 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Finished task 1.0 in stage 14.0 (TID 576). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Found block rdd_42_4 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Got assigned task 1322", "label": "Got assigned task <*>", "type": 1}
+{"text": "File Output Committer Algorithm version is 1", "label": "File Output Committer Algorithm version is <*>", "type": 1}
+{"text": "Finished task 14.0 in stage 28.0 (TID 1294). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Times: total = 40, boot = -79, init = 118, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Got assigned task 1328", "label": "Got assigned task <*>", "type": 1}
+{"text": "Block rdd_6_3 stored as bytes in memory (estimated size 344.0 B, free 369.9 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Got assigned task 1260", "label": "Got assigned task <*>", "type": 1}
+{"text": "Got assigned task 450", "label": "Got assigned task <*>", "type": 1}
+{"text": "Times: total = 39, boot = -96, init = 135, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Reading broadcast variable 38 took 11 ms", "label": "Reading broadcast variable <*> took <*> ms", "type": 1}
+{"text": "Got assigned task 886", "label": "Got assigned task <*>", "type": 1}
+{"text": "Finished task 4.0 in stage 29.0 (TID 1324). 2128 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Times: total = 42, boot = 19, init = 22, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Finished task 4.0 in stage 8.0 (TID 359). 2141 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Times: total = 40, boot = 20, init = 19, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Running task 1.0 in stage 26.0 (TID 1201)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Finished task 32.0 in stage 27.0 (TID 1272). 2801 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Finished task 16.0 in stage 26.0 (TID 1216). 2701 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Running task 4.0 in stage 4.0 (TID 199)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "File Output Committer Algorithm version is 1", "label": "File Output Committer Algorithm version is <*>", "type": 1}
+{"text": "Partition rdd_2_1 not found, computing it", "label": "Partition <*> not found, computing it", "type": 1}
+{"text": "Running task 4.0 in stage 0.0 (TID 4)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Found block rdd_2_0 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Times: total = 41, boot = 19, init = 21, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Block broadcast_32_piece0 stored as bytes in memory (estimated size 5.7 KB, free 406.3 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Running task 0.0 in stage 27.0 (TID 1240)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Finished task 4.0 in stage 10.0 (TID 439). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Finished task 3.0 in stage 21.0 (TID 878). 2333 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Finished task 8.0 in stage 26.0 (TID 1208). 2703 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Finished task 24.0 in stage 28.0 (TID 1304). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Finished task 0.0 in stage 27.0 (TID 1240). 2474 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Times: total = 40, boot = 19, init = 21, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Times: total = 41, boot = -67, init = 107, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Block broadcast_3 stored as values in memory (estimated size 384.0 B, free 318.5 KB)", "label": "Block <*> stored as values in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Found block rdd_2_3 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Running task 4.0 in stage 9.0 (TID 399)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:0+7292", "label": "Input split: hdfs://<*>", "type": 1}
+{"text": "Running task 1.0 in stage 15.0 (TID 626)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Times: total = 39, boot = -107, init = 146, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Got assigned task 1298", "label": "Got assigned task <*>", "type": 1}
+{"text": "Found block rdd_6_1 locally", "label": "Found block <*> locally", "type": 1}

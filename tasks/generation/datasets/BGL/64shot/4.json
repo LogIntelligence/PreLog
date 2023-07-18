@@ -1,0 +1,64 @@
+{"text": "instruction cache parity error corrected", "label": "instruction cache parity error corrected", "type": 1}
+{"text": "iar 00106bc0 dear 0245cdec", "label": "iar <*> dear <*>", "type": 1}
+{"text": "generating core.179", "label": "generating core.<*>", "type": 1}
+{"text": "13 tree receiver 1 in re-synch state event(s) (dcr 0x0185) detected over 4562 seconds", "label": "<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected over <*> seconds", "type": 1}
+{"text": "generating core.12984", "label": "generating core.<*>", "type": 1}
+{"text": "CE sym 2, at 0x0b85f680, mask 0x0e", "label": "CE sym <*>, at <*>, mask <*>", "type": 1}
+{"text": "ciod: Error loading /home.old/glosli/src/ddcMD/ddcMD1.1.18a/bin/ddcMDGbglV: invalid or missing program image, No such file or directory", "label": "ciod: Error loading <*>: invalid or missing program image, No such file or directory", "type": 1}
+{"text": "ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts: invalid or missing program image, Exec format error", "label": "ciod: Error loading <*>: invalid or missing program image, Exec format error", "type": 1}
+{"text": "10714 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.", "label": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.", "type": 1}
+{"text": "generating core.10860", "label": "generating core.<*>", "type": 1}
+{"text": "15 floating point alignment exceptions", "label": "<*> floating point alignment exceptions", "type": 1}
+{"text": "program interrupt: privileged instruction...0", "label": "program interrupt: privileged instruction...<*>", "type": 1}
+{"text": "generating core.3638", "label": "generating core.<*>", "type": 1}
+{"text": "1 ddr errors(s) detected and corrected on rank 0, symbol 10, bit 0", "label": "<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>", "type": 1}
+{"text": "CE sym 27, at 0x166a9f20, mask 0x02", "label": "CE sym <*>, at <*>, mask <*>", "type": 1}
+{"text": "generating core.5520", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.10429", "label": "generating core.<*>", "type": 1}
+{"text": "Ido chip status changed: FF:F2:9F:15:7B:E0:00:0D:60:EA:84:1F ip=10.7.0.130 v=13 t=1 status=M Sat Sep 17 07:49:04 PDT 2005", "label": "Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*>", "type": 1}
+{"text": "machine state register: 0x00002000", "label": "machine state register: <*>", "type": 1}
+{"text": "program interrupt: imprecise exception......0", "label": "program interrupt: imprecise exception......<*>", "type": 1}
+{"text": "8 floating point alignment exceptions", "label": "<*> floating point alignment exceptions", "type": 1}
+{"text": "CE sym 20, at 0x180462c0, mask 0x02", "label": "CE sym <*>, at <*>, mask <*>", "type": 1}
+{"text": "CE sym 23, at 0x03f89c00, mask 0x10", "label": "CE sym <*>, at <*>, mask <*>", "type": 1}
+{"text": "instruction address space.........0", "label": "instruction address space.........<*>", "type": 1}
+{"text": "ciod: Error loading /p/gb1/stella/UMT2K/1369/umt2k_DD: invalid or missing program image, Permission denied", "label": "ciod: Error loading <*>: invalid or missing program image, Permission denied", "type": 1}
+{"text": "iar 0014a150 dear 009829b8", "label": "iar <*> dear <*>", "type": 1}
+{"text": "generating core.20241", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.3985", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.14911", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.9949", "label": "generating core.<*>", "type": 1}
+{"text": "data TLB error interrupt", "label": "data TLB error interrupt", "type": 1}
+{"text": "ciod: Error reading message prefix on CioStream socket to 172.16.96.116:53387, Connection reset by peer", "label": "ciod: Error reading message prefix on CioStream socket to <*>, Connection reset by peer", "type": 1}
+{"text": "generating core.5935", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.17212", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.8089", "label": "generating core.<*>", "type": 1}
+{"text": "ciod: generated 128 core files for program /home/germann2/BGL-demo/SPaSM_mpi", "label": "ciod: generated <*> core files for program <*>", "type": 1}
+{"text": "generating core.9136", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.6545", "label": "generating core.<*>", "type": 1}
+{"text": "iar 00106448 dear 0246db5c", "label": "iar <*> dear <*>", "type": 1}
+{"text": "iar 003a92a0 dear 00efd358", "label": "iar <*> dear <*>", "type": 1}
+{"text": "8 floating point alignment exceptions", "label": "<*> floating point alignment exceptions", "type": 1}
+{"text": "critical input interrupt (unit=0x0b bit=0x0a): warning for torus z+ wire, suppressing further interrupts of same type", "label": "critical input interrupt (unit=<*> bit=<*>): warning for torus z+ wire, suppressing further interrupts of same type", "type": 1}
+{"text": "ciod: Received signal 15, code=0, errno=0, address=0x00001a12", "label": "ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>", "type": 1}
+{"text": "generating core.10734", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.18540", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.2092", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.16594", "label": "generating core.<*>", "type": 1}
+{"text": "ciod: LOGIN chdir(/g/g0/spelce1/Linpack_SWL) failed: No such file or directory", "label": "ciod: LOGIN chdir(<*>) failed: No such file or directory", "type": 1}
+{"text": "iar 003a92a0 dear 00fcc6b8", "label": "iar <*> dear <*>", "type": 1}
+{"text": "generating core.465", "label": "generating core.<*>", "type": 1}
+{"text": "CE sym 5, at 0x11042a80, mask 0x04", "label": "CE sym <*>, at <*>, mask <*>", "type": 1}
+{"text": "ciod: Error creating node map from file /home/pakin1/sweep3d-2.2b/results/random1-8x32x32x2.map: Permission denied", "label": "ciod: Error creating node map from file <*>: Permission denied", "type": 1}
+{"text": "instruction cache parity error corrected", "label": "instruction cache parity error corrected", "type": 1}
+{"text": "machine state register: 0x00002000", "label": "machine state register: <*>", "type": 1}
+{"text": "idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)", "label": "idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)", "type": 1}
+{"text": "generating core.4615", "label": "generating core.<*>", "type": 1}
+{"text": "program interrupt: illegal instruction......0", "label": "program interrupt: illegal instruction......<*>", "type": 1}
+{"text": "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.", "label": "<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.", "type": 1}
+{"text": "iar 00106228 dear 0244c1ec", "label": "iar <*> dear <*>", "type": 1}
+{"text": "generating core.3792", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.30603", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.691", "label": "generating core.<*>", "type": 1}
+{"text": "ciod: LOGIN chdir(/home/yates/SWL_tests/BGL64k_SWL_tests_develop/MPI-VAL/MPITs_v050902/rundir) failed: No such file or directory", "label": "ciod: LOGIN chdir(<*>) failed: No such file or directory", "type": 1}
+{"text": "generating core.8531", "label": "generating core.<*>", "type": 1}

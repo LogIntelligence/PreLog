@@ -1,0 +1,64 @@
+{"text": "generating core.7623", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.10734", "label": "generating core.<*>", "type": 1}
+{"text": "3091200 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions", "type": 1}
+{"text": "generating core.51900", "label": "generating core.<*>", "type": 1}
+{"text": "iar 001061e8 dear 0247015c", "label": "iar <*> dear <*>", "type": 1}
+{"text": "generating core.14911", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.14627", "label": "generating core.<*>", "type": 1}
+{"text": "15 floating point alignment exceptions", "label": "<*> floating point alignment exceptions", "type": 1}
+{"text": "ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts: invalid or missing program image, Exec format error", "label": "ciod: Error loading <*>: invalid or missing program image, Exec format error", "type": 1}
+{"text": "generating core.2263", "label": "generating core.<*>", "type": 1}
+{"text": "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.", "label": "<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.", "type": 1}
+{"text": "ciod: LOGIN chdir(/g/g0/spelce1/Linpack_SWL) failed: No such file or directory", "label": "ciod: LOGIN chdir(<*>) failed: No such file or directory", "type": 1}
+{"text": "ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts: invalid or missing program image, Exec format error", "label": "ciod: Error loading <*>: invalid or missing program image, Exec format error", "type": 1}
+{"text": "iar 003a929c dear 00efd448", "label": "iar <*> dear <*>", "type": 1}
+{"text": "data TLB error interrupt", "label": "data TLB error interrupt", "type": 1}
+{"text": "ciod: Received signal 15, code=0, errno=0, address=0x000001b0", "label": "ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>", "type": 1}
+{"text": "data TLB error interrupt", "label": "data TLB error interrupt", "type": 1}
+{"text": "generating core.9652", "label": "generating core.<*>", "type": 1}
+{"text": "ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:57673: Link has been severed", "label": "ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>: Link has been severed", "type": 1}
+{"text": "program interrupt: imprecise exception......0", "label": "program interrupt: imprecise exception......<*>", "type": 1}
+{"text": "iar 00106580 dear 045e141c", "label": "iar <*> dear <*>", "type": 1}
+{"text": "generating core.17467", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.13817", "label": "generating core.<*>", "type": 1}
+{"text": "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.", "label": "<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.", "type": 1}
+{"text": "ciod: cpu 0 at treeaddr 438 sent unrecognized message 0xffffffff", "label": "ciod: cpu <*> at treeaddr <*> sent unrecognized message <*>", "type": 1}
+{"text": "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.", "label": "<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.", "type": 1}
+{"text": "iar 00106228 dear 0244c21c", "label": "iar <*> dear <*>", "type": 1}
+{"text": "1 torus receiver z+ input pipe error(s) (dcr 0x02f0) detected and corrected", "label": "<*> torus receiver z+ input pipe error(s) (dcr <*>) detected and corrected", "type": 1}
+{"text": "CE sym 2, at 0x0fa3d060, mask 0x08", "label": "CE sym <*>, at <*>, mask <*>", "type": 1}
+{"text": "iar 003a9294 dear 00c06c48", "label": "iar <*> dear <*>", "type": 1}
+{"text": "iar 00149f88 dear 0099be48", "label": "iar <*> dear <*>", "type": 1}
+{"text": "iar 00106bd8 dear 0245cd9c", "label": "iar <*> dear <*>", "type": 1}
+{"text": "10754 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.", "label": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.", "type": 1}
+{"text": "generating core.2233", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.631", "label": "generating core.<*>", "type": 1}
+{"text": "ciod: LOGIN chdir(/p/gb2/glosli/8M_5000K/t800) failed: No such file or directory", "label": "ciod: LOGIN chdir(<*>) failed: No such file or directory", "type": 1}
+{"text": "10732 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.", "label": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.", "type": 1}
+{"text": "1146800 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions", "type": 1}
+{"text": "program interrupt: illegal instruction......0", "label": "program interrupt: illegal instruction......<*>", "type": 1}
+{"text": "generating core.2241", "label": "generating core.<*>", "type": 1}
+{"text": "iar 001007a8 dear 065b4cac", "label": "iar <*> dear <*>", "type": 1}
+{"text": "640404 floating point alignment exceptions", "label": "<*> floating point alignment exceptions", "type": 1}
+{"text": "instruction cache parity error corrected", "label": "instruction cache parity error corrected", "type": 1}
+{"text": "ciod: Error loading /bgl/apps/scaletest/performance/MINIBEN/mb_243_0810/allreduce.rts: invalid or missing program image, Exec format error", "label": "ciod: Error loading <*>: invalid or missing program image, Exec format error", "type": 1}
+{"text": "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.", "label": "<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.", "type": 1}
+{"text": "data storage interrupt", "label": "data storage interrupt", "type": 1}
+{"text": "ciod: Received signal 15, code=0, errno=0, address=0x000001f5", "label": "ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>", "type": 1}
+{"text": "machine check enable..............0", "label": "machine check enable..............<*>", "type": 1}
+{"text": "CE sym 0, at 0x1b858280, mask 0x40", "label": "CE sym <*>, at <*>, mask <*>", "type": 1}
+{"text": "5 floating point alignment exceptions", "label": "<*> floating point alignment exceptions", "type": 1}
+{"text": "generating core.14519", "label": "generating core.<*>", "type": 1}
+{"text": "data TLB error interrupt", "label": "data TLB error interrupt", "type": 1}
+{"text": "generating core.16095", "label": "generating core.<*>", "type": 1}
+{"text": "115193048 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions", "type": 1}
+{"text": "generating core.12012", "label": "generating core.<*>", "type": 1}
+{"text": "ciod: generated 128 core files for program /g/g20/valone1/SPaSM-shock/SPaSM_mpi", "label": "ciod: generated <*> core files for program <*>", "type": 1}
+{"text": "generating core.27704", "label": "generating core.<*>", "type": 1}
+{"text": "iar 00149f88 dear 00996f88", "label": "iar <*> dear <*>", "type": 1}
+{"text": "generating core.5054", "label": "generating core.<*>", "type": 1}
+{"text": "program interrupt: fp cr field .............0", "label": "program interrupt: fp cr field .............<*>", "type": 1}
+{"text": "floating pt ex mode 1 enable......0", "label": "floating pt ex mode <*> enable......<*>", "type": 1}
+{"text": "generating core.245", "label": "generating core.<*>", "type": 1}
+{"text": "10676 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.", "label": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.", "type": 1}
+{"text": "data storage interrupt", "label": "data storage interrupt", "type": 1}

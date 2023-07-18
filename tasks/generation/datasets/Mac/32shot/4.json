@@ -1,0 +1,32 @@
+{"text": "CCIOReporterFormatter::addRegistryChildToChannelDictionary streams 7", "label": "CCIOReporterFormatter::addRegistryChildToChannelDictionary streams <*>", "type": 1}
+{"text": "USBMSC Identifier (non-unique): 000000000820 0x5ac 0x8406 0x820, 3", "label": "USBMSC Identifier (non-unique): <*>", "type": 1}
+{"text": "Received Capture Event", "label": "Received Capture Event", "type": 1}
+{"text": "IO80211AWDLPeerManager::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED", "label": "<*>::setAwdlOperatingMode Setting the AWDL operation mode from AUTO to SUSPENDED", "type": 1}
+{"text": "2017-07-02 15:46:40.697 GoogleSoftwareUpdateAgent[32432/0x7000002a0000] [lvl=2] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'com.google.Keystone'.", "label": "<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSUpdateEngine updateAllExceptProduct:] KSUpdateEngine updating all installed products, except:'com.google.Keystone'.", "type": 1}
+{"text": "[11:58:00.829] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification", "label": "[<*>:<*>:<*>] <<<< Boss >>>> figPlaybackBossPrerollCompleted: unexpected preroll-complete notification", "type": 1}
+{"text": "Thermal pressure state: 0 Memory pressure state: 0", "label": "Thermal pressure state: <*> Memory pressure state: <*>", "type": 1}
+{"text": "ARPT: 763023.568413: AirPort_Brcm43xx::syncPowerState: WWEN[enabled]", "label": "ARPT: <*>: <*>::syncPowerState: WWEN[enabled]", "type": 1}
+{"text": "AirPort: Link Down on en0. Reason 8 (Disassociated because station leaving).", "label": "AirPort: Link Down on en0. Reason <*> (Disassociated because station leaving).", "type": 1}
+{"text": "hibernate_setup(0) took 4429 ms", "label": "hibernate_setup(<*>) took <*> ms", "type": 1}
+{"text": "IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0", "label": "<*>(<*>)::listenerCallback - Thunderbolt HPD packet for route = <*> port = <*> unplug = <*>", "type": 1}
+{"text": "__73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value 2", "label": "<*>-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value <*>", "type": 1}
+{"text": "-[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: 0x7f995060af50>.", "label": "-[ISGenerateImageOp generateImageWithCompletion:] Failed to composit image for descriptor <ISBindingImageDescriptor: <*>.", "type": 1}
+{"text": "[com.apple.calendar.store.log.caldav.queue] [Adding [<CalDAVAccountRefreshQueueableOperation: 0x7fa11d67f3b0; Sequence: 0>] to failed operations.]", "label": "[com.apple.calendar.store.log.caldav.queue] [Adding [<CalDAVAccountRefreshQueueableOperation: <*>; Sequence: <*>] to failed operations.]", "type": 1}
+{"text": "ARPT: 672113.005034: wl0: setup_keepalive: Seq: 1128495564, Ack: 3106452487, Win size: 4096", "label": "ARPT: <*>: wl0: setup_keepalive: Seq: <*>, Ack: <*>, Win size: <*>", "type": 1}
+{"text": "USBMSC Identifier (non-unique): 000000000820 0x5ac 0x8406 0x820, 3", "label": "USBMSC Identifier (non-unique): <*>", "type": 1}
+{"text": "Location icon should now be in state 'Active'", "label": "Location icon should now be in state 'Active'", "type": 1}
+{"text": "dnssd_clientstub ConnectToServer: connect()-> No of tries: 2", "label": "dnssd_clientstub ConnectToServer: connect()-> No of tries: <*>", "type": 1}
+{"text": "dnssd_clientstub ConnectToServer: connect()-> No of tries: 2", "label": "dnssd_clientstub ConnectToServer: connect()-> No of tries: <*>", "type": 1}
+{"text": "tcp_connection_destination_perform_socket_connect 21152 connectx to 203.205.147.206:8080@0 failed: [51] Network is unreachable", "label": "tcp_connection_destination_perform_socket_connect <*> connectx to <*>:<*>@<*> failed: [<*>] Network is unreachable", "type": 1}
+{"text": "AppleCamIn::systemWakeCall - messageType = 0xE0000340", "label": "AppleCamIn::systemWakeCall - messageType = <*>", "type": 1}
+{"text": "ARPT: 646193.687729: AirPort_Brcm43xx::platformWoWEnable: WWEN[disable]", "label": "ARPT: <*>: <*>::platformWoWEnable: WWEN[disable]", "type": 1}
+{"text": "IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0", "label": "<*>(<*>)::listenerCallback - Thunderbolt HPD packet for route = <*> port = <*> unplug = <*>", "type": 1}
+{"text": "ASL Sender Statistics", "label": "ASL Sender Statistics", "type": 1}
+{"text": "PM response took 1936 ms (54, powerd)", "label": "PM response took <*> ms (<*>, powerd)", "type": 1}
+{"text": "hibernate image path: /var/vm/sleepimage", "label": "hibernate image path: <*>", "type": 1}
+{"text": "AppleCamIn::wakeEventHandlerThread", "label": "AppleCamIn::wakeEventHandlerThread", "type": 1}
+{"text": "tcp_connection_handle_connect_conditions_bad 20851 failed: 3 - No network route", "label": "tcp_connection_handle_connect_conditions_bad <*> failed: <*> - No network route", "type": 1}
+{"text": "[11:31:49.472] FigAgglomeratorSetObjectForKey signalled err=-16020 (kFigStringConformerError_ParamErr) (NULL key) at /Library/Caches/com.apple.xbs/Sources/CoreMedia/CoreMedia-1731.15.207/Prototypes/LegibleOutput/FigAgglomerator.c line 92", "label": "[<*>:<*>:<*>] FigAgglomeratorSetObjectForKey signalled err=<*> (kFigStringConformerError_ParamErr) (<*> key) at <*> line <*>", "type": 1}
+{"text": "com.apple.suggestions.harvest: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for 42431 seconds.  Ignoring.", "label": "com.apple.<*>: scheduler_evaluate_activity told me to run this job; however, but the start time isn't for <*> seconds. Ignoring.", "type": 1}
+{"text": "NETWORK: requery, 0, 0, 0, 0, 250, items, fQueryRetries, 0, fLastRetryTimestamp, 520708962.7", "label": "NETWORK: requery, <*>, <*>, <*>, <*>, <*>, items, fQueryRetries, <*>, fLastRetryTimestamp, <*>", "type": 1}
+{"text": "Previous sleep cause: 5", "label": "Previous sleep cause: <*>", "type": 1}

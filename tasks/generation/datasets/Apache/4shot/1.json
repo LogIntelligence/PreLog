@@ -1,0 +1,4 @@
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "mod_jk child workerEnv in error state 9", "label": "mod_jk child workerEnv in error state <*>", "type": 1}
+{"text": "jk2_init() Found child 5856 in scoreboard slot 8", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}

@@ -1,0 +1,8 @@
+{"text": "Running task 4.0 in stage 4.0 (TID 199)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Started reading broadcast variable 23", "label": "Started reading broadcast variable <*>", "type": 1}
+{"text": "Running task 0.0 in stage 13.0 (TID 528)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Got assigned task 1288", "label": "Got assigned task <*>", "type": 1}
+{"text": "Times: total = 39, boot = -123, init = 162, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Got assigned task 562", "label": "Got assigned task <*>", "type": 1}
+{"text": "Got assigned task 321", "label": "Got assigned task <*>", "type": 1}
+{"text": "Finished task 0.0 in stage 14.0 (TID 562). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}

@@ -1,0 +1,4 @@
+{"text": "Deleting block blk_6148201552996212693 file /mnt/hadoop/dfs/data/current/subdir15/blk_6148201552996212693", "label": "Deleting block <*> file <*>", "type": 1}
+{"text": "10.251.42.246:50010:Got exception while serving blk_-3056652732896088330 to /10.251.27.63:", "label": "<*>:Got exception while serving <*> to <*>:", "type": 1}
+{"text": "Deleting block blk_-2210703755506918304 file /mnt/hadoop/dfs/data/current/subdir26/blk_-2210703755506918304", "label": "Deleting block <*> file <*>", "type": 1}
+{"text": "PacketResponder 0 for block blk_-6500549130351529113 terminating", "label": "PacketResponder <*> for block <*> terminating", "type": 1}

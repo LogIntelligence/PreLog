@@ -1,0 +1,8 @@
+{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:204176+7292", "label": "Input split: hdfs://<*>", "type": 1}
+{"text": "Partition rdd_21_0 not found, computing it", "label": "Partition <*> not found, computing it", "type": 1}
+{"text": "Found block rdd_11_4 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Got assigned task 1201", "label": "Got assigned task <*>", "type": 1}
+{"text": "Started reading broadcast variable 8", "label": "Started reading broadcast variable <*>", "type": 1}
+{"text": "Finished task 16.0 in stage 29.0 (TID 1336). 2171 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Times: total = 41, boot = -75, init = 115, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Block rdd_42_0 stored as bytes in memory (estimated size 913.0 B, free 804.8 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}

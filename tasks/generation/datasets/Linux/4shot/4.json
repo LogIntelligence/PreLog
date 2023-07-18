@@ -1,0 +1,4 @@
+{"text": "session closed for user news", "label": "session closed for user <*>", "type": 1}
+{"text": "cupsd shutdown succeeded", "label": "cupsd shutdown succeeded", "type": 1}
+{"text": "connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}

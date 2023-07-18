@@ -1,0 +1,8 @@
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Received connection request /10.10.34.13:45651", "label": "Received connection request <*>:<*>", "type": 1}
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Connection broken for id 188978561024, my id = 2, error =", "label": "Connection broken for id <*>, my id = <*>, error =", "type": 1}
+{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
+{"text": "Server environment:java.vendor=Oracle Corporation", "label": "Server environment:<*>", "type": 1}
+{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
+{"text": "Connection broken for id 188978561024, my id = 1, error =", "label": "Connection broken for id <*>, my id = <*>, error =", "type": 1}

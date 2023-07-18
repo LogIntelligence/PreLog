@@ -1,0 +1,4 @@
+{"text": "check pass; user unknown", "label": "check pass; user unknown", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=biblioteka.wsi.edu.pl", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}
+{"text": "connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005", "label": "connection from <*> at <*>", "type": 1}

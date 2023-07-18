@@ -1,0 +1,32 @@
+{"text": "connection from 222.33.90.199 () at Mon Jun 20 03:40:59 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 210.118.170.95 () at Sat Jun 25 09:20:24 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "session opened for user test by (uid=509)", "label": "session opened for user <*> by (uid=<*>)", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=150.183.249.110  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 208.62.55.75 () at Wed Jun 29 10:48:17 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 211.72.151.162 () at Wed Jul  6 18:00:56 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=62-192-102-94.dsl.easynet.nl  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=62-192-102-94.dsl.easynet.nl  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "connection from 211.107.232.1 () at Fri Jul 15 23:42:44 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 82.68.222.195 (82-68-222-195.dsl.in-addr.zen.co.uk) at Sun Jul 17 23:21:54 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=195.129.24.210  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "connection from 221.4.102.93 () at Thu Jul  7 23:09:45 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:24 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 67.95.49.172 () at Fri Jul 22 19:29:09 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:43 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=68.143.156.89.nw.nuvox.net  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "connection from 210.245.165.136 () at Sun Jul 17 09:44:07 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.243.167.114  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "session closed for user test", "label": "session closed for user <*>", "type": 1}
+{"text": "connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 172.181.208.156 () at Tue Jul 26 05:47:42 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "ALERT exited abnormally with [1]", "label": "ALERT exited abnormally with [<*>]", "type": 1}
+{"text": "connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "session opened for user news by (uid=0)", "label": "session opened for user <*> by (uid=<*>)", "type": 1}
+{"text": "portmap startup succeeded", "label": "portmap startup succeeded", "type": 1}
+{"text": "connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211.214.161.141  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "connection from 217.187.83.50 () at Mon Jul 25 23:24:09 2005", "label": "connection from <*> at <*>", "type": 1}

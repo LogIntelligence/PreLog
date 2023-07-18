@@ -1,0 +1,32 @@
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Processing the event EventType: CONTAINER_REMOTE_CLEANUP for container container_1445144423722_0020_01_000004 taskAttempt attempt_1445144423722_0020_m_000002_0", "label": "Processing the event EventType: <*> for container <*> taskAttempt <*>", "type": 1}
+{"text": "Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)", "label": "Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)", "type": 1}
+{"text": "Number of reduces for job job_1445144423722_0020 = 1", "label": "Number of reduces for job <*> = <*>", "type": 1}
+{"text": "Assigned container container_1445144423722_0020_01_000009 to attempt_1445144423722_0020_m_000007_0", "label": "Assigned container <*> to <*>", "type": 1}
+{"text": "Reduce slow start threshold not met. completedMapsForReduceSlowstart 1", "label": "Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>", "type": 1}
+{"text": "Reduce slow start threshold not met. completedMapsForReduceSlowstart 1", "label": "Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>", "type": 1}
+{"text": "Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)", "label": "Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.10685723", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "Reduce slow start threshold not met. completedMapsForReduceSlowstart 1", "label": "Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000007_0 is : 0.25511068", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 98 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "Container complete event for unknown container id container_1445144423722_0020_01_000012", "label": "Container complete event for unknown container id <*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Reduce slow start threshold not met. completedMapsForReduceSlowstart 1", "label": "Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 176 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Recalculating schedule, headroom=<memory:0, vCores:-27>", "label": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)", "label": "Retrying connect to server: <*>:<*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)", "type": 1}
+{"text": "getResources() for application_1445144423722_0020: ask=4 release= 0 newContainers=0 finishedContainers=0 resourcelimit=<memory:1024, vCores:-26> knownNMs=4", "label": "getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 208 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 298 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "task_1445144423722_0020_m_000007 Task Transitioned from NEW to SCHEDULED", "label": "<*> Task Transitioned from NEW to SCHEDULED", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.38137424", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:8030 New: msra-sa-41:8030", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 311 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000000_0 is : 0.29998285", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}

@@ -1,0 +1,16 @@
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Received connection request /10.10.34.11:45307", "label": "Received connection request <*>:<*>", "type": 1}
+{"text": "Received connection request /10.10.34.13:60489", "label": "Received connection request <*>:<*>", "type": 1}
+{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
+{"text": "Received connection request /10.10.34.13:60996", "label": "Received connection request <*>:<*>", "type": 1}
+{"text": "Processed session termination for sessionid: 0x14ede63a5a70023", "label": "Processed session termination for sessionid: <*>", "type": 1}
+{"text": "Connection broken for id 188978561024, my id = 2, error =", "label": "Connection broken for id <*>, my id = <*>, error =", "type": 1}
+{"text": "Received connection request /10.10.34.13:47032", "label": "Received connection request <*>:<*>", "type": 1}
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Interrupted while waiting for message on queue", "label": "Interrupted while waiting for message on queue", "type": 1}
+{"text": "Revalidating client: 0x14f05578bd80013", "label": "Revalidating client: <*>", "type": 1}
+{"text": "Connection broken for id 188978561024, my id = 1, error =", "label": "Connection broken for id <*>, my id = <*>, error =", "type": 1}
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Notification time out: 60000", "label": "Notification time out: <*>", "type": 1}
+{"text": "Accepted socket connection from /10.10.34.11:45997", "label": "Accepted socket connection from <*>:<*>", "type": 1}

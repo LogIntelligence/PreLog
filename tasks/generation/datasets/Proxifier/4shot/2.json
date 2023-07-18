@@ -1,0 +1,4 @@
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:18", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
+{"text": "people-pa.clients6.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "block.dropbox.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
+{"text": "proxy.cse.cuhk.edu.hk:5070 close, 576 bytes sent, 649 bytes received, lifetime 00:01", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}

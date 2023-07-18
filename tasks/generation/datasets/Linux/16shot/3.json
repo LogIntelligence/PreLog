@@ -1,0 +1,16 @@
+{"text": "session closed for user news", "label": "session closed for user <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=210.76.59.29  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "session closed for user test", "label": "session closed for user <*>", "type": 1}
+{"text": "connection from 212.65.68.82 () at Sat Jul 16 08:14:07 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "Kerberos authentication failed", "label": "Kerberos authentication failed", "type": 1}
+{"text": "connection from 218.146.61.230 () at Sun Jul 17 08:06:12 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "session opened for user test by (uid=509)", "label": "session opened for user <*> by (uid=<*>)", "type": 1}
+{"text": "audit(1122475266.4294965305:0): initialized", "label": "audit(<*>:<*>): initialized", "type": 1}
+{"text": "connection from 216.12.111.241 () at Thu Jul 21 09:04:41 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 210.245.165.136 () at Wed Jun 22 13:16:30 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "connection from 61.74.96.178 () at Wed Jun 29 03:22:22 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}
+{"text": "connection from 211.72.2.106 () at Tue Jul  5 13:52:21 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "ALERT exited abnormally with [1]", "label": "ALERT exited abnormally with [<*>]", "type": 1}

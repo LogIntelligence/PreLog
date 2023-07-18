@@ -1,0 +1,16 @@
+{"text": "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root", "label": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "input_userauth_request: invalid user user [preauth]", "label": "input_userauth_request: invalid user <*> [preauth]", "type": 1}
+{"text": "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "Failed password for root from 183.62.140.253 port 36235 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Failed password for root from 183.62.140.253 port 57223 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "pam_unix(sshd:auth): check pass; user unknown", "label": "pam_unix(sshd:auth): check pass; user unknown", "type": 1}
+{"text": "Failed password for invalid user support from 103.99.0.122 port 57317 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Failed password for root from 183.62.140.253 port 51018 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "input_userauth_request: invalid user oracle [preauth]", "label": "input_userauth_request: invalid user <*> [preauth]", "type": 1}
+{"text": "Failed password for invalid user deploy from 187.141.143.180 port 38606 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root", "label": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>", "type": 1}

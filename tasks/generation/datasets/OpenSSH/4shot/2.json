@@ -1,0 +1,4 @@
+{"text": "Connection closed by 194.190.163.22 [preauth]", "label": "Connection closed by <*> [preauth]", "type": 1}
+{"text": "Failed password for root from 183.62.140.253 port 52962 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2", "type": 1}
+{"text": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root", "label": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "Failed password for invalid user test from 52.80.34.196 port 36060 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2", "type": 1}

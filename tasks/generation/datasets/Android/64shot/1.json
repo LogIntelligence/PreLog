@@ -1,0 +1,64 @@
+{"text": "release:lock=226887582, flg=0x0, tag=\"SCREEN_FROZEN\", name=android\", ws=null, uid=1000, pid=1702", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>", "type": 1}
+{"text": "HBM brightnessIn =38", "label": "HBM brightnessIn =<*>", "type": 1}
+{"text": "HBM brightnessIn =38", "label": "HBM brightnessIn =<*>", "type": 1}
+{"text": "release:lock=189667585, flg=0x0, tag=\"*launch*\", name=android\", ws=WorkSource{10057}, uid=1000, pid=1702", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "getRunningAppProcesses: caller 10111 does not hold REAL_GET_TASKS; limiting output", "label": "getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "userActivityNoUpdateLocked: eventTime=261885816, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>", "type": 1}
+{"text": "release:lock=173466309, flg=0x0, tag=\"AudioMix\", name=audioserver\", ws=null, uid=1041, pid=0", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "shouldBlockLocation  ret:false", "label": "shouldBlockLocation ret:<*>", "type": 1}
+{"text": "getRunningAppProcesses: caller 10091 does not hold REAL_GET_TASKS; limiting output", "label": "getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "registerCallback not in UI.", "label": "registerCallback not in UI.", "type": 1}
+{"text": "suspendAutohide", "label": "suspendAutohide", "type": 1}
+{"text": "state.clipTopAmount:138, i:0", "label": "state.clipTopAmount:<*>, i:<*>", "type": 1}
+{"text": "instantCollapse", "label": "instantCollapse", "type": 1}
+{"text": "overlapAmount:5.0, previousNotificationEnd:0.0, newYTranslation:-5.0, location:4, i:0, getTopPadding:333.0, getLocationOnScreen():-338", "label": "overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():<*>", "type": 1}
+{"text": "shouldBlockLocation running ...", "label": "shouldBlockLocation running ...", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "isMusicActive...", "label": "isMusicActive...", "type": 1}
+{"text": "getTasks: caller 10111 does not hold REAL_GET_TASKS; limiting output", "label": "getTasks: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "updateDimmedActivatedHideSensitive overlap:false", "label": "updateDimmedActivatedHideSensitive overlap:<*>", "type": 1}
+{"text": "Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }", "label": "Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }", "type": 1}
+{"text": "getRecentTasks: num=20,flags=62,totalTasks=46", "label": "getRecentTasks: num=<*>,flags=<*>,totalTasks=<*>", "type": 1}
+{"text": "updateDimmedActivatedHideSensitive overlap:false", "label": "updateDimmedActivatedHideSensitive overlap:<*>", "type": 1}
+{"text": "getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity}", "label": "getRecentTasks: topActivity=ComponentInfo{<*>}", "type": 1}
+{"text": "HBM brightnessIn =38", "label": "HBM brightnessIn =<*>", "type": 1}
+{"text": "instantCollapse", "label": "instantCollapse", "type": 1}
+{"text": "getRecentTasks: topActivity=ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}", "label": "getRecentTasks: topActivity=ComponentInfo{<*>}", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity}", "label": "getRecentTasks: topActivity=ComponentInfo{<*>}", "type": 1}
+{"text": "getRunningAppProcesses: caller 10113 does not hold REAL_GET_TASKS; limiting output", "label": "getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "Acquiring suspend blocker \"PowerManagerService.WakeLocks\".", "label": "Acquiring suspend blocker \"PowerManagerService.WakeLocks\".", "type": 1}
+{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "userActivityNoUpdateLocked: eventTime=261976180, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>", "type": 1}
+{"text": "updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?true", "label": "updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?true", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "RefreshBatteryInfo isBatteryLow: 23", "label": "RefreshBatteryInfo isBatteryLow: <*>", "type": 1}
+{"text": "suspendAutohide", "label": "suspendAutohide", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "shouldBlockLocation running ...", "label": "shouldBlockLocation running ...", "type": 1}
+{"text": "ActivityManagerService,attachApplication,callingPid = 12787", "label": "ActivityManagerService,attachApplication,callingPid = <*>", "type": 1}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-43.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>", "type": 1}
+{"text": "cancelAutohide", "label": "cancelAutohide", "type": 1}
+{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "animateCollapsePanels:flags=0, force=false, delayed=false, mExpandedVisible=false", "label": "animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*>", "type": 1}
+{"text": "received broadcast android.intent.action.TIME_TICK", "label": "received broadcast <*>", "type": 1}
+{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
+{"text": "getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity}", "label": "getRecentTasks: topActivity=ComponentInfo{<*>}", "type": 1}
+{"text": "cancelNotification,index:0", "label": "cancelNotification,index:<*>", "type": 1}
+{"text": "updateDimmedActivatedHideSensitive overlap:false", "label": "updateDimmedActivatedHideSensitive overlap:<*>", "type": 1}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-497.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>", "type": 1}
+{"text": "Skipping, withExcluded: false, tr.intent:Intent { flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[264,444][920,908] }", "label": "Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> bnds=<*> }", "type": 1}
+{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "state.clipTopAmount:204, i:0", "label": "state.clipTopAmount:<*>, i:<*>", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "setSystemUiVisibility vis=80000608 mask=ffffffff oldVal=c0000700 newVal=80000608 diff=40000108 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}

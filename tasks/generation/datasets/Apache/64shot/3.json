@@ -1,0 +1,64 @@
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "mod_jk child workerEnv in error state 6", "label": "mod_jk child workerEnv in error state <*>", "type": 1}
+{"text": "jk2_init() Found child 6338 in scoreboard slot 7", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "mod_jk child workerEnv in error state 6", "label": "mod_jk child workerEnv in error state <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "mod_jk child workerEnv in error state 7", "label": "mod_jk child workerEnv in error state <*>", "type": 1}
+{"text": "jk2_init() Found child 2032 in scoreboard slot 9", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "mod_jk child workerEnv in error state 6", "label": "mod_jk child workerEnv in error state <*>", "type": 1}
+{"text": "jk2_init() Found child 1253 in scoreboard slot 9", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "jk2_init() Found child 1948 in scoreboard slot 8", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "jk2_init() Found child 3673 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "jk2_init() Found child 5019 in scoreboard slot 7", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "jk2_init() Found child 6296 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "jk2_init() Found child 1990 in scoreboard slot 9", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "mod_jk child workerEnv in error state 6", "label": "mod_jk child workerEnv in error state <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "mod_jk child workerEnv in error state 6", "label": "mod_jk child workerEnv in error state <*>", "type": 1}
+{"text": "jk2_init() Found child 5344 in scoreboard slot 7", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "jk2_init() Can't find child 2082 in scoreboard", "label": "jk2_init() Can't find child <*> in scoreboard", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "jk2_init() Found child 6669 in scoreboard slot 8", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "jk2_init() Found child 5968 in scoreboard slot 9", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "jk2_init() Found child 6315 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "jk2_init() Found child 32683 in scoreboard slot 10", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "mod_jk child workerEnv in error state 6", "label": "mod_jk child workerEnv in error state <*>", "type": 1}
+{"text": "jk2_init() Found child 5469 in scoreboard slot 8", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "mod_jk child workerEnv in error state 8", "label": "mod_jk child workerEnv in error state <*>", "type": 1}
+{"text": "jk2_init() Found child 6443 in scoreboard slot 7", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "jk2_init() Found child 6451 in scoreboard slot 7", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "jk2_init() Found child 1390 in scoreboard slot 10", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "[client 211.62.201.48] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "jk2_init() Found child 4983 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "jk2_init() Found child 2836 in scoreboard slot 9", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "mod_jk child workerEnv in error state 8", "label": "mod_jk child workerEnv in error state <*>", "type": 1}
+{"text": "jk2_init() Found child 5367 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "[client 61.220.139.68] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "mod_jk child workerEnv in error state 9", "label": "mod_jk child workerEnv in error state <*>", "type": 1}
+{"text": "jk2_init() Found child 5475 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "jk2_init() Found child 32591 in scoreboard slot 7", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "jk2_init() Found child 32441 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "jk2_init() Found child 6278 in scoreboard slot 8", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "jk2_init() Found child 1999 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "jk2_init() Found child 5971 in scoreboard slot 7", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "jk2_init() Found child 5941 in scoreboard slot 7", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}

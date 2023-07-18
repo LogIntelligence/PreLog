@@ -1,0 +1,4 @@
+{"text": "Received disconnect from 175.102.13.6: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "Invalid user operator from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253  user=root", "label": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]", "label": "error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth]", "type": 1}

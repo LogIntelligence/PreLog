@@ -1,0 +1,64 @@
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking", "label": "image <*> at (<*>): checking", "type": 1}
+{"text": "[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Took 19.96 seconds to spawn the instance on the hypervisor.", "label": "[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor.", "type": 1}
+{"text": "10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.4953768", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "[instance: 70c1714b-c11b-4c88-b300-239afe1f5ff8] Instance spawned successfully.", "label": "[instance: <*>] Instance spawned successfully.", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2727580", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.21.126,10.11.10.1 \"GET /latest/meta-data/placement/ HTTP/1.1\" status: 200 len: 134 time: 0.2258282", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1583 time: 0.1878400", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2598870", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2717772", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2754779", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Active base files: <*>", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking", "label": "image <*> at (<*>): checking", "type": 1}
+{"text": "10.11.21.129,10.11.10.1 \"GET /latest/meta-data/ HTTP/1.1\" status: 200 len: 328 time: 0.3263230", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking", "label": "image <*> at (<*>): checking", "type": 1}
+{"text": "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] During sync_power_state the instance has a pending task (spawning). Skip.", "label": "[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.", "type": 1}
+{"text": "Removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Removable base files: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2723920", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] disk limit not specified, defaulting to unlimited", "label": "[instance: <*>] disk limit not specified, defaulting to unlimited", "type": 1}
+{"text": "10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.5126011", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1759 time: 0.2690799", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.21.139,10.11.10.1 \"GET /latest/meta-data/local-hostname HTTP/1.1\" status: 200 len: 130 time: 0.0008819", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "[instance: 78dc1847-8848-49cc-933e-9239b12c9dcf] disk limit not specified, defaulting to unlimited", "label": "[instance: <*>] disk limit not specified, defaulting to unlimited", "type": 1}
+{"text": "10.11.21.143,10.11.10.1 \"GET /openstack/2013-10-17/user_data HTTP/1.1\" status: 404 len: 176 time: 0.2187860", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "[instance: c62f4f25-982c-4ea2-b5e4-93000edfcfbf] Instance spawned successfully.", "label": "[instance: <*>] Instance spawned successfully.", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1916 time: 0.3658569", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "[instance: fecdd5a9-3ca0-4c82-9336-63b7774f738e] VM Resumed (Lifecycle Event)", "label": "[instance: <*>] VM Resumed (Lifecycle Event)", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2866180", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1759 time: 0.2735381", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage", "label": "image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2513149", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2556660", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.21.140,10.11.10.1 \"GET /openstack/2013-10-17/vendor_data.json HTTP/1.1\" status: 200 len: 124 time: 0.0006189", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Unknown base file: <*>", "type": 1}
+{"text": "[instance: be793e89-2cc3-4f99-9884-9c6a624a84bc] Instance destroyed successfully.", "label": "[instance: <*>] Instance destroyed successfully.", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2586780", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 200 len: 380 time: 0.0897720", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.5049269", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1916 time: 0.2693460", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2648020", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "[instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] VM Resumed (Lifecycle Event)", "label": "[instance: <*>] VM Resumed (Lifecycle Event)", "type": 1}
+{"text": "Final resource view: name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=512MB phys_disk=15GB used_disk=0GB total_vcpus=16 used_vcpus=0 pci_stats=[]", "label": "Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[]", "type": 1}
+{"text": "[instance: 70c1714b-c11b-4c88-b300-239afe1f5ff8] Took 0.47 seconds to deallocate network for instance.", "label": "[instance: <*>] Took <*> seconds to deallocate network for instance.", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking", "label": "image <*> at (<*>): checking", "type": 1}
+{"text": "10.11.21.132,10.11.10.1 \"GET /latest/meta-data/public-hostname HTTP/1.1\" status: 200 len: 130 time: 0.2245400", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.21.137,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.0013261", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.21.139,10.11.10.1 \"GET /latest/meta-data/placement/availability-zone HTTP/1.1\" status: 200 len: 120 time: 0.0008299", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Compute_service record updated for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us:cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us", "label": "Compute_service record updated for <*>", "type": 1}
+{"text": "10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.6686139", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1759 time: 0.2833371", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Unknown base file: <*>", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking", "label": "image <*> at (<*>): checking", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/96abccce-8d1f-4e07-b6d1-4b2ab87e23b4 HTTP/1.1\" status: 200 len: 1708 time: 0.1917260", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "[instance: c62f4f25-982c-4ea2-b5e4-93000edfcfbf] During sync_power_state the instance has a pending task (spawning). Skip.", "label": "[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage", "label": "image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage", "type": 1}
+{"text": "[instance: faf974ea-cba5-4e1b-93f4-3a3bc606006f] Creating image", "label": "[instance: <*>] Creating image", "type": 1}
+{"text": "HTTP exception thrown: No instances found for any event", "label": "HTTP exception thrown: No instances found for any event", "type": 1}
+{"text": "10.11.10.1 \"POST /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers HTTP/1.1\" status: 202 len: 733 time: 0.5341210", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2671990", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1759 time: 0.2856178", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2567871", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Auditing locally available compute resources for node cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us", "label": "Auditing locally available compute resources for node <*>", "type": 1}
+{"text": "[instance: d6b7bd36-2943-4363-9235-fffdd89ea40e] vcpu limit not specified, defaulting to unlimited", "label": "[instance: <*>] vcpu limit not specified, defaulting to unlimited", "type": 1}
+{"text": "Removing base or swap file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Removing base or swap file: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1759 time: 0.2857559", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}

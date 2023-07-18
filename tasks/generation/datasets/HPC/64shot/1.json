@@ -1,0 +1,64 @@
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "wait  (command 3649)", "label": "wait (command <*>)", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "boot  (command 2392)", "label": "boot (command <*>)", "type": 1}
+{"text": "ambient=26", "label": "ambient=<*>", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "not responding", "label": "not responding", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "wait  (command 3837)", "label": "wait (command <*>)", "type": 1}
+{"text": "configured out", "label": "configured out", "type": 1}
+{"text": "boot  (command 2417)", "label": "boot (command <*>)", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "ClusterFileSystem: ServerFileSystem domain root28_domain is no longer served by node node-96", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>", "type": 1}
+{"text": "wait  (command 3079)", "label": "wait (command <*>)", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "ambient=26", "label": "ambient=<*>", "type": 1}
+{"text": "wait  (command 2823)", "label": "wait (command <*>)", "type": 1}
+{"text": "Targeting domains:node-D4 and nodes:node-[136-159] child of command 1964", "label": "Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage1331", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>", "type": 1}
+{"text": "ambient=29", "label": "ambient=<*>", "type": 1}
+{"text": "Fan speeds ( 3552 3534 3375 **** 3515 3479 )", "label": "Fan speeds ( <*> <*> <*> **** <*> <*> )", "type": 1}
+{"text": "ambient=30", "label": "ambient=<*>", "type": 1}
+{"text": "wait  (command 2217)", "label": "wait (command <*>)", "type": 1}
+{"text": "ambient=29", "label": "ambient=<*>", "type": 1}
+{"text": "ambient=27", "label": "ambient=<*>", "type": 1}
+{"text": "configured out", "label": "configured out", "type": 1}
+{"text": "Component State Change: Component \\042SCSI-WWID:01000010:6005-08b4-0001-00c6-0006-3000-003d-0000\\042 is in the unavailable state (HWID=1973)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "ambient=28", "label": "ambient=<*>", "type": 1}
+{"text": "Fan speeds ( 3552 3534 3375 **** 3515 3479 )", "label": "Fan speeds ( <*> <*> <*> **** <*> <*> )", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "Command has completed successfully", "label": "Command has completed successfully", "type": 1}
+{"text": "ambient=32", "label": "ambient=<*>", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "ClusterFileSystem: ServerFileSystem domain root23_local is no longer served by node node-182", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "ambient=30", "label": "ambient=<*>", "type": 1}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage234", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>", "type": 1}
+{"text": "Fan speeds ( 3552 3534 3375 **** 3515 3479 )", "label": "Fan speeds ( <*> <*> <*> **** <*> <*> )", "type": 1}
+{"text": "ambient=32", "label": "ambient=<*>", "type": 1}
+{"text": "ServerFileSystem: ServerFileSystem domain root22_local is full", "label": "ServerFileSystem: ServerFileSystem domain <*> is full", "type": 1}
+{"text": "Fan speeds ( 3534 3534 3375 **** 3497 3479 )", "label": "Fan speeds ( <*> <*> <*> **** <*> <*> )", "type": 1}
+{"text": "configured out", "label": "configured out", "type": 1}
+{"text": "ClusterFileSystem: ServerFileSystem domain root1_domain_backup is no longer served by node node-96", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>", "type": 1}
+{"text": "configured out", "label": "configured out", "type": 1}
+{"text": "warning", "label": "warning", "type": 1}
+{"text": "ClusterFileSystem: ServerFileSystem domain root18_tmp is no longer served by node node-241", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "running", "label": "running", "type": 1}
+{"text": "Fan speeds ( 3552 3534 3375 4192 3515 3479 )", "label": "Fan speeds ( <*> <*> <*> <*> <*> <*> )", "type": 1}
+{"text": "boot  (command 2110)", "label": "boot (command <*>)", "type": 1}
+{"text": "ambient=32", "label": "ambient=<*>", "type": 1}
+{"text": "configured out", "label": "configured out", "type": 1}
+{"text": "boot  (command 2602)", "label": "boot (command <*>)", "type": 1}
+{"text": "normal", "label": "normal", "type": 1}
+{"text": "wait  (command 3709)", "label": "wait (command <*>)", "type": 1}

@@ -1,0 +1,32 @@
+{"text": "[instance: 70c1714b-c11b-4c88-b300-239afe1f5ff8] vcpu limit not specified, defaulting to unlimited", "label": "[instance: <*>] vcpu limit not specified, defaulting to unlimited", "type": 1}
+{"text": "Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Active base files: <*>", "type": 1}
+{"text": "Removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Removable base files: <*>", "type": 1}
+{"text": "[instance: 63a0d960-70b6-44c6-b606-491478a5cadf] Total memory: 64172 MB, used: 512.00 MB", "label": "[instance: <*>] Total memory: <*> MB, used: <*> MB", "type": 1}
+{"text": "10.11.21.138,10.11.10.1 \"GET /openstack/2013-10-17 HTTP/1.1\" status: 200 len: 157 time: 0.0010941", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Compute_service record updated for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us:cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us", "label": "Compute_service record updated for <*>", "type": 1}
+{"text": "10.11.21.141,10.11.10.1 \"GET /openstack/2013-10-17 HTTP/1.1\" status: 200 len: 157 time: 0.0009151", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.21.132,10.11.10.1 \"GET /latest/meta-data/ HTTP/1.1\" status: 200 len: 328 time: 0.0013649", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] Claim successful", "label": "[instance: <*>] Claim successful", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2591121", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] VM Stopped (Lifecycle Event)", "label": "[instance: <*>] VM Stopped (Lifecycle Event)", "type": 1}
+{"text": "[instance: faf974ea-cba5-4e1b-93f4-3a3bc606006f] VM Paused (Lifecycle Event)", "label": "[instance: <*>] VM Paused (Lifecycle Event)", "type": 1}
+{"text": "Removing base or swap file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Removing base or swap file: <*>", "type": 1}
+{"text": "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] Total memory: 64172 MB, used: 512.00 MB", "label": "[instance: <*>] Total memory: <*> MB, used: <*> MB", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2670941", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2413731", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "[instance: d96a117b-0193-4549-bdcc-63b917273d1d] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU", "label": "[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2551649", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.21.138,10.11.10.1 \"GET /openstack/2012-08-10/meta_data.json HTTP/1.1\" status: 200 len: 264 time: 0.2088590", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 200 len: 380 time: 0.1039391", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.21.141,10.11.10.1 \"GET /latest/meta-data/ HTTP/1.1\" status: 200 len: 328 time: 0.2267661", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.21.139,10.11.10.1 \"GET /openstack/2013-10-17/vendor_data.json HTTP/1.1\" status: 200 len: 124 time: 0.2188199", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Active base files: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2636530", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "10.11.21.135,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.2257981", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Creating event network-vif-plugged:1771f0af-aae8-4b03-97c9-a7bc9c5e4bb7 for instance faf974ea-cba5-4e1b-93f4-3a3bc606006f", "label": "Creating event network-vif-plugged:<*>-<*>-<*>-<*>-<*> for instance <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/fecdd5a9-3ca0-4c82-9336-63b7774f738e HTTP/1.1\" status: 200 len: 1708 time: 0.1929550", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "[instance: 70c1714b-c11b-4c88-b300-239afe1f5ff8] VM Resumed (Lifecycle Event)", "label": "[instance: <*>] VM Resumed (Lifecycle Event)", "type": 1}
+{"text": "Removing base or swap file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Removing base or swap file: <*>", "type": 1}
+{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1575 time: 0.1929309", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage", "label": "image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage", "label": "image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage", "type": 1}

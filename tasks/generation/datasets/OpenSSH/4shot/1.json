@@ -1,0 +1,4 @@
+{"text": "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "Invalid user ingrid from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "pam_unix(sshd:auth): check pass; user unknown", "label": "pam_unix(sshd:auth): check pass; user unknown", "type": 1}

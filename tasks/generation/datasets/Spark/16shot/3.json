@@ -1,0 +1,16 @@
+{"text": "Got assigned task 643", "label": "Got assigned task <*>", "type": 1}
+{"text": "Found block rdd_2_4 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Found block rdd_42_28 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Got assigned task 1308", "label": "Got assigned task <*>", "type": 1}
+{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:80212+7292", "label": "Input split: hdfs://<*>", "type": 1}
+{"text": "Partition rdd_21_4 not found, computing it", "label": "Partition <*> not found, computing it", "type": 1}
+{"text": "Got assigned task 479", "label": "Got assigned task <*>", "type": 1}
+{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:36460+7292", "label": "Input split: hdfs://<*>", "type": 1}
+{"text": "Finished task 18.0 in stage 27.0 (TID 1258). 2349 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Found block rdd_2_1 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Found block rdd_2_4 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Running task 19.0 in stage 26.0 (TID 1219)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Running task 33.0 in stage 28.0 (TID 1313)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Running task 2.0 in stage 14.0 (TID 590)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Running task 4.0 in stage 21.0 (TID 879)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Got assigned task 839", "label": "Got assigned task <*>", "type": 1}

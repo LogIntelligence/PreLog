@@ -1,0 +1,16 @@
+{"text": "generating core.46408", "label": "generating core.<*>", "type": 1}
+{"text": "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.", "label": "<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.", "type": 1}
+{"text": "generating core.865", "label": "generating core.<*>", "type": 1}
+{"text": "15 floating point alignment exceptions", "label": "<*> floating point alignment exceptions", "type": 1}
+{"text": "ciod: Received signal 15, code=0, errno=0, address=0x000001b0", "label": "ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>", "type": 1}
+{"text": "generating core.34256", "label": "generating core.<*>", "type": 1}
+{"text": "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.", "label": "<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.", "type": 1}
+{"text": "Can not get assembly information for node card", "label": "Can not get assembly information for node card", "type": 1}
+{"text": "CE sym 5, at 0x11042a80, mask 0x04", "label": "CE sym <*>, at <*>, mask <*>", "type": 1}
+{"text": "iar 0014a150 dear 0098e178", "label": "iar <*> dear <*>", "type": 1}
+{"text": "Lustre mount FAILED : bglio559 : point /p/gb1", "label": "Lustre mount FAILED : <*> : point <*>", "type": 1}
+{"text": "generating core.10734", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.174", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.8021", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.64072", "label": "generating core.<*>", "type": 1}
+{"text": "generating core.4061", "label": "generating core.<*>", "type": 1}

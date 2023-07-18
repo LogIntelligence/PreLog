@@ -1,0 +1,4 @@
+{"text": "tcp_connection_tls_session_error_callback_imp 2210 tcp_connection_tls_session_handle_read_error.790 error 60", "label": "tcp_connection_tls_session_error_callback_imp <*> tcp_connection_tls_session_handle_read_error.<*> error <*>", "type": 1}
+{"text": "network changed: v4(en0!:10.105.162.105) DNS+ Proxy+ SMB", "label": "network changed: <*>(<*>!:<*>) DNS+ Proxy+ SMB", "type": 1}
+{"text": "CGXDisplayDidWakeNotification [771797848593539]: posting kCGSDisplayDidWake", "label": "CGXDisplayDidWakeNotification [<*>]: posting kCGSDisplayDidWake", "type": 1}
+{"text": "send_datagram_available_ping: pid 445 failed to act on a ping it dequeued before timing out.", "label": "send_datagram_available_ping: pid <*> failed to act on a ping it dequeued before timing out.", "type": 1}

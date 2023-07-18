@@ -1,0 +1,16 @@
+{"text": "Block rdd_16_1 stored as bytes in memory (estimated size 351.0 B, free 387.4 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Started reading broadcast variable 24", "label": "Started reading broadcast variable <*>", "type": 1}
+{"text": "Running task 23.0 in stage 27.0 (TID 1263)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Found block rdd_30_1 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Found block rdd_42_35 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Times: total = 40, boot = 18, init = 22, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0147/blockmgr-70293f72-844a-4b39-9ad6-fb0ad7e364e4", "label": "Created local directory at <*>", "type": 1}
+{"text": "Running task 4.0 in stage 3.0 (TID 159)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "attempt_201706092018_0024_m_000044_1129: Committed", "label": "<*>: Committed", "type": 1}
+{"text": "Times: total = 39, boot = -102, init = 141, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Found block rdd_2_4 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Started reading broadcast variable 18", "label": "Started reading broadcast variable <*>", "type": 1}
+{"text": "Reading broadcast variable 27 took 10 ms", "label": "Reading broadcast variable <*> took <*> ms", "type": 1}
+{"text": "Finished task 4.0 in stage 13.0 (TID 559). 2241 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Running task 2.0 in stage 4.0 (TID 195)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Running task 21.0 in stage 29.0 (TID 1341)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}

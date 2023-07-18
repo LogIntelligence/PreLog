@@ -1,0 +1,4 @@
+{"text": "ARPT: 720580.338311: AirPort_Brcm43xx::powerChange: System Sleep", "label": "ARPT: <*>: <*>::powerChange: System Sleep", "type": 1}
+{"text": "ARPT: 620752.337198: ARPT: Wake Reason: Wake on Scan offload", "label": "ARPT: <*>: ARPT: Wake Reason: Wake on Scan offload", "type": 1}
+{"text": "Sandbox: com.apple.Addres(35110) deny(1) network-outbound /private/var/run/mDNSResponder", "label": "Sandbox: <*>(<*>) deny(<*>) network-outbound <*>", "type": 1}
+{"text": "AirPort: Link Up on en0", "label": "AirPort: Link Up on en0", "type": 1}

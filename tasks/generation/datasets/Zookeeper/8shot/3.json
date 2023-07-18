@@ -1,0 +1,8 @@
+{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
+{"text": "Connection broken for id 188978561024, my id = 3, error =", "label": "Connection broken for id <*>, my id = <*>, error =", "type": 1}
+{"text": "Established session 0x14f05578bd80013 with negotiated timeout 10000 for client /10.10.34.11:38530", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>", "type": 1}
+{"text": "Cannot open channel to 3 at election address /10.10.34.13:3888", "label": "Cannot open channel to <*> at election address <*>:<*>", "type": 1}
+{"text": "caught end of stream exception", "label": "caught end of stream exception", "type": 1}
+{"text": "Cannot open channel to 3 at election address /10.10.34.13:3888", "label": "Cannot open channel to <*> at election address <*>:<*>", "type": 1}
+{"text": "caught end of stream exception", "label": "caught end of stream exception", "type": 1}
+{"text": "Notification: 3 (n.leader), 0x100001564 (n.zxid), 0x3 (n.round), FOLLOWING (n.state), 3 (n.sid), 0x2 (n.peerEPoch), FOLLOWING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)", "type": 1}

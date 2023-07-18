@@ -1,0 +1,16 @@
+{"text": "onExtend:1514042064000 0 0 0", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}
+{"text": "onExtend:1514041446000 0 0 5", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "onExtend:1514038542000 1 0 4", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=131208", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=131208", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": "onStandStepChanged 3761", "label": "onStandStepChanged <*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038440000##7030##548365##8661##14451##27187468", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=130673", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": "setTodayTotalDetailSteps=1514040600000##7189##549659##8661##16256##29341927", "label": "setTodayTotalDetailSteps=<*>", "type": 1}
+{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}
+{"text": "getTodaySportData mStepsRecordManager=com.huawei.health.g.c@8a2a501", "label": "getTodaySportData mStepsRecordManager=<*>", "type": 1}
+{"text": "onStandStepChanged 3667", "label": "onStandStepChanged <*>", "type": 1}
+{"text": "onStandStepChanged 3626", "label": "onStandStepChanged <*>", "type": 1}
+{"text": "onExtend:1514038668000 1 0 4", "label": "onExtend:<*> <*> <*> <*>", "type": 1}

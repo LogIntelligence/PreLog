@@ -1,0 +1,4 @@
+{"text": "Before Scheduling: PendingReds:0 ScheduledMaps:3 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3", "label": "Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>", "type": 1}
+{"text": "Reduce slow start threshold not met. completedMapsForReduceSlowstart 1", "label": "Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>", "type": 1}
+{"text": "ERROR IN CONTACTING RM.", "label": "ERROR IN CONTACTING RM.", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*>:<*> New: <*>:<*>", "type": 1}

@@ -1,0 +1,32 @@
+{"text": "onExtend:1514042205000 0 0 5", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514041620000##7189##549659##8661##16256##30343722", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "onStandStepChanged 3620", "label": "onStandStepChanged <*>", "type": 1}
+{"text": "upLoadOneMinuteDataToEngine time=25233979,0,46,0,20002", "label": "upLoadOneMinuteDataToEngine time=<*>,<*>,<*>,<*>,<*>", "type": 1}
+{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038560000##7054##548552##8661##16256##27283470", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "setTodayTotalDetailSteps=1514038440000##7009##548365##8661##12551##27174951", "label": "setTodayTotalDetailSteps=<*>", "type": 1}
+{"text": "onExtend:1514038801000 3 0 4", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038440000##7017##548365##8661##13216##27179417", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "setTodayTotalDetailSteps=1514038560000##7075##548564##8661##16256##27309470", "label": "setTodayTotalDetailSteps=<*>", "type": 1}
+{"text": "processHandleBroadcastAction action:android.intent.action.SCREEN_ON", "label": "processHandleBroadcastAction action:android.intent.action.SCREEN_ON", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038680000##7140##548910##8661##16256##27396969", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "startTimer start autoSync", "label": "startTimer start autoSync", "type": 1}
+{"text": "onStandStepChanged 3732", "label": "onStandStepChanged <*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=130673", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": "REPORT : 7165 5115 153474 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
+{"text": "processHandleBroadcastAction action:android.intent.action.SCREEN_ON", "label": "processHandleBroadcastAction action:android.intent.action.SCREEN_ON", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038500000##7054##548551##8661##16256##27205469", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "onStandStepChanged 3649", "label": "onStandStepChanged <*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=130159", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": "onExtend:1514038540000 1 0 4", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "stepSyncOrNot appSynTimes is 0, statsyncTimes is 0", "label": "stepSyncOrNot appSynTimes is <*>, statsyncTimes is <*>", "type": 1}
+{"text": "onExtend:1514041566000 0 0 5", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=128853", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": "onStandStepChanged 3595", "label": "onStandStepChanged <*>", "type": 1}
+{"text": "setTodayTotalDetailSteps=1514040600000##7189##549659##8661##16256##29341612", "label": "setTodayTotalDetailSteps=<*>", "type": 1}
+{"text": "onExtend:1514041722000 0 0 5", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=130673", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038560000##7058##548554##8661##16256##27285475", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "processHandleBroadcastAction action:android.intent.action.TIME_TICK", "label": "processHandleBroadcastAction action:android.intent.action.TIME_TICK", "type": 1}
+{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=127782", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}

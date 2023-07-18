@@ -1,0 +1,16 @@
+{"text": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180", "label": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>", "type": 1}
+{"text": "Failed password for root from 183.62.140.253 port 49096 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2", "type": 1}
+{"text": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180", "label": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>", "type": 1}
+{"text": "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "Failed password for root from 183.62.140.253 port 34226 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Invalid user magnos from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "Received disconnect from 112.95.230.3: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "Failed password for invalid user jay from 187.141.143.180 port 60259 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Failed password for root from 183.62.140.253 port 44921 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.99.0.122", "label": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>", "type": 1}
+{"text": "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}

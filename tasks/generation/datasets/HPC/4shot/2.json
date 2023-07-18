@@ -1,0 +1,4 @@
+{"text": "ambient=25", "label": "ambient=<*>", "type": 1}
+{"text": "Fan speeds ( 3552 3534 3375 **** 3515 3479 )", "label": "Fan speeds ( <*> <*> <*> **** <*> <*> )", "type": 1}
+{"text": "boot  (command 3572)", "label": "boot (command <*>)", "type": 1}
+{"text": "blocked", "label": "blocked", "type": 1}

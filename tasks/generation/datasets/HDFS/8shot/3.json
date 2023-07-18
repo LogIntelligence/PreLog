@@ -1,0 +1,8 @@
+{"text": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.42.191:50010 is added to blk_-4208396523159735354 size 67108864", "label": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>", "type": 1}
+{"text": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.75.143:50010 is added to blk_7434237665308221519 size 67108864", "label": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>", "type": 1}
+{"text": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.199.159:50010 is added to blk_-8558845834445970595 size 67108864", "label": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>", "type": 1}
+{"text": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.111.37:50010 is added to blk_-524128780228307052 size 67108864", "label": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>", "type": 1}
+{"text": "Received block blk_4433676399725693167 of size 67108864 from /10.251.37.240", "label": "Received block <*> of size <*> from <*>", "type": 1}
+{"text": "Verification succeeded for blk_2904134648927436267", "label": "Verification succeeded for <*>", "type": 1}
+{"text": "PacketResponder 2 for block blk_2691304991047255190 terminating", "label": "PacketResponder <*> for block <*> terminating", "type": 1}
+{"text": "Received block blk_-3909548841543565741 of size 3542967 from /10.251.195.33", "label": "Received block <*> of size <*> from <*>", "type": 1}

@@ -1,0 +1,16 @@
+{"text": "REPORT : 7099 5068 152060 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=128403", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038980000##7189##549659##8661##16256##27706526", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "processHandleBroadcastAction action:android.intent.action.TIME_TICK", "label": "processHandleBroadcastAction action:android.intent.action.TIME_TICK", "type": 1}
+{"text": "REPORT : 7024 5015 150454 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
+{"text": "saveStatData() type =40003,time = 1513958400000,statClient = 2,who is 1", "label": "saveStatData() type =<*>,time = <*>,statClient = <*>,who is <*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514041560000##7189##549659##8661##16256##30315546", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "onStandStepChanged 3761", "label": "onStandStepChanged <*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=129324", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": "setTodayTotalDetailSteps=1514044740000##0##549659##8661##16256##33444553", "label": "setTodayTotalDetailSteps=<*>", "type": 1}
+{"text": "onExtend:1514042082000 1 0 4", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "onStandStepChanged 3649", "label": "onStandStepChanged <*>", "type": 1}
+{"text": "onExtend:1514042261000 0 0 0", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "startListenerChange subscribeList = [1]", "label": "startListenerChange subscribeList = [<*>]", "type": 1}
+{"text": "onExtend:1514043759000 0 0 0", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038740000##7189##549608##8661##16256##27457484", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
