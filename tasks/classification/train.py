@@ -187,10 +187,13 @@ def main(args):
         with torch.no_grad():
             for batch in tqdm(test_data_loader, disable=not accelerator.is_local_main_process):
                 batch = {k: v.to(device) for k, v in batch.items()}
-                ground_truth.extend(accelerator.gather(batch['guid']).detach().clone().cpu().tolist())
+                gt_gathered = accelerator.gather(batch['guid'])
                 logits, _ = prompt_model(batch)
                 preds = torch.argmax(logits, dim=-1)
-                predictions.extend([classes[x] for x in accelerator.gather(preds).detach().clone().cpu().tolist()])
+                pr_gathered = accelerator.gather(preds)
+                if accelerator.is_local_main_process:
+                    ground_truth.extend(gt_gathered.detach().clone().cpu().tolist())
+                    predictions.extend([classes[x] for x in pr_gathered.detach().clone().cpu().tolist()])
 
         ground_truth = [classes[x] for x in ground_truth]
 

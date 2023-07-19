@@ -11,7 +11,8 @@ from transformers import (
     Seq2SeqTrainer,
     Seq2SeqTrainingArguments,
     T5ForConditionalGeneration,
-    T5Model
+    T5Model,
+    # AutoModelFor,
 )
 from datasets import load_dataset
 import evaluate
@@ -163,7 +164,7 @@ if __name__ == '__main__':
         output_dir=f"./p_models/{args.outdir}/{args.dataset}_full/",
         learning_rate=5e-5,
         per_device_train_batch_size=8,
-        per_device_eval_batch_size=8,
+        # per_device_eval_batch_size=8,
         max_steps=2000,
         weight_decay=0.0,
         do_train=True,
@@ -194,12 +195,12 @@ if __name__ == '__main__':
         data_collator=data_collator,
         compute_metrics=compute_metrics,
     )
-    #outputs = trainer.train()
-    #logger.info(outputs)
-    #trainer.save_model(f"./p_models/{args.outdir}/{args.dataset}_full/last/")
-    #logger.info(trainer.predict(train_dataset,
-    #                            max_length=256))
-    #model = trainer.model
+    outputs = trainer.train()
+    logger.info(outputs)
+    trainer.save_model(f"./p_models/{args.outdir}/{args.dataset}_full/last/")
+    logger.info(trainer.predict(train_dataset,
+                                max_length=256))
+    model = trainer.model
 
     '''
     Test

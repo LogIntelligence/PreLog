@@ -7,11 +7,11 @@ from datasets import load_dataset
 from transformers import DataCollatorForSeq2Seq
 from torch.utils.data import DataLoader
 
-
 masking = [
     {"regex_pattern": "((?<=[^A-Za-z0-9])|^)(\\/\S\\.[\\S]+)((?=[^A-Za-z0-9])|$)",
      "mask_with": "<*>"},
-    {"regex_pattern": "((?<=[^A-Za-z0-9])|^)(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})((?=[^A-Za-z0-9])|$)", "mask_with": "<*>"},
+    {"regex_pattern": "((?<=[^A-Za-z0-9])|^)(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})((?=[^A-Za-z0-9])|$)",
+     "mask_with": "<*>"},
     {"regex_pattern": "((?<=[^A-Za-z0-9])|^)([0-9a-f]{6,} ?){3,}((?=[^A-Za-z0-9])|$)",
      "mask_with": "<*>"},
     {"regex_pattern": "((?<=[^A-Za-z0-9])|^)([0-9A-F]{4} ?){4,}((?=[^A-Za-z0-9])|$)",
@@ -378,7 +378,7 @@ def parsing_v1(tokenizer, raw_dataset):
         return model_inputs
 
     dataset = raw_dataset.map(convert_to_features, num_proc=1, batched=True, remove_columns=[
-                              'text', 'label'], desc="Running tokenizer on dataset")
+        'text', 'label'], desc="Running tokenizer on dataset")
 
     variable_list = Counter(variable_list)
     variable_list = sorted(variable_list.items(),
@@ -394,8 +394,6 @@ def generate_template(tokenizer, model, log_file, accelerator):
     device = accelerator.device
     model.to(device)
     model.eval()
-
-
 
     def tokenize_and_align_labels(examples):
         examples['Content'] = [preprocess(x) for x in examples['Content']]
@@ -439,18 +437,15 @@ def generate_template(tokenizer, model, log_file, accelerator):
                                      #   bad_words_ids=ignore_word_ids,
                                      #   do_sample=True,
                                      )
-        #print(outputs)
         predictions = accelerator.pad_across_processes(
-            outputs, dim=1, pad_index=-100)
+            outputs, dim=1, pad_index=tokenizer.pad_token_id)
         predictions_gathered = accelerator.gather(predictions)
-        #logger.info(predictions_gathered.shape)
-        if accelerator.is_main_process:
-            print(predictions_gathered.shape)
-            print(predictions_gathered)
-            templates = tokenizer.batch_decode(predictions_gathered.cpu().tolist(), skip_special_tokens=True)
-        # print(templates)
-            for i, t in zip(line_id.detach().clone().tolist(), templates):
-                res[i] = map_template_v3(" ".join(logs[i - 1].split()), t)
+        if accelerator.is_local_main_process:
+            # templates = tokenizer.batch_decode(predictions_gathered, skip_special_tokens=True)
+            # print(templates)
+            for i, t in zip(line_id.detach().clone().tolist(), predictions_gathered.cpu().tolist()):
+                res[i] = map_template_v3(" ".join(logs[i - 1].split()), tokenizer.decode(t, skip_special_tokens=True))
+                # res[i] = map_template_v3(" ".join(logs[i - 1].split()), t)
 
     res = [x for _, x in sorted(res.items(), key=lambda k: k[0])]
     return res
