@@ -421,7 +421,7 @@ def generate_template(tokenizer, model, log_file, accelerator):
     data_collator = DataCollatorForSeq2Seq(
         tokenizer=tokenizer, label_pad_token_id=-100)
 
-    test_loader = DataLoader(test_dataset, collate_fn=data_collator, batch_size=8, pin_memory=True)
+    test_loader = DataLoader(test_dataset, collate_fn=data_collator, batch_size=32, pin_memory=True)
     model, test_loader = accelerator.prepare(
         model, test_loader
     )
