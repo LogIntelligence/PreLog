@@ -162,10 +162,10 @@ if __name__ == '__main__':
             param.require_grad = False
     training_args = Seq2SeqTrainingArguments(
         output_dir=f"./p_models/{args.outdir}/{args.dataset}_full/",
-        learning_rate=3e-5,
+        learning_rate=1e-5,
         per_device_train_batch_size=8,
         # per_device_eval_batch_size=8,
-        max_steps=1000,
+        max_steps=2000,
         weight_decay=1e-4,
         do_train=True,
         do_eval=False,
@@ -182,6 +182,7 @@ if __name__ == '__main__':
         generation_max_length=256,
         generation_num_beams=10,
         # logging_steps=100,
+        logging_strategy='no',
     )
 
     data_collator = DataCollatorForSeq2Seq(
@@ -213,15 +214,15 @@ if __name__ == '__main__':
     model = BartForConditionalGeneration.from_pretrained(
         f"./p_models/{args.outdir}/{args.dataset}_full/last/")
 
-    test_raw_dataset = load_dataset(
-        'json', data_files={'validation': args.test_file})
-    test_dataset, _ = parsing_v1(tokenizer, test_raw_dataset)
-    test_dataset = test_dataset['validation']
-
-    data_collator = DataCollatorForSeq2Seq(
-        tokenizer=tokenizer, label_pad_token_id=-100)
-    data_loader = DataLoader(
-        test_dataset, batch_size=8, collate_fn=data_collator, shuffle=False)
+    # test_raw_dataset = load_dataset(
+    #     'json', data_files={'validation': args.test_file})
+    # test_dataset, _ = parsing_v1(tokenizer, test_raw_dataset)
+    # test_dataset = test_dataset['validation']
+    #
+    # data_collator = DataCollatorForSeq2Seq(
+    #     tokenizer=tokenizer, label_pad_token_id=-100)
+    # data_loader = DataLoader(
+    #     test_dataset, batch_size=8, collate_fn=data_collator, shuffle=False)
 
     res = generate_template(tokenizer, model, f"logs/{args.dataset}/{args.dataset}_2k.log_structured.csv", accelerator)
     log_df = pd.read_csv(
