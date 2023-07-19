@@ -196,6 +196,7 @@ def explanation(tokenizer, model, dataset, template, WrapperClass, max_length, c
             logits, attn_scores = prompt_model(batch)
             attn_scores_gathered = accelerator.gather(attn_scores)
             if accelerator.is_local_main_process:
+                print(attn_scores_gathered.shape)
                 gt_gathered = gt_gathered.detach().clone().cpu().tolist()
                 failure_messages = failure_messages.detach().clone().cpu().tolist()
                 attn_scores_gathered = attn_scores_gathered.detach().clone().cpu().tolist()
@@ -224,6 +225,12 @@ def main(args):
     prompt_model = PromptForClassification(plm=plm, template=promptTemplate, verbalizer=promptVerbalizer)
     if args.do_train:
         prompt_model = train(tokenizer, prompt_model, promptTemplate, WrapperClass, max_length, args)
+        # save model
+        accelerator.wait_for_everyone()
+        unwrapped_model = accelerator.unwrap_model(prompt_model)
+        if accelerator.is_local_main_process:
+            unwrapped_model.save_pretrained(args.output_dir)
+            tokenizer.save_pretrained(args.output_dir)
 
     if args.do_eval:
         prompt_model.eval()
