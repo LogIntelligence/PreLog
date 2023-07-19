@@ -49,7 +49,7 @@ def grouping(data, window_size=50):
     return len(x), x
 
 
-def train(tokenizer, prompt_model, promptTemplate, max_length, WrapperClass, args):
+def train(tokenizer, model, template, max_length, WrapperClass, args):
     train_dataset = load_dataset("json", data_files={"train": args.train_file})['train']
     X, Y = [], []
     for inp in train_dataset:
@@ -67,7 +67,7 @@ def train(tokenizer, prompt_model, promptTemplate, max_length, WrapperClass, arg
         dataset=dataset,
         batch_size=args.batch_size,
         tokenizer=tokenizer,
-        template=promptTemplate,
+        template=template,
         tokenizer_wrapper_class=WrapperClass,
         shortenable=True,
         decoder_max_length=5,
@@ -76,9 +76,9 @@ def train(tokenizer, prompt_model, promptTemplate, max_length, WrapperClass, arg
     )
 
     optimizer_grouped_parameters = [
-        {'params': [p for n, p in prompt_model.named_parameters() if not any(nd in n for nd in no_decay)],
+        {'params': [p for n, p in model.named_parameters() if not any(nd in n for nd in no_decay)],
          'weight_decay': 0.01},
-        {'params': [p for n, p in prompt_model.named_parameters() if any(nd in n for nd in no_decay)],
+        {'params': [p for n, p in model.named_parameters() if any(nd in n for nd in no_decay)],
          'weight_decay': 0.0}
     ]
     optimizer = AdamW(optimizer_grouped_parameters, lr=args.lr)
@@ -91,15 +91,15 @@ def train(tokenizer, prompt_model, promptTemplate, max_length, WrapperClass, arg
 
     logger.info(f"  Total optimization steps = {args.max_steps}")
     global_step = 0
-    prompt_model.to(device)
-    prompt_model.train()
+    model.to(device)
+    model.train()
     total_step = 0
     progress_bar = tqdm(range(args.max_steps), disable=not accelerator.is_local_main_process)
     criterion = CrossEntropyLoss()
 
-    prompt_model.to(device)
+    model.to(device)
 
-    prompt_model, optimizer, scheduler, data_loader = accelerator.prepare(prompt_model, optimizer, scheduler,
+    prompt_model, optimizer, scheduler, data_loader = accelerator.prepare(model, optimizer, scheduler,
                                                                           data_loader)
 
     for idx in range(0, args.max_steps):
@@ -138,8 +138,77 @@ def train(tokenizer, prompt_model, promptTemplate, max_length, WrapperClass, arg
     return prompt_model
 
 
-def eval():
-    pass
+def evaluation(tokenizer, model, dataset, template, WrapperClass, max_length, classes, args):
+    test_data_loader = PromptDataLoader(
+        dataset=dataset,
+        batch_size=args.batch_size,
+        tokenizer=tokenizer,
+        template=template,
+        tokenizer_wrapper_class=WrapperClass,
+        shortenable=True,
+        max_seq_length=max_length,
+        decoder_max_length=5,
+        shuffle=True,
+    )
+
+    model, test_data_loader = accelerator.prepare(model, test_data_loader)
+
+    ground_truth = []
+    predictions = []
+    with torch.no_grad():
+        for batch in tqdm(test_data_loader, disable=not accelerator.is_local_main_process):
+            batch = {k: v.to(device) for k, v in batch.items()}
+            gt_gathered = accelerator.gather(batch['guid'])
+            logits, _ = model(batch)
+            preds = torch.argmax(logits, dim=-1)
+            pr_gathered = accelerator.gather(preds)
+            if accelerator.is_local_main_process:
+                ground_truth.extend(gt_gathered.detach().clone().cpu().tolist())
+                predictions.extend([classes[x] for x in pr_gathered.detach().clone().cpu().tolist()])
+
+    ground_truth = [classes[x] for x in ground_truth]
+
+    logger.info('******* results *******')
+    logger.info(classification_report(ground_truth[:len(predictions)], predictions, digits=3))
+
+
+def explanation(tokenizer, model, dataset, template, WrapperClass, max_length, classes, args):
+    test_data_loader = PromptDataLoader(
+        dataset=dataset,
+        batch_size=args.batch_size,
+        tokenizer=tokenizer,
+        template=template,
+        tokenizer_wrapper_class=WrapperClass,
+        shortenable=True,
+        max_seq_length=max_length,
+        decoder_max_length=5,
+        shuffle=True,
+    )
+
+    prompt_model, test_data_loader = accelerator.prepare(model, test_data_loader)
+    ground_truth = []
+    predictions = []
+    with torch.no_grad():
+        for batch in tqdm(test_data_loader, disable=not accelerator.is_local_main_process):
+            batch = {k: v.to(device) for k, v in batch.items()}
+            gt_gathered = accelerator.gather(batch['guid'])
+            failure_messages = accelerator.gather(batch['meta'])
+            logits, attn_scores = prompt_model(batch)
+            attn_scores_gathered = accelerator.gather(attn_scores)
+            if accelerator.is_local_main_process:
+                gt_gathered = gt_gathered.detach().clone().cpu().tolist()
+                failure_messages = failure_messages.detach().clone().cpu().tolist()
+                attn_scores_gathered = attn_scores_gathered.detach().clone().cpu().tolist()
+                for i in range(len(gt_gathered)):
+                    if gt_gathered[i] != 0:
+                        ground_truth.append(classes[gt_gathered[i]])
+                        predictions.append(classes[gt_gathered[i]])
+                    else:
+                        ground_truth.append(classes[gt_gathered[i]])
+                        predictions.append(classes[gt_gathered[i]])
+                        print(failure_messages[i])
+                        print(attn_scores_gathered[i])
+                        print('------------------')
 
 
 def main(args):
@@ -149,17 +218,18 @@ def main(args):
     plm, tokenizer, model_config, WrapperClass = load_plm(args.model_name, args.model_path)
 
     promptTemplate = ManualTemplate(tokenizer=tokenizer).from_file(args.prompt_template)
-    promptVerbalizer = ManualVerbalizer(classes=['abnormal', 'normal'], tokenizer=tokenizer).from_file(args.verbalizer)
+    promptVerbalizer = ManualVerbalizer(classes=['normal', 'abnormal'], tokenizer=tokenizer).from_file(args.verbalizer)
 
     max_length = max(tokenizer.max_model_input_sizes.values())
     prompt_model = PromptForClassification(plm=plm, template=promptTemplate, verbalizer=promptVerbalizer)
     if args.do_train:
         prompt_model = train(tokenizer, prompt_model, promptTemplate, WrapperClass, max_length, args)
 
-    prompt_model.eval()
-    test_dataset = load_dataset(
-        "json", data_files={"test": args.test_file})['test']
-    if not args.grouping:
+    if args.do_eval:
+        prompt_model.eval()
+        test_dataset = load_dataset(
+            "json", data_files={"test": args.test_file})['test']
+
         test_dataset = [
             InputExample(
                 guid=test_dataset[i]['labels'],
@@ -167,82 +237,10 @@ def main(args):
             )
             for i in range(len(test_dataset))
         ]
+        evaluation(tokenizer, prompt_model, test_dataset, promptTemplate, WrapperClass, max_length, classes, args)
 
-        test_data_loader = PromptDataLoader(
-            dataset=test_dataset,
-            batch_size=args.batch_size,
-            tokenizer=tokenizer,
-            template=promptTemplate,
-            tokenizer_wrapper_class=WrapperClass,
-            shortenable=True,
-            max_seq_length=max_length,
-            decoder_max_length=5,
-            shuffle=True,
-        )
-
-        prompt_model, test_data_loader = accelerator.prepare(prompt_model, test_data_loader)
-
-        ground_truth = []
-        predictions = []
-        with torch.no_grad():
-            for batch in tqdm(test_data_loader, disable=not accelerator.is_local_main_process):
-                batch = {k: v.to(device) for k, v in batch.items()}
-                gt_gathered = accelerator.gather(batch['guid'])
-                logits, _ = prompt_model(batch)
-                preds = torch.argmax(logits, dim=-1)
-                pr_gathered = accelerator.gather(preds)
-                if accelerator.is_local_main_process:
-                    ground_truth.extend(gt_gathered.detach().clone().cpu().tolist())
-                    predictions.extend([classes[x] for x in pr_gathered.detach().clone().cpu().tolist()])
-
-        ground_truth = [classes[x] for x in ground_truth]
-
-        logger.info('******* results *******')
-        logger.info(classification_report(ground_truth[:len(predictions)], predictions, digits=3))
-    else:
-        y_true, y_pred = [], []
-        # prompt_model = accelerator.prepare(prompt_model)
-        with torch.no_grad():
-            for inp in tqdm(test_dataset, disable=not accelerator.is_local_main_process, total=len(test_dataset)):
-                n_samples, windows = grouping(inp['text'], args.window_size)
-                label = inp['labels']
-                y_true.append(classes[label])
-                window_y_pred = []
-                x_test = []
-                for window in windows:
-                    x_test.append(
-                        InputExample(
-                            guid=label,
-                            text_a=preprocess("</s>".join(window))
-                        )
-                    )
-                test_loader = PromptDataLoader(
-                    dataset=x_test,
-                    batch_size=args.batch_size,
-                    tokenizer=tokenizer,
-                    template=promptTemplate,
-                    tokenizer_wrapper_class=WrapperClass,
-                    shortenable=True,
-                    max_seq_length=max_length,
-                    decoder_max_length=5,
-                    shuffle=True,
-                )
-                test_loader = accelerator.prepare(test_loader)
-                for batch in test_loader:
-                    batch = {k: v.to(device) for k, v in batch.items()}
-                    logits, _ = prompt_model(batch)
-                    preds = torch.argmax(logits, dim=-1)
-                    window_y_pred.extend(
-                        [classes[x] for x in accelerator.gather(preds).detach().clone().cpu().tolist()]
-                    )
-                if all([x == 'normal' for x in window_y_pred]):
-                    y_pred.append('normal')
-                else:
-                    window_y_pred = [x for x in window_y_pred if x != 'normal']
-                    y_pred.append(window_y_pred[0])
-
-        logger.info('******* results *******')
-        logger.info(classification_report(y_true, y_pred, digits=3))
+    if args.do_explain:
+        explanation(tokenizer, prompt_model, test_dataset, promptTemplate, WrapperClass, max_length, classes, args)
 
 
 if __name__ == '__main__':
@@ -277,6 +275,8 @@ if __name__ == '__main__':
     parser.add_argument("--grouping", default=False, help="Grouping", action='store_true')
     parser.add_argument("--window-size", type=int, default=10, help="Window size")
     parser.add_argument("--do-train", default=False, help="Do train", action='store_true')
+    parser.add_argument("--do-eval", default=False, help="Do eval", action='store_true')
+    parser.add_argument("--do-explain", default=False, help="Do explanation", action='store_true')
     parser.add_argument("--output-dir", type=str, default="output", help="Output dir")
 
     args = parser.parse_args()

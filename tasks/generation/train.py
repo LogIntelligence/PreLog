@@ -162,8 +162,8 @@ if __name__ == '__main__':
             param.require_grad = False
     training_args = Seq2SeqTrainingArguments(
         output_dir=f"./p_models/{args.outdir}/{args.dataset}_full/",
-        learning_rate=3e-5,
-        per_device_train_batch_size=16,
+        learning_rate=5e-5,
+        per_device_train_batch_size=32,
         # per_device_eval_batch_size=8,
         max_steps=2000,
         weight_decay=1e-4,
@@ -176,10 +176,10 @@ if __name__ == '__main__':
         lr_scheduler_type='polynomial',
         warmup_ratio=0.1,
         optim='adamw_torch',
-        gradient_accumulation_steps=8,
+        gradient_accumulation_steps=1,
         # label_smoothing_factor=0.1,
         predict_with_generate=True,
-        generation_max_length=256,
+        generation_max_length=512,
         generation_num_beams=8,
         # logging_steps=100,
         logging_strategy='no',
@@ -199,20 +199,20 @@ if __name__ == '__main__':
     outputs = trainer.train()
     logger.info(outputs)
     trainer.save_model(f"./p_models/{args.outdir}/{args.dataset}_full/last/")
-    logger.info(trainer.predict(train_dataset,
-                                max_length=256))
-    # model = trainer.model
+    # logger.info(trainer.predict(train_dataset,
+    #                             max_length=512))
+    model = trainer.model
 
     '''
     Test
-    '''
-    tokenizer = AutoTokenizer.from_pretrained(f"./p_models/{args.outdir}/{args.dataset}_full/last/",
-                                              use_fast=False,
-                                              add_prefix_space=True,
-                                              do_lower_case=False)
-    tokenizer.model_max_length = 256
-    model = BartForConditionalGeneration.from_pretrained(
-        f"./p_models/{args.outdir}/{args.dataset}_full/last/")
+    # '''
+    # tokenizer = AutoTokenizer.from_pretrained(f"./p_models/{args.outdir}/{args.dataset}_full/last/",
+    #                                           use_fast=False,
+    #                                           add_prefix_space=True,
+    #                                           do_lower_case=False)
+    tokenizer.model_max_length = 512
+    # model = BartForConditionalGeneration.from_pretrained(
+    #     f"./p_models/{args.outdir}/{args.dataset}_full/last/")
 
     # test_raw_dataset = load_dataset(
     #     'json', data_files={'validation': args.test_file})

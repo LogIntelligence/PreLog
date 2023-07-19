@@ -421,32 +421,26 @@ def generate_template(tokenizer, model, log_file, accelerator):
     data_collator = DataCollatorForSeq2Seq(
         tokenizer=tokenizer, label_pad_token_id=-100)
 
-    test_loader = DataLoader(test_dataset, collate_fn=data_collator, batch_size=8, pin_memory=True)
+    test_loader = DataLoader(test_dataset, collate_fn=data_collator, batch_size=32, pin_memory=True)
     model, test_loader = accelerator.prepare(
         model, test_loader
     )
 
     for batch in tqdm(test_loader, desc='Parsing', disable=not accelerator.is_local_main_process):
         line_id = batch.pop("LineId")
-        batch = {k: v.to(device) for k, v in batch.items()}
+        # batch = {k: v.to(device) for k, v in batch.items()}
         with torch.no_grad():
-            outputs = model.generate(input_ids=batch['input_ids'].to(device), max_length=256,
-                                     attention_mask=batch['attention_mask'].to(
-                                         device),
+            outputs = model.generate(input_ids=batch['input_ids'].to(device), max_length=512,
+                                     attention_mask=batch['attention_mask'].to(device),
                                      num_beams=8,
-                                     #   bad_words_ids=ignore_word_ids,
-                                     #   do_sample=True,
                                      )
-        # print
         predictions = accelerator.pad_across_processes(
             outputs, dim=1, pad_index=tokenizer.pad_token_id)
         predictions_gathered = accelerator.gather(predictions)
         line_id = accelerator.gather(line_id)
         if accelerator.is_local_main_process:
             templates = tokenizer.batch_decode(predictions_gathered, skip_special_tokens=True)
-            # print(templates)
             for i, t in zip(line_id.detach().clone().tolist(), templates):
-                # res[i] = map_template_v3(" ".join(logs[i - 1].split()), tokenizer.decode(t, skip_special_tokens=True))
                 res[i] = map_template_v3(" ".join(logs[i - 1].split()), t)
 
     accelerator.wait_for_everyone()
