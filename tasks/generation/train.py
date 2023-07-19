@@ -180,7 +180,7 @@ if __name__ == '__main__':
         # label_smoothing_factor=0.1,
         predict_with_generate=True,
         generation_max_length=256,
-        generation_num_beams=10,
+        generation_num_beams=8,
         # logging_steps=100,
         logging_strategy='no',
     )

@@ -433,7 +433,7 @@ def generate_template(tokenizer, model, log_file, accelerator):
             outputs = accelerator.unwrap_model(model).generate(input_ids=batch['input_ids'].to(device), max_length=256,
                                      attention_mask=batch['attention_mask'].to(
                                          device),
-                                     num_beams=10,
+                                     num_beams=8,
                                      #   bad_words_ids=ignore_word_ids,
                                      #   do_sample=True,
                                      )
