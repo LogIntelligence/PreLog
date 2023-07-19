@@ -162,11 +162,11 @@ if __name__ == '__main__':
             param.require_grad = False
     training_args = Seq2SeqTrainingArguments(
         output_dir=f"./p_models/{args.outdir}/{args.dataset}_full/",
-        learning_rate=5e-5,
+        learning_rate=3e-5,
         per_device_train_batch_size=8,
         # per_device_eval_batch_size=8,
-        max_steps=2000,
-        weight_decay=0.0,
+        max_steps=1000,
+        weight_decay=1e-4,
         do_train=True,
         do_eval=False,
         # eval_steps=1,
@@ -181,7 +181,7 @@ if __name__ == '__main__':
         predict_with_generate=True,
         generation_max_length=256,
         generation_num_beams=10,
-        logging_steps=100,
+        # logging_steps=100,
     )
 
     data_collator = DataCollatorForSeq2Seq(
@@ -241,7 +241,7 @@ if __name__ == '__main__':
     template_df.to_csv(
         f"benchmark_results/{args.outdir}/{args.dataset}_2k.log_templates.csv")
 
-    gf, rs = postprocess_text(gf, rs)
-    result = metric.compute(predictions=rs, references=gf, use_stemmer=True)
-    result = {k: round(v * 100, 2) for k, v in result.items()}
-    logger.info(result)
+    # gf, rs = postprocess_text(gf, rs)
+    # result = metric.compute(predictions=rs, references=gf, use_stemmer=True)
+    # result = {k: round(v * 100, 2) for k, v in result.items()}
+    # logger.info(result)

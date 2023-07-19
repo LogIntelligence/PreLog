@@ -449,5 +449,7 @@ def generate_template(tokenizer, model, log_file, accelerator):
                 # res[i] = map_template_v3(" ".join(logs[i - 1].split()), tokenizer.decode(t, skip_special_tokens=True))
                 res[i] = map_template_v3(" ".join(logs[i - 1].split()), t)
 
+    accelerator.wait_for_everyone()
+
     res = [x for _, x in sorted(res.items(), key=lambda k: k[0])]
     return res
