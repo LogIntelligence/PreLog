@@ -11,7 +11,8 @@ from transformers import (
     Seq2SeqTrainer,
     Seq2SeqTrainingArguments,
     T5ForConditionalGeneration,
-    T5Model
+    T5Model,
+    # AutoModelFor,
 )
 from datasets import load_dataset
 import evaluate
@@ -27,6 +28,8 @@ from data_loader import parsing_v1, map_template_v3, preprocess, generate_templa
 from datasets import disable_caching
 import logging
 from logging import getLogger
+from datasets.utils.logging import disable_progress_bar
+disable_progress_bar()
 
 accelerator = Accelerator()
 
@@ -161,7 +164,7 @@ if __name__ == '__main__':
         output_dir=f"./p_models/{args.outdir}/{args.dataset}_full/",
         learning_rate=5e-5,
         per_device_train_batch_size=8,
-        per_device_eval_batch_size=8,
+        # per_device_eval_batch_size=8,
         max_steps=2000,
         weight_decay=0.0,
         do_train=True,
