@@ -423,29 +423,34 @@ def generate_template(tokenizer, model, log_file, accelerator):
     data_collator = DataCollatorForSeq2Seq(
         tokenizer=tokenizer, label_pad_token_id=-100)
 
-    test_loader = DataLoader(test_dataset, collate_fn=data_collator, batch_size=1, pin_memory=True)
+    test_loader = DataLoader(test_dataset, collate_fn=data_collator, batch_size=8, pin_memory=True)
     model, test_loader = accelerator.prepare(
         model, test_loader
     )
 
-    for batch in tqdm(test_loader, desc='Parsing'):
+    for batch in tqdm(test_loader, desc='Parsing', disable=not accelerator.is_local_main_process):
         line_id = batch.pop("LineId")
         batch = {k: v.to(device) for k, v in batch.items()}
         with torch.no_grad():
-            outputs = model.generate(input_ids=batch['input_ids'].to(device), max_length=256,
+            outputs = accelerator.unwrap_model(model).generate(input_ids=batch['input_ids'].to(device), max_length=256,
                                      attention_mask=batch['attention_mask'].to(
                                          device),
                                      num_beams=10,
                                      #   bad_words_ids=ignore_word_ids,
                                      #   do_sample=True,
                                      )
+        #print(outputs)
         predictions = accelerator.pad_across_processes(
             outputs, dim=1, pad_index=-100)
         predictions_gathered = accelerator.gather(predictions)
-        templates = tokenizer.batch_decode(predictions_gathered, skip_special_tokens=True)
+        #logger.info(predictions_gathered.shape)
+        if accelerator.is_main_process:
+            print(predictions_gathered.shape)
+            print(predictions_gathered)
+            templates = tokenizer.batch_decode(predictions_gathered.cpu().tolist(), skip_special_tokens=True)
         # print(templates)
-        for i, t in zip(line_id.detach().clone().tolist(), templates):
-            res[i] = map_template_v3(" ".join(logs[i - 1].split()), t)
+            for i, t in zip(line_id.detach().clone().tolist(), templates):
+                res[i] = map_template_v3(" ".join(logs[i - 1].split()), t)
 
     res = [x for _, x in sorted(res.items(), key=lambda k: k[0])]
     return res

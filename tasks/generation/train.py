@@ -27,6 +27,8 @@ from data_loader import parsing_v1, map_template_v3, preprocess, generate_templa
 from datasets import disable_caching
 import logging
 from logging import getLogger
+from datasets.utils.logging import disable_progress_bar
+disable_progress_bar()
 
 accelerator = Accelerator()
 
@@ -192,12 +194,12 @@ if __name__ == '__main__':
         data_collator=data_collator,
         compute_metrics=compute_metrics,
     )
-    outputs = trainer.train()
-    logger.info(outputs)
-    trainer.save_model(f"./p_models/{args.outdir}/{args.dataset}_full/last/")
-    logger.info(trainer.predict(train_dataset,
-                                max_length=256))
-    # model = trainer.model
+    #outputs = trainer.train()
+    #logger.info(outputs)
+    #trainer.save_model(f"./p_models/{args.outdir}/{args.dataset}_full/last/")
+    #logger.info(trainer.predict(train_dataset,
+    #                            max_length=256))
+    #model = trainer.model
 
     '''
     Test
