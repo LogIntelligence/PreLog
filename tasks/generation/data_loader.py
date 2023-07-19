@@ -428,14 +428,12 @@ def generate_template(tokenizer, model, log_file, accelerator):
 
     for batch in tqdm(test_loader, desc='Parsing', disable=not accelerator.is_local_main_process):
         line_id = batch.pop("LineId")
-        batch = {k: v.to(device) for k, v in batch.items()}
+        # batch = {k: v.to(device) for k, v in batch.items()}
         with torch.no_grad():
-            outputs = accelerator.unwrap_model(model).generate(input_ids=batch['input_ids'].to(device), max_length=256,
+            outputs = accelerator.unwrap_model(model).generate(input_ids=batch['input_ids'].to(device), max_length=512,
                                      attention_mask=batch['attention_mask'].to(
                                          device),
                                      num_beams=8,
-                                     #   bad_words_ids=ignore_word_ids,
-                                     #   do_sample=True,
                                      )
         predictions = accelerator.pad_across_processes(
             outputs, dim=1, pad_index=tokenizer.pad_token_id)
@@ -443,9 +441,7 @@ def generate_template(tokenizer, model, log_file, accelerator):
         line_id = accelerator.gather(line_id)
         if accelerator.is_local_main_process:
             templates = tokenizer.batch_decode(predictions_gathered, skip_special_tokens=True)
-            # print(templates)
             for i, t in zip(line_id.detach().clone().tolist(), templates):
-                # res[i] = map_template_v3(" ".join(logs[i - 1].split()), tokenizer.decode(t, skip_special_tokens=True))
                 res[i] = map_template_v3(" ".join(logs[i - 1].split()), t)
 
     accelerator.wait_for_everyone()
