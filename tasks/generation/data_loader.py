@@ -439,14 +439,15 @@ def generate_template(tokenizer, model, log_file, accelerator):
                                      )
         # print
         predictions = accelerator.pad_across_processes(
-            outputs, dim=1, pad_index=-100)
+            outputs, dim=1, pad_index=tokenizer.pad_token_id)
         predictions_gathered = accelerator.gather(predictions)
+        line_id = accelerator.gather(line_id)
         if accelerator.is_local_main_process:
-            # templates = tokenizer.batch_decode(predictions_gathered, skip_special_tokens=True)
+            templates = tokenizer.batch_decode(predictions_gathered, skip_special_tokens=True)
             # print(templates)
-            for i, t in zip(line_id.detach().clone().tolist(), predictions_gathered.cpu().tolist()):
-                res[i] = map_template_v3(" ".join(logs[i - 1].split()), tokenizer.decode(t, skip_special_tokens=True))
-                # res[i] = map_template_v3(" ".join(logs[i - 1].split()), t)
+            for i, t in zip(line_id.detach().clone().tolist(), templates):
+                # res[i] = map_template_v3(" ".join(logs[i - 1].split()), tokenizer.decode(t, skip_special_tokens=True))
+                res[i] = map_template_v3(" ".join(logs[i - 1].split()), t)
 
     res = [x for _, x in sorted(res.items(), key=lambda k: k[0])]
     return res
