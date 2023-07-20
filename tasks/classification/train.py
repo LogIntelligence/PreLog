@@ -171,6 +171,7 @@ def evaluation(tokenizer, model, dataset, template, WrapperClass, max_length, cl
 
 
 def explanation(tokenizer, model, dataset, template, WrapperClass, max_length, classes, args):
+    logger.info("***** Running explanation *****")
     ground_truth = [x.guid for x in dataset]
     for i in range(len(dataset)):
         dataset[i].guid = max(dataset[i].guid)
