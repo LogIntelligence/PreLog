@@ -97,10 +97,8 @@ def train(tokenizer, model, template, max_length, WrapperClass, args):
     progress_bar = tqdm(range(args.max_steps), disable=not accelerator.is_local_main_process)
     criterion = CrossEntropyLoss()
 
-    model.to(device)
-
-    prompt_model, optimizer, scheduler, data_loader = accelerator.prepare(model, optimizer, scheduler,
-                                                                          data_loader)
+    model, optimizer, scheduler, data_loader = accelerator.prepare(model, optimizer, scheduler,
+                                                                   data_loader)
 
     for idx in range(0, args.max_steps):
         total_loss = 0.0
@@ -109,12 +107,12 @@ def train(tokenizer, model, template, max_length, WrapperClass, args):
             batch = {k: v.to(device) for k, v in batch.items()}
             total_step += 1
             labels = batch['guid']
-            logits, _ = prompt_model(batch)
+            logits, _, _ = model(batch)
             loss = criterion(logits, labels)
             sum_loss += loss
             loss = loss / args.gradient_accumulation_steps
             accelerator.backward(loss)
-            torch.nn.utils.clip_grad_norm_(prompt_model.parameters(), args.max_grad_norm)
+            torch.nn.utils.clip_grad_norm_(model.parameters(), args.max_grad_norm)
             if (batch_idx + 1) % args.gradient_accumulation_steps == 0 or batch_idx == len(data_loader) - 1:
                 optimizer.step()
                 scheduler.step()
@@ -131,11 +129,11 @@ def train(tokenizer, model, template, max_length, WrapperClass, args):
     progress_bar.close()
     # save model
     accelerator.wait_for_everyone()
-    unwrapped_model = accelerator.unwrap_model(prompt_model)
+    unwrapped_model = accelerator.unwrap_model(model)
     if accelerator.is_local_main_process:
-        unwrapped_model.save_pretrained(args.output_dir)
+        unwrapped_model.plm.save_pretrained(args.output_dir)
         tokenizer.save_pretrained(args.output_dir)
-    return prompt_model
+    return model
 
 
 def evaluation(tokenizer, model, dataset, template, WrapperClass, max_length, classes, args):
@@ -159,7 +157,7 @@ def evaluation(tokenizer, model, dataset, template, WrapperClass, max_length, cl
         for batch in tqdm(test_data_loader, disable=not accelerator.is_local_main_process):
             batch = {k: v.to(device) for k, v in batch.items()}
             gt_gathered = accelerator.gather(batch['guid'])
-            logits, _ = model(batch)
+            logits, _, _ = model(batch)
             preds = torch.argmax(logits, dim=-1)
             pr_gathered = accelerator.gather(preds)
             if accelerator.is_local_main_process:
@@ -173,6 +171,9 @@ def evaluation(tokenizer, model, dataset, template, WrapperClass, max_length, cl
 
 
 def explanation(tokenizer, model, dataset, template, WrapperClass, max_length, classes, args):
+    ground_truth = [x.guid for x in dataset]
+    for i in range(len(dataset)):
+        dataset[i].guid = max(dataset[i].guid)
     test_data_loader = PromptDataLoader(
         dataset=dataset,
         batch_size=args.batch_size,
@@ -182,34 +183,42 @@ def explanation(tokenizer, model, dataset, template, WrapperClass, max_length, c
         shortenable=True,
         max_seq_length=max_length,
         decoder_max_length=5,
-        shuffle=True,
+        shuffle=False,
     )
 
-    prompt_model, test_data_loader = accelerator.prepare(model, test_data_loader)
-    ground_truth = []
+    model, test_data_loader = accelerator.prepare(model, test_data_loader)
     predictions = []
     with torch.no_grad():
         for batch in tqdm(test_data_loader, disable=not accelerator.is_local_main_process):
-            batch = {k: v.to(device) for k, v in batch.items()}
-            gt_gathered = accelerator.gather(batch['guid'])
-            failure_messages = accelerator.gather(batch['meta'])
-            logits, attn_scores = prompt_model(batch)
+            label = accelerator.gather(batch['guid'])
+            # del batch['guid']
+            batch = {k: v.to(device) for k, v in batch.items() if k != 'guid'}
+            # gt_gathered = accelerator.gather(batch['guid'])
+            inp_ids_gathered = accelerator.gather(batch['input_ids'])
+            logits, _, attn_scores = model(batch)
+            preds = torch.argmax(logits, dim=-1)
+            pr_gathered = accelerator.gather(preds)
             attn_scores_gathered = accelerator.gather(attn_scores)
             if accelerator.is_local_main_process:
-                print(attn_scores_gathered.shape)
-                gt_gathered = gt_gathered.detach().clone().cpu().tolist()
-                failure_messages = failure_messages.detach().clone().cpu().tolist()
-                attn_scores_gathered = attn_scores_gathered.detach().clone().cpu().tolist()
-                for i in range(len(gt_gathered)):
-                    if gt_gathered[i] != 0:
-                        ground_truth.append(classes[gt_gathered[i]])
-                        predictions.append(classes[gt_gathered[i]])
-                    else:
-                        ground_truth.append(classes[gt_gathered[i]])
-                        predictions.append(classes[gt_gathered[i]])
-                        print(failure_messages[i])
-                        print(attn_scores_gathered[i])
-                        print('------------------')
+                inp_ids_gathered = (inp_ids_gathered == tokenizer.eos_token_id).view(-1, inp_ids_gathered.shape[-1])
+                attn_scores_gathered = attn_scores_gathered.mean(dim=1)[:, 1, :].view(-1, inp_ids_gathered.shape[-1])
+                for i in range(attn_scores_gathered.shape[0]):
+                    if label[i] == pr_gathered[i] == 1:
+                        inp_ids = inp_ids_gathered[i]
+                        attn_scores = attn_scores_gathered[i][inp_ids][:-1]
+                        topk = torch.topk(attn_scores, k=10)
+                        predictions.append(topk.indices.tolist())
+                        # ground_truth.append(failure_messages[i])
+
+    logger.info('******* results *******')
+    for k in [1, 3, 5]:
+        hit = 0
+        for i in range(len(predictions)):
+            for p in predictions[i][:k]:
+                if ground_truth[i][p]:
+                    hit += 1
+                    break
+        logger.info(f'Top@{k}: {hit / len(predictions)}')
 
 
 def main(args):
@@ -224,29 +233,32 @@ def main(args):
     max_length = max(tokenizer.max_model_input_sizes.values())
     prompt_model = PromptForClassification(plm=plm, template=promptTemplate, verbalizer=promptVerbalizer)
     if args.do_train:
-        prompt_model = train(tokenizer, prompt_model, promptTemplate, WrapperClass, max_length, args)
-        # save model
-        accelerator.wait_for_everyone()
-        unwrapped_model = accelerator.unwrap_model(prompt_model)
-        if accelerator.is_local_main_process:
-            unwrapped_model.save_pretrained(args.output_dir)
-            tokenizer.save_pretrained(args.output_dir)
+        prompt_model = train(tokenizer, prompt_model, promptTemplate, max_length, WrapperClass, args)
+
+    prompt_model.eval()
+    test_dataset = load_dataset(
+        "json", data_files={"test": args.test_file})['test']
 
     if args.do_eval:
-        prompt_model.eval()
-        test_dataset = load_dataset(
-            "json", data_files={"test": args.test_file})['test']
-
         test_dataset = [
             InputExample(
                 guid=test_dataset[i]['labels'],
-                text_a=preprocess("</s>".join(test_dataset[i]['text']))
+                text_a=preprocess("</s>".join(test_dataset[i]['text'])),
+                # meta=test_dataset[i]['meta']
             )
             for i in range(len(test_dataset))
         ]
         evaluation(tokenizer, prompt_model, test_dataset, promptTemplate, WrapperClass, max_length, classes, args)
 
     if args.do_explain:
+        test_dataset = [
+            InputExample(
+                guid=test_dataset[i]['meta'],
+                text_a=preprocess("</s>".join(test_dataset[i]['text'])),
+                # meta=test_dataset[i]['meta']
+            )
+            for i in range(len(test_dataset))
+        ]
         explanation(tokenizer, prompt_model, test_dataset, promptTemplate, WrapperClass, max_length, classes, args)
 
 

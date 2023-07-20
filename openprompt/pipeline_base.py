@@ -1,4 +1,6 @@
 from pickle import FALSE
+from typing import Tuple, Any, Union
+
 from torch.utils.data.sampler import RandomSampler
 from transformers.configuration_utils import PretrainedConfig
 from transformers.generation_utils import GenerationMixin
@@ -215,9 +217,10 @@ class PromptModel(nn.Module):
         """
         batch = self.template.process_batch(batch)
         input_batch = {key: batch[key] for key in batch if key in self.forward_keys}
-        outputs = self.plm(**input_batch, output_hidden_states=True)
+        outputs = self.plm(**input_batch, output_hidden_states=True, output_attentions=True)
+        attn_scores = outputs['cross_attentions'] if 'cross_attentions' in outputs else outputs['attentions']
         outputs = self.template.post_processing_outputs(outputs)
-        return outputs
+        return outputs, attn_scores
 
     def prepare_model_inputs(self, batch: Union[Dict, InputFeatures]) -> Dict:
         r"""Will be used in generation
@@ -290,7 +293,7 @@ class PromptForClassification(nn.Module):
             outputs = outputs.view(outputs.shape[0], outputs.shape[2])
         return outputs
 
-    def forward(self, batch: Union[Dict, InputFeatures]) -> torch.Tensor:
+    def forward(self, batch: Union[Dict, InputFeatures]) -> Tuple[Any, Union[tuple, Any], Any]:
         r"""
         Get the logits of label words.
 
@@ -300,7 +303,7 @@ class PromptForClassification(nn.Module):
         Returns:
             :obj:`torch.Tensor`: The logits of the label words (obtained by the current verbalizer).
         """
-        outputs = self.prompt_model(batch)
+        outputs, attn_scores = self.prompt_model(batch)
         outputs = self.verbalizer.gather_outputs(outputs)
         # print(outputs)
         if isinstance(outputs, tuple):
@@ -308,7 +311,7 @@ class PromptForClassification(nn.Module):
         else:
             outputs_at_mask = self.extract_at_mask(outputs, batch)
         label_words_logits = self.verbalizer.process_outputs(outputs_at_mask, batch=batch)
-        return label_words_logits, outputs
+        return label_words_logits, outputs, attn_scores[-1]
 
     def predict(self):
         pass
