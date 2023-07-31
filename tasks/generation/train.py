@@ -99,7 +99,7 @@ def assign_embedding_for_parameter_token(tokenizer, model, variable_list):
     for v in variable_list:
         inp = tokenizer(v, return_tensors='pt')
         out = model.model.encoder(**inp)
-        parameter_embs.append(out['last_hidden_state'][0][0].data)
+        parameter_embs.append(out.last_hidden_state[0, 0:-1, :].mean(dim=0).data)
     e_para = parameter_embs[0]
     for e in parameter_embs[1:]:
         e_para += e
@@ -167,7 +167,7 @@ if __name__ == '__main__':
         per_device_train_batch_size=32,
         # per_device_eval_batch_size=8,
         max_steps=2000,
-        weight_decay=0.0001,
+        weight_decay=1e-5,
         do_train=True,
         do_eval=False,
         # eval_steps=1,

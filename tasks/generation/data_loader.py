@@ -386,7 +386,7 @@ def parsing_v1(tokenizer, raw_dataset):
 
     variable_list = [x[0] for x in variable_list]
     variable_list = [x for x in variable_list if len(x) > 2 and check_variable(x)]
-    return dataset, variable_list[:16]
+    return dataset, variable_list[:8]
 
 
 def generate_template(tokenizer, model, log_file, accelerator):
