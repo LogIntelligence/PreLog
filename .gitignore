@@ -138,3 +138,10 @@ fairseq/fairseq/data/data_utils_fast.cpp
 fairseq/fairseq/data/token_block_utils_fast.cpp
 /ad_data
 *.csv
+*.bin
+/tasks/classification/ad_models/
+*.ipynb
+tasks/generation/benchmark.sh.e91051039
+/tasks/classification/anomaly_detection/data/
+/tasks/generation/datasets/
+tasks/generation/datasets/

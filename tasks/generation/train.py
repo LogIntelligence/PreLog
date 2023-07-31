@@ -154,6 +154,7 @@ if __name__ == '__main__':
     # dataset = parsing_tokenize_dataset(
     #     tokenizer, raw_dataset, 256, False, p_token_ids)
     train_dataset, variable_list = parsing_v1(tokenizer, train_raw_dataset)
+    model = assign_embedding_for_parameter_token(tokenizer, model, variable_list)
     test_dataset, _ = parsing_v1(tokenizer, test_raw_dataset)
     train_dataset = train_dataset['train']
     test_dataset = test_dataset['validation']
@@ -181,8 +182,8 @@ if __name__ == '__main__':
         predict_with_generate=True,
         generation_max_length=512,
         generation_num_beams=8,
-        # logging_steps=100,
-        logging_strategy='no',
+        logging_steps=500,
+        # logging_strategy='no',
     )
 
     data_collator = DataCollatorForSeq2Seq(

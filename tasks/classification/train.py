@@ -184,7 +184,7 @@ def explanation(tokenizer, model, dataset, template, WrapperClass, max_length, c
         shortenable=True,
         max_seq_length=max_length,
         decoder_max_length=5,
-        shuffle=False,
+        shuffle=False
     )
 
     model, test_data_loader = accelerator.prepare(model, test_data_loader)
@@ -251,14 +251,14 @@ def main(args):
         ]
         evaluation(tokenizer, prompt_model, test_dataset, promptTemplate, WrapperClass, max_length, classes, args)
 
-    if args.do_explain:
+    elif args.do_explain:
         test_dataset = [
             InputExample(
                 guid=test_dataset[i]['meta'],
                 text_a=preprocess("</s>".join(test_dataset[i]['text'])),
                 # meta=test_dataset[i]['meta']
             )
-            for i in range(len(test_dataset))
+            for i in range(len(test_dataset)) if test_dataset[i]['labels'] == 1
         ]
         explanation(tokenizer, prompt_model, test_dataset, promptTemplate, WrapperClass, max_length, classes, args)
 
