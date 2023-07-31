@@ -243,7 +243,7 @@ if __name__ == '__main__':
     template_df.to_csv(
         f"benchmark_results/{args.outdir}/{args.dataset}_2k.log_templates.csv")
 
-    # gf, rs = postprocess_text(gf, rs)
-    # result = metric.compute(predictions=rs, references=gf, use_stemmer=True)
-    # result = {k: round(v * 100, 2) for k, v in result.items()}
-    # logger.info(result)
+    gf, rs = postprocess_text(gf, rs)
+    result = metric.compute(predictions=rs, references=gf, use_stemmer=True)
+    result = {k: round(v * 100, 2) for k, v in result.items()}
+    logger.info(result)
