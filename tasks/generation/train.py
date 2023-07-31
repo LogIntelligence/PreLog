@@ -94,7 +94,7 @@ def assign_embedding_for_parameter_token(tokenizer, model, variable_list):
     parameter_token = "<*>"
     # model.resize_token_embeddings(len(tokenizer))
     parameter_id = tokenizer.convert_tokens_to_ids(parameter_token)
-    model.shared.weight.data[-1] = model.shared.weight.data[1]
+    model.model.shared.weight.data[-1] = model.model.shared.weight.data[1]
     parameter_embs = []
     for v in variable_list:
         inp = tokenizer(v, return_tensors='pt')
@@ -103,7 +103,7 @@ def assign_embedding_for_parameter_token(tokenizer, model, variable_list):
     e_para = parameter_embs[0]
     for e in parameter_embs[1:]:
         e_para += e
-    model.shared.weight.data[parameter_id] = e_para / len(parameter_embs)
+    model.model.shared.weight.data[parameter_id] = e_para / len(parameter_embs)
     return model
 
 
