@@ -163,7 +163,7 @@ if __name__ == '__main__':
             param.require_grad = False
     training_args = Seq2SeqTrainingArguments(
         output_dir=f"./p_models/{args.outdir}/{args.dataset}_full/",
-        learning_rate=5e-5,
+        learning_rate=3e-5,
         per_device_train_batch_size=32,
         # per_device_eval_batch_size=8,
         max_steps=2000,
