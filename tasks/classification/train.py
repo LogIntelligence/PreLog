@@ -163,11 +163,11 @@ def evaluation(tokenizer, model, dataset, template, WrapperClass, max_length, cl
             if accelerator.is_local_main_process:
                 ground_truth.extend(gt_gathered.detach().clone().cpu().tolist())
                 predictions.extend([classes[x] for x in pr_gathered.detach().clone().cpu().tolist()])
-
+    accelerator.wait_for_everyone()
     ground_truth = [classes[x] for x in ground_truth]
-
-    logger.info('******* results *******')
-    logger.info(classification_report(ground_truth[:len(predictions)], predictions, digits=3))
+    if accelerator.is_local_main_process:
+        logger.info('******* results *******')
+        logger.info(classification_report(ground_truth[:len(predictions)], predictions, digits=3))
 
 
 def explanation(tokenizer, model, dataset, template, WrapperClass, max_length, classes, args):
@@ -190,9 +190,10 @@ def explanation(tokenizer, model, dataset, template, WrapperClass, max_length, c
     predictions = []
     with torch.no_grad():
         for batch in tqdm(test_data_loader, disable=not accelerator.is_local_main_process):
-            label = accelerator.gather(batch['guid'])
+            #label = accelerator.gather(batch['guid'])
             # del batch['guid']
-            batch = {k: v.to(device) for k, v in batch.items() if k != 'guid'}
+            batch = {k: v.to(device) for k, v in batch.items()}
+            label = accelerator.gather(batch['guid'])
             # gt_gathered = accelerator.gather(batch['guid'])
             inp_ids_gathered = accelerator.gather(batch['input_ids'])
             logits, _, attn_scores = model(batch)
@@ -203,21 +204,25 @@ def explanation(tokenizer, model, dataset, template, WrapperClass, max_length, c
                 inp_ids_gathered = (inp_ids_gathered == tokenizer.eos_token_id).view(-1, inp_ids_gathered.shape[-1])
                 attn_scores_gathered = attn_scores_gathered.mean(dim=1)[:, 1, :].view(-1, inp_ids_gathered.shape[-1])
                 for i in range(attn_scores_gathered.shape[0]):
-                    if label[i] == pr_gathered[i] == 1:
-                        inp_ids = inp_ids_gathered[i]
-                        attn_scores = attn_scores_gathered[i][inp_ids][:-1]
-                        topk = torch.topk(attn_scores, k=10)
-                        predictions.append(topk.indices.tolist())
+                    #if label[i] == pr_gathered[i] == 1:
+                    inp_ids = inp_ids_gathered[i]
+                    attn_scores = attn_scores_gathered[i][inp_ids][:-1]
+                    topk = torch.topk(attn_scores, k=5)
+                    predictions.append(topk.indices.tolist())
                         # ground_truth.append(failure_messages[i])
-
+    logger.info(len(ground_truth))
+    logger.info(len(predictions))
     logger.info('******* results *******')
     for k in [1, 3, 5]:
         hit = 0
         for i in range(len(predictions)):
             for p in predictions[i][:k]:
-                if ground_truth[i][p]:
-                    hit += 1
-                    break
+                try:
+                    if ground_truth[i][p]:
+                        hit += 1
+                        break
+                except:
+                    print(ground_truth[i])
         logger.info(f'Top@{k}: {hit / len(predictions)}')
 
 
@@ -257,8 +262,9 @@ def main(args):
                 text_a=preprocess("</s>".join(test_dataset[i]['text'])),
                 # meta=test_dataset[i]['meta']
             )
-            for i in range(len(test_dataset))
+            for i in range(len(test_dataset))  if test_dataset[i]['labels'] == 1
         ]
+        logger.info(len([len(x.guid) for x in test_dataset if len(x.guid) < 20]))
         explanation(tokenizer, prompt_model, test_dataset, promptTemplate, WrapperClass, max_length, classes, args)
 
 

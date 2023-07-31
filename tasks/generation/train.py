@@ -143,7 +143,7 @@ if __name__ == '__main__':
                                               use_fast=False,
                                               add_prefix_space=True,
                                               do_lower_case=False)
-    tokenizer.model_max_length = 256
+    tokenizer.model_max_length = 512
     model = BartForConditionalGeneration.from_pretrained(args.model_path)
     tokenizer, model, p_token_ids = add_parameter_token(tokenizer, model)
 
@@ -166,7 +166,7 @@ if __name__ == '__main__':
         per_device_train_batch_size=32,
         # per_device_eval_batch_size=8,
         max_steps=2000,
-        weight_decay=1e-4,
+        weight_decay=0.0001,
         do_train=True,
         do_eval=False,
         # eval_steps=1,
@@ -199,20 +199,20 @@ if __name__ == '__main__':
     outputs = trainer.train()
     logger.info(outputs)
     trainer.save_model(f"./p_models/{args.outdir}/{args.dataset}_full/last/")
-    # logger.info(trainer.predict(train_dataset,
+    #logger.info(trainer.predict(train_dataset,
     #                             max_length=512))
     model = trainer.model
 
     '''
     Test
     # '''
-    # tokenizer = AutoTokenizer.from_pretrained(f"./p_models/{args.outdir}/{args.dataset}_full/last/",
-    #                                           use_fast=False,
-    #                                           add_prefix_space=True,
-    #                                           do_lower_case=False)
-    tokenizer.model_max_length = 512
-    # model = BartForConditionalGeneration.from_pretrained(
-    #     f"./p_models/{args.outdir}/{args.dataset}_full/last/")
+    #tokenizer = AutoTokenizer.from_pretrained(f"./p_models/{args.outdir}/{args.dataset}_full/last/",
+    #                                          use_fast=False,
+    #                                          add_prefix_space=True,
+    #                                          do_lower_case=False)
+    #tokenizer.model_max_length = 512
+    #model = BartForConditionalGeneration.from_pretrained(
+    #    f"./p_models/{args.outdir}/{args.dataset}_full/last/")
 
     # test_raw_dataset = load_dataset(
     #     'json', data_files={'validation': args.test_file})
@@ -225,22 +225,23 @@ if __name__ == '__main__':
     #     test_dataset, batch_size=8, collate_fn=data_collator, shuffle=False)
 
     res = generate_template(tokenizer, model, f"logs/{args.dataset}/{args.dataset}_2k.log_structured.csv", accelerator)
-    log_df = pd.read_csv(
-        f"logs/{args.dataset}/{args.dataset}_2k.log_structured_corrected.csv")
-    gf = log_df.EventTemplate.tolist()
-    gf = [" ".join(x.split()) for x in gf]
-    rs = [x.strip() for x in res]
-    log_df.EventTemplate = pd.Series([x.strip() for x in res])
-    os.makedirs(
-        f"benchmark_results/{args.outdir}/", exist_ok=True)
-    log_df.to_csv(
-        f"benchmark_results/{args.outdir}/{args.dataset}_2k.log_structured.csv")
-    templates = [(i + 1, t, c) for i, (t, c) in enumerate(
-        sorted(Counter(res).items(), key=lambda x: x[1], reverse=True))]
-    template_df = pd.DataFrame(
-        templates, columns=['EventId', 'EventTemplate', 'Occurences'])
-    template_df.to_csv(
-        f"benchmark_results/{args.outdir}/{args.dataset}_2k.log_templates.csv")
+    logger.info(len(res))
+    if accelerator.is_local_main_process:
+        log_df = pd.read_csv(
+            f"logs/{args.dataset}/{args.dataset}_2k.log_structured_corrected.csv")
+        gf = log_df.EventTemplate.tolist()
+        gf = [" ".join(x.split()) for x in gf]
+        rs = [x.strip() for x in res]
+        log_df.EventTemplate = pd.Series([x.strip() for x in res])
+        os.makedirs(f"benchmark_results/{args.outdir}/", exist_ok=True)
+        log_df.to_csv(f"benchmark_results/{args.outdir}/{args.dataset}_2k.log_structured.csv")
+        templates = [(i + 1, t, c) for i, (t, c) in enumerate(
+            sorted(Counter(res).items(), key=lambda x: x[1], reverse=True))]
+        template_df = pd.DataFrame(
+            templates, columns=['EventId', 'EventTemplate', 'Occurences'])
+        logger.info(template_df.head(5))
+        template_df.to_csv(
+            f"benchmark_results/{args.outdir}/{args.dataset}_2k.log_templates.csv")
 
     # gf, rs = postprocess_text(gf, rs)
     # result = metric.compute(predictions=rs, references=gf, use_stemmer=True)
