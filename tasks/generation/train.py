@@ -98,8 +98,8 @@ def assign_embedding_for_parameter_token(tokenizer, model, variable_list):
     parameter_embs = []
     for v in variable_list:
         inp = tokenizer(v, return_tensors='pt')
-        out = model.encoder(**inp)
-        parameter_embs.append(out['last_hidden_state'][0][-1].data)
+        out = model.model.encoder(**inp)
+        parameter_embs.append(out['last_hidden_state'][0][0].data)
     e_para = parameter_embs[0]
     for e in parameter_embs[1:]:
         e_para += e
