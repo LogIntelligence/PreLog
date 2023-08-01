@@ -226,24 +226,25 @@ if __name__ == '__main__':
     #     test_dataset, batch_size=8, collate_fn=data_collator, shuffle=False)
 
     res = generate_template(tokenizer, model, f"logs/{args.dataset}/{args.dataset}_2k.log_structured.csv", accelerator)
-    log_df = pd.read_csv(
-        f"logs/{args.dataset}/{args.dataset}_2k.log_structured_corrected.csv")
-    gf = log_df.EventTemplate.tolist()
-    gf = [" ".join(x.split()) for x in gf]
-    rs = [x.strip() for x in res]
-    log_df.EventTemplate = pd.Series([x.strip() for x in res])
-    os.makedirs(
-        f"benchmark_results/{args.outdir}/", exist_ok=True)
-    log_df.to_csv(
-        f"benchmark_results/{args.outdir}/{args.dataset}_2k.log_structured.csv")
-    templates = [(i + 1, t, c) for i, (t, c) in enumerate(
-        sorted(Counter(res).items(), key=lambda x: x[1], reverse=True))]
-    template_df = pd.DataFrame(
-        templates, columns=['EventId', 'EventTemplate', 'Occurences'])
-    template_df.to_csv(
-        f"benchmark_results/{args.outdir}/{args.dataset}_2k.log_templates.csv")
+    if accelerator.is_local_main_process:
+        log_df = pd.read_csv(
+            f"logs/{args.dataset}/{args.dataset}_2k.log_structured_corrected.csv")
+        gf = log_df.EventTemplate.tolist()
+        gf = [" ".join(x.split()) for x in gf]
+        rs = [x.strip() for x in res]
+        log_df.EventTemplate = pd.Series([x.strip() for x in res])
+        os.makedirs(
+            f"benchmark_results/{args.outdir}/", exist_ok=True)
+        log_df.to_csv(
+            f"benchmark_results/{args.outdir}/{args.dataset}_2k.log_structured.csv")
+        templates = [(i + 1, t, c) for i, (t, c) in enumerate(
+            sorted(Counter(res).items(), key=lambda x: x[1], reverse=True))]
+        template_df = pd.DataFrame(
+            templates, columns=['EventId', 'EventTemplate', 'Occurences'])
+        template_df.to_csv(
+            f"benchmark_results/{args.outdir}/{args.dataset}_2k.log_templates.csv")
 
-    gf, rs = postprocess_text(gf, rs)
-    result = metric.compute(predictions=rs, references=gf, use_stemmer=True)
-    result = {k: round(v * 100, 2) for k, v in result.items()}
-    logger.info(result)
+        gf, rs = postprocess_text(gf, rs)
+        result = metric.compute(predictions=rs, references=gf, use_stemmer=True)
+        result = {k: round(v * 100, 2) for k, v in result.items()}
+        logger.info(result)
