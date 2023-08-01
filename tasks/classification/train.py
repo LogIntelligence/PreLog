@@ -26,7 +26,7 @@ from collections import Counter
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S')
 
-ddp_kwargs = DistributedDataParallelKwargs(find_unused_parameters=True)
+ddp_kwargs = DistributedDataParallelKwargs(find_unused_parameters=False)
 accelerator = Accelerator(kwargs_handlers=[ddp_kwargs])
 
 logger = getLogger(__name__)
