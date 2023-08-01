@@ -2,7 +2,7 @@ import argparse
 import pandas as pd
 import os
 import nltk
-from accelerate import Accelerator
+from accelerate import Accelerator, DistributedDataParallelKwargs
 
 from transformers import (
     AutoTokenizer,
@@ -31,7 +31,10 @@ from logging import getLogger
 from datasets.utils.logging import disable_progress_bar
 disable_progress_bar()
 
-accelerator = Accelerator()
+#accelerator = Accelerator(find_unused_parameters=False)
+
+ddp_kwargs = DistributedDataParallelKwargs(find_unused_parameters=False)
+accelerator = Accelerator(kwargs_handlers=[ddp_kwargs])
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s')
 logger = getLogger(__name__)
@@ -143,7 +146,7 @@ if __name__ == '__main__':
                                               use_fast=False,
                                               add_prefix_space=True,
                                               do_lower_case=False)
-    tokenizer.model_max_length = 512
+    tokenizer.model_max_length = 1024
     model = BartForConditionalGeneration.from_pretrained(args.model_path)
     tokenizer, model, p_token_ids = add_parameter_token(tokenizer, model)
 
@@ -153,8 +156,8 @@ if __name__ == '__main__':
         'json', data_files={'validation': args.test_file})
     # dataset = parsing_tokenize_dataset(
     #     tokenizer, raw_dataset, 256, False, p_token_ids)
-    train_dataset, variable_list = parsing_v1(tokenizer, train_raw_dataset)
-    model = assign_embedding_for_parameter_token(tokenizer, model, variable_list)
+    train_dataset, variable_list = parsing_v1(tokenizer, train_raw_dataset, True)
+    #model = assign_embedding_for_parameter_token(tokenizer, model, variable_list)
     test_dataset, _ = parsing_v1(tokenizer, test_raw_dataset)
     train_dataset = train_dataset['train']
     test_dataset = test_dataset['validation']
@@ -163,26 +166,26 @@ if __name__ == '__main__':
             param.require_grad = False
     training_args = Seq2SeqTrainingArguments(
         output_dir=f"./p_models/{args.outdir}/{args.dataset}_full/",
-        learning_rate=5e-5,
+        learning_rate=3e-5,
         per_device_train_batch_size=32,
         # per_device_eval_batch_size=8,
         max_steps=2000,
-        weight_decay=1e-5,
+        weight_decay=1e-3,
         do_train=True,
         do_eval=False,
         # eval_steps=1,
         # evaluation_strategy='epoch',
         save_strategy='no',
-        # fp16=args.fp16,
+        fp16=args.fp16,
         lr_scheduler_type='polynomial',
         warmup_ratio=0.1,
         optim='adamw_torch',
         gradient_accumulation_steps=1,
         # label_smoothing_factor=0.1,
         predict_with_generate=True,
-        generation_max_length=512,
+        generation_max_length=1024,
         generation_num_beams=8,
-        logging_steps=500,
+        logging_steps=200,
         # logging_strategy='no',
     )
 
@@ -201,7 +204,7 @@ if __name__ == '__main__':
     logger.info(outputs)
     trainer.save_model(f"./p_models/{args.outdir}/{args.dataset}_full/last/")
     #logger.info(trainer.predict(train_dataset,
-    #                             max_length=512))
+    #                             max_length=1024))
     model = trainer.model
 
     '''
@@ -211,7 +214,7 @@ if __name__ == '__main__':
     #                                          use_fast=False,
     #                                          add_prefix_space=True,
     #                                          do_lower_case=False)
-    #tokenizer.model_max_length = 512
+    #tokenizer.model_max_length = 1024
     #model = BartForConditionalGeneration.from_pretrained(
     #    f"./p_models/{args.outdir}/{args.dataset}_full/last/")
 
@@ -244,7 +247,7 @@ if __name__ == '__main__':
         template_df.to_csv(
             f"benchmark_results/{args.outdir}/{args.dataset}_2k.log_templates.csv")
 
-    gf, rs = postprocess_text(gf, rs)
-    result = metric.compute(predictions=rs, references=gf, use_stemmer=True)
-    result = {k: round(v * 100, 2) for k, v in result.items()}
-    logger.info(result)
+        gf, rs = postprocess_text(gf, rs)
+        result = metric.compute(predictions=rs, references=gf, use_stemmer=True)
+        result = {k: round(v * 100, 2) for k, v in result.items()}
+        logger.info(result)

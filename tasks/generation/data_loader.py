@@ -19,7 +19,7 @@ masking = [
     {"regex_pattern": "((?<=[^A-Za-z0-9])|^)(0x[a-f0-9A-F]+)((?=[^A-Za-z0-9])|$)",
      "mask_with": "<*>"},
     {"regex_pattern": "((?<=[^A-Za-z0-9])|^)([\\-\\+]?\\d+)((?=[^A-Za-z0-9])|$)", "mask_with": "<*>"},
-    # {"regex_pattern": "((?<=[^A-Za-z0-9])|^)([a-f0-9A-F]+)((?=[^A-Za-z0-9])|$)", "mask_with": "<*>"},
+    {"regex_pattern": "((?<=[^A-Za-z0-9])|^)([a-f0-9A-F]+)((?=[^A-Za-z0-9])|$)", "mask_with": "<*>"},
     {"regex_pattern": "(?<=executed cmd )(\".+?\")", "mask_with": "<*>"}
 ]
 
@@ -354,7 +354,7 @@ def check_variable(x):
     return True
 
 
-def parsing_v1(tokenizer, raw_dataset):
+def parsing_v1(tokenizer, raw_dataset, is_train=False):
     variable_list = []
 
     def convert_to_features(example_batch):
@@ -362,6 +362,7 @@ def parsing_v1(tokenizer, raw_dataset):
             variable_list.extend(get_parameter_list(
                 example_batch['text'][i], example_batch['label'][i]))
 
+        #if not is_train:
         example_batch['text'] = [preprocess(x) for x in example_batch['text']]
         example_batch['label'] = [" ".join(x.split())
                                   for x in example_batch['label']]
@@ -385,7 +386,7 @@ def parsing_v1(tokenizer, raw_dataset):
                            key=lambda k: k[1], reverse=True)
 
     variable_list = [x[0] for x in variable_list]
-    variable_list = [x for x in variable_list if len(x) > 2 and check_variable(x)]
+    variable_list = [x for x in variable_list if len(x) >= 2]
     return dataset, variable_list[:8]
 
 
