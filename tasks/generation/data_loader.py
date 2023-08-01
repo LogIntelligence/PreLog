@@ -430,10 +430,10 @@ def generate_template(tokenizer, model, log_file, accelerator):
         line_id = batch.pop("LineId")
         # batch = {k: v.to(device) for k, v in batch.items()}
         with torch.no_grad():
-            outputs = model.generate(input_ids=batch['input_ids'].to(device), max_length=512,
-                                     attention_mask=batch['attention_mask'].to(device),
-                                     num_beams=8,
-                                     )
+            outputs = accelerator.unwrap_model(model).generate(input_ids=batch['input_ids'].to(device), max_length=512,
+                                                               attention_mask=batch['attention_mask'].to(device),
+                                                               num_beams=8,
+                                                               )
         predictions = accelerator.pad_across_processes(
             outputs, dim=1, pad_index=tokenizer.pad_token_id)
         predictions_gathered = accelerator.gather(predictions)
