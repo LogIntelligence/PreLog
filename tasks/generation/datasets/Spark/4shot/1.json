@@ -1,4 +1,0 @@
-{"text": "Starting executor ID 5 on host mesos-slave-07", "label": "Starting executor ID <*> on host <*>", "type": 1}
-{"text": "Saved output of task 'attempt_201706092018_0024_m_000122_1147' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000122", "label": "Saved output of task '<*>' to hdfs://<*>", "type": 1}
-{"text": "Times: total = 40, boot = -71, init = 110, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
-{"text": "Finished task 0.0 in stage 1.0 (TID 42). 2474 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}

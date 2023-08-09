@@ -1,0 +1,8 @@
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage", "label": "image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage", "type": 1}
+{"text": "10.11.10.1 \"DELETE /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/c62f4f25-982c-4ea2-b5e4-93000edfcfbf HTTP/1.1\" status: 204 len: 203 time: 0.2904921", "label": "<*> \"DELETE <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Compute_service record updated for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us:cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us", "label": "Compute_service record updated for <*>", "type": 1}
+{"text": "Base or swap file too young to remove: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Base or swap file too young to remove: <*>", "type": 1}
+{"text": "[instance: be793e89-2cc3-4f99-9884-9c6a624a84bc] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU", "label": "[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU", "type": 1}
+{"text": "[instance: 63a0d960-70b6-44c6-b606-491478a5cadf] During sync_power_state the instance has a pending task (spawning). Skip.", "label": "[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.", "type": 1}
+{"text": "HTTP exception thrown: No instances found for any event", "label": "HTTP exception thrown: No instances found for any event", "type": 1}
+{"text": "[instance: af5f7392-f7d4-4298-b647-c98924c64aa1] vcpu limit not specified, defaulting to unlimited", "label": "[instance: <*>] vcpu limit not specified, defaulting to unlimited", "type": 1}

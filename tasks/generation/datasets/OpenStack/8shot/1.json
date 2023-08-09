@@ -1,8 +1,0 @@
-{"text": "Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Active base files: <*>", "type": 1}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2772589", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
-{"text": "10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 200 len: 380 time: 0.0879810", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>", "type": 1}
-{"text": "Removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Removable base files: <*>", "type": 1}
-{"text": "[instance: be793e89-2cc3-4f99-9884-9c6a624a84bc] During sync_power_state the instance has a pending task (spawning). Skip.", "label": "[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.", "type": 1}
-{"text": "Creating event network-vif-plugged:98dbd0a6-013e-4cd9-9986-fa32e5d6dd32 for instance ae3a1b5d-eec1-45bb-b76a-c59d83b1471f", "label": "Creating event network-vif-plugged:<*>-<*>-<*>-<*>-<*> for instance <*>", "type": 1}
-{"text": "[instance: b9000564-fe1a-409b-b8cc-1e88b294cd1d] Instance destroyed successfully.", "label": "[instance: <*>] Instance destroyed successfully.", "type": 1}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/af5f7392-f7d4-4298-b647-c98924c64aa1 HTTP/1.1\" status: 200 len: 1708 time: 0.1915350", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}

@@ -1,32 +1,32 @@
-{"text": "Failed password for root from 183.62.140.253 port 40213 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for root from 183.62.140.253 port 51395 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for root from 183.62.140.253 port 54954 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for root from 183.62.140.253 port 43666 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for root from 112.95.230.3 port 40388 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for invalid user user from 103.99.0.122 port 52683 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
-{"text": "Failed password for root from 183.62.140.253 port 33258 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed none for invalid user 0 from 185.190.58.151 port 55495 ssh2", "label": "Failed none for invalid user <*> from <*> port <*> ssh2"}
-{"text": "Failed password for root from 183.62.140.253 port 47147 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for invalid user admin from 103.99.0.122 port 55177 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
-{"text": "Did not receive identification string from 177.79.82.136", "label": "Did not receive identification string from <*>"}
-{"text": "input_userauth_request: invalid user postgres [preauth]", "label": "input_userauth_request: invalid user <*> [preauth]"}
-{"text": "Failed password for root from 183.62.140.253 port 35101 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for root from 187.141.143.180 port 47004 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for root from 183.62.140.253 port 55368 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for root from 187.141.143.180 port 36419 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root", "label": "PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>"}
-{"text": "Failed password for sshd from 103.99.0.122 port 51359 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for root from 183.62.140.253 port 39714 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for invalid user oracle from 187.141.143.180 port 42342 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
-{"text": "Failed password for invalid user FILTER from 104.192.3.34 port 33738 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
-{"text": "Invalid user dff from 183.62.140.253", "label": "Invalid user <*> from <*>"}
-{"text": "Failed password for root from 183.62.140.253 port 54754 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for root from 183.62.140.253 port 50953 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for root from 183.62.140.253 port 46485 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for invalid user jay from 187.141.143.180 port 60259 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
-{"text": "Connection closed by 212.47.254.145 [preauth]", "label": "Connection closed by <*> [preauth]"}
-{"text": "Failed password for invalid user nagios1 from 187.141.143.180 port 43647 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2"}
-{"text": "Failed password for uucp from 103.207.39.16 port 42435 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for root from 112.95.230.3 port 44900 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Failed password for root from 112.95.230.3 port 55618 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2"}
-{"text": "Received disconnect from 104.192.3.34: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]"}
+{"text": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root", "label": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!", "label": "reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!", "type": 1}
+{"text": "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "Accepted password for fztu from 119.137.62.142 port 49116 ssh2", "label": "Accepted password for <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Did not receive identification string from 188.132.244.89", "label": "Did not receive identification string from <*>", "type": 1}
+{"text": "PAM service(sshd) ignoring max retries; 6 > 3", "label": "PAM service(sshd) ignoring max retries; <*> > <*>", "type": 1}
+{"text": "input_userauth_request: invalid user support [preauth]", "label": "input_userauth_request: invalid user <*> [preauth]", "type": 1}
+{"text": "Connection closed by 194.190.163.22 [preauth]", "label": "Connection closed by <*> [preauth]", "type": 1}
+{"text": "pam_unix(sshd:session): session closed for user fztu", "label": "pam_unix(sshd:session): session closed for user <*>", "type": 1}
+{"text": "pam_unix(sshd:auth): check pass; user unknown", "label": "pam_unix(sshd:auth): check pass; user unknown", "type": 1}
+{"text": "Disconnecting: Too many authentication failures for admin [preauth]", "label": "Disconnecting: Too many authentication failures for <*> [preauth]", "type": 1}
+{"text": "Invalid user monitor from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]", "label": "error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth]", "type": 1}
+{"text": "Received disconnect from 103.207.39.16: 11: Closed due to user request. [preauth]", "label": "Received disconnect from <*>: <*>: Closed due to user request. [preauth]", "type": 1}
+{"text": "Failed none for invalid user admin from 5.188.10.180 port 52631 ssh2", "label": "Failed none for invalid user <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Failed password for root from 187.141.143.180 port 50811 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2", "type": 1}
+{"text": "fatal: Write failed: Connection reset by peer [preauth]", "label": "fatal: Write failed: Connection reset by peer [preauth]", "type": 1}
+{"text": "Received disconnect from 119.137.62.142: 11: disconnected by user", "label": "Received disconnect from <*>: <*>: disconnected by user", "type": 1}
+{"text": "Failed password for invalid user postgres from 187.141.143.180 port 54596 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Invalid user PlcmSpIp from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user ghost from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.4.203.64", "label": "PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>", "type": 1}
+{"text": "reverse mapping checking getaddrinfo for 195-154-37-122.rev.poneytelecom.eu [195.154.37.122] failed - POSSIBLE BREAK-IN ATTEMPT!", "label": "reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!", "type": 1}
+{"text": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-80-34-196.cn-north-1.compute.amazonaws.com.cn", "label": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>", "type": 1}
+{"text": "Invalid user webmaster from 173.234.31.186", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user Management from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user postgres from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user oracle from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user oralce from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user deploy from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user admin from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user sandeep from 88.147.143.242", "label": "Invalid user <*> from <*>", "type": 1}

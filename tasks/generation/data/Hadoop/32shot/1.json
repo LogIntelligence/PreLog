@@ -1,32 +1,32 @@
-{"text": "The job-conf file on the remote FS is /tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job.xml", "label": "The job-conf file on the remote FS is <*>"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 34 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 258 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000003_0 is : 0.7198902", "label": "Progress of TaskAttempt <*> is : <*>"}
-{"text": "Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0", "label": "Processing the event EventType: <*> for container <*> taskAttempt <*>"}
-{"text": "Emitting job history data to the timeline server is not enabled", "label": "Emitting job history data to the timeline server is not enabled"}
-{"text": "Assigned container container_1445144423722_0020_01_000008 to attempt_1445144423722_0020_m_000006_0", "label": "Assigned container <*> to <*>"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 64 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "adding path spec: /mapreduce/*", "label": "adding path spec: <*>"}
-{"text": "Number of reduces for job job_1445144423722_0020 = 1", "label": "Number of reduces for job <*> = <*>"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 33 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Before Scheduling: PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3", "label": "Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>"}
-{"text": "TaskAttempt: [attempt_1445144423722_0020_m_000006_0] using containerId: [container_1445144423722_0020_01_000008 on NM: [MSRA-SA-41.fareast.corp.microsoft.com:7109]", "label": "TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>]"}
-{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.18216328", "label": "Progress of TaskAttempt <*> is : <*>"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 72 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 38 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Registering class org.apache.hadoop.mapreduce.v2.app.launcher.ContainerLauncher$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerLauncherRouter", "label": "Registering class org.apache.hadoop.mapreduce.<*> for class org.apache.hadoop.mapreduce.<*>"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 42 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000007_0 : 13562", "label": "Shuffle port returned by ContainerManager for <*> : <*>"}
-{"text": "Extract jar:file:/D:/hadoop-2.6.0-localbox/share/hadoop/yarn/hadoop-yarn-common-2.6.0-SNAPSHOT.jar!/webapps/mapreduce to C:\\Users\\msrabi\\AppData\\Local\\Temp\\Jetty_0_0_0_0_62267_mapreduce____.8n7xum\\webapp", "label": "Extract jar:file:<*> to <*>"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 49 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "attempt_1445144423722_0020_m_000007_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED", "label": "<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 183 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 241 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static", "label": "Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context static"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 44 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "After Scheduling: PendingReds:1 ScheduledMaps:0 ScheduledReds:0 AssignedMaps:10 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3", "label": "After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 93 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Recalculating schedule, headroom=<memory:5120, vCores:-22>", "label": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 309 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "attempt_1445144423722_0020_m_000001_1 TaskAttempt Transitioned from NEW to UNASSIGNED", "label": "<*> TaskAttempt Transitioned from NEW to UNASSIGNED"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 140 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Cannot assign container Container: [ContainerId: container_1445144423722_0020_01_000012, NodeId: MSRA-SA-39.fareast.corp.microsoft.com:28345, NodeHttpAddress: MSRA-SA-39.fareast.corp.microsoft.com:8042, Resource: <memory:1024, vCores:1>, Priority: 20, Token: Token { kind: ContainerToken, service: 172.22.149.145:28345 }, ] for a map as either  container memory less than required <memory:1024, vCores:1> or no pending map tasks - maps.isEmpty=true", "label": "Cannot assign container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <memory:<*>, vCores:<*>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*> or no pending map tasks - maps.isEmpty=<*>", "type": 1}
+{"text": "attempt_1445144423722_0020_m_000002_0 TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP", "label": "<*> TaskAttempt Transitioned from FAIL_CONTAINER_CLEANUP to FAIL_TASK_CLEANUP", "type": 1}
+{"text": "OutputCommitter set in config null", "label": "OutputCommitter set in config <*>", "type": 1}
+{"text": "Reduce slow start threshold reached. Scheduling reduces.", "label": "Reduce slow start threshold reached. Scheduling reduces.", "type": 1}
+{"text": "Got allocated containers 1", "label": "Got allocated containers <*>", "type": 1}
+{"text": "Using callQueue class java.util.concurrent.LinkedBlockingQueue", "label": "Using callQueue class java.util.concurrent.LinkedBlockingQueue", "type": 1}
+{"text": "Processing the event EventType: TASK_ABORT", "label": "Processing the event EventType: TASK_ABORT", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*> New: <*>", "type": 1}
+{"text": "adding path spec: /ws/*", "label": "adding path spec: <*>", "type": 1}
+{"text": "Executing with tokens:", "label": "Executing with tokens:", "type": 1}
+{"text": "After Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:1 AssignedMaps:9 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3", "label": "After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>", "type": 1}
+{"text": "Default file system [hdfs://msra-sa-41:9000]", "label": "Default file system [hdfs://<*>]", "type": 1}
+{"text": "yarn.client.max-cached-nodemanagers-proxies : 0", "label": "yarn.client.max-cached-nodemanagers-proxies : <*>", "type": 1}
+{"text": "IPC Server listener on 62270: starting", "label": "IPC Server listener on <*>: starting", "type": 1}
+{"text": "MRAppMaster launching normal, non-uberized, multi-container job job_1445144423722_0020.", "label": "MRAppMaster launching normal, non-uberized, multi-container job <*>.", "type": 1}
+{"text": "Auth successful for job_1445144423722_0020 (auth:SIMPLE)", "label": "Auth successful for <*> (auth:SIMPLE)", "type": 1}
+{"text": "We launched 1 speculations.  Sleeping 15000 milliseconds.", "label": "We launched <*> speculations. Sleeping <*> milliseconds.", "type": 1}
+{"text": "nodeBlacklistingEnabled:true", "label": "nodeBlacklistingEnabled:<*>", "type": 1}
+{"text": "Diagnostics report from attempt_1445144423722_0020_m_000001_0: Error: java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost", "label": "Diagnostics report from <*>: Error: java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost", "type": 1}
+{"text": "Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)", "label": "Retrying connect to server: <*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)", "type": 1}
+{"text": "Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)", "label": "Added global filter 'safety' (class=<*>)", "type": 1}
+{"text": "Recalculating schedule, headroom=<memory:0, vCores:-27>", "label": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>", "type": 1}
+{"text": "Size of containertokens_dob is 1", "label": "Size of containertokens_dob is <*>", "type": 1}
+{"text": "Registered webapp guice modules", "label": "Registered webapp guice modules", "type": 1}
+{"text": "Received completed container container_1445144423722_0020_01_000012", "label": "Received completed container <*>", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 268 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "Scheduled snapshot period at 10 second(s).", "label": "Scheduled snapshot period at <*> second(s).", "type": 1}
+{"text": "Opening proxy : MININT-FNANLI5.fareast.corp.microsoft.com:52368", "label": "Opening proxy : <*>", "type": 1}
+{"text": "Adding #0 tokens and #1 secret keys for NM use for launching container", "label": "Adding #<*> tokens and #<*> secret keys for NM use for launching container", "type": 1}
+{"text": "JVM with ID : jvm_1445144423722_0020_m_000010 asked for a task", "label": "JVM with ID : <*> asked for a task", "type": 1}
+{"text": "Not uberizing job_1445144423722_0020 because: not enabled; too many maps; too much input;", "label": "Not uberizing <*> because: not enabled; too many maps; too much input;", "type": 1}
+{"text": "The job-conf file on the remote FS is /tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job.xml", "label": "The job-conf file on the remote FS is <*>", "type": 1}

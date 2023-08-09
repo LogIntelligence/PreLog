@@ -1,4 +1,0 @@
-{"text": "connection from 208.62.55.75 () at Wed Jun 29 10:48:12 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "connection from 211.42.188.206 () at Fri Jul 22 09:27:24 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:11 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=211-76-104-65.ebix.net.tw", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}

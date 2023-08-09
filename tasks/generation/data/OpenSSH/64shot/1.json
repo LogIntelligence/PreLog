@@ -1,0 +1,64 @@
+{"text": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root", "label": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "reverse mapping checking getaddrinfo for customer-187-141-143-180-sta.uninet-ide.com.mx [187.141.143.180] failed - POSSIBLE BREAK-IN ATTEMPT!", "label": "reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!", "type": 1}
+{"text": "Received disconnect from 187.141.143.180: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
+{"text": "Disconnecting: Too many authentication failures for admin [preauth]", "label": "Disconnecting: Too many authentication failures for <*> [preauth]", "type": 1}
+{"text": "PAM service(sshd) ignoring max retries; 6 > 3", "label": "PAM service(sshd) ignoring max retries; <*> > <*>", "type": 1}
+{"text": "Did not receive identification string from 103.207.39.212", "label": "Did not receive identification string from <*>", "type": 1}
+{"text": "input_userauth_request: invalid user PlcmSpIp [preauth]", "label": "input_userauth_request: invalid user <*> [preauth]", "type": 1}
+{"text": "Connection closed by 194.190.163.22 [preauth]", "label": "Connection closed by <*> [preauth]", "type": 1}
+{"text": "Failed password for root from 187.141.143.180 port 49674 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2", "type": 1}
+{"text": "pam_unix(sshd:auth): check pass; user unknown", "label": "pam_unix(sshd:auth): check pass; user unknown", "type": 1}
+{"text": "Invalid user support from 103.207.39.212", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "error: Received disconnect from 103.99.0.122: 14: No more user authentication methods available. [preauth]", "label": "error: Received disconnect from <*>: <*>: No more user authentication methods available. [preauth]", "type": 1}
+{"text": "input_userauth_request: invalid user ftpuser [preauth]", "label": "input_userauth_request: invalid user <*> [preauth]", "type": 1}
+{"text": "Received disconnect from 103.207.39.16: 11: Closed due to user request. [preauth]", "label": "Received disconnect from <*>: <*>: Closed due to user request. [preauth]", "type": 1}
+{"text": "PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.188.10.180", "label": "PAM <*> more authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>", "type": 1}
+{"text": "error: Received disconnect from 195.154.37.122: 3: com.jcraft.jsch.JSchException: Auth fail [preauth]", "label": "error: Received disconnect from <*>: <*>: com.jcraft.jsch.JSchException: Auth fail [preauth]", "type": 1}
+{"text": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=ec2-52-80-34-196.cn-north-1.compute.amazonaws.com.cn", "label": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>", "type": 1}
+{"text": "Failed none for invalid user 0 from 185.190.58.151 port 55495 ssh2", "label": "Failed none for invalid user <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Invalid user ingrid from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "pam_unix(sshd:session): session opened for user fztu by (uid=0)", "label": "pam_unix(sshd:session): session opened for user <*> by (uid=<*>)", "type": 1}
+{"text": "Invalid user oralce from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user webmaster from 173.234.31.186", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Received disconnect from 119.137.62.142: 11: disconnected by user", "label": "Received disconnect from <*>: <*>: disconnected by user", "type": 1}
+{"text": "Failed password for invalid user PlcmSpIp from 103.99.0.122 port 51966 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Invalid user oracle from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user postgres from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user api from 185.190.58.151", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user sandeep from 88.147.143.242", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user pgadmin from 112.95.230.3", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user anonymous from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Accepted password for fztu from 119.137.62.142 port 49116 ssh2", "label": "Accepted password for <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Invalid user butter from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user zhangyan from 183.62.140.253", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "reverse mapping checking getaddrinfo for 195-154-37-122.rev.poneytelecom.eu [195.154.37.122] failed - POSSIBLE BREAK-IN ATTEMPT!", "label": "reverse mapping checking getaddrinfo for <*> [<*>] failed - POSSIBLE BREAK-IN ATTEMPT!", "type": 1}
+{"text": "Invalid user deploy from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user inspur from 183.136.162.51", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user Management from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user admin from 5.188.10.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user operator from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user cyrus from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user dff from 183.62.140.253", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user magnos from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user guest from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "pam_unix(sshd:session): session closed for user fztu", "label": "pam_unix(sshd:session): session closed for user <*>", "type": 1}
+{"text": "fatal: Write failed: Connection reset by peer [preauth]", "label": "fatal: Write failed: Connection reset by peer [preauth]", "type": 1}
+{"text": "Invalid user ubuntu from 183.62.140.253", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user pi from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user default from 5.188.10.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user cheng from 202.100.179.208", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Failed password for invalid user support from 103.207.39.165 port 58158 ssh2", "label": "Failed password for invalid user <*> from <*> port <*> ssh2", "type": 1}
+{"text": "Invalid user user from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user nagios from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user vnc from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user jay from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user ghost from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user chen from 202.100.179.208", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user cisco from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "input_userauth_request: invalid user ubuntu [preauth]", "label": "input_userauth_request: invalid user <*> [preauth]", "type": 1}
+{"text": "Invalid user matlab from 52.80.34.196", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user ftpuser from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "PAM 5 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=5.36.59.76.dynamic-dsl-ip.omantel.net.om  user=root", "label": "PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "Invalid user ubnt from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user test from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}
+{"text": "Invalid user monitor from 103.99.0.122", "label": "Invalid user <*> from <*>", "type": 1}

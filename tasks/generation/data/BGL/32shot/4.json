@@ -1,32 +1,32 @@
-{"text": "10692 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.", "label": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt."}
-{"text": "generating core.22325", "label": "generating core.<*>"}
-{"text": "generating core.31056", "label": "generating core.<*>"}
-{"text": "generating core.2586", "label": "generating core.<*>"}
-{"text": "iar 003a9260 dear 00f29b68", "label": "iar <*> dear <*>"}
-{"text": "iar 003a9258 dear 0136bd38", "label": "iar <*> dear <*>"}
-{"text": "iar 003a92a0 dear 0129a488", "label": "iar <*> dear <*>"}
-{"text": "ciod: Error loading /home/draeger/testQboxhang-nozerobytebug-nosleepyescomm: invalid or missing program image, No such file or directory", "label": "ciod: Error loading <*>: invalid or missing program image, No such file or directory"}
-{"text": "generating core.59955", "label": "generating core.<*>"}
-{"text": "rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C X- Y- Z+ Z-", "label": "rts tree/torus link training failed: wanted: <*> got: <*>"}
-{"text": "program interrupt: fp cr update.............0", "label": "program interrupt: fp cr update.............<*>"}
-{"text": "iar 0014a150 dear 0098cdc8", "label": "iar <*> dear <*>"}
-{"text": "iar 00106b8c dear 0245ce8c", "label": "iar <*> dear <*>"}
-{"text": "ciod: Error loading /bgl/apps/SWL/stability/HPL/WORK/1498./hpl_DD: invalid or missing program image, No such file or directory", "label": "ciod: Error loading <*>: invalid or missing program image, No such file or directory"}
-{"text": "iar 00106228 dear 0244c24c", "label": "iar <*> dear <*>"}
-{"text": "generating core.24376", "label": "generating core.<*>"}
-{"text": "NFS Mount failed on bglio716, slept 15 seconds, retrying (1)", "label": "NFS Mount failed on <*>, slept <*> seconds, retrying (<*>)"}
-{"text": "iar 003a9260 dear 00f2a468", "label": "iar <*> dear <*>"}
-{"text": "generating core.10752", "label": "generating core.<*>"}
-{"text": "generating core.3055", "label": "generating core.<*>"}
-{"text": "generating core.179", "label": "generating core.<*>"}
-{"text": "generating core.1820", "label": "generating core.<*>"}
-{"text": "generating core.29903", "label": "generating core.<*>"}
-{"text": "generating core.6801", "label": "generating core.<*>"}
-{"text": "generating core.7672", "label": "generating core.<*>"}
-{"text": "generating core.46536", "label": "generating core.<*>"}
-{"text": "139632470 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions"}
-{"text": "generating core.2505", "label": "generating core.<*>"}
-{"text": "generating core.4245", "label": "generating core.<*>"}
-{"text": "ciod: Error loading /bgl/apps/SWL/stability/NEWS05/news05_DD: invalid or missing program image, Permission denied", "label": "ciod: Error loading <*>: invalid or missing program image, Permission denied"}
-{"text": "1 tree receiver 2 in re-synch state event(s) (dcr 0x019a) detected", "label": "<*> tree receiver <*> in re-synch state event(s) (dcr <*>) detected"}
-{"text": "16469355 floating point alignment exceptions", "label": "<*> floating point alignment exceptions"}
+{"text": "Node card status: ALERT 0, ALERT 1, ALERT 2, ALERT 3 is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The 2.5 volt rail is OK. The 1.5 volt rail is OK.", "label": "Node card status: ALERT <*>, ALERT <*>, ALERT <*>, ALERT <*> is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The <*> volt rail is OK. The <*> volt rail is OK.", "type": 1}
+{"text": "idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)", "label": "idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)", "type": 1}
+{"text": "Kernel detected 3946290 integer alignment exceptions (3946283) iar 0x00544ea8, dear 0x01ef6080 (3946284) iar 0x00544eb8, dear 0x01ef60a0 (3946285) iar 0x00544ea8, dear 0x01ef60c0 (3946286) iar 0x00544eb8, dear 0x01ef60e0 (3946287) iar 0x00544ee0, dear 0x01ef6100 (3946288) iar 0x00544ef0, dear 0x01ef6120 (3946289) iar 0x00544ee0, dear 0x01ef6140 (3946290) iar 0x00544ef0, dear 0x01ef6160", "label": "Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>", "type": 1}
+{"text": "10666 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.", "label": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.", "type": 1}
+{"text": "ciod: generated 128 core files for program /g/g24/germann2/SPaSM_static/SPaSM_mpi", "label": "ciod: generated <*> core files for program <*>", "type": 1}
+{"text": "rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C X- Y- Z+ Z-", "label": "rts tree/torus link training failed: wanted: <*> got: <*>", "type": 1}
+{"text": "auxiliary processor.........................0", "label": "auxiliary processor.........................<*>", "type": 1}
+{"text": "lr:00004ed0 cr:28244842 xer:20000002 ctr:00086000", "label": "lr:<*> cr:<*> xer:<*> ctr:<*>", "type": 1}
+{"text": "guaranteed instruction cache block touch.0", "label": "guaranteed instruction cache block touch.<*>", "type": 1}
+{"text": "problem state (0=sup,1=usr).......0", "label": "problem state (<*>=sup,<*>=usr).......<*>", "type": 1}
+{"text": "machine check: i-fetch......................0", "label": "machine check: i-fetch......................<*>", "type": 1}
+{"text": "store operation.............................1", "label": "store operation.............................<*>", "type": 1}
+{"text": "icache prefetch threshold................0", "label": "icache prefetch threshold................<*>", "type": 1}
+{"text": "data address space................0", "label": "data address space................<*>", "type": 1}
+{"text": "size of scratchpad portion of L3.........0 (0M)", "label": "size of scratchpad portion of L3.........<*> (<*>)", "type": 1}
+{"text": "floating point instr. enabled.....1", "label": "floating point instr. enabled.....<*>", "type": 1}
+{"text": "exception syndrome register: 0x00800000", "label": "exception syndrome register: <*>", "type": 1}
+{"text": "CE sym 10, at 0x08d10580, mask 0x08", "label": "CE sym <*>, at <*>, mask <*>", "type": 1}
+{"text": "fraction rounded.........................0", "label": "fraction rounded.........................<*>", "type": 1}
+{"text": "PrepareForService shutting down Node card(mLctn(R10-M1-N2), mCardSernum(203231503833343000000000594c31304b34323934303257), mLp(FF:F2:9F:16:E0:DA:00:0D:60:E9:1F:25), mIp(10.1.1.164), mType(4)) as part of Service Action 648", "label": "PrepareForService shutting down Node card(mLctn(<*>), mCardSernum(<*>), mLp(<*>), mIp(<*>), mType(<*>)) as part of Service Action <*>", "type": 1}
+{"text": "minus normalized number..................0", "label": "minus normalized number..................<*>", "type": 1}
+{"text": "28 ddr error(s) detected and corrected on rank 0, symbol 21 over 11562 seconds", "label": "<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds", "type": 1}
+{"text": "ciod: failed to read message prefix on control stream (CioStream socket to 172.16.96.116:33370", "label": "ciod: failed to read message prefix on control stream (CioStream socket to <*>", "type": 1}
+{"text": "rts: kernel terminated for reason 1004", "label": "rts: kernel terminated for reason <*>", "type": 1}
+{"text": "Lustre mount FAILED : bglio617 : block_id : location", "label": "Lustre mount FAILED : <*> : block_id : location", "type": 1}
+{"text": "NodeCard is not fully functional", "label": "NodeCard is not fully functional", "type": 1}
+{"text": "generating core.29367", "label": "generating core.<*>", "type": 1}
+{"text": "fpr29=0xffffffff ffffffff ffffffff ffffffff", "label": "fpr29=<*>", "type": 1}
+{"text": "force load/store alignment...............0", "label": "force load/store alignment...............<*>", "type": 1}
+{"text": "debug wait enable.................0", "label": "debug wait enable.................<*>", "type": 1}
+{"text": "shutdown complete", "label": "shutdown complete", "type": 1}
+{"text": "Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=00ce22e8 e6200003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007", "label": "Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>", "type": 1}

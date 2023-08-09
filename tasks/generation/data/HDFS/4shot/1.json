@@ -1,0 +1,4 @@
+{"text": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.203.166:50010 is added to blk_-2332150303475653460 size 67108864", "label": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>", "type": 1}
+{"text": "10.251.214.112:50010:Got exception while serving blk_5905933788014151041 to /10.251.214.112:", "label": "<*>:Got exception while serving <*> to <*>:", "type": 1}
+{"text": "PacketResponder 0 for block blk_-2268477281422551537 terminating", "label": "PacketResponder <*> for block <*> terminating", "type": 1}
+{"text": "Received block blk_1473949624670719319 src: /10.251.29.239:35617 dest: /10.251.29.239:50010 of size 67108864", "label": "Received block <*> src: <*> dest: <*> of size <*>", "type": 1}

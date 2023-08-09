@@ -1,32 +1,32 @@
-{"text": "Session: 30546354_3309061448 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_176947127 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_27818598 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_169406696 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_107363147 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546354_3312101622 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_132544588 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_173216914 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546354_3074888054 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546354_2850705232 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_22448291 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_101752826 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Read out cached package applicability for package: Package_for_KB3156019~31bf3856ad364e35~amd64~~6.1.1.1, ApplicableState: 112, CurrentState:112", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>"}
-{"text": "Session: 30546354_3345633540 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_172676883 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_45239594 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_169636709 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_50419890 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546354_2961511569 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_40939348 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_18178046 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546354_2824723745 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546354_2950240925 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546354_3351423871 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546173_4289704001 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_159636137 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546354_3070257789 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546354_3351103853 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546174_100742769 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546354_3058807134 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546354_3338053106 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
-{"text": "Session: 30546354_2985172923 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent."}
+{"text": "Loading offline registry hive: schema.dat, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/system32/smi/store/Machine/schema.dat' from path '\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy2\\Windows\\system32\\smi\\store\\Machine\\schema.dat'.", "label": "Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.", "type": 1}
+{"text": "Read out cached package applicability for package: Microsoft-Windows-Embedded-EmbeddedLockdown-Package-TopLevel~31bf3856ad364e35~amd64~~7.1.7601.16511, ApplicableState: 112, CurrentState:0", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
+{"text": "Loaded Servicing Stack v6.1.7601.23505 with Core: C:\\Windows\\winsxs\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\\cbscore.dll", "label": "Loaded Servicing Stack <*> with Core: <*>.dll", "type": 1}
+{"text": "Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "00000005 Creating NT transaction (seq 1), objectname [6]\"(null)\"", "label": "<*> Creating NT transaction (seq <*>), objectname [<*>]\"(<*>)\"", "type": 1}
+{"text": "Session: 30546354_3307521360 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "TrustedInstaller service starts successfully.", "label": "TrustedInstaller service starts successfully.", "type": 1}
+{"text": "Warning: Unrecognized packageExtended attribute.", "label": "Warning: Unrecognized packageExtended attribute.", "type": 1}
+{"text": "NonStart: Success, startup processing not required as expected.", "label": "NonStart: Success, startup processing not required as expected.", "type": 1}
+{"text": "Reboot mark refs: 0", "label": "Reboot mark refs: <*>", "type": 1}
+{"text": "00000004 IAdvancedInstallerAwareStore_ResolvePendingTransactions (call 1) (flags = 00000004, progress = NULL, phase = 0, pdwDisposition = @0xb6fd90", "label": "<*> IAdvancedInstallerAwareStore_ResolvePendingTransactions (call <*>) (flags = <*>, progress = <*>, phase = <*>, pdwDisposition = @<*>", "type": 1}
+{"text": "0000000b CSI Store 3065408 (0x00000000002ec640) initialized", "label": "<*> CSI Store <*> (<*>) initialized", "type": 1}
+{"text": "SQM: Requesting upload of all unsent reports.", "label": "SQM: Requesting upload of all unsent reports.", "type": 1}
+{"text": "00000009@2016/9/28:16:01:03.072 PopulateComponentFamiliesKey - End", "label": "<*>@<*> PopulateComponentFamiliesKey - End", "type": 1}
+{"text": "00000009@2016/9/27:20:40:53.744 CSI Transaction @0x47e9e0 initialized for deployment engine {d16d444c-56d8-11d5-882d-0080c847b195} with flags 00000002 and client id [10]\"TI6.0_0:0/\"", "label": "<*>@<*> CSI Transaction @<*> initialized for deployment engine {<*>} with flags <*> and client id [<*>]\"<*>/\"", "type": 1}
+{"text": "0000000a Performing 1 operations; 1 are not lock/unlock and follow:", "label": "<*> Performing <*> operations; <*> are not lock/unlock and follow:", "type": 1}
+{"text": "00000002@2016/9/28:16:00:46.200 WcpInitialize (wcp.dll version 0.0.0.6) called (stack @0x7fed875eb5d @0x7fee5c86ade @0x7fee5c52984 @0x7fee5c03665 @0xffeee97c @0xffeed799)", "label": "<*>@<*> WcpInitialize (wcp.dll version <*>) called (stack @<*>)", "type": 1}
+{"text": "Offline image is: read-only", "label": "Offline image is: read-only", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "SQM: Cleaning up report files older than 10 days.", "label": "SQM: Cleaning up report files older than <*> days.", "type": 1}
+{"text": "SQM: Initializing online with Windows opt-in: False", "label": "SQM: Initializing online with Windows opt-in: <*>", "type": 1}
+{"text": "SQM: Queued 0 file(s) for upload with pattern: C:\\Windows\\servicing\\sqm\\*_all.sqm, flags: 0x6", "label": "SQM: Queued <*> file(s) for upload with pattern: <*>, flags: <*>", "type": 1}
+{"text": "0000000f@2016/9/27:20:40:54.786 CSI perf trace:", "label": "<*> CSI perf trace:", "type": 1}
+{"text": "00000010@2016/9/27:20:40:54.787 CSI Transaction @0x47e9e0 destroyed", "label": "<*>@<*> CSI Transaction @<*> destroyed", "type": 1}
+{"text": "Scavenge: Starts", "label": "Scavenge: Starts", "type": 1}
+{"text": "Startup processing thread terminated normally", "label": "Startup processing thread terminated normally", "type": 1}
+{"text": "No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.", "label": "No startup processing required, TrustedInstaller service was not set as autostart, or else a reboot is still pending.", "type": 1}
+{"text": "Ending TrustedInstaller initialization.", "label": "Ending TrustedInstaller initialization.", "type": 1}
+{"text": "Failed to internally open package. [HRESULT = 0x800f0805 - CBS_E_INVALID_PACKAGE]", "label": "Failed to internally open package. [HRESULT = <*> - CBS_E_INVALID_PACKAGE]", "type": 1}
+{"text": "Read out cached package applicability for package: Microsoft-Hyper-V-Integration-Services-Package~31bf3856ad364e35~amd64~~6.3.9600.18080, ApplicableState: 112, CurrentState:0", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
+{"text": "Disabling manifest caching, because the image is not writeable.", "label": "Disabling manifest caching, because the image is not writeable.", "type": 1}
+{"text": "0000000b Store coherency cookie matches last scavenge cookie, skipping scavenge.", "label": "<*> Store coherency cookie matches last scavenge cookie, skipping scavenge.", "type": 1}

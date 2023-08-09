@@ -1,32 +1,32 @@
-{"text": "setTodayTotalDetailSteps=1514045640000##0##549659##8661##16256##34397604", "label": "setTodayTotalDetailSteps=<*>"}
-{"text": "REPORT : 7188 5132 153966 240", "label": "REPORT : <*> <*> <*> <*>"}
-{"text": "onStandStepChanged 3748", "label": "onStandStepChanged <*>"}
-{"text": "setTodayTotalDetailSteps=1514041980000##7192##549659##8661##16256##30727733", "label": "setTodayTotalDetailSteps=<*>"}
-{"text": "setTodayTotalDetailSteps=1514044320000##7214##549659##8661##16256##33066759", "label": "setTodayTotalDetailSteps=<*>"}
-{"text": "REPORT : 7081 5055 151675 240", "label": "REPORT : <*> <*> <*> <*>"}
-{"text": " getTodayTotalDetailSteps = 1514038440000##7025##548365##8661##13976##27183974", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
-{"text": "onStandStepChanged 3596", "label": "onStandStepChanged <*>"}
-{"text": "setTodayTotalDetailSteps=1514038560000##7064##548557##8661##16256##27286970", "label": "setTodayTotalDetailSteps=<*>"}
-{"text": "onExtend:1514045516000 0 0 5", "label": "onExtend:<*> <*> <*> <*>"}
-{"text": "calculateCaloriesWithCache totalCalories=127246", "label": "calculateCaloriesWithCache totalCalories=<*>"}
-{"text": "setTodayTotalDetailSteps=1514040720000##7189##549659##8661##16256##29437358", "label": "setTodayTotalDetailSteps=<*>"}
-{"text": "onExtend:1514044469000 0 0 0", "label": "onExtend:<*> <*> <*> <*>"}
-{"text": "REPORT : 7030 5019 150582 240", "label": "REPORT : <*> <*> <*> <*>"}
-{"text": " getTodayTotalDetailSteps = 1514038440000##7033##548365##8661##14736##27189469", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
-{"text": "setTodayTotalDetailSteps=1514038560000##7109##548585##8661##16256##27322469", "label": "setTodayTotalDetailSteps=<*>"}
-{"text": "tryToReloadTodayBasicSteps1514044800223|3786|0|0", "label": "<*>|<*>|<*>|<*>"}
-{"text": " getTodayTotalDetailSteps = 1514038680000##7130##548890##8661##16256##27394969", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
-{"text": " getTodayTotalDetailSteps = 1514038440000##7035##548365##8661##14926##27190469", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
-{"text": "onExtend:1514042085000 3 0 4", "label": "onExtend:<*> <*> <*> <*>"}
-{"text": " getTodayTotalDetailSteps = 1514044380000##7214##549659##8661##16256##33112771", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
-{"text": "onStandStepChanged 3608", "label": "onStandStepChanged <*>"}
-{"text": "setTodayTotalDetailSteps=1514041560000##7189##549659##8661##16256##30315546", "label": "setTodayTotalDetailSteps=<*>"}
-{"text": "setTodayTotalDetailSteps=1514045280000##0##549659##8661##16256##33990761", "label": "setTodayTotalDetailSteps=<*>"}
-{"text": "setTodayTotalDetailSteps=1514038560000##7062##548556##8661##16256##27286470", "label": "setTodayTotalDetailSteps=<*>"}
-{"text": " getTodayTotalDetailSteps = 1514045400000##0##549659##8661##16256##34160765", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
-{"text": "REPORT : 7018 5010 150325 240", "label": "REPORT : <*> <*> <*> <*>"}
-{"text": " getTodayTotalDetailSteps = 1514038740000##7183##549302##8661##16256##27447483", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
-{"text": "onExtend:1514041506000 0 0 5", "label": "onExtend:<*> <*> <*> <*>"}
-{"text": "onExtend:1514038749000 2 0 4", "label": "onExtend:<*> <*> <*> <*>"}
-{"text": " getTodayTotalDetailSteps = 1514038560000##7090##548572##8661##16256##27313468", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>"}
-{"text": "onExtend:1514038802000 2 0 4", "label": "onExtend:<*> <*> <*> <*>"}
+{"text": "startSync hiSyncOption = HiSyncOption{syncAction=1, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1", "label": "startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038560000##7088##548571##8661##16256##27312967", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "initUserPrivacy the userPrivacy is true", "label": "initUserPrivacy the userPrivacy is <*>", "type": 1}
+{"text": "InsertEvent success begin:25233975 end:25233979", "label": "InsertEvent success begin:<*> end:<*>", "type": 1}
+{"text": "onExtend:1514038751000 2 0 4", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "flushTempCacheToDB by stand", "label": "flushTempCacheToDB by stand", "type": 1}
+{"text": "ifCanSync not! no cloud version", "label": "ifCanSync not! no cloud version", "type": 1}
+{"text": "new date =20171223, type=40002,6724.0,old=7163.0", "label": "new date =<*>, type=<*>,old=<*>", "type": 1}
+{"text": "tryToRecordAsBasicStepData bWrite true", "label": "tryToRecordAsBasicStepData bWrite <*>", "type": 1}
+{"text": "closeNotification...", "label": "closeNotification...", "type": 1}
+{"text": "getAppContext() isAppValid health or wear, packageName = com.huawei.health", "label": "getAppContext() isAppValid health or wear, packageName = <*>", "type": 1}
+{"text": "next day:steps0mLastReport7214", "label": "next day:<*>", "type": 1}
+{"text": "processHandleBroadcastAction action:android.intent.action.SCREEN_ON", "label": "processHandleBroadcastAction action:android.intent.action.SCREEN_ON", "type": 1}
+{"text": "saveRealTimeHealthDatasStat() size = 1,totalTime = 48", "label": "saveRealTimeHealthDatasStat() size = <*>,totalTime = <*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=130673", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": "insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = 4,errorMessage = ERR_DATA_INSERT", "label": "insertHiHealthData() bulkSaveDetailHiHealthData fail errorCode = <*>,errorMessage = ERR_DATA_INSERT", "type": 1}
+{"text": "needAutoSync autoSyncSwitch is open", "label": "needAutoSync autoSyncSwitch is open", "type": 1}
+{"text": "setGoalNotifiShownRecord 1514044800237 false", "label": "setGoalNotifiShownRecord <*> <*>", "type": 1}
+{"text": "flush sensor data", "label": "flush sensor data", "type": 1}
+{"text": "checkInsertStatus stepStatSum or calorieStatSum is enough", "label": "checkInsertStatus stepStatSum or calorieStatSum is enough", "type": 1}
+{"text": "startListenerChange subscribeList = [1]", "label": "startListenerChange subscribeList = [<*>]", "type": 1}
+{"text": "sendSyncFailedBroadcast", "label": "sendSyncFailedBroadcast", "type": 1}
+{"text": "timeStamp back,extendReportTimeStamp=1514040836000", "label": "timeStamp back,extendReportTimeStamp=<*>", "type": 1}
+{"text": "getStepCounterStatus", "label": "getStepCounterStatus", "type": 1}
+{"text": "setBasicStandardSteps basicStandardStep=3786 restartSteps=0", "label": "setBasicStandardSteps basicStandardStep=<*> restartSteps=<*>", "type": 1}
+{"text": "checkFirstSyncByType no such data in db ,type is 1 deviceCode is 0", "label": "checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>", "type": 1}
+{"text": "stepSyncOrNot appSynTimes is 0", "label": "stepSyncOrNot appSynTimes is <*>", "type": 1}
+{"text": "startInsertSportSync first 500 steps sync,do all sync", "label": "startInsertSportSync first <*> steps sync,do all sync", "type": 1}
+{"text": "reload : 3786 restar 0", "label": "reload : <*> restar <*>", "type": 1}
+{"text": "Alarm uploadStaticsToDB totalSteps=7163Calories:153367Floor:240Distance:5112", "label": "Alarm uploadStaticsToDB totalSteps=<*>", "type": 1}
+{"text": "screen status unknown,think screen on", "label": "screen status unknown,think screen on", "type": 1}
+{"text": "upLoadOneMinuteDataToEngine time=25233977,0,55,0,20002", "label": "upLoadOneMinuteDataToEngine time=<*>", "type": 1}

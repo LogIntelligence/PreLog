@@ -1,0 +1,64 @@
+{"text": "Cannot assign container Container: [ContainerId: container_1445144423722_0020_01_000012, NodeId: MSRA-SA-39.fareast.corp.microsoft.com:28345, NodeHttpAddress: MSRA-SA-39.fareast.corp.microsoft.com:8042, Resource: <memory:1024, vCores:1>, Priority: 20, Token: Token { kind: ContainerToken, service: 172.22.149.145:28345 }, ] for a map as either  container memory less than required <memory:1024, vCores:1> or no pending map tasks - maps.isEmpty=true", "label": "Cannot assign container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <memory:<*>, vCores:<*>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*> or no pending map tasks - maps.isEmpty=<*>", "type": 1}
+{"text": "attempt_1445144423722_0020_m_000003_0 TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED", "label": "<*> TaskAttempt Transitioned from SUCCESS_CONTAINER_CLEANUP to SUCCEEDED", "type": 1}
+{"text": "Thread Thread[eventHandlingThread,5,main] threw an Exception.", "label": "Thread Thread[eventHandlingThread,<*>,main] threw an Exception.", "type": 1}
+{"text": "We launched 1 speculations.  Sleeping 15000 milliseconds.", "label": "We launched <*> speculations. Sleeping <*> milliseconds.", "type": 1}
+{"text": "MRAppMaster metrics system started", "label": "MRAppMaster metrics system started", "type": 1}
+{"text": "IPC Server Responder: starting", "label": "IPC Server Responder: starting", "type": 1}
+{"text": "Reduce slow start threshold reached. Scheduling reduces.", "label": "Reduce slow start threshold reached. Scheduling reduces.", "type": 1}
+{"text": "Got allocated containers 1", "label": "Got allocated containers <*>", "type": 1}
+{"text": "Scheduled snapshot period at 10 second(s).", "label": "Scheduled snapshot period at <*> second(s).", "type": 1}
+{"text": "ERROR IN CONTACTING RM.", "label": "ERROR IN CONTACTING RM.", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*> New: <*>", "type": 1}
+{"text": "adding path spec: /mapreduce/*", "label": "adding path spec: <*>", "type": 1}
+{"text": "Not uberizing job_1445144423722_0020 because: not enabled; too many maps; too much input;", "label": "Not uberizing <*> because: not enabled; too many maps; too much input;", "type": 1}
+{"text": "The job-jar file on the remote FS is hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job.jar", "label": "The job-jar file on the remote FS is hdfs://<*>", "type": 1}
+{"text": "Auth successful for job_1445144423722_0020 (auth:SIMPLE)", "label": "Auth successful for <*> (auth:SIMPLE)", "type": 1}
+{"text": "Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)", "label": "Retrying connect to server: <*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)", "type": 1}
+{"text": "Before Scheduling: PendingReds:0 ScheduledMaps:1 ScheduledReds:1 AssignedMaps:10 AssignedReds:0 CompletedMaps:1 CompletedReds:0 ContAlloc:11 ContRel:1 HostLocal:7 RackLocal:3", "label": "Before Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>", "type": 1}
+{"text": "Using callQueue class java.util.concurrent.LinkedBlockingQueue", "label": "Using callQueue class java.util.concurrent.LinkedBlockingQueue", "type": 1}
+{"text": "Recalculating schedule, headroom=<memory:4096, vCores:-23>", "label": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 178 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack", "label": "Resolved <*> to <*>", "type": 1}
+{"text": "JVM with ID : jvm_1445144423722_0020_m_000006 asked for a task", "label": "JVM with ID : <*> asked for a task", "type": 1}
+{"text": "Diagnostics report from attempt_1445144423722_0020_m_000001_0: Error: java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost", "label": "Diagnostics report from <*>: Error: java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost", "type": 1}
+{"text": "Slow ReadProcessor read fields took 65020ms (threshold=30000ms); ack: seqno: -2 status: SUCCESS status: ERROR downstreamAckTimeNanos: 0, targets: [10.86.169.121:50010, 10.190.173.170:50010]", "label": "Slow ReadProcessor read fields took <*> (threshold=<*>); ack: seqno: <*> status: SUCCESS status: ERROR downstreamAckTimeNanos: <*>, targets: [<*>, <*>]", "type": 1}
+{"text": "Added filter AM_PROXY_FILTER (class=org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter) to context mapreduce", "label": "Added filter AM_PROXY_FILTER (class=<*>) to context mapreduce", "type": 1}
+{"text": "Assigned container container_1445144423722_0020_01_000009 to attempt_1445144423722_0020_m_000007_0", "label": "Assigned container <*> to <*>", "type": 1}
+{"text": "Adding job token for job_1445144423722_0020 to jobTokenSecretManager", "label": "Adding job token for <*> to jobTokenSecretManager", "type": 1}
+{"text": "Registered webapp guice modules", "label": "Registered webapp guice modules", "type": 1}
+{"text": "DataStreamer Exception", "label": "DataStreamer Exception", "type": 1}
+{"text": "yarn.client.max-cached-nodemanagers-proxies : 0", "label": "yarn.client.max-cached-nodemanagers-proxies : <*>", "type": 1}
+{"text": "Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: 20 cluster_timestamp: 1445144423722 } attemptId: 1 } keyId: -127633188)", "label": "Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>)", "type": 1}
+{"text": "Processing the event EventType: TASK_ABORT", "label": "Processing the event EventType: TASK_ABORT", "type": 1}
+{"text": "loaded properties from hadoop-metrics2.properties", "label": "loaded properties from hadoop-metrics2.properties", "type": 1}
+{"text": "Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog", "label": "Logging to <*>(<*>) via <*>", "type": 1}
+{"text": "Http request log for http.requests.mapreduce is not defined", "label": "Http request log for http.requests.mapreduce is not defined", "type": 1}
+{"text": "Executing with tokens:", "label": "Executing with tokens:", "type": 1}
+{"text": "Diagnostics report from attempt_1445144423722_0020_m_000003_0: Container killed by the ApplicationMaster.", "label": "Diagnostics report from <*>: Container killed by the ApplicationMaster.", "type": 1}
+{"text": "getResources() for application_1445144423722_0020: ask=0 release= 1 newContainers=0 finishedContainers=1 resourcelimit=<memory:1024, vCores:-26> knownNMs=4", "label": "getResources() for <*>: ask=<*> release= <*> newContainers=<*> finishedContainers=<*> resourcelimit=<memory:<*>, vCores:<*> knownNMs=<*>", "type": 1}
+{"text": "Shuffle port returned by ContainerManager for attempt_1445144423722_0020_m_000004_0 : 13562", "label": "Shuffle port returned by ContainerManager for <*> : <*>", "type": 1}
+{"text": "maxTaskFailuresPerNode is 3", "label": "maxTaskFailuresPerNode is <*>", "type": 1}
+{"text": "nodeBlacklistingEnabled:true", "label": "nodeBlacklistingEnabled:<*>", "type": 1}
+{"text": "DefaultSpeculator.addSpeculativeAttempt -- we are speculating task_1445144423722_0020_m_000000", "label": "DefaultSpeculator.addSpeculativeAttempt -- we are speculating <*>", "type": 1}
+{"text": "Extract jar:file:/D:/hadoop-2.6.0-localbox/share/hadoop/yarn/hadoop-yarn-common-2.6.0-SNAPSHOT.jar!/webapps/mapreduce to C:\\Users\\msrabi\\AppData\\Local\\Temp\\Jetty_0_0_0_0_62267_mapreduce____.8n7xum\\webapp", "label": "Extract jar:file:<*> to <*>", "type": 1}
+{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000008_0 is : 0.106881365", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
+{"text": "Registering class org.apache.hadoop.mapreduce.v2.app.job.event.TaskAttemptEventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$TaskAttemptEventDispatcher", "label": "Registering class <*> for class <*>", "type": 1}
+{"text": "Default file system [hdfs://msra-sa-41:9000]", "label": "Default file system [hdfs://<*>]", "type": 1}
+{"text": "TaskAttempt: [attempt_1445144423722_0020_m_000001_0] using containerId: [container_1445144423722_0020_01_000003 on NM: [MININT-FNANLI5.fareast.corp.microsoft.com:52368]", "label": "TaskAttempt: [<*>] using containerId: [<*> on NM: [<*>]", "type": 1}
+{"text": "Added attempt_1445144423722_0020_m_000002_1 to list of failed maps", "label": "Added <*> to list of failed maps", "type": 1}
+{"text": "Reduce slow start threshold not met. completedMapsForReduceSlowstart 1", "label": "Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>", "type": 1}
+{"text": "job_1445144423722_0020Job Transitioned from INITED to SETUP", "label": "<*> Transitioned from INITED to SETUP", "type": 1}
+{"text": "Upper limit on the thread pool size is 500", "label": "Upper limit on the thread pool size is <*>", "type": 1}
+{"text": "task_1445144423722_0020_m_000002 Task Transitioned from NEW to SCHEDULED", "label": "<*> Task Transitioned from NEW to SCHEDULED", "type": 1}
+{"text": "Container complete event for unknown container id container_1445144423722_0020_01_000012", "label": "Container complete event for unknown container id <*>", "type": 1}
+{"text": "Started HttpServer2$SelectChannelConnectorWithSafeStartup@0.0.0.0:62267", "label": "Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*>", "type": 1}
+{"text": "Adding #0 tokens and #1 secret keys for NM use for launching container", "label": "Adding #<*> tokens and #<*> secret keys for NM use for launching container", "type": 1}
+{"text": "Num completed Tasks: 1", "label": "Num completed Tasks: <*>", "type": 1}
+{"text": "Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0", "label": "Processing the event EventType: <*> for container <*> taskAttempt <*>", "type": 1}
+{"text": "All maps assigned. Ramping up all remaining reduces:1", "label": "All maps assigned. Ramping up all remaining reduces:<*>", "type": 1}
+{"text": "Connecting to ResourceManager at msra-sa-41/10.190.173.170:8030", "label": "Connecting to ResourceManager at <*>/<*>", "type": 1}
+{"text": "Event Writer setup for JobId: job_1445144423722_0020, File: hdfs://msra-sa-41:9000/tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job_1445144423722_0020_1.jhist", "label": "Event Writer setup for JobId: <*>, File: hdfs://<*>", "type": 1}
+{"text": "Received completed container container_1445144423722_0020_01_000012", "label": "Received completed container <*>", "type": 1}
+{"text": "blacklistDisablePercent is 33", "label": "blacklistDisablePercent is <*>", "type": 1}
+{"text": "Added global filter 'safety' (class=org.apache.hadoop.http.HttpServer2$QuotingInputFilter)", "label": "Added global filter 'safety' (class=<*>)", "type": 1}
+{"text": "Adding protocol org.apache.hadoop.mapreduce.v2.api.MRClientProtocolPB to the server", "label": "Adding protocol <*> to the server", "type": 1}

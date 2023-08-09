@@ -1,8 +1,0 @@
-{"text": "ciod: generated 128 core files for program /g/g20/valone1/SPaSM-shock/SPaSM_mpi", "label": "ciod: generated <*> core files for program <*>", "type": 1}
-{"text": "generating core.6037", "label": "generating core.<*>", "type": 1}
-{"text": "Lustre mount FAILED : bglio75 : point /p/gb1", "label": "Lustre mount FAILED : <*> : point <*>", "type": 1}
-{"text": "Ido chip status changed: FF:F2:9F:16:EB:27:00:0D:60:E9:14:D8 ip=10.0.2.192 v=13 t=4 status=M Thu Aug 04 15:29:45 PDT 2005", "label": "Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*>", "type": 1}
-{"text": "idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)", "label": "idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)", "type": 1}
-{"text": "floating point instr. enabled.....1", "label": "floating point instr. enabled.....<*>", "type": 1}
-{"text": "generating core.46157", "label": "generating core.<*>", "type": 1}
-{"text": "10676 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.", "label": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.", "type": 1}

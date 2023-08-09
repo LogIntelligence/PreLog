@@ -1,4 +1,0 @@
-{"text": "LOOKING", "label": "LOOKING", "type": 1}
-{"text": "Received connection request /10.10.34.13:33198", "label": "Received connection request <*>:<*>", "type": 1}
-{"text": "Interrupted while waiting for message on queue", "label": "Interrupted while waiting for message on queue", "type": 1}
-{"text": "Accepted socket connection from /10.10.34.11:45997", "label": "Accepted socket connection from <*>:<*>", "type": 1}

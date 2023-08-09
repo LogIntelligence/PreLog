@@ -1,32 +1,32 @@
-{"text": "boot  (command 1911)", "label": "boot (command <*>)"}
-{"text": "NIFF: node node-23 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
-{"text": "boot  (command 3928)", "label": "boot (command <*>)"}
-{"text": "Component State Change: Component \\042alt0\\042 is in the unavailable state (HWID=3891)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)"}
-{"text": "Fan speeds ( 3534 3534 3375 4470 3497 3479 )", "label": "Fan speeds ( <*> <*> <*> <*> <*> <*> )"}
-{"text": "boot  (command 3473)", "label": "boot (command <*>)"}
-{"text": "NIFF: node node-205 has detected an available network connection on network 5.5.224.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
-{"text": "ClusterFileSystem: ServerFileSystem domain cluster_root_backup is no longer served by node node-96", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
-{"text": "Component State Change: Component \\042alt0\\042 is in the unavailable state (HWID=5089)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)"}
-{"text": "wait  (command 3087)", "label": "wait (command <*>)"}
-{"text": "wait  (command 2189)", "label": "wait (command <*>)"}
-{"text": "NIFF: node node-45 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
-{"text": "boot  (command 1910)", "label": "boot (command <*>)"}
-{"text": "ClusterFileSystem: ServerFileSystem domain root1_domain_backup is no longer served by node node-96", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
-{"text": "boot  (command 2999)", "label": "boot (command <*>)"}
-{"text": "wait  (command 3709)", "label": "wait (command <*>)"}
-{"text": "wait  (command 2322)", "label": "wait (command <*>)"}
-{"text": "Command has been aborted", "label": "Command has been aborted"}
-{"text": "ClusterFileSystem: ServerFileSystem domain root28_domain is no longer served by node node-96", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
-{"text": "ClusterFileSystem: ServerFileSystem domain root5_domain is no longer served by node node-196", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
-{"text": "wait  (command 2347)", "label": "wait (command <*>)"}
-{"text": "boot  (command 2550)", "label": "boot (command <*>)"}
-{"text": "inconsistent nodesets node-32 0x00000002 <ok> node-34 0x000001fe <ok> node-33 0x000001fe <ok> node-35 0x000001fe <ok>", "label": "inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <*>"}
-{"text": "boot  (command 2141)", "label": "boot (command <*>)"}
-{"text": "wait  (command 2354)", "label": "wait (command <*>)"}
-{"text": "NIFF: node node-255 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0"}
-{"text": "NIFF: node node-237 has detected an available network connection on network 5.5.226.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
-{"text": "boot  (command 4170)", "label": "boot (command <*>)"}
-{"text": "ServerFileSystem: ServerFileSystem domain root1_local is full", "label": "ServerFileSystem: ServerFileSystem domain <*> is full"}
-{"text": "ClusterFileSystem: ServerFileSystem domain root17_domain is no longer served by node node-240", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>"}
-{"text": "wait  (command 2484)", "label": "wait (command <*>)"}
-{"text": "NIFF: node node-148 has detected an available network connection on network 5.5.226.0 via interface alt0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface alt0"}
+{"text": "inconsistent nodesets node-1 0x000001fc <ok> node-2 0x000001fc <ok> node-7 0x000001fc <ok> node-4 0x000001fc <ok> node-6 0x000001fc <ok> node-5 0x000001fc <ok> node-3 0x000001fc <ok> node-14 0x0003fdfc <ok> node-13 0x0003fdfc <ok> node-12 0x0003fdfc <ok> node-10 0x0003fdfc <ok> node-16 0x0003fdfc <ok> node-15 0x0003fdfc <ok>", "label": "inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok>", "type": 1}
+{"text": "NIFF: node node-205 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0", "type": 1}
+{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage1231", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>", "type": 1}
+{"text": "Fan speeds ( 3534 3534 3375 **** 3497 3479 )", "label": "Fan speeds ( <*> <*> <*> <*> <*> <*> )", "type": 1}
+{"text": "Temperature (41C) exceeds warning threshold", "label": "Temperature (<*>) exceeds warning threshold", "type": 1}
+{"text": "Linkerror event interval expired", "label": "Linkerror event interval expired", "type": 1}
+{"text": "link errors remain current", "label": "link errors remain current", "type": 1}
+{"text": "Failed subcommands 3406", "label": "Failed subcommands <*>", "type": 1}
+{"text": "psu failure\\ ambient=31", "label": "psu failure\\ ambient=<*>", "type": 1}
+{"text": "boot (command 2092) Error: HALT asserted\\  cannot continue", "label": "boot (command <*>) Error: HALT asserted\\ cannot continue", "type": 1}
+{"text": "configured out", "label": "configured out", "type": 1}
+{"text": "not responding", "label": "not responding", "type": 1}
+{"text": "Component State Change: Component \\042SCSI-WWID:01000010:6005-08b4-0001-00c6-0006-3000-003d-0000\\042 is in the unavailable state (HWID=1973)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)", "type": 1}
+{"text": "Targeting domains:node-D[0\\ 5] and nodes:node-[27\\ 191]", "label": "Targeting domains:node-<*> nodes:node-<*>", "type": 1}
+{"text": "Link error on broadcast tree Interconnect-0T00:00:2:1", "label": "Link error on broadcast tree Interconnect-<*>", "type": 1}
+{"text": "Command has completed successfully", "label": "Command has completed successfully", "type": 1}
+{"text": "Link in reset", "label": "Link in reset", "type": 1}
+{"text": "wait  (command 2189)", "label": "wait (command <*>)", "type": 1}
+{"text": "clusterAddMember  (command 1902)", "label": "clusterAddMember (command <*>)", "type": 1}
+{"text": "risBoot (command 1903) Error: Timed out while waiting for SRM prompt: <ABORT code completed>", "label": "risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>", "type": 1}
+{"text": "risBoot  (command 1903)", "label": "risBoot (command <*>)", "type": 1}
+{"text": "Link ok", "label": "Link ok", "type": 1}
+{"text": "halt  (command 2221)", "label": "halt (command <*>)", "type": 1}
+{"text": "Link error", "label": "Link error", "type": 1}
+{"text": "ClusterFileSystem: ServerFileSystem domain cluster_usr_backup is no longer served by node node-160", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>", "type": 1}
+{"text": "inconsistent nodesets node-32 0x00000002 <ok> node-34 0x000001fe <ok> node-33 0x000001fe <ok> node-35 0x000001fe <ok>", "label": "inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok>", "type": 1}
+{"text": "power/control problem", "label": "power/control problem", "type": 1}
+{"text": "NIFF: node node-69 detected a failed network connection on network 5.5.224.0 via interface alt0", "label": "NIFF: node node-<*> detected a failed network connection on network <*> via interface alt0", "type": 1}
+{"text": "Targeting domains:node-D4 and nodes:node-[136-159] child of command 1964", "label": "Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>", "type": 1}
+{"text": "ServerFileSystem: ServerFileSystem domain root13_local is full", "label": "ServerFileSystem: ServerFileSystem domain <*> is full", "type": 1}
+{"text": "boot  (command 2183)", "label": "boot (command <*>)", "type": 1}
+{"text": "bootGenvmunix  (command 1903)", "label": "bootGenvmunix (command <*>)", "type": 1}

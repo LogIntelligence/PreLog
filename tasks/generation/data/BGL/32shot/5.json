@@ -1,32 +1,32 @@
-{"text": "ciod: Error loading /home/greeno/raptor.new.dev.3d.BGL.CXX_XL.MPI.ex: invalid or missing program image, No such file or directory", "label": "ciod: Error loading <*>: invalid or missing program image, No such file or directory"}
-{"text": "generating core.851", "label": "generating core.<*>"}
-{"text": "generating core.59042", "label": "generating core.<*>"}
-{"text": "10640 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.", "label": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt."}
-{"text": "generating core.2275", "label": "generating core.<*>"}
-{"text": "generating core.536", "label": "generating core.<*>"}
-{"text": "generating core.15459", "label": "generating core.<*>"}
-{"text": "CE sym 1, at 0x01d7eaa0, mask 0x02", "label": "CE sym <*>, at <*>, mask <*>"}
-{"text": "generating core.7777", "label": "generating core.<*>"}
-{"text": "CE sym 0, at 0x1b8594e0, mask 0x40", "label": "CE sym <*>, at <*>, mask <*>"}
-{"text": "iar 00106448 dear 0246dbbc", "label": "iar <*> dear <*>"}
-{"text": "generating core.30706", "label": "generating core.<*>"}
-{"text": "Ido chip status changed: FF:F2:9F:16:E2:23:00:0D:60:E9:1D:DC ip=10.0.0.151 v=9 t=4 status=M Fri Jul 01 08:16:53 PDT 2005", "label": "Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*>"}
-{"text": "CE sym 6, at 0x0148b640, mask 0x10", "label": "CE sym <*>, at <*>, mask <*>"}
-{"text": "Ido chip status changed: FF:F2:9F:15:7B:E0:00:0D:60:EA:84:1F ip=10.7.0.130 v=13 t=1 status=M Sat Sep 17 07:49:04 PDT 2005", "label": "Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*>"}
-{"text": "generating core.25367", "label": "generating core.<*>"}
-{"text": "generating core.2961", "label": "generating core.<*>"}
-{"text": "generating core.50", "label": "generating core.<*>"}
-{"text": "total of 1 ddr error(s) detected and corrected over 2487 seconds", "label": "total of <*> ddr error(s) detected and corrected over <*> seconds"}
-{"text": "iar 0010671c dear 0245b72c", "label": "iar <*> dear <*>"}
-{"text": "generating core.14852", "label": "generating core.<*>"}
-{"text": "Error receiving packet on tree network, expecting type 57 instead of type 3 (softheader=00ce22e8 e6200003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007", "label": "Error receiving packet on tree network, expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>"}
-{"text": "iar 00106678 dear 0252523c", "label": "iar <*> dear <*>"}
-{"text": "generating core.28529", "label": "generating core.<*>"}
-{"text": "generating core.15648", "label": "generating core.<*>"}
-{"text": "generating core.5381", "label": "generating core.<*>"}
-{"text": "generating core.7167", "label": "generating core.<*>"}
-{"text": "ciod: generated 128 core files for program /g/g24/germann2/SPaSM_mini/MEAM/r13", "label": "ciod: generated <*> core files for program <*>"}
-{"text": "generating core.2522", "label": "generating core.<*>"}
-{"text": "CE sym 25, at 0x1a544020, mask 0x40", "label": "CE sym <*>, at <*>, mask <*>"}
-{"text": "generating core.28011", "label": "generating core.<*>"}
-{"text": "generating core.5520", "label": "generating core.<*>"}
+{"text": "Node card status: ALERT 0, ALERT 1, ALERT 2, ALERT 3 is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The 2.5 volt rail is OK. The 1.5 volt rail is OK.", "label": "Node card status: ALERT <*>, ALERT <*>, ALERT <*>, ALERT <*> is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The <*> volt rail is OK. The <*> volt rail is OK.", "type": 1}
+{"text": "Kernel detected 35591540 integer alignment exceptions (35591533) iar 0x0023f108, dear 0x1feaa260 (35591534) iar 0x00265564, dear 0x1feaa1c0 (35591535) iar 0x00265574, dear 0x1feaa1e0 (35591536) iar 0x00265578, dear 0x1feaa200 (35591537) iar 0x00265588, dear 0x1feaa220 (35591538) iar 0x0026558c, dear 0x1feaa240 (35591539) iar 0x00265594, dear 0x1feaa260 (35591540) iar 0x00265598, dear 0x1feaa280", "label": "Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>", "type": 1}
+{"text": "idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)", "label": "idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)", "type": 1}
+{"text": "rts: bad message header: expecting type 57 instead of type 3 (softheader=00131db8 81aa0003 00000002 00000000) PSR0=00001f01 PSR1=00000000 PRXF=00000002 PIXF=00000007", "label": "rts: bad message header: expecting type <*> instead of type <*> (softheader=<*> <*> <*> <*>) PSR0=<*> PSR1=<*> PRXF=<*> PIXF=<*>", "type": 1}
+{"text": "10722 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.", "label": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.", "type": 1}
+{"text": "ciod: generated 128 core files for program /bgl/apps/SWL/stability/DDCMD//ddcMDbglV", "label": "ciod: generated <*> core files for program <*>", "type": 1}
+{"text": "Lustre mount FAILED : bglio344 : point /p/gb1", "label": "Lustre mount FAILED : <*> : point <*>", "type": 1}
+{"text": "data address space................0", "label": "data address space................<*>", "type": 1}
+{"text": "machine check: i-fetch......................0", "label": "machine check: i-fetch......................<*>", "type": 1}
+{"text": "disable store gathering..................0", "label": "disable store gathering..................<*>", "type": 1}
+{"text": "exception syndrome register: 0x08000000", "label": "exception syndrome register: <*>", "type": 1}
+{"text": "instruction cache parity error corrected", "label": "instruction cache parity error corrected", "type": 1}
+{"text": "debug wait enable.................0", "label": "debug wait enable.................<*>", "type": 1}
+{"text": "auxiliary processor.........................0", "label": "auxiliary processor.........................<*>", "type": 1}
+{"text": "icache prefetch threshold................0", "label": "icache prefetch threshold................<*>", "type": 1}
+{"text": "CE sym 35, at 0x1317cee0, mask 0x10", "label": "CE sym <*>, at <*>, mask <*>", "type": 1}
+{"text": "problem state (0=sup,1=usr).......0", "label": "problem state (<*>=sup,<*>=usr).......<*>", "type": 1}
+{"text": "ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to 172.16.96.116:45713: Link has been severed", "label": "ciod: Error reading message prefix after LOAD_MESSAGE on CioStream socket to <*>: Link has been severed", "type": 1}
+{"text": "Can not get assembly information for node card", "label": "Can not get assembly information for node card", "type": 1}
+{"text": "ciod: LOGIN chdir(/home/yates/SWL_tests/BGL64k_SWL_tests_develop/MPI-VAL/MPITs_v050902/rundir) failed: No such file or directory", "label": "ciod: LOGIN chdir(<*>) failed: No such file or directory", "type": 1}
+{"text": "fraction rounded.........................0", "label": "fraction rounded.........................<*>", "type": 1}
+{"text": "minus normalized number..................0", "label": "minus normalized number..................<*>", "type": 1}
+{"text": "ciod: pollControlDescriptors: Detected the debugger died.", "label": "ciod: pollControlDescriptors: Detected the debugger died.", "type": 1}
+{"text": "generating core.22967", "label": "generating core.<*>", "type": 1}
+{"text": "force load/store alignment...............0", "label": "force load/store alignment...............<*>", "type": 1}
+{"text": "New ido chip inserted into the database: FF:F2:9F:15:1F:72:00:0D:60:EA:E0:8D ip=10.7.0.13 v=9 t=2", "label": "New ido chip inserted into the database: <*> ip=<*> v=<*> t=<*>", "type": 1}
+{"text": "shutdown complete", "label": "shutdown complete", "type": 1}
+{"text": "program interrupt: fp cr field .............0", "label": "program interrupt: fp cr field .............<*>", "type": 1}
+{"text": "size of scratchpad portion of L3.........0 (0M)", "label": "size of scratchpad portion of L3.........<*> (<*>)", "type": 1}
+{"text": "1 ddr errors(s) detected and corrected on rank 0, symbol 35, bit 1", "label": "<*> ddr errors(s) detected and corrected on rank <*>, symbol <*>, bit <*>", "type": 1}
+{"text": "rts panic! - stopping execution", "label": "rts panic! - stopping execution", "type": 1}
+{"text": "fpr29=0xffffffff ffffffff ffffffff ffffffff", "label": "fpr29=<*>", "type": 1}

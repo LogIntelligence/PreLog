@@ -1,32 +1,32 @@
-{"text": "Running task 13.0 in stage 26.0 (TID 1213)", "label": "Running task <*> in stage <*> (TID <*>)"}
-{"text": "Registered signal handlers for [TERM, HUP, INT]", "label": "Registered signal handlers for [TERM, HUP, INT]"}
-{"text": "Got assigned task 1127", "label": "Got assigned task <*>"}
-{"text": "Times: total = 42, boot = -95, init = 137, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
-{"text": "Got assigned task 1256", "label": "Got assigned task <*>"}
-{"text": "Times: total = 40, boot = -78, init = 117, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
-{"text": "Finished task 9.0 in stage 28.0 (TID 1289). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
-{"text": "Times: total = 42, boot = -4134, init = 4175, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
-{"text": "Times: total = 50, boot = 4, init = 41, finish = 5", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
-{"text": "Finished task 1.0 in stage 19.0 (TID 776). 2667 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
-{"text": "Block rdd_42_36 stored as bytes in memory (estimated size 912.0 B, free 836.4 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)"}
-{"text": "Got assigned task 626", "label": "Got assigned task <*>"}
-{"text": "Running task 2.0 in stage 29.0 (TID 1322)", "label": "Running task <*> in stage <*> (TID <*>)"}
-{"text": "Got assigned task 398", "label": "Got assigned task <*>"}
-{"text": "Finished task 4.0 in stage 19.0 (TID 799). 2667 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
-{"text": "Finished task 13.0 in stage 26.0 (TID 1213). 2703 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
-{"text": "Times: total = 40, boot = -400, init = 440, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
-{"text": "Got assigned task 879", "label": "Got assigned task <*>"}
-{"text": "Times: total = 48, boot = 17, init = 25, finish = 6", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
-{"text": "Got assigned task 1309", "label": "Got assigned task <*>"}
-{"text": "Got assigned task 1215", "label": "Got assigned task <*>"}
-{"text": "Block broadcast_28_piece0 stored as bytes in memory (estimated size 5.6 KB, free 409.8 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)"}
-{"text": "Running task 1.0 in stage 19.0 (TID 776)", "label": "Running task <*> in stage <*> (TID <*>)"}
-{"text": "Running task 2.0 in stage 14.0 (TID 590)", "label": "Running task <*> in stage <*> (TID <*>)"}
-{"text": "Partition rdd_42_1 not found, computing it", "label": "Partition <*> not found, computing it"}
-{"text": "Finished task 6.0 in stage 27.0 (TID 1246). 2220 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
-{"text": "Saved output of task 'attempt_201706092018_0024_m_000162_1157' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000162", "label": "Saved output of task '<*>' to <*>"}
-{"text": "Running task 0.0 in stage 16.0 (TID 643)", "label": "Running task <*> in stage <*> (TID <*>)"}
-{"text": "Partition rdd_16_3 not found, computing it", "label": "Partition <*> not found, computing it"}
-{"text": "Times: total = 39, boot = -110, init = 149, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
-{"text": "Got assigned task 1279", "label": "Got assigned task <*>"}
-{"text": "Reading broadcast variable 28 took 9 ms", "label": "Reading broadcast variable <*> took <*> ms"}
+{"text": "SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)", "label": "SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)", "type": 1}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000004_1026' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000004", "label": "Saved output of task '<*>' to hdfs://<*>", "type": 1}
+{"text": "Block broadcast_28_piece0 stored as bytes in memory (estimated size 5.6 KB, free 409.8 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Remoting started; listening on addresses :[akka.tcp://sparkExecutorActorSystem@mesos-slave-07:55904]", "label": "Remoting started; listening on addresses :[akka.tcp://<*>]", "type": 1}
+{"text": "mapred.job.id is deprecated. Instead, use mapreduce.job.id", "label": "mapred.job.id is deprecated. Instead, use mapreduce.job.id", "type": 1}
+{"text": "Times: total = 41, boot = -104, init = 144, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Partition rdd_26_2 not found, computing it", "label": "Partition <*> not found, computing it", "type": 1}
+{"text": "Reading broadcast variable 39 took 716 ms", "label": "Reading broadcast variable <*> took <*> ms", "type": 1}
+{"text": "MemoryStore started with capacity 17.7 GB", "label": "MemoryStore started with capacity <*> GB", "type": 1}
+{"text": "File Output Committer Algorithm version is 1", "label": "File Output Committer Algorithm version is <*>", "type": 1}
+{"text": "Connecting to driver: spark://CoarseGrainedScheduler@10.10.34.11:48069", "label": "Connecting to driver: spark://<*>", "type": 1}
+{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:255220+7292", "label": "Input split: hdfs://<*>", "type": 1}
+{"text": "Server created on 40984", "label": "Server created on <*>", "type": 1}
+{"text": "Running task 124.0 in stage 24.0 (TID 1151)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Found block rdd_42_19 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Starting remoting", "label": "Starting remoting", "type": 1}
+{"text": "Got assigned task 1306", "label": "Got assigned task <*>", "type": 1}
+{"text": "Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0147/blockmgr-70293f72-844a-4b39-9ad6-fb0ad7e364e4", "label": "Created local directory at <*>", "type": 1}
+{"text": "Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40984.", "label": "Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>.", "type": 1}
+{"text": "Trying to register BlockManager", "label": "Trying to register BlockManager", "type": 1}
+{"text": "Changing view acls to: yarn,curi", "label": "Changing view acls to: <*>", "type": 1}
+{"text": "Finished task 27.0 in stage 29.0 (TID 1347). 2128 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Started reading broadcast variable 18", "label": "Started reading broadcast variable <*>", "type": 1}
+{"text": "Successfully started service 'sparkExecutorActorSystem' on port 55904.", "label": "Successfully started service 'sparkExecutorActorSystem' on port <*>.", "type": 1}
+{"text": "Block broadcast_9 stored as values in memory (estimated size 8.8 KB, free 14.0 KB)", "label": "Block <*> stored as values in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Starting executor ID 5 on host mesos-slave-07", "label": "Starting executor ID <*> on host <*>", "type": 1}
+{"text": "Block rdd_42_6 stored as bytes in memory (estimated size 559.0 B, free 809.8 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)", "label": "SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)", "type": 1}
+{"text": "mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id", "label": "mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id", "type": 1}
+{"text": "Saved output of task 'attempt_201706092018_0025_m_000003_1198' to hdfs://10.10.34.11:9000/pjhe/test/2/_temporary/0/task_201706092018_0025_m_000003", "label": "Saved output of task '<*>' to hdfs://<*>", "type": 1}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000123_1150' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000123", "label": "Saved output of task '<*>' to hdfs://<*>", "type": 1}
+{"text": "Changing modify acls to: yarn,curi", "label": "Changing modify acls to: <*>", "type": 1}

@@ -1,8 +1,0 @@
-{"text": "CE sym 20, at 0x180462c0, mask 0x02", "label": "CE sym <*>, at <*>, mask <*>", "type": 1}
-{"text": "generating core.418", "label": "generating core.<*>", "type": 1}
-{"text": "generating core.36904", "label": "generating core.<*>", "type": 1}
-{"text": "generating core.14589", "label": "generating core.<*>", "type": 1}
-{"text": "generating core.13067", "label": "generating core.<*>", "type": 1}
-{"text": "iar 001064fc dear 0245b64c", "label": "iar <*> dear <*>", "type": 1}
-{"text": "generating core.18632", "label": "generating core.<*>", "type": 1}
-{"text": "generating core.29308", "label": "generating core.<*>", "type": 1}

@@ -1,8 +1,0 @@
-{"text": "Cannot open channel to 3 at election address /10.10.34.13:3888", "label": "Cannot open channel to <*> at election address <*>:<*>", "type": 1}
-{"text": "Connection broken for id 188978561024, my id = 3, error =", "label": "Connection broken for id <*>, my id = <*>, error =", "type": 1}
-{"text": "Connection broken for id 188978561024, my id = 3, error =", "label": "Connection broken for id <*>, my id = <*>, error =", "type": 1}
-{"text": "Client attempting to establish new session at /10.10.34.21:53818", "label": "Client attempting to establish new session at <*>:<*>", "type": 1}
-{"text": "Interrupted while waiting for message on queue", "label": "Interrupted while waiting for message on queue", "type": 1}
-{"text": "Connection broken for id 188978561024, my id = 2, error =", "label": "Connection broken for id <*>, my id = <*>, error =", "type": 1}
-{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
-{"text": "Processed session termination for sessionid: 0x14ede63a5a70023", "label": "Processed session termination for sessionid: <*>", "type": 1}

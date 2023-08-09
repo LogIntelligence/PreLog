@@ -1,8 +1,0 @@
-{"text": "warning", "label": "warning", "type": 1}
-{"text": "ambient=28", "label": "ambient=<*>", "type": 1}
-{"text": "configured out", "label": "configured out", "type": 1}
-{"text": "warning", "label": "warning", "type": 1}
-{"text": "Fan speeds ( 3552 3534 3375 **** 3515 3479 )", "label": "Fan speeds ( <*> <*> <*> **** <*> <*> )", "type": 1}
-{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage1144", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>", "type": 1}
-{"text": "running", "label": "running", "type": 1}
-{"text": "running", "label": "running", "type": 1}

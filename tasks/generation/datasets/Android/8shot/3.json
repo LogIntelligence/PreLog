@@ -1,8 +1,0 @@
-{"text": "Taking screenshot from Surface with crop:[Rect(0, 48 - 720, 1208)], width:[432], height:[696], minLayer:[21080], maxLayer:[21085], inRotation:[false], rot:[0]", "label": "Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[<*>], rot:[<*>]", "type": 1}
-{"text": "cancelNotification,index:-1", "label": "cancelNotification,index:<*>", "type": 1}
-{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
-{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-40.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>", "type": 1}
-{"text": "cancelPeek: false", "label": "cancelPeek: <*>", "type": 1}
-{"text": "setLightsOn(true)", "label": "setLightsOn(<*>)", "type": 1}
-{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
-{"text": "cancelNotificationWithTag pid 28601,uid = 10111,tag = null,pkg =com.tencent.mobileqq,id =193", "label": "cancelNotificationWithTag pid <*>,uid = <*>,tag = <*>,pkg =<*>,id =<*>", "type": 1}

@@ -1,4 +1,0 @@
-{"text": "received broadcast android.intent.action.TIME_TICK", "label": "received broadcast <*>", "type": 1}
-{"text": "The change in focus caused us to need to do a layout begin", "label": "The change in focus caused us to need to do a layout begin", "type": 1}
-{"text": "getLastAudibleStreamVolume  treamType: 7", "label": "getLastAudibleStreamVolume treamType: <*>", "type": 1}
-{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}

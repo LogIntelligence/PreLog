@@ -1,32 +1,32 @@
-{"text": "Finished task 4.0 in stage 27.0 (TID 1244). 2685 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
-{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:65628+7292", "label": "Input split: <*>"}
-{"text": "Block broadcast_40 stored as values in memory (estimated size 9.9 KB, free 884.2 KB)", "label": "Block <*> stored as values in memory (estimated size <*>, free <*>)"}
-{"text": "Got assigned task 319", "label": "Got assigned task <*>"}
-{"text": "Finished task 16.0 in stage 29.0 (TID 1336). 2171 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
-{"text": "Block broadcast_15 stored as values in memory (estimated size 9.2 KB, free 416.6 KB)", "label": "Block <*> stored as values in memory (estimated size <*>, free <*>)"}
-{"text": "Running task 32.0 in stage 29.0 (TID 1352)", "label": "Running task <*> in stage <*> (TID <*>)"}
-{"text": "Times: total = 38, boot = -172, init = 210, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
-{"text": "Running task 0.0 in stage 16.0 (TID 643)", "label": "Running task <*> in stage <*> (TID <*>)"}
-{"text": "Finished task 4.0 in stage 7.0 (TID 319). 2667 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
-{"text": "Times: total = 60, boot = -8772, init = 8827, finish = 5", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
-{"text": "Got assigned task 1301", "label": "Got assigned task <*>"}
-{"text": "Saved output of task 'attempt_201706092018_0024_m_000123_1150' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000123", "label": "Saved output of task '<*>' to <*>"}
-{"text": "Running task 18.0 in stage 27.0 (TID 1258)", "label": "Running task <*> in stage <*> (TID <*>)"}
-{"text": "Got assigned task 984", "label": "Got assigned task <*>"}
-{"text": "Got assigned task 1125", "label": "Got assigned task <*>"}
-{"text": "Saved output of task 'attempt_201706092018_0024_m_000004_1026' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000004", "label": "Saved output of task '<*>' to <*>"}
-{"text": "Finished task 3.0 in stage 26.0 (TID 1203). 2703 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
-{"text": "Times: total = 53, boot = 12, init = 36, finish = 5", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
-{"text": "Running task 7.0 in stage 26.0 (TID 1207)", "label": "Running task <*> in stage <*> (TID <*>)"}
-{"text": "Finished task 3.0 in stage 16.0 (TID 678). 2151 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
-{"text": "Block broadcast_28_piece0 stored as bytes in memory (estimated size 5.6 KB, free 409.8 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)"}
-{"text": "Times: total = 38, boot = 17, init = 21, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>"}
-{"text": "Block rdd_42_18 stored as bytes in memory (estimated size 955.0 B, free 820.8 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)"}
-{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:167716+7292", "label": "Input split: <*>"}
-{"text": "Running task 29.0 in stage 26.0 (TID 1229)", "label": "Running task <*> in stage <*> (TID <*>)"}
-{"text": "Got assigned task 159", "label": "Got assigned task <*>"}
-{"text": "Started reading broadcast variable 27", "label": "Started reading broadcast variable <*>"}
-{"text": "Partition rdd_42_16 not found, computing it", "label": "Partition <*> not found, computing it"}
-{"text": "Partition rdd_42_38 not found, computing it", "label": "Partition <*> not found, computing it"}
-{"text": "Block rdd_42_19 stored as bytes in memory (estimated size 920.0 B, free 819.9 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)"}
-{"text": "Finished task 10.0 in stage 27.0 (TID 1250). 2667 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver"}
+{"text": "SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)", "label": "SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)", "type": 1}
+{"text": "Created local directory at /opt/hdfs/nodemanager/usercache/curi/appcache/application_1485248649253_0147/blockmgr-70293f72-844a-4b39-9ad6-fb0ad7e364e4", "label": "Created local directory at <*>", "type": 1}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000164_1159' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000164", "label": "Saved output of task '<*>' to hdfs://<*>", "type": 1}
+{"text": "Block broadcast_19_piece0 stored as bytes in memory (estimated size 5.4 KB, free 469.4 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Times: total = 60, boot = -8772, init = 8827, finish = 5", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Partition rdd_42_38 not found, computing it", "label": "Partition <*> not found, computing it", "type": 1}
+{"text": "Reading broadcast variable 23 took 11 ms", "label": "Reading broadcast variable <*> took <*> ms", "type": 1}
+{"text": "Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40984.", "label": "Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port <*>.", "type": 1}
+{"text": "Slf4jLogger started", "label": "Slf4jLogger started", "type": 1}
+{"text": "Successfully registered with driver", "label": "Successfully registered with driver", "type": 1}
+{"text": "File Output Committer Algorithm version is 1", "label": "File Output Committer Algorithm version is <*>", "type": 1}
+{"text": "mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap", "label": "mapred.task.is.map is deprecated. Instead, use mapreduce.task.ismap", "type": 1}
+{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:240636+7292", "label": "Input split: hdfs://<*>", "type": 1}
+{"text": "Running task 22.0 in stage 28.0 (TID 1302)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "Found block rdd_42_22 locally", "label": "Found block <*> locally", "type": 1}
+{"text": "Starting remoting", "label": "Starting remoting", "type": 1}
+{"text": "Got assigned task 1320", "label": "Got assigned task <*>", "type": 1}
+{"text": "Server created on 40984", "label": "Server created on <*>", "type": 1}
+{"text": "Finished task 122.0 in stage 24.0 (TID 1147). 2364 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
+{"text": "Registered signal handlers for [TERM, HUP, INT]", "label": "Registered signal handlers for [TERM, HUP, INT]", "type": 1}
+{"text": "Started reading broadcast variable 32", "label": "Started reading broadcast variable <*>", "type": 1}
+{"text": "Connecting to driver: spark://CoarseGrainedScheduler@10.10.34.11:48069", "label": "Connecting to driver: spark://<*>", "type": 1}
+{"text": "Changing view acls to: yarn,curi", "label": "Changing view acls to: <*>", "type": 1}
+{"text": "Trying to register BlockManager", "label": "Trying to register BlockManager", "type": 1}
+{"text": "Block broadcast_22 stored as values in memory (estimated size 9.6 KB, free 418.6 KB)", "label": "Block <*> stored as values in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "mapred.tip.id is deprecated. Instead, use mapreduce.task.id", "label": "mapred.tip.id is deprecated. Instead, use mapreduce.task.id", "type": 1}
+{"text": "Block rdd_42_37 stored as bytes in memory (estimated size 939.0 B, free 835.5 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Block broadcast_0 stored as values in memory (estimated size 384.0 B, free 317.5 KB)", "label": "Block <*> stored as values in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "mapred.task.partition is deprecated. Instead, use mapreduce.task.partition", "label": "mapred.task.partition is deprecated. Instead, use mapreduce.task.partition", "type": 1}
+{"text": "mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id", "label": "mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id", "type": 1}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000124_1151' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000124", "label": "Saved output of task '<*>' to hdfs://<*>", "type": 1}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000003_1012' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000003", "label": "Saved output of task '<*>' to hdfs://<*>", "type": 1}

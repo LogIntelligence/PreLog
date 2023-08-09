@@ -1,0 +1,8 @@
+{"text": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.105.189:50010 is added to blk_-3275237990609680332 size 67108864", "label": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>", "type": 1}
+{"text": "Verification succeeded for blk_1649162819905816843", "label": "Verification succeeded for <*>", "type": 1}
+{"text": "10.251.125.193:50010:Got exception while serving blk_3790492230047189408 to /10.251.199.159:", "label": "<*>:Got exception while serving <*> to <*>:", "type": 1}
+{"text": "Receiving block blk_-4861262918414696307 src: /10.251.198.196:34168 dest: /10.251.198.196:50010", "label": "Receiving block <*> src: <*> dest: <*>", "type": 1}
+{"text": "Received block blk_-8523968015014407246 of size 67108864 from /10.251.214.225", "label": "Received block <*> of size <*> from <*>", "type": 1}
+{"text": "PacketResponder 1 for block blk_-8108913101671416218 terminating", "label": "PacketResponder <*> for block <*> terminating", "type": 1}
+{"text": "BLOCK* ask 10.251.122.79:50010 to delete  blk_8048594464172649365", "label": "BLOCK* ask <*> to delete <*>", "type": 1}
+{"text": "Deleting block blk_-1306900105984505600 file /mnt/hadoop/dfs/data/current/subdir31/blk_-1306900105984505600", "label": "Deleting block <*> file <*>", "type": 1}

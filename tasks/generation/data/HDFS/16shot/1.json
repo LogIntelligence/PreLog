@@ -1,0 +1,16 @@
+{"text": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.199.225:50010 is added to blk_-7115635482536854135 size 67108864", "label": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>", "type": 1}
+{"text": "Verification succeeded for blk_-7803343374223161433", "label": "Verification succeeded for <*>", "type": 1}
+{"text": "10.251.198.33:50010:Got exception while serving blk_-8495670552887053546 to /10.250.10.223:", "label": "<*>:Got exception while serving <*> to <*>:", "type": 1}
+{"text": "Receiving block blk_-8834022217832819265 src: /10.251.105.189:53216 dest: /10.251.105.189:50010", "label": "Receiving block <*> src: <*> dest: <*>", "type": 1}
+{"text": "Received block blk_-3300851862683571086 of size 67108864 from /10.251.203.166", "label": "Received block <*> of size <*> from <*>", "type": 1}
+{"text": "PacketResponder 2 for block blk_-6773301007994789531 terminating", "label": "PacketResponder <*> for block <*> terminating", "type": 1}
+{"text": "Deleting block blk_-2929627680703662712 file /mnt/hadoop/dfs/data/current/subdir32/blk_-2929627680703662712", "label": "Deleting block <*> file <*>", "type": 1}
+{"text": "10.250.15.101:50010 Served block blk_-2557432794238860908 to /10.251.74.134", "label": "<*> Served block <*> to <*>", "type": 1}
+{"text": "BLOCK* NameSystem.allocateBlock: /user/root/sortrand/_temporary/_task_200811092030_0002_r_000318_0/part-00318. blk_2096692261399680562", "label": "BLOCK* NameSystem.allocateBlock: <*> <*>", "type": 1}
+{"text": "BLOCK* NameSystem.delete: blk_-1162676743264290624 is added to invalidSet of 10.251.194.213:50010", "label": "BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>", "type": 1}
+{"text": "BLOCK* NameSystem.allocateBlock: /user/root/sortrand2/_temporary/_task_200811101024_0003_r_000152_0/part-00152. blk_-7603795308074215276", "label": "BLOCK* NameSystem.allocateBlock: <*> <*>", "type": 1}
+{"text": "BLOCK* ask 10.251.126.5:50010 to delete  blk_-9016567407076718172 blk_-8695715290502978219 blk_-7168328752988473716 blk_-4355192005224403537 blk_-3757501769775889193 blk_-154600013573668394 blk_167132135416677587 blk_2654596473569751784 blk_5202581916713319258", "label": "BLOCK* ask <*> to delete <*>", "type": 1}
+{"text": "BLOCK* NameSystem.allocateBlock: /user/root/randtxt2/_temporary/_task_200811101024_0002_m_001335_0/part-01335. blk_-2541428592126088938", "label": "BLOCK* NameSystem.allocateBlock: <*> <*>", "type": 1}
+{"text": "BLOCK* ask 10.250.14.38:50010 to replicate blk_-7571492020523929240 to datanode(s) 10.251.122.38:50010", "label": "BLOCK* ask <*> to replicate <*> to datanode(s) <*>", "type": 1}
+{"text": "BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_200811092030_0003_m_000382_0/part-00382. blk_8935202950442998446", "label": "BLOCK* NameSystem.allocateBlock: <*> <*>", "type": 1}
+{"text": "BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_200811092030_0003_m_000675_0/part-00675. blk_-7866582011201618766", "label": "BLOCK* NameSystem.allocateBlock: <*> <*>", "type": 1}

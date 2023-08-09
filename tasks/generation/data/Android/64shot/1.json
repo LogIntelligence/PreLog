@@ -1,0 +1,64 @@
+{"text": "Destroying surface Surface(name=com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.NewsDetailXmlActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.removeLocked:1554 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2739 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2702 com.android.server.wm.WindowManagerService.removeWindowLocked:2691 com.android.server.wm.WindowManagerService.removeWindowLocked:2560 com.android.server.wm.WindowManagerService.removeWindow:2555", "label": "Destroying surface Surface(name=<*>) called by <*>", "type": 1}
+{"text": "setSystemUiVisibility vis=c0000700 mask=ffffffff oldVal=708 newVal=c0000700 diff=c0000008 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x0,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >", "label": "disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >", "type": 1}
+{"text": "getRunningAppProcesses: caller 10111 does not hold REAL_GET_TASKS; limiting output", "label": "getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "The change in focus caused us to need to do a layout begin", "label": "The change in focus caused us to need to do a layout begin", "type": 1}
+{"text": "Application requested orientation 1, got rotation 0 which has compatible metrics", "label": "Application requested orientation <*>, got rotation <*> which has compatible metrics", "type": 1}
+{"text": "interceptKeyBeforeQueueing: key 3 , result : 1", "label": "interceptKeyBeforeQueueing: key <*> , result : <*>", "type": 1}
+{"text": "updateNotificationShade: total=0, active=0", "label": "updateNotificationShade: total=<*>, active=<*>", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "instantCollapse", "label": "instantCollapse", "type": 1}
+{"text": "scheduleTimeTickEvent triggerAtTime = 509262332", "label": "scheduleTimeTickEvent triggerAtTime = <*>", "type": 1}
+{"text": "ACTION_BATTERY_CHANGED AMP: 0; Volt: 0", "label": "ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*>", "type": 1}
+{"text": "querySoundEffectsEnabled...", "label": "querySoundEffectsEnabled...", "type": 1}
+{"text": "cancelAutohide", "label": "cancelAutohide", "type": 1}
+{"text": "ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000", "label": "ChargingSpeed Wattage: <*> ST: <*> --> <*>", "type": 1}
+{"text": "mHeadsUpExistenceChangedRunnable", "label": "mHeadsUpExistenceChangedRunnable", "type": 1}
+{"text": "onExpandingStarted", "label": "onExpandingStarted", "type": 1}
+{"text": "closeQs", "label": "closeQs", "type": 1}
+{"text": "release:lock=173466309, flg=0x0, tag=\"AudioMix\", name=audioserver\", ws=null, uid=1041, pid=0", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>", "type": 1}
+{"text": "state.clipTopAmount:204, i:0", "label": "state.clipTopAmount:<*>, i:<*>", "type": 1}
+{"text": "received broadcast android.intent.action.TIME_TICK", "label": "received broadcast <*>", "type": 1}
+{"text": "Acquiring suspend blocker \"PowerManagerService.WakeLocks\".", "label": "Acquiring suspend blocker \"PowerManagerService.WakeLocks\".", "type": 1}
+{"text": "enqueueNotificationInternal: pkg=com.tencent.mobileqq id=121 notification=Notification(pri=1 contentView=null vibrate=[100] sound=null tick defaults=0x0 flags=0x11 color=0x00000000 vis=PRIVATE)", "label": "enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> vis=PRIVATE)", "type": 1}
+{"text": "startAnimation end", "label": "startAnimation end", "type": 1}
+{"text": "shouldBlockLocation  ret:false", "label": "shouldBlockLocation ret:<*>", "type": 1}
+{"text": "orientation change is complete, call stopFreezingDisplayLocked", "label": "orientation change is complete, call stopFreezingDisplayLocked", "type": 1}
+{"text": "Skipping, withExcluded: false, tr.intent:Intent { flg=0x18800000 cmp=com.tencent.mm/.plugin.base.stub.WXEntryActivity (has extras) }", "label": "Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> (has extras) }", "type": 1}
+{"text": "java.lang.ClassCastException: android.os.BinderProxy cannot be cast to com.android.server.am.ActivityRecord$Token", "label": "<*>: <*> cannot be cast to <*>$Token", "type": 1}
+{"text": "getLastAudibleStreamVolume  treamType: 7", "label": "getLastAudibleStreamVolume treamType: <*>", "type": 1}
+{"text": "*** unregister callback for null", "label": "*** unregister callback for <*>", "type": 1}
+{"text": "abandonAudioFocus", "label": "abandonAudioFocus", "type": 1}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-168.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>", "type": 1}
+{"text": "onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=0, id[0]=0, x[0]=622.0, y[0]=86.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=261991368, downTime=261991304, deviceId=3, source=0x1002 }, mBlockTouches=false", "label": "onInterceptTouchEvent MotionEvent { action=ACTION_UP, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>", "type": 1}
+{"text": "Taking screenshot from Surface with crop:[Rect(0, 48 - 720, 1208)], width:[432], height:[696], minLayer:[21085], maxLayer:[21085], inRotation:[false], rot:[0]", "label": "Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[<*>], rot:[<*>]", "type": 1}
+{"text": "cleanUpApplicationRecordLocked, reset pid: 5769, euid: 0", "label": "cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>", "type": 1}
+{"text": "animateCollapsePanels:flags=2, force=true, delayed=true, mExpandedVisible=true", "label": "animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*>", "type": 1}
+{"text": "visible is system.message.count gt 0", "label": "visible is <*> gt <*>", "type": 1}
+{"text": "setDataSource(166, 0, 576460752303423487)", "label": "setDataSource(<*>, <*>, <*>)", "type": 1}
+{"text": "flingToHeight: vel=2849.079, expand=true, target=553.0, collapseSpeedUpFactor=1.0, expandBecauseOfFalsing=false", "label": "flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*>", "type": 1}
+{"text": "getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity}", "label": "getRecentTasks: topActivity=ComponentInfo{<*>}", "type": 1}
+{"text": "logNotificationVisibilityChanges runInThread start", "label": "logNotificationVisibilityChanges runInThread start", "type": 1}
+{"text": "Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system 2227:com.android.systemui/u0a37 pkg com.android.systemui", "label": "Sending non-protected broadcast <*> from system <*> pkg <*>", "type": 1}
+{"text": "[PhoneIntfMgr] getDataEnabled: subId=1 phoneId=1", "label": "[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*>", "type": 1}
+{"text": "userActivityNoUpdateLocked: eventTime=261849942, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>", "type": 1}
+{"text": "setWiredDeviceConnectionState  type: 4  state: 0", "label": "setWiredDeviceConnectionState type: <*> state: <*>", "type": 1}
+{"text": "Unable to start service Intent { act=com.tencent.android.tpush.action.keepalive cmp=com.qqgame.hlddz/com.tencent.android.tpush.service.XGPushService } U=0: not found", "label": "Unable to start service Intent { act=<*> cmp=<*> } U=<*>: not found", "type": 1}
+{"text": "android.util.AndroidRuntimeException: Must execute in UI", "label": "<*>: Must execute in UI", "type": 1}
+{"text": "RefreshBatteryInfo isBatteryLow: 23", "label": "RefreshBatteryInfo isBatteryLow: <*>", "type": 1}
+{"text": "ApStaDisabledState what=155652", "label": "ApStaDisabledState what=<*>", "type": 1}
+{"text": "Killing 23484:com.android.calendar/u0a13 (adj 906): empty for 1810s", "label": "Killing <*> (adj <*>): empty for <*>", "type": 1}
+{"text": "getRingerMode...", "label": "getRingerMode...", "type": 1}
+{"text": "Pid:28601 MediaPlayer destructor", "label": "Pid:<*> MediaPlayer destructor", "type": 1}
+{"text": "cancelNotificationLocked called,tell the app,reason = 1", "label": "cancelNotificationLocked called,tell the app,reason = <*>", "type": 1}
+{"text": "isSimPinSecure mSimDatas is null or empty", "label": "isSimPinSecure mSimDatas is <*> or empty", "type": 1}
+{"text": "updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?false", "label": "updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?false", "type": 1}
+{"text": "applyOptionsLocked: Unknown animationType=0", "label": "applyOptionsLocked: Unknown animationType=<*>", "type": 1}
+{"text": "Start dump, calling from : pid=12782, uid=1000", "label": "Start dump, calling from : pid=<*>, uid=<*>", "type": 1}
+{"text": "playSoundEffect   effectType: 0", "label": "playSoundEffect effectType: <*>", "type": 1}
+{"text": "notifyUiVisibilityChanged:vis=0x40000500, SystemUiVisibility=0x40000500", "label": "notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>", "type": 1}
+{"text": "battery changed pluggedType: 0", "label": "battery changed pluggedType: <*>", "type": 1}
+{"text": "getCellLocation is blocked by permission manager uid:10111 pid:28601", "label": "getCellLocation is blocked by permission manager uid:<*> pid:<*>", "type": 1}
+{"text": "remove(PendingIntent{19abed0: PendingIntentRecord{a485420 com.tencent.qt.qtl broadcastIntent}}) changed bounds; rebatching", "label": "remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching", "type": 1}
+{"text": "rotationForOrientationLw(orient=1, last=0); user=0 USER_ROTATION_LOCKED", "label": "rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED", "type": 1}

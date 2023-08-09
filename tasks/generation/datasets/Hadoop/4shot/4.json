@@ -1,4 +1,0 @@
-{"text": "Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack", "label": "Resolved <*> to <*>", "type": 1}
-{"text": "Resolved MSRA-SA-39.fareast.corp.microsoft.com to /default-rack", "label": "Resolved <*> to <*>", "type": 1}
-{"text": "Recalculating schedule, headroom=<memory:0, vCores:-27>", "label": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>", "type": 1}
-{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000005_0 is : 0.36390656", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}

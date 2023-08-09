@@ -1,0 +1,64 @@
+{"text": "Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 09:04:50 EDT 2004", "label": "Linux version <*> (bhcompile@bugs.build.redhat.com) (gcc version <*> (Red Hat Linux <*>)) <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h64-187-1-131.gtconnect.net  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:20 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)", "label": "Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)", "type": 1}
+{"text": "notify question section contains no SOA", "label": "notify question section contains no SOA", "type": 1}
+{"text": "Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)", "label": "Dquot-cache hash table entries: <*> (order <*>, <*> bytes)", "type": 1}
+{"text": "Initializing random number generator:  succeeded", "label": "Initializing random number generator: succeeded", "type": 1}
+{"text": "Intel machine check architecture supported.", "label": "Intel machine check architecture supported.", "type": 1}
+{"text": "imps2: Auto-detected intellimouse PS/2", "label": "imps2: Auto-detected intellimouse PS/<*>", "type": 1}
+{"text": "getpeername (ftpd): Transport endpoint is not connected", "label": "getpeername (ftpd): Transport endpoint is not connected", "type": 1}
+{"text": "CPU 0 irqstacks, hard=02345000 soft=02344000", "label": "CPU <*> irqstacks, hard=<*> soft=<*>", "type": 1}
+{"text": "Enabling fast FPU save and restore... done.", "label": "Enabling fast FPU save and restore... done.", "type": 1}
+{"text": "Normal zone: 28334 pages, LIFO batch:6", "label": "Normal zone: <*> pages, LIFO batch:<*>", "type": 1}
+{"text": "Using tsc for high-res timesource", "label": "Using tsc for high-res timesource", "type": 1}
+{"text": "ALERT exited abnormally with [1]", "label": "ALERT exited abnormally with [<*>]", "type": 1}
+{"text": "VFS: Disk quotas dquot_6.5.1", "label": "VFS: Disk quotas <*>", "type": 1}
+{"text": "selinux_register_security:  Registering secondary module capability", "label": "selinux_register_security: Registering secondary module capability", "type": 1}
+{"text": "Real Time Clock Driver v1.12", "label": "Real Time Clock Driver <*>", "type": 1}
+{"text": "audit(1122475266.4294965305:0): initialized", "label": "audit(<*>): initialized", "type": 1}
+{"text": "BIOS-provided physical RAM map:", "label": "BIOS-provided physical RAM map:", "type": 1}
+{"text": "Detected 731.219 MHz processor.", "label": "Detected <*> MHz processor.", "type": 1}
+{"text": "klogd 1.4.1, log source = /proc/kmsg started.", "label": "klogd <*>, log source = <*> started.", "type": 1}
+{"text": "Calibrating delay loop... 1445.88 BogoMIPS", "label": "Calibrating delay loop... <*> BogoMIPS", "type": 1}
+{"text": "Transparent bridge - 0000:00:1e.0", "label": "Transparent bridge - <*>", "type": 1}
+{"text": "creating device node '/udev/vcs2'", "label": "creating device node '<*>'", "type": 1}
+{"text": "ACPI: Interpreter disabled.", "label": "ACPI: Interpreter disabled.", "type": 1}
+{"text": "Built 1 zonelists", "label": "Built <*> zonelists", "type": 1}
+{"text": "*** info [mice.c(1766)]:", "label": "*** info [mice.c(<*>)]:", "type": 1}
+{"text": "POSIX conformance testing by UNIFIX", "label": "POSIX conformance testing by UNIFIX", "type": 1}
+{"text": "NET: Registered protocol family 16", "label": "NET: Registered protocol family <*>", "type": 1}
+{"text": "PCI: Probing PCI hardware", "label": "PCI: Probing PCI hardware", "type": 1}
+{"text": "Authentication failed from 163.27.187.39 (163.27.187.39): Permission denied in replay cache code", "label": "Authentication failed from <*>: Permission denied in replay cache code", "type": 1}
+{"text": "DMI 2.3 present.", "label": "DMI <*> present.", "type": 1}
+{"text": "zapping low mappings.", "label": "zapping low mappings.", "type": 1}
+{"text": "session opened for user test by (uid=509)", "label": "session opened for user <*> by (uid=<*>)", "type": 1}
+{"text": "Received SNMP packet(s) from 67.170.148.126", "label": "Received SNMP packet(s) from <*>", "type": 1}
+{"text": "ROOT LOGIN ON tty2", "label": "<*> LOGIN ON tty2", "type": 1}
+{"text": "kernel.core_uses_pid = 1", "label": "kernel.core_uses_pid = <*>", "type": 1}
+{"text": "check pass; user unknown", "label": "check pass; user unknown", "type": 1}
+{"text": "warning: can't get client address: Connection reset by peer", "label": "warning: can't get client address: Connection reset by peer", "type": 1}
+{"text": "HCI daemon ver 2.4 started", "label": "HCI daemon ver <*> started", "type": 1}
+{"text": "SELinux:  Registering netfilter hooks", "label": "SELinux: Registering netfilter hooks", "type": 1}
+{"text": "Linux agpgart interface v0.100 (c) Dave Jones", "label": "Linux agpgart interface <*> (c) Dave Jones", "type": 1}
+{"text": "You can enable it with acpi=force", "label": "You can enable it with acpi=force", "type": 1}
+{"text": "usbcore: registered new driver usbfs", "label": "usbcore: registered new driver usbfs", "type": 1}
+{"text": "mapped 4G/4G trampoline to ffff3000.", "label": "mapped 4G/4G trampoline to <*>.", "type": 1}
+{"text": "ANONYMOUS FTP LOGIN FROM 84.102.20.2,  (anonymous)", "label": "ANONYMOUS FTP LOGIN FROM <*>, (anonymous)", "type": 1}
+{"text": "isapnp: No Plug & Play device found", "label": "isapnp: No Plug & Play device found", "type": 1}
+{"text": "audit: initializing netlink socket (disabled)", "label": "audit: initializing netlink socket (disabled)", "type": 1}
+{"text": "Console: colour VGA+ 80x25", "label": "Console: colour VGA+ <*>", "type": 1}
+{"text": "ACPI: ACPI tables contain no PCI IRQ routing entries", "label": "ACPI: ACPI tables contain no PCI IRQ routing entries", "type": 1}
+{"text": "Checking 'hlt' instruction... OK.", "label": "Checking 'hlt' instruction... OK.", "type": 1}
+{"text": "isapnp: Scanning for PnP cards...", "label": "isapnp: Scanning for PnP cards...", "type": 1}
+{"text": "Version 1.0.6 Starting", "label": "Version <*> Starting", "type": 1}
+{"text": "connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Sat Jun 18 02:08:10 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "CPU: L1 I cache: 16K, L1 D cache: 16K", "label": "CPU: L1 I cache: <*>, L1 D cache: <*>", "type": 1}
+{"text": "Kernel command line: ro root=LABEL=/ rhgb quiet", "label": "Kernel command line: ro <*>=LABEL=/ rhgb quiet", "type": 1}
+{"text": "Bringing up loopback interface:  succeeded", "label": "Bringing up loopback interface: succeeded", "type": 1}
+{"text": "Total HugeTLB memory allocated, 0", "label": "Total HugeTLB memory allocated, <*>", "type": 1}
+{"text": "cupsd shutdown succeeded", "label": "cupsd shutdown succeeded", "type": 1}
+{"text": "Linux Plug and Play Support v0.97 (c) Adam Belay", "label": "Linux Plug and Play Support <*> (c) Adam Belay", "type": 1}
+{"text": "apm: BIOS version 1.2 Flags 0x03 (Driver version 1.16ac)", "label": "apm: BIOS version <*> Flags <*> (Driver version <*>)", "type": 1}
+{"text": "syslogd startup succeeded", "label": "syslogd startup succeeded", "type": 1}
+{"text": "Kerberos authentication failed", "label": "Kerberos authentication failed", "type": 1}

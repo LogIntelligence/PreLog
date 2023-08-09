@@ -1,32 +1,32 @@
-{"text": "[instance: af5f7392-f7d4-4298-b647-c98924c64aa1] Deleting instance files /var/lib/nova/instances/af5f7392-f7d4-4298-b647-c98924c64aa1_del", "label": "[instance: <*>] Deleting instance files <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/63a0d960-70b6-44c6-b606-491478a5cadf HTTP/1.1\" status: 200 len: 1708 time: 0.1946359", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] Creating image", "label": "[instance: <*>] Creating image"}
-{"text": "10.11.10.1 \"POST /v2/e9746973ac574c6b8a9e8857f56a7608/os-server-external-events HTTP/1.1\" status: 200 len: 380 time: 0.0926709", "label": "<*> \"POST <*>\" status: <*> len: <*> time: <*>"}
-{"text": "[instance: d54b44eb-2d1a-4aa2-ba6b-074d35f8f12c] Creating image", "label": "[instance: <*>] Creating image"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/d6b7bd36-2943-4363-9235-fffdd89ea40e HTTP/1.1\" status: 200 len: 1708 time: 0.2011390", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2605171", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2577119", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1759 time: 0.2745810", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2779088", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2644999", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2685769", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.21.131,10.11.10.1 \"GET /openstack/2013-10-17 HTTP/1.1\" status: 200 len: 157 time: 0.2318211", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1583 time: 0.1981771", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1759 time: 0.2833371", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.21.122,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.2349129", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2457409", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"DELETE /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/43204226-2f87-4da7-b7ee-4d20cc66e846 HTTP/1.1\" status: 204 len: 203 time: 0.2904482", "label": "<*> \"DELETE <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2677131", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2791021", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "[instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] Creating image", "label": "[instance: <*>] Creating image"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1575 time: 0.1883159", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "[instance: 43204226-2f87-4da7-b7ee-4d20cc66e846] Took 19.37 seconds to spawn the instance on the hypervisor.", "label": "[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor."}
-{"text": "Creating event network-vif-plugged:60df1c66-a513-4973-aeed-095809a52794 for instance 43204226-2f87-4da7-b7ee-4d20cc66e846", "label": "Creating event network-vif-plugged:<*> for instance <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2740800", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "[instance: c62f4f25-982c-4ea2-b5e4-93000edfcfbf] Total vcpu: 16 VCPU, used: 0.00 VCPU", "label": "[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2706349", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2501280", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "[instance: 95960536-049b-41f6-9049-05fc479b6a7c] Total vcpu: 16 VCPU, used: 0.00 VCPU", "label": "[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU"}
-{"text": "10.11.21.138,10.11.10.1 \"GET /openstack/2012-08-10/meta_data.json HTTP/1.1\" status: 200 len: 264 time: 0.2088590", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2517929", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2646010", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage", "label": "image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage", "type": 1}
+{"text": "Final resource view: name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=2560MB phys_disk=15GB used_disk=20GB total_vcpus=16 used_vcpus=1 pci_stats=[]", "label": "Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[]", "type": 1}
+{"text": "10.11.10.1 \"DELETE /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/78dc1847-8848-49cc-933e-9239b12c9dcf HTTP/1.1\" status: 204 len: 203 time: 0.2560370", "label": "<*> \"DELETE <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Removing base or swap file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Removing base or swap file: <*>", "type": 1}
+{"text": "HTTP exception thrown: No instances found for any event", "label": "HTTP exception thrown: No instances found for any event", "type": 1}
+{"text": "[instance: c62f4f25-982c-4ea2-b5e4-93000edfcfbf] During sync_power_state the instance has a pending task (spawning). Skip.", "label": "[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.", "type": 1}
+{"text": "Total usable vcpus: 16, total allocated vcpus: 0", "label": "Total usable vcpus: <*>, total allocated vcpus: <*>", "type": 1}
+{"text": "[instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] vcpu limit not specified, defaulting to unlimited", "label": "[instance: <*>] vcpu limit not specified, defaulting to unlimited", "type": 1}
+{"text": "[instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU", "label": "[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU", "type": 1}
+{"text": "[instance: d96a117b-0193-4549-bdcc-63b917273d1d] VM Resumed (Lifecycle Event)", "label": "[instance: <*>] VM Resumed (Lifecycle Event)", "type": 1}
+{"text": "[instance: 127e769a-4fe6-4548-93b1-513ac51e0452] Deletion of /var/lib/nova/instances/127e769a-4fe6-4548-93b1-513ac51e0452_del complete", "label": "[instance: <*>] Deletion of <*> complete", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking", "label": "image <*> at (<*>): checking", "type": 1}
+{"text": "Compute_service record updated for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us:cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us", "label": "Compute_service record updated for <*>", "type": 1}
+{"text": "Removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Removable base files: <*>", "type": 1}
+{"text": "[instance: d96a117b-0193-4549-bdcc-63b917273d1d] Took 0.45 seconds to deallocate network for instance.", "label": "[instance: <*>] Took <*> seconds to deallocate network for instance.", "type": 1}
+{"text": "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] Total vcpu: 16 VCPU, used: 0.00 VCPU", "label": "[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU", "type": 1}
+{"text": "The instance sync for host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us' did not match. Re-created its InstanceList.", "label": "The instance sync for host '<*>' did not match. Re-created its InstanceList.", "type": 1}
+{"text": "[instance: 127e769a-4fe6-4548-93b1-513ac51e0452] Deleting instance files /var/lib/nova/instances/127e769a-4fe6-4548-93b1-513ac51e0452_del", "label": "[instance: <*>] Deleting instance files <*>", "type": 1}
+{"text": "[instance: 63a0d960-70b6-44c6-b606-491478a5cadf] Claim successful", "label": "[instance: <*>] Claim successful", "type": 1}
+{"text": "[instance: be793e89-2cc3-4f99-9884-9c6a624a84bc] Creating image", "label": "[instance: <*>] Creating image", "type": 1}
+{"text": "[instance: a015cf14-84bb-4156-a48d-7c4824ac7a9d] memory limit: 96258.00 MB, free: 95746.00 MB", "label": "[instance: <*>] memory limit: <*> MB, free: <*> MB", "type": 1}
+{"text": "Auditing locally available compute resources for node cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us", "label": "Auditing locally available compute resources for node <*>", "type": 1}
+{"text": "Creating event network-vif-plugged:b26c4935-6377-4e96-9ba1-ec6985d42d5d for instance 78dc1847-8848-49cc-933e-9239b12c9dcf", "label": "Creating event network-vif-plugged:<*> for instance <*>", "type": 1}
+{"text": "Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Unknown base file: <*>", "type": 1}
+{"text": "While synchronizing instance power states, found 1 instances in the database and 0 instances on the hypervisor.", "label": "While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.", "type": 1}
+{"text": "[instance: 17288ea8-cbf4-4f0e-94fe-853fd2735f29] Instance destroyed successfully.", "label": "[instance: <*>] Instance destroyed successfully.", "type": 1}
+{"text": "[instance: fecdd5a9-3ca0-4c82-9336-63b7774f738e] Total disk: 15 GB, used: 0.00 GB", "label": "[instance: <*>] Total disk: <*> GB, used: <*> GB", "type": 1}
+{"text": "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] Took 19.07 seconds to spawn the instance on the hypervisor.", "label": "[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor.", "type": 1}
+{"text": "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] Terminating instance", "label": "[instance: <*>] Terminating instance", "type": 1}
+{"text": "10.11.21.135,10.11.10.1 \"GET /latest/meta-data/block-device-mapping/root HTTP/1.1\" status: 200 len: 124 time: 0.0009499", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Running instance usage audit for host cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us from 2017-05-16 05:00:00 to 2017-05-16 06:00:00. 87 instances.", "label": "Running instance usage audit for host <*> from <*> to <*>. <*> instances.", "type": 1}
+{"text": "Active base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Active base files: <*>", "type": 1}

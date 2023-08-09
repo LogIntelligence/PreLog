@@ -1,4 +1,0 @@
-{"text": "DHCPACK on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1", "label": "DHCPACK on <*> to <*> via eth1", "type": 1}
-{"text": "My unqualified host name (badmin1) unknown; sleeping for retry", "label": "My unqualified host name (<*>) unknown; sleeping for retry", "type": 1}
-{"text": "jA9JBXVI027337: from=root, size=1597080, class=0, nrcpts=1, msgid=<200511091911.jA9JBXVI027337@dadmin1>, relay=#7#@localhost", "label": "<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost", "type": 1}
-{"text": "data_thread() got not answer from any [Thunderbird_D5] datasource", "label": "data_thread() got not answer from any [<*>] datasource", "type": 1}

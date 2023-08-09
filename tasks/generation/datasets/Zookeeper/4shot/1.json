@@ -1,4 +1,0 @@
-{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
-{"text": "Closed socket connection for client /10.10.34.13:45817 which had sessionid 0x24edfaa87170022", "label": "Closed socket connection for client <*>:<*> which had sessionid <*>", "type": 1}
-{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
-{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}

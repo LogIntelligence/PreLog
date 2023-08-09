@@ -1,4 +1,0 @@
-{"text": "PacketResponder 0 for block blk_7533949673910842243 terminating", "label": "PacketResponder <*> for block <*> terminating", "type": 1}
-{"text": "Receiving block blk_-7914996925059840931 src: /10.251.91.15:59714 dest: /10.251.91.15:50010", "label": "Receiving block <*> src: <*> dest: <*>", "type": 1}
-{"text": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.30.179:50010 is added to blk_-4347054230277727863 size 67108864", "label": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>", "type": 1}
-{"text": "Receiving block blk_7535677865140289610 src: /10.251.26.131:47660 dest: /10.251.26.131:50010", "label": "Receiving block <*> src: <*> dest: <*>", "type": 1}

@@ -1,4 +1,0 @@
-{"text": "10.251.194.213:50010 Served block blk_-7724713468912166542 to /10.251.203.80", "label": "<*> Served block <*> to <*>", "type": 1}
-{"text": "Deleting block blk_-1347057913082589493 file /mnt/hadoop/dfs/data/current/subdir56/blk_-1347057913082589493", "label": "Deleting block <*> file <*>", "type": 1}
-{"text": "Deleting block blk_-1263913006422225885 file /mnt/hadoop/dfs/data/current/subdir2/blk_-1263913006422225885", "label": "Deleting block <*> file <*>", "type": 1}
-{"text": "Receiving block blk_-8475679647841427708 src: /10.251.75.49:58661 dest: /10.251.75.49:50010", "label": "Receiving block <*> src: <*> dest: <*>", "type": 1}

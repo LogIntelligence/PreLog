@@ -1,4 +1,0 @@
-{"text": "cdn.e9377f.com:80 close, 575 bytes sent, 243 bytes received, lifetime 00:30", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
-{"text": "collector.githubapp.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
-{"text": "qbwup.imtt.qq.com:80 close, 494 bytes sent, 208 bytes received, lifetime 00:38", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
-{"text": "client-lb.dropbox.com:443 close, 1531 bytes (1.49 KB) sent, 16765 bytes (16.3 KB) received, lifetime 01:01", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}

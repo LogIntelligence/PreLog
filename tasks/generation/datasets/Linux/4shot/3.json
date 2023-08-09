@@ -1,4 +1,0 @@
-{"text": "check pass; user unknown", "label": "check pass; user unknown", "type": 1}
-{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=061092085098.ctinets.com", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}
-{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=biblioteka.wsi.edu.pl", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}
-{"text": "session closed for user test", "label": "session closed for user <*>", "type": 1}

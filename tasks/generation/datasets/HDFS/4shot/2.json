@@ -1,4 +1,0 @@
-{"text": "Receiving block blk_465845235850106928 src: /10.251.70.112:39499 dest: /10.251.70.112:50010", "label": "Receiving block <*> src: <*> dest: <*>", "type": 1}
-{"text": "PacketResponder 2 for block blk_-5442040196315589272 terminating", "label": "PacketResponder <*> for block <*> terminating", "type": 1}
-{"text": "Received block blk_5379939266348893280 of size 67108864 from /10.251.66.63", "label": "Received block <*> of size <*> from <*>", "type": 1}
-{"text": "PacketResponder 1 for block blk_-8638442557570632582 terminating", "label": "PacketResponder <*> for block <*> terminating", "type": 1}

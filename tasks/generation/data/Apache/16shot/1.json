@@ -1,0 +1,16 @@
+{"text": "[client 216.216.185.130] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "jk2_init() Found child 32360 in scoreboard slot 11", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "mod_jk child init 1 -2", "label": "mod_jk child init <*> <*>", "type": 1}
+{"text": "mod_jk child workerEnv in error state 7", "label": "mod_jk child workerEnv in error state <*>", "type": 1}
+{"text": "jk2_init() Can't find child 5621 in scoreboard", "label": "jk2_init() Can't find child <*> in scoreboard", "type": 1}
+{"text": "[client 218.75.106.250] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 61.37.222.240] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 61.138.216.82] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 221.232.178.24] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 218.76.139.20] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 222.166.160.184] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 63.13.186.196] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 211.62.201.48] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}

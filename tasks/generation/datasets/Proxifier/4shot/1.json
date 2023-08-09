@@ -1,4 +1,0 @@
-{"text": "t12.baidu.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
-{"text": "capi.grammarly.com:443 close, 4974 bytes (4.85 KB) sent, 8661 bytes (8.45 KB) received, lifetime 02:13", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
-{"text": "bolt.dropbox.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - connection attempt failed with error 10061", "label": "<*> error : Could not connect to proxy <*> - connection attempt failed with error <*>", "type": 1}
-{"text": "ssl.gstatic.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}

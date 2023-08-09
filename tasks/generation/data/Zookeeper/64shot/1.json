@@ -1,0 +1,64 @@
+{"text": "Got user-level KeeperException when processing sessionid:0x34ed93485090001 type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper", "label": "Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>", "type": 1}
+{"text": "Connection request from old client /10.10.34.14:49822; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>; will be dropped if server is in r-o mode", "type": 1}
+{"text": "Expiring session 0x24ed9311942008e, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded", "type": 1}
+{"text": "Cannot open channel to 2 at election address /10.10.34.12:3888", "label": "Cannot open channel to <*> at election address <*>", "type": 1}
+{"text": "Notification time out: 60000", "label": "Notification time out: <*>", "type": 1}
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Interrupted while waiting for message on queue", "label": "Interrupted while waiting for message on queue", "type": 1}
+{"text": "Unexpected Exception:", "label": "Unexpected Exception:", "type": 1}
+{"text": "Server environment:os.name=Linux", "label": "Server environment:<*>", "type": 1}
+{"text": "Notification: 3 (n.leader), 0x700000197 (n.zxid), 0x1 (n.round), LEADING (n.state), 3 (n.sid), 0x7 (n.peerEPoch), LOOKING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LEADING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)", "type": 1}
+{"text": "Connection broken for id 188978561024, my id = 2, error =", "label": "Connection broken for id <*>, my id = <*>, error =", "type": 1}
+{"text": "Sending DIFF", "label": "Sending DIFF", "type": 1}
+{"text": "Server environment:java.class.path=/etc/zookeeper/conf:/usr/share/java/jline.jar:/usr/share/java/log4j-1.2.jar:/usr/share/java/xercesImpl.jar:/usr/share/java/xmlParserAPIs.jar:/usr/share/java/netty.jar:/usr/share/java/slf4j-api.jar:/usr/share/java/slf4j-log4j12.jar:/usr/share/java/zookeeper.jar", "label": "Server environment:<*>", "type": 1}
+{"text": "autopurge.snapRetainCount set to 3", "label": "autopurge.snapRetainCount set to <*>", "type": 1}
+{"text": "First is 0x0", "label": "First is <*>", "type": 1}
+{"text": "Processed session termination for sessionid: 0x14ede63a5a70023", "label": "Processed session termination for sessionid: <*>", "type": 1}
+{"text": "Getting a snapshot from leader", "label": "Getting a snapshot from leader", "type": 1}
+{"text": "Have smaller server identifier, so dropping the connection: (2, 1)", "label": "Have smaller server identifier, so dropping the connection: (<*>, <*>)", "type": 1}
+{"text": "Accepted socket connection from /10.10.34.12:54230", "label": "Accepted socket connection from <*>", "type": 1}
+{"text": "Starting quorum peer", "label": "Starting quorum peer", "type": 1}
+{"text": "Client attempting to establish new session at /10.10.34.13:50253", "label": "Client attempting to establish new session at <*>", "type": 1}
+{"text": "Received connection request /10.10.34.13:44558", "label": "Received connection request <*>", "type": 1}
+{"text": "Closed socket connection for client /10.10.34.12:36401 (no session established for client)", "label": "Closed socket connection for client <*> (no session established for client)", "type": 1}
+{"text": "Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running", "label": "Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running", "type": 1}
+{"text": "Revalidating client: 0x24f0557806a001c", "label": "Revalidating client: <*>", "type": 1}
+{"text": "FOLLOWING - LEADER ELECTION TOOK - 49", "label": "FOLLOWING - LEADER ELECTION TOOK - <*>", "type": 1}
+{"text": "caught end of stream exception", "label": "caught end of stream exception", "type": 1}
+{"text": "Snapshotting: 0x50000062e to /var/lib/zookeeper/version-2/snapshot.50000062e", "label": "Snapshotting: <*> to <*>", "type": 1}
+{"text": "Established session 0x34ed9ac1c1e0007 with negotiated timeout 10000 for client /10.10.34.12:59224", "label": "Established session <*> with negotiated timeout <*> for client <*>", "type": 1}
+{"text": "Unexpected exception causing shutdown while sock still open", "label": "Unexpected exception causing shutdown while sock still open", "type": 1}
+{"text": "Closed socket connection for client /10.10.34.13:37335 which had sessionid 0x24ed93119420065", "label": "Closed socket connection for client <*> which had sessionid <*>", "type": 1}
+{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
+{"text": "Server environment:java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre", "label": "Server environment:<*>", "type": 1}
+{"text": "minSessionTimeout set to -1", "label": "minSessionTimeout set to <*>", "type": 1}
+{"text": "Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4", "label": "Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>", "type": 1}
+{"text": "Server environment:java.vendor=Oracle Corporation", "label": "Server environment:<*>", "type": 1}
+{"text": "tickTime set to 2000", "label": "tickTime set to <*>", "type": 1}
+{"text": "Established session 0x14f05578bd80020 with negotiated timeout 10000 for client /10.10.34.11:38390", "label": "Established session <*> with negotiated timeout <*> for client <*>", "type": 1}
+{"text": "Server environment:zookeeper.version=3.4.5--1, built on 06/10/2013 17:26 GMT", "label": "Server environment:<*>", "type": 1}
+{"text": "shutdown of request processor complete", "label": "shutdown of request processor complete", "type": 1}
+{"text": "Established session 0x34edfaa9c220002 with negotiated timeout 10000 for client /10.10.34.11:53000", "label": "Established session <*> with negotiated timeout <*> for client <*>", "type": 1}
+{"text": "Established session 0x14f05578bd80002 with negotiated timeout 10000 for client /10.10.34.12:46262", "label": "Established session <*> with negotiated timeout <*> for client <*>", "type": 1}
+{"text": "Established session 0x34ede65503f0027 with negotiated timeout 10000 for client /10.10.34.12:56359", "label": "Established session <*> with negotiated timeout <*> for client <*>", "type": 1}
+{"text": "Notification: 2 (n.leader), 0xa0000009a (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 1 (n.sid), 0xa (n.peerEPoch), LEADING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)", "type": 1}
+{"text": "Have quorum of supporters; starting up and setting last processed zxid: 0xb00000000", "label": "Have quorum of supporters; starting up and setting last processed zxid: <*>", "type": 1}
+{"text": "My election bind port: 0.0.0.0/0.0.0.0:3888", "label": "My election bind port: <*>/<*>", "type": 1}
+{"text": "Server environment:user.dir=/", "label": "Server environment:<*>", "type": 1}
+{"text": "autopurge.purgeInterval set to 0", "label": "autopurge.purgeInterval set to <*>", "type": 1}
+{"text": "Connection request from old client /10.10.34.34:55584; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>; will be dropped if server is in r-o mode", "type": 1}
+{"text": "New election. My id =  1, proposed zxid=0x700000000", "label": "New election. My id = <*>, proposed zxid=<*>", "type": 1}
+{"text": "Established session 0x34ee30a5c53002b with negotiated timeout 10000 for client /10.10.34.42:37429", "label": "Established session <*> with negotiated timeout <*> for client <*>", "type": 1}
+{"text": "Notification: 3 (n.leader), 0x100001564 (n.zxid), 0x3 (n.round), FOLLOWING (n.state), 3 (n.sid), 0x2 (n.peerEPoch), FOLLOWING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), FOLLOWING (my state)", "type": 1}
+{"text": "Notification: 1 (n.leader), 0xb0000007b (n.zxid), 0x2 (n.round), LOOKING (n.state), 1 (n.sid), 0xb (n.peerEPoch), LEADING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)", "type": 1}
+{"text": "Reading snapshot /var/lib/zookeeper/version-2/snapshot.b00000084", "label": "Reading snapshot <*>", "type": 1}
+{"text": "Established session 0x14f4a6318b80005 with negotiated timeout 10000 for client /10.10.34.11:56492", "label": "Established session <*> with negotiated timeout <*> for client <*>", "type": 1}
+{"text": "Client attempting to renew session 0x14f05578bd8001b at /10.10.34.20:56374", "label": "Client attempting to renew session <*> at <*>", "type": 1}
+{"text": "Established session 0x24ee30a54f5001c with negotiated timeout 10000 for client /10.10.34.32:45013", "label": "Established session <*> with negotiated timeout <*> for client <*>", "type": 1}
+{"text": "Established session 0x34ed9ac1c1e00d1 with negotiated timeout 10000 for client /10.10.34.11:49255", "label": "Established session <*> with negotiated timeout <*> for client <*>", "type": 1}
+{"text": "Notification: 3 (n.leader), 0x700000197 (n.zxid), 0x1 (n.round), LOOKING (n.state), 3 (n.sid), 0x7 (n.peerEPoch), LOOKING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)", "type": 1}
+{"text": "Established session 0x34edfaa9c22001e with negotiated timeout 10000 for client /10.10.34.41:51908", "label": "Established session <*> with negotiated timeout <*> for client <*>", "type": 1}
+{"text": "Established session 0x14ede63a5a7004b with negotiated timeout 10000 for client /10.10.34.11:40489", "label": "Established session <*> with negotiated timeout <*> for client <*>", "type": 1}
+{"text": "Notification: 2 (n.leader), 0xb00000084 (n.zxid), 0x2 (n.round), LOOKING (n.state), 1 (n.sid), 0xb (n.peerEPoch), LOOKING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)", "type": 1}
+{"text": "Notification: 3 (n.leader), 0x10000006b (n.zxid), 0x2 (n.round), LOOKING (n.state), 3 (n.sid), 0x1 (n.peerEPoch), LOOKING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)", "type": 1}
+{"text": "Notification: 1 (n.leader), 0xb0000007b (n.zxid), 0x2 (n.round), LOOKING (n.state), 1 (n.sid), 0xb (n.peerEPoch), LEADING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)", "type": 1}

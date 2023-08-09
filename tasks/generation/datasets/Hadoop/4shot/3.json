@@ -1,4 +1,0 @@
-{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.2898827", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
-{"text": "Started HttpServer2$SelectChannelConnectorWithSafeStartup@0.0.0.0:62267", "label": "Started HttpServer2$SelectChannelConnectorWithSafeStartup@<*>:<*>", "type": 1}
-{"text": "Recalculating schedule, headroom=<memory:0, vCores:-27>", "label": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>", "type": 1}
-{"text": "ERROR IN CONTACTING RM.", "label": "ERROR IN CONTACTING RM.", "type": 1}

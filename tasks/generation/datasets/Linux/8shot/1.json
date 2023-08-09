@@ -1,8 +1,0 @@
-{"text": "connection from 82.68.222.194 (82-68-222-194.dsl.in-addr.zen.co.uk) at Sun Jul 17 21:23:24 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "connection from 211.167.68.59 () at Sat Jun 25 19:25:30 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:37 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "session closed for user cyrus", "label": "session closed for user <*>", "type": 1}
-{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=60.30.224.116  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
-{"text": "connection from 81.171.220.226 () at Sat Jul  9 12:59:45 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "connection from 202.82.200.188 () at Thu Jul  7 16:33:52 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "connection from 82.252.162.81 (lns-vlq-45-tou-82-252-162-81.adsl.proxad.net) at Fri Jun 17 20:55:06 2005", "label": "connection from <*> at <*>", "type": 1}

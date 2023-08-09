@@ -1,32 +1,32 @@
-{"text": "Starting pcmcia:  succeeded", "label": "Starting pcmcia: succeeded"}
-{"text": "Setting network parameters:  succeeded", "label": "Setting network parameters: succeeded"}
-{"text": "Intel machine check architecture supported.", "label": "Intel machine check architecture supported."}
-{"text": "BIOS-e820: 0000000000100000 - 0000000007eae000 (usable)", "label": "BIOS-e820: <*> - <*> (usable)"}
-{"text": "Security Scaffold v1.0.0 initialized", "label": "Security Scaffold <*> initialized"}
-{"text": "ROOT LOGIN ON tty2", "label": "<*> LOGIN ON tty2"}
-{"text": "Couldn't authenticate user", "label": "Couldn't authenticate user"}
-{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:55 2005", "label": "connection from <*> (<*>) at <*>"}
-{"text": "zapping low mappings.", "label": "zapping low mappings."}
-{"text": "session opened for user root by LOGIN(uid=0)", "label": "session opened for user <*> by LOGIN(uid=<*>)"}
-{"text": "CPU: L2 cache: 256K", "label": "CPU: L2 cache: <*>"}
-{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:44 2005", "label": "connection from <*> (<*>) at <*>"}
-{"text": "DMA zone: 4096 pages, LIFO batch:1", "label": "DMA zone: <*> pages, LIFO batch:<*>"}
-{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:02:48 2005", "label": "connection from <*> (<*>) at <*>"}
-{"text": "Intel machine check reporting enabled on CPU#0.", "label": "Intel machine check reporting enabled on CPU#<*>."}
-{"text": "connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:04 2005", "label": "connection from <*> (<*>) at <*>"}
-{"text": "connection from 216.12.111.241 () at Thu Jul 21 09:04:43 2005", "label": "connection from <*> (<*>) at <*>"}
-{"text": "Normal zone: 28334 pages, LIFO batch:6", "label": "Normal zone: <*> pages, LIFO batch:<*>"}
-{"text": "connection from 24.54.76.216 (24-54-76-216.bflony.adelphia.net) at Fri Jun 17 07:07:02 2005", "label": "connection from <*> (<*>) at <*>"}
-{"text": "imps2: Auto-detected intellimouse PS/2", "label": "imps2: Auto-detected intellimouse PS/<*>"}
-{"text": "Initializing CPU#0", "label": "Initializing CPU#<*>"}
-{"text": "PCI: Using IRQ router PIIX/ICH [8086/2410] at 0000:00:1f.0", "label": "PCI: Using IRQ router PIIX/ICH [<*>/<*>] at <*>"}
-{"text": "Transparent bridge - 0000:00:1e.0", "label": "Transparent bridge - <*>"}
-{"text": "hcid startup succeeded", "label": "hcid startup succeeded"}
-{"text": "Initializing Cryptographic API", "label": "Initializing Cryptographic API"}
-{"text": "SELinux:  Initializing.", "label": "SELinux: Initializing."}
-{"text": "Received SNMP packet(s) from 67.170.148.126", "label": "Received SNMP packet(s) from <*>"}
-{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:47 2005", "label": "connection from <*> (<*>) at <*>"}
-{"text": "Checking 'hlt' instruction... OK.", "label": "Checking 'hlt' instruction... OK."}
-{"text": "Linux Plug and Play Support v0.97 (c) Adam Belay", "label": "Linux Plug and Play Support <*> (c) Adam Belay"}
-{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:46 2005", "label": "connection from <*> (<*>) at <*>"}
-{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 12:30:51 2005", "label": "connection from <*> (<*>) at <*>"}
+{"text": "Linux version 2.6.5-1.358 (bhcompile@bugs.build.redhat.com) (gcc version 3.3.3 20040412 (Red Hat Linux 3.3.3-7)) #1 Sat May 8 09:04:50 EDT 2004", "label": "Linux version <*> (bhcompile@bugs.build.redhat.com) (gcc version <*> (Red Hat Linux <*>)) <*>", "type": 1}
+{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=62-192-102-94.dsl.easynet.nl  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
+{"text": "connection from 62.99.164.82 (62.99.164.82.sh.interxion.inode.at) at Sun Jul  3 23:16:09 2005", "label": "connection from <*> at <*>", "type": 1}
+{"text": "audit: initializing netlink socket (disabled)", "label": "audit: initializing netlink socket (disabled)", "type": 1}
+{"text": "getpeername (ftpd): Transport endpoint is not connected", "label": "getpeername (ftpd): Transport endpoint is not connected", "type": 1}
+{"text": "Memory: 125312k/129720k available (1540k kernel code, 3860k reserved, 599k data, 144k init, 0k highmem)", "label": "Memory: <*> available (<*> kernel code, <*> reserved, <*> data, <*> init, <*> highmem)", "type": 1}
+{"text": "PID hash table entries: 512 (order 9: 4096 bytes)", "label": "PID hash table entries: <*> (order <*>: <*> bytes)", "type": 1}
+{"text": "Enabling unmasked SIMD FPU exception support... done.", "label": "Enabling unmasked SIMD FPU exception support... done.", "type": 1}
+{"text": "CPU 0 irqstacks, hard=02345000 soft=02344000", "label": "CPU <*> irqstacks, hard=<*> soft=<*>", "type": 1}
+{"text": "klogd 1.4.1, log source = /proc/kmsg started.", "label": "klogd <*>, log source = <*> started.", "type": 1}
+{"text": "notify question section contains no SOA", "label": "notify question section contains no SOA", "type": 1}
+{"text": "Normal zone: 28334 pages, LIFO batch:6", "label": "Normal zone: <*> pages, LIFO batch:<*>", "type": 1}
+{"text": "ALERT exited abnormally with [1]", "label": "ALERT exited abnormally with [<*>]", "type": 1}
+{"text": "cupsd startup succeeded", "label": "cupsd startup succeeded", "type": 1}
+{"text": "Intel machine check architecture supported.", "label": "Intel machine check architecture supported.", "type": 1}
+{"text": "BIOS-provided physical RAM map:", "label": "BIOS-provided physical RAM map:", "type": 1}
+{"text": "usbcore: registered new driver usbfs", "label": "usbcore: registered new driver usbfs", "type": 1}
+{"text": "ACPI: Subsystem revision 20040326", "label": "ACPI: Subsystem revision <*>", "type": 1}
+{"text": "Security Scaffold v1.0.0 initialized", "label": "Security Scaffold <*> initialized", "type": 1}
+{"text": "isapnp: Scanning for PnP cards...", "label": "isapnp: Scanning for PnP cards...", "type": 1}
+{"text": "VFS: Disk quotas dquot_6.5.1", "label": "VFS: Disk quotas <*>", "type": 1}
+{"text": "POSIX conformance testing by UNIFIX", "label": "POSIX conformance testing by UNIFIX", "type": 1}
+{"text": "PCI: Using configuration type 1", "label": "PCI: Using configuration type <*>", "type": 1}
+{"text": "mapped 4G/4G trampoline to ffff3000.", "label": "mapped 4G/4G trampoline to <*>.", "type": 1}
+{"text": "Kerberos authentication failed", "label": "Kerberos authentication failed", "type": 1}
+{"text": "Transparent bridge - 0000:00:1e.0", "label": "Transparent bridge - <*>", "type": 1}
+{"text": "selinux_register_security:  Registering secondary module capability", "label": "selinux_register_security: Registering secondary module capability", "type": 1}
+{"text": "Checking 'hlt' instruction... OK.", "label": "Checking 'hlt' instruction... OK.", "type": 1}
+{"text": "Calibrating delay loop... 1445.88 BogoMIPS", "label": "Calibrating delay loop... <*> BogoMIPS", "type": 1}
+{"text": "Detected 731.219 MHz processor.", "label": "Detected <*> MHz processor.", "type": 1}
+{"text": "ACPI: ACPI tables contain no PCI IRQ routing entries", "label": "ACPI: ACPI tables contain no PCI IRQ routing entries", "type": 1}
+{"text": "zapping low mappings.", "label": "zapping low mappings.", "type": 1}

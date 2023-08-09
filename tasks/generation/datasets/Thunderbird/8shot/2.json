@@ -1,8 +1,0 @@
-{"text": "synchronized to 10.100.18.250, stratum 3", "label": "synchronized to <*>, stratum <*>", "type": 1}
-{"text": "data_thread() got not answer from any [Thunderbird_D7] datasource", "label": "data_thread() got not answer from any [<*>] datasource", "type": 1}
-{"text": "[ib_sm_sweep.c:1482]: No configuration change required", "label": "[ib_sm_sweep.c:<*>]: No configuration change required", "type": 1}
-{"text": "[ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************", "label": "[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ********************", "type": 1}
-{"text": "synchronized to 10.100.20.250, stratum 3", "label": "synchronized to <*>, stratum <*>", "type": 1}
-{"text": "data_thread() got not answer from any [Thunderbird_A2] datasource", "label": "data_thread() got not answer from any [<*>] datasource", "type": 1}
-{"text": "DHCPOFFER on 10.100.4.251 to 00:11:43:e3:ba:c3 via eth1", "label": "DHCPOFFER on <*> to <*> via eth1", "type": 1}
-{"text": "synchronized to 10.100.18.250, stratum 3", "label": "synchronized to <*>, stratum <*>", "type": 1}

@@ -1,0 +1,16 @@
+{"text": "Got user-level KeeperException when processing sessionid:0x34ed93485090001 type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper", "label": "Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>", "type": 1}
+{"text": "Connection request from old client /10.10.34.20:44648; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>; will be dropped if server is in r-o mode", "type": 1}
+{"text": "Snapshotting: 0x50000062e to /var/lib/zookeeper/version-2/snapshot.50000062e", "label": "Snapshotting: <*> to <*>", "type": 1}
+{"text": "Expiring session 0x34ede65503f0036, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded", "type": 1}
+{"text": "Notification time out: 60000", "label": "Notification time out: <*>", "type": 1}
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Interrupted while waiting for message on queue", "label": "Interrupted while waiting for message on queue", "type": 1}
+{"text": "Notification: 2 (n.leader), 0xb00000084 (n.zxid), 0x2 (n.round), LOOKING (n.state), 1 (n.sid), 0xb (n.peerEPoch), LOOKING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LOOKING (my state)", "type": 1}
+{"text": "My election bind port: 0.0.0.0/0.0.0.0:3888", "label": "My election bind port: <*>/<*>", "type": 1}
+{"text": "Server environment:host.name=mesos-master-1", "label": "Server environment:<*>", "type": 1}
+{"text": "Getting a snapshot from leader", "label": "Getting a snapshot from leader", "type": 1}
+{"text": "Closed socket connection for client /10.10.34.11:56471 (no session established for client)", "label": "Closed socket connection for client <*> (no session established for client)", "type": 1}
+{"text": "Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running", "label": "Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running", "type": 1}
+{"text": "Starting quorum peer", "label": "Starting quorum peer", "type": 1}
+{"text": "Unexpected exception causing shutdown while sock still open", "label": "Unexpected exception causing shutdown while sock still open", "type": 1}
+{"text": "Have smaller server identifier, so dropping the connection: (2, 1)", "label": "Have smaller server identifier, so dropping the connection: (<*>, <*>)", "type": 1}

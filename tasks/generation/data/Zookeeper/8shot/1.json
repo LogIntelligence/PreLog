@@ -1,0 +1,8 @@
+{"text": "Got user-level KeeperException when processing sessionid:0x34ed93485090001 type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper", "label": "Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>", "type": 1}
+{"text": "Connection request from old client /10.10.34.12:54126; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>; will be dropped if server is in r-o mode", "type": 1}
+{"text": "Expiring session 0x34ede65503f005c, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded", "type": 1}
+{"text": "Cannot open channel to 2 at election address /10.10.34.12:3888", "label": "Cannot open channel to <*> at election address <*>", "type": 1}
+{"text": "Notification time out: 60000", "label": "Notification time out: <*>", "type": 1}
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Interrupted while waiting for message on queue", "label": "Interrupted while waiting for message on queue", "type": 1}
+{"text": "Notification: 2 (n.leader), 0xa0000009a (n.zxid), 0x1 (n.round), FOLLOWING (n.state), 1 (n.sid), 0xa (n.peerEPoch), LEADING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), FOLLOWING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)", "type": 1}

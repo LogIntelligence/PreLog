@@ -1,32 +1,32 @@
-{"text": "overlapAmount:164.0, previousNotificationEnd:0.0, newYTranslation:-164.0, location:4, i:0, getTopPadding:333.0, getLocationOnScreen():-497", "label": "overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():<*>"}
-{"text": "getLastAudibleStreamVolume  treamType: 5", "label": "getLastAudibleStreamVolume treamType: <*>"}
-{"text": "cleanUpApplicationRecordLocked, pid: 5784, restart: false", "label": "cleanUpApplicationRecordLocked, pid: <*>, restart: <*>"}
-{"text": "notifyUiVisibilityChanged:vis=0x40000000, SystemUiVisibility=0x40000000", "label": "notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>"}
-{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-250.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
-{"text": "scheduleTimeTickEvent triggerAtTime = 509322332", "label": "scheduleTimeTickEvent triggerAtTime = <*>"}
-{"text": "release:lock=60373518, flg=0x0, tag=\"RILJ_ACK_WL\", name=com.android.phone\", ws=null, uid=1001, pid=2626", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
-{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-70.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
-{"text": "acquire lock=60373518, flags=0x1, tag=\"RILJ_ACK_WL\", name=com.android.phone, ws=null, uid=1001, pid=2626", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
-{"text": "release:lock=155645244, flg=0x0, tag=\"AudioMix\", name=audioserver\", ws=null, uid=1041, pid=0", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
-{"text": "*** register callback for com.android.systemui.statusbar.policy.KeyguardMonitor@712d093", "label": "*** register callback for <*>@<*>"}
-{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-21.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
-{"text": "userActivityNoUpdateLocked: eventTime=261949805, event=1, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
-{"text": "userActivityNoUpdateLocked: eventTime=261950887, event=0, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
-{"text": "ActivityManagerService,attachApplication,callingPid = 12787", "label": "ActivityManagerService,attachApplication,callingPid = <*>"}
-{"text": "visible is system.call.count gt 0", "label": "visible is <*> gt <*>"}
-{"text": "rotationForOrientationLw(orient=-1, last=0); user=0 USER_ROTATION_LOCKED", "label": "rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED"}
-{"text": "startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=0x24000000 cmp=com.tencent.mm/.ui.LauncherUI (has extras) }", "label": "startActivity called from non-Activity context; forcing Intent.FLAG_ACTIVITY_NEW_TASK for: Intent { flg=<*> cmp=<*> (has extras) }"}
-{"text": "getLastAudibleStreamVolume  treamType: 7", "label": "getLastAudibleStreamVolume treamType: <*>"}
-{"text": "START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.android.notepad/.NotePadActivity bnds=[8,820][184,1011]} from uid 10057 on display 0", "label": "START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>} from uid <*> on display <*>"}
-{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-11.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
-{"text": "getMode...", "label": "getMode..."}
-{"text": "sending alarm Alarm{19069ff type 3 when 509169377 PendingIntent{50303cc: PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}},repeatInterval = 0,listenerTag =null", "label": "sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}},repeatInterval = <*>,listenerTag =<*>"}
-{"text": "userActivityNoUpdateLocked: eventTime=261967011, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
-{"text": "onTrackingStopped: true", "label": "onTrackingStopped: <*>"}
-{"text": "remove(PendingIntent{e4e2534: PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}) changed bounds; rebatching", "label": "remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching"}
-{"text": "setWiredDeviceConnectionState  type: 4  state: 0", "label": "setWiredDeviceConnectionState type: <*> state: <*>"}
-{"text": "state.clipTopAmount:-1, i:0", "label": "state.clipTopAmount:<*>, i:<*>"}
-{"text": "userActivityNoUpdateLocked: eventTime=261983733, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
-{"text": "userActivityNoUpdateLocked: eventTime=261987391, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
-{"text": "visible is system.charge.show", "label": "visible is <*>"}
-{"text": "userActivityNoUpdateLocked: eventTime=261850777, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
+{"text": "Destroying surface Surface(name=com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.NewsDetailXmlActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.removeLocked:1554 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2739 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2702 com.android.server.wm.WindowManagerService.removeWindowLocked:2691 com.android.server.wm.WindowManagerService.removeWindowLocked:2560 com.android.server.wm.WindowManagerService.removeWindow:2555", "label": "Destroying surface Surface(name=<*>) called by <*>", "type": 1}
+{"text": "setSystemUiVisibility vis=0 mask=1 oldVal=40000500 newVal=40000500 diff=0 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 0, 0), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "getRunningAppProcesses: caller 10111 does not hold REAL_GET_TASKS; limiting output", "label": "getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "scheduleTimeTickEvent triggerAtTime = 509322332", "label": "scheduleTimeTickEvent triggerAtTime = <*>", "type": 1}
+{"text": "disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings >", "label": "disable: < expand icons* alerts system_info* back home recent clock navigationbar search quick_settings >", "type": 1}
+{"text": "rotationForOrientationLw(orient=-1, last=0); user=0 USER_ROTATION_LOCKED", "label": "rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED", "type": 1}
+{"text": "The change in focus caused us to need to do a layout begin", "label": "The change in focus caused us to need to do a layout begin", "type": 1}
+{"text": "interceptKeyBeforeQueueing: key 3 , result : 1", "label": "interceptKeyBeforeQueueing: key <*> , result : <*>", "type": 1}
+{"text": "updateNotificationShade: total=1, active=1", "label": "updateNotificationShade: total=<*>, active=<*>", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "ACTION_BATTERY_CHANGED AMP: 0; Volt: 0", "label": "ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*>", "type": 1}
+{"text": "querySoundEffectsEnabled...", "label": "querySoundEffectsEnabled...", "type": 1}
+{"text": "isWiredHeadsetOn...", "label": "isWiredHeadsetOn...", "type": 1}
+{"text": "resumeSuspendedAutohide", "label": "resumeSuspendedAutohide", "type": 1}
+{"text": "Received TIME_TICK alarm; rescheduling", "label": "Received TIME_TICK alarm; rescheduling", "type": 1}
+{"text": "closeQs", "label": "closeQs", "type": 1}
+{"text": "cleanUpApplicationRecord -- 5769", "label": "cleanUpApplicationRecord -- <*>", "type": 1}
+{"text": "instantCollapse", "label": "instantCollapse", "type": 1}
+{"text": "stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=0", "label": "stopWifiDisplayScanLocked mWifiDisplayScanRequestCount=<*>", "type": 1}
+{"text": "Pid:28601 MediaPlayer destructor", "label": "Pid:<*> MediaPlayer destructor", "type": 1}
+{"text": "Releasing suspend blocker \"PowerManagerService.WakeLocks\".", "label": "Releasing suspend blocker \"PowerManagerService.WakeLocks\".", "type": 1}
+{"text": "Skipping, withExcluded: false, tr.intent:Intent { flg=0x18800000 cmp=com.tencent.mm/.plugin.base.stub.WXEntryActivity (has extras) }", "label": "Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> (has extras) }", "type": 1}
+{"text": "shouldBlockLocation  ret:false", "label": "shouldBlockLocation ret:<*>", "type": 1}
+{"text": "state.clipTopAmount:103, i:0", "label": "state.clipTopAmount:<*>, i:<*>", "type": 1}
+{"text": "*** register callback for com.android.systemui.statusbar.policy.KeyguardMonitor@712d093", "label": "*** register callback for <*>@<*>", "type": 1}
+{"text": "getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq", "label": "getAllCellInfo is blocked by permission manager . callingPackage = <*>", "type": 1}
+{"text": "setDataSource(166, 0, 576460752303423487)", "label": "setDataSource(<*>, <*>, <*>)", "type": 1}
+{"text": "ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000", "label": "ChargingSpeed Wattage: <*> ST: <*> --> <*>", "type": 1}
+{"text": "acquire lock=149977903, flags=0x1, tag=\"AudioMix\", name=audioserver, ws=null, uid=1041, pid=0", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>", "type": 1}
+{"text": "cancelNotificationLocked called,tell the app,reason = 1", "label": "cancelNotificationLocked called,tell the app,reason = <*>", "type": 1}
+{"text": "abandonAudioFocus", "label": "abandonAudioFocus", "type": 1}

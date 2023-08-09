@@ -1,8 +1,0 @@
-{"text": "Times: total = 39, boot = 19, init = 20, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
-{"text": "Running task 24.0 in stage 28.0 (TID 1304)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
-{"text": "Times: total = 41, boot = 15, init = 26, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
-{"text": "Times: total = 39, boot = 17, init = 21, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
-{"text": "Block broadcast_19 stored as values in memory (estimated size 9.2 KB, free 478.6 KB)", "label": "Block <*> stored as values in memory (estimated size <*>, free <*>)", "type": 1}
-{"text": "Finished task 1.0 in stage 7.0 (TID 299). 2667 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}
-{"text": "Times: total = 41, boot = 21, init = 19, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
-{"text": "Finished task 30.0 in stage 28.0 (TID 1310). 2087 bytes result sent to driver", "label": "Finished task <*> in stage <*> (TID <*>). <*> bytes result sent to driver", "type": 1}

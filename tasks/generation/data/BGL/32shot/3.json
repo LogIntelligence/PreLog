@@ -1,32 +1,32 @@
-{"text": "10650 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.", "label": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt."}
-{"text": "ciod: LOGIN chdir(/p/gb1/stella/RAPTOR/2183) failed: Input/output error", "label": "ciod: LOGIN chdir(<*>) failed: Input/output error"}
-{"text": "generating core.1588", "label": "generating core.<*>"}
-{"text": "generating core.26835", "label": "generating core.<*>"}
-{"text": "generating core.10793", "label": "generating core.<*>"}
-{"text": "generating core.23119", "label": "generating core.<*>"}
-{"text": "Lustre mount FAILED : bglio617 : block_id : location", "label": "Lustre mount FAILED : <*> : block_id : location"}
-{"text": "iar 00149f88 dear 00996f88", "label": "iar <*> dear <*>"}
-{"text": "47332148 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions"}
-{"text": "generating core.15425", "label": "generating core.<*>"}
-{"text": "generating core.34256", "label": "generating core.<*>"}
-{"text": "Lustre mount FAILED : bglio78 : block_id : location", "label": "Lustre mount FAILED : <*> : block_id : location"}
-{"text": "generating core.47314", "label": "generating core.<*>"}
-{"text": "116249832 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions"}
-{"text": "iar 00106704 dear 0245b83c", "label": "iar <*> dear <*>"}
-{"text": "generating core.2522", "label": "generating core.<*>"}
-{"text": "Kernel detected 35591540 integer alignment exceptions (35591533) iar 0x0023f108, dear 0x1feaa260 (35591534) iar 0x00265564, dear 0x1feaa1c0 (35591535) iar 0x00265574, dear 0x1feaa1e0 (35591536) iar 0x00265578, dear 0x1feaa200 (35591537) iar 0x00265588, dear 0x1feaa220 (35591538) iar 0x0026558c, dear 0x1feaa240 (35591539) iar 0x00265594, dear 0x1feaa260 (35591540) iar 0x00265598, dear 0x1feaa280", "label": "Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>"}
-{"text": "28298332 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions"}
-{"text": "633283776 double-hummer alignment exceptions", "label": "<*> double-hummer alignment exceptions"}
-{"text": "generating core.2079", "label": "generating core.<*>"}
-{"text": "441348 floating point alignment exceptions", "label": "<*> floating point alignment exceptions"}
-{"text": "CE sym 0, at 0x1b8584e0, mask 0x80", "label": "CE sym <*>, at <*>, mask <*>"}
-{"text": "generating core.18540", "label": "generating core.<*>"}
-{"text": "iar 0014a150 dear 0072b9f8", "label": "iar <*> dear <*>"}
-{"text": "generating core.41557", "label": "generating core.<*>"}
-{"text": "generating core.10860", "label": "generating core.<*>"}
-{"text": "generating core.42553", "label": "generating core.<*>"}
-{"text": "generating core.12927", "label": "generating core.<*>"}
-{"text": "generating core.2599", "label": "generating core.<*>"}
-{"text": "generating core.2117", "label": "generating core.<*>"}
-{"text": "generating core.149", "label": "generating core.<*>"}
-{"text": "generating core.58109", "label": "generating core.<*>"}
+{"text": "Node card status: ALERT 0, ALERT 1, ALERT 2, ALERT 3 is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The 2.5 volt rail is OK. The 1.5 volt rail is OK.", "label": "Node card status: ALERT <*>, ALERT <*>, ALERT <*>, ALERT <*> is (are) active. Clock Mode is Low. Clock Select is Midplane. Phy JTAG Reset is asserted. ASIC JTAG Reset is not asserted. Temperature Mask is not active. No temperature error. Temperature Limit Error Latch is clear. PGOOD is asserted. PGOOD error latch is clear. MPGOOD is OK. MPGOOD error latch is clear. The <*> volt rail is OK. The <*> volt rail is OK.", "type": 1}
+{"text": "idoproxydb hit ASSERT condition: ASSERT expression=0 Source file=idotransportmgr.cpp Source line=1043 Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)", "label": "idoproxydb hit ASSERT condition: ASSERT expression=<*> Source file=idotransportmgr.cpp Source line=<*> Function=int IdoTransportMgr::SendPacket(IdoUdpMgr*, BglCtlPavTrace*)", "type": 1}
+{"text": "Kernel detected 3853444 integer alignment exceptions (3853437) iar 0x00544ea8, dear 0x01ef5e20 (3853438) iar 0x00544eb8, dear 0x01ef5e40 (3853439) iar 0x00544ea8, dear 0x01ef5e60 (3853440) iar 0x00544eb8, dear 0x01ef5e80 (3853441) iar 0x00544ee0, dear 0x01ef5ea0 (3853442) iar 0x00544ef0, dear 0x01ef5ec0 (3853443) iar 0x00544ee0, dear 0x01ef5ee0 (3853444) iar 0x00544ef0, dear 0x01ef5f00", "label": "Kernel detected <*> integer alignment exceptions (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*> (<*>) iar <*>, dear <*>", "type": 1}
+{"text": "10754 total interrupts. 0 critical input interrupts. 0 microseconds total spent on critical input interrupts, 0 microseconds max time in a critical input interrupt.", "label": "<*> total interrupts. <*> critical input interrupts. <*> microseconds total spent on critical input interrupts, <*> microseconds max time in a critical input interrupt.", "type": 1}
+{"text": "ciod: Received signal 15, code=0, errno=0, address=0x000001b0", "label": "ciod: Received signal <*>, code=<*>, errno=<*>, address=<*>", "type": 1}
+{"text": "machine check: i-fetch......................0", "label": "machine check: i-fetch......................<*>", "type": 1}
+{"text": "rts tree/torus link training failed: wanted: B C X+ X- Y+ Y- Z+ Z- got: B C X- Y- Z+ Z-", "label": "rts tree/torus link training failed: wanted: <*> got: <*>", "type": 1}
+{"text": "disable store gathering..................0", "label": "disable store gathering..................<*>", "type": 1}
+{"text": "auxiliary processor.........................0", "label": "auxiliary processor.........................<*>", "type": 1}
+{"text": "byte ordering exception.....................0", "label": "byte ordering exception.....................<*>", "type": 1}
+{"text": "generating core.11244", "label": "generating core.<*>", "type": 1}
+{"text": "icache prefetch depth....................0", "label": "icache prefetch depth....................<*>", "type": 1}
+{"text": "fpr29=0xffffffff ffffffff ffffffff ffffffff", "label": "fpr29=<*>", "type": 1}
+{"text": "floating point instr. enabled.....1", "label": "floating point instr. enabled.....<*>", "type": 1}
+{"text": "minus normalized number..................0", "label": "minus normalized number..................<*>", "type": 1}
+{"text": "guaranteed data cache block touch........1", "label": "guaranteed data cache block touch........<*>", "type": 1}
+{"text": "problem state (0=sup,1=usr).......0", "label": "problem state (<*>=sup,<*>=usr).......<*>", "type": 1}
+{"text": "debug wait enable.................0", "label": "debug wait enable.................<*>", "type": 1}
+{"text": "CE sym 27, at 0x166a9f20, mask 0x02", "label": "CE sym <*>, at <*>, mask <*>", "type": 1}
+{"text": "fraction rounded.........................0", "label": "fraction rounded.........................<*>", "type": 1}
+{"text": "size of scratchpad portion of L3.........0 (0M)", "label": "size of scratchpad portion of L3.........<*> (<*>)", "type": 1}
+{"text": "Ido chip status changed: FF:F2:9F:16:EB:27:00:0D:60:E9:14:D8 ip=10.0.2.192 v=13 t=4 status=M Thu Aug 04 15:29:45 PDT 2005", "label": "Ido chip status changed: <*> ip=<*> v=<*> t=<*> status=M <*>", "type": 1}
+{"text": "lr:00004ed0 cr:28244842 xer:20000002 ctr:00086000", "label": "lr:<*> cr:<*> xer:<*> ctr:<*>", "type": 1}
+{"text": "5 ddr error(s) detected and corrected on rank 0, symbol 28 over 2946 seconds", "label": "<*> ddr error(s) detected and corrected on rank <*>, symbol <*> over <*> seconds", "type": 1}
+{"text": "rts: kernel terminated for reason 1001rts: bad message header: invalid cpu, type=42315, cpu=105, index=1207960804, total=2691015", "label": "rts: kernel terminated for reason <*>: bad message header: invalid cpu, type=<*>, cpu=<*>, index=<*>, total=<*>", "type": 1}
+{"text": "program interrupt: unimplemented operation..0", "label": "program interrupt: unimplemented operation..<*>", "type": 1}
+{"text": "Lustre mount FAILED : bglio617 : block_id : location", "label": "Lustre mount FAILED : <*> : block_id : location", "type": 1}
+{"text": "Can not get assembly information for node card", "label": "Can not get assembly information for node card", "type": 1}
+{"text": "ciod: Error loading /bgl/apps/followup/RAPTOR/pre-study/raptor.newcomp.r1: invalid or missing program image, Permission denied", "label": "ciod: Error loading <*>: invalid or missing program image, Permission denied", "type": 1}
+{"text": "ciod: Z coordinate 32 exceeds physical dimension 32 at line 33 of node map file /p/gb2/pakin1/contention-32768cpes-torus/xyzt-1x1x32768x1.map", "label": "ciod: Z coordinate <*> exceeds physical dimension <*> at line <*> of node map file <*>", "type": 1}
+{"text": "special purpose registers:", "label": "special purpose registers:", "type": 1}
+{"text": "ciod: failed to read message prefix on control stream (CioStream socket to 172.16.96.116:33370", "label": "ciod: failed to read message prefix on control stream (CioStream socket to <*>", "type": 1}

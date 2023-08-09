@@ -1,8 +1,0 @@
-{"text": "10.250.10.100:50010 Served block blk_9216955386716663841 to /10.251.90.64", "label": "<*> Served block <*> to <*>", "type": 1}
-{"text": "BLOCK* NameSystem.addStoredBlock: blockMap updated: 10.251.107.19:50010 is added to blk_6093743385844975689 size 67108864", "label": "BLOCK* NameSystem.addStoredBlock: blockMap updated: <*> is added to <*> size <*>", "type": 1}
-{"text": "BLOCK* NameSystem.allocateBlock: /user/root/randtxt/_temporary/_task_200811092030_0003_m_000675_0/part-00675. blk_-7866582011201618766", "label": "BLOCK* NameSystem.allocateBlock: <*> <*>", "type": 1}
-{"text": "PacketResponder 0 for block blk_755689327380778318 terminating", "label": "PacketResponder <*> for block <*> terminating", "type": 1}
-{"text": "BLOCK* NameSystem.delete: blk_-5403209762224435166 is added to invalidSet of 10.251.125.193:50010", "label": "BLOCK* NameSystem.delete: <*> is added to invalidSet of <*>", "type": 1}
-{"text": "Receiving block blk_3941798034503185737 src: /10.250.11.85:42358 dest: /10.250.11.85:50010", "label": "Receiving block <*> src: <*> dest: <*>", "type": 1}
-{"text": "Received block blk_2294700909811950327 of size 67108864 from /10.251.90.64", "label": "Received block <*> of size <*> from <*>", "type": 1}
-{"text": "Receiving block blk_-4831379247767940447 src: /10.251.65.237:42885 dest: /10.251.65.237:50010", "label": "Receiving block <*> src: <*> dest: <*>", "type": 1}

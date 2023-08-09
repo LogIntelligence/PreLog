@@ -1,8 +1,0 @@
-{"text": "clients4.google.com:443 error : Could not connect to proxy proxy.cse.cuhk.edu.hk:5070 - Could not resolve proxy.cse.cuhk.edu.hk error 11001", "label": "<*> error : Could not connect to proxy <*> - Could not resolve <*> error <*>", "type": 1}
-{"text": "www.google.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
-{"text": "www.google.com:443 close, 9034 bytes (8.82 KB) sent, 3696 bytes (3.60 KB) received, lifetime 07:26", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
-{"text": "r18---sn-vgqsenes.googlevideo.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
-{"text": "short.weixin.qq.com:80 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}
-{"text": "proxy.cse.cuhk.edu.hk:5070 close, 1309 bytes (1.27 KB) sent, 34052 bytes (33.2 KB) received, lifetime 01:57", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
-{"text": "www.evernote.com:443 close, 4733 bytes (4.62 KB) sent, 8179 bytes (7.98 KB) received, lifetime 04:12", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
-{"text": "proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}

@@ -1,32 +1,32 @@
-{"text": "visible is system.time.showampm", "label": "visible is <*>"}
-{"text": "userActivityNoUpdateLocked: eventTime=261949797, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
-{"text": "Bad activity token: android.os.BinderProxy@2bd79ce", "label": "Bad activity token: <*>@<*>"}
-{"text": "setSpeakerphoneOn on:true", "label": "setSpeakerphoneOn on:<*>"}
-{"text": "userActivityNoUpdateLocked: eventTime=261887070, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
-{"text": "battery changed pluggedType: 0", "label": "battery changed pluggedType: <*>"}
-{"text": "setSystemUiVisibility vis=80000608 mask=ffffffff oldVal=c0000700 newVal=80000608 diff=40000108 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)"}
-{"text": "cleanUpApplicationRecordLocked, pid: 12236, restart: false", "label": "cleanUpApplicationRecordLocked, pid: <*>, restart: <*>"}
-{"text": "setWiredDeviceConnectionState  type: 4  state: 0", "label": "setWiredDeviceConnectionState type: <*> state: <*>"}
-{"text": "addNotification key=0|com.tencent.mm|4097|null|10112", "label": "addNotification key=<*>|<*>|<*>|<*>|<*>"}
-{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-270.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
-{"text": "flingToHeight: vel=0.0, expand=false, target=0.0, collapseSpeedUpFactor=1.0, expandBecauseOfFalsing=false", "label": "flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*>"}
-{"text": "visible is system.message.count gt 0", "label": "visible is <*> gt <*>"}
-{"text": "release:lock=264232593, flg=0x0, tag=\"AudioMix\", name=audioserver\", ws=null, uid=1041, pid=0", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
-{"text": "getCellLocation is blocked by permission manager uid:10111 pid:28601", "label": "getCellLocation is blocked by permission manager uid:<*> pid:<*>"}
-{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-240.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
-{"text": "flingToHeight: vel=2849.079, expand=true, target=553.0, collapseSpeedUpFactor=1.0, expandBecauseOfFalsing=false", "label": "flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*>"}
-{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-43.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
-{"text": "onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=317.0, y[0]=419.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=261851646, downTime=261851646, deviceId=3, source=0x1002 }, mBlockTouches=false", "label": "onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>"}
-{"text": "acquire lock=189667585, flags=0x1, tag=\"*launch*\", name=android, ws=WorkSource{10020}, uid=1000, pid=1702", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
-{"text": "setSpeakerphoneOn  on: true", "label": "setSpeakerphoneOn on: <*>"}
-{"text": "overlapAmount:95.0, previousNotificationEnd:0.0, newYTranslation:-95.0, location:4, i:0, getTopPadding:333.0, getLocationOnScreen():-428", "label": "overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():<*>"}
-{"text": "acquire lock=166121161, flags=0x1, tag=\"RILJ_ACK_WL\", name=com.android.phone, ws=null, uid=1001, pid=2626", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
-{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-113.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
-{"text": "printFreezingDisplayLogsopening app wtoken = AppWindowToken{9f4ef63 token=Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}}, allDrawn= false, startingDisplayed =  false, startingMoved =  false, isRelaunching =  false", "label": "printFreezingDisplayLogsopening app wtoken = AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>/.<*> t761}}}, allDrawn= <*>, startingDisplayed = <*>, startingMoved = <*>, isRelaunching = <*>"}
-{"text": "unregisterAudioFocusListener...", "label": "unregisterAudioFocusListener..."}
-{"text": "userActivityNoUpdateLocked: eventTime=261871547, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
-{"text": "acquire lock=191063310, flags=0x1, tag=\"AudioMix\", name=audioserver, ws=null, uid=1041, pid=0", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>"}
-{"text": "userActivityNoUpdateLocked: eventTime=261950909, event=0, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>"}
-{"text": "visible is system.ownerinfo.show", "label": "visible is <*>"}
-{"text": "updateClipping isOverlap:true, getTopPadding=333.0, Translation=-487.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
-{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-1.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>"}
+{"text": "Destroying surface Surface(name=com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.NewsDetailXmlActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.removeLocked:1554 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2739 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2702 com.android.server.wm.WindowManagerService.removeWindowLocked:2691 com.android.server.wm.WindowManagerService.removeWindowLocked:2560 com.android.server.wm.WindowManagerService.removeWindow:2555", "label": "Destroying surface Surface(name=<*>) called by <*>", "type": 1}
+{"text": "setSystemUiVisibility vis=40000500 mask=ffffffff oldVal=508 newVal=40000500 diff=40000008 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "getRunningAppProcesses: caller 10111 does not hold REAL_GET_TASKS; limiting output", "label": "getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "The change in focus caused us to need to do a layout end", "label": "The change in focus caused us to need to do a layout end", "type": 1}
+{"text": "disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >", "label": "disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >", "type": 1}
+{"text": "Application requested orientation -1, got rotation 0 which has compatible metrics", "label": "Application requested orientation <*>, got rotation <*> which has compatible metrics", "type": 1}
+{"text": "Start dump, calling from : pid=12782, uid=1000", "label": "Start dump, calling from : pid=<*>, uid=<*>", "type": 1}
+{"text": "interceptKeyBeforeQueueing: key 3 , result : 1", "label": "interceptKeyBeforeQueueing: key <*> , result : <*>", "type": 1}
+{"text": "updateNotificationShade: total=1, active=1", "label": "updateNotificationShade: total=<*>, active=<*>", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000", "label": "ChargingSpeed Wattage: <*> ST: <*> --> <*>", "type": 1}
+{"text": "isSimPinSecure mSimDatas is null or empty", "label": "isSimPinSecure mSimDatas is <*> or empty", "type": 1}
+{"text": "querySoundEffectsEnabled...", "label": "querySoundEffectsEnabled...", "type": 1}
+{"text": "onExpandingFinished", "label": "onExpandingFinished", "type": 1}
+{"text": "resumeSuspendedAutohide", "label": "resumeSuspendedAutohide", "type": 1}
+{"text": "Received TIME_TICK alarm; rescheduling", "label": "Received TIME_TICK alarm; rescheduling", "type": 1}
+{"text": "instantCollapse", "label": "instantCollapse", "type": 1}
+{"text": "closeQs", "label": "closeQs", "type": 1}
+{"text": "ACTION_BATTERY_CHANGED AMP: 0; Volt: 0", "label": "ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*>", "type": 1}
+{"text": "state.clipTopAmount:130, i:0", "label": "state.clipTopAmount:<*>, i:<*>", "type": 1}
+{"text": "applyOptionsLocked: Unknown animationType=0", "label": "applyOptionsLocked: Unknown animationType=<*>", "type": 1}
+{"text": "Releasing suspend blocker \"PowerManagerService.WakeLocks\".", "label": "Releasing suspend blocker \"PowerManagerService.WakeLocks\".", "type": 1}
+{"text": "remove(PendingIntent{e4e2534: PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}) changed bounds; rebatching", "label": "remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching", "type": 1}
+{"text": "setDataSource(166, 0, 576460752303423487)", "label": "setDataSource(<*>, <*>, <*>)", "type": 1}
+{"text": "shouldBlockLocation  ret:false", "label": "shouldBlockLocation ret:<*>", "type": 1}
+{"text": "scheduleTimeTickEvent triggerAtTime = 509322332", "label": "scheduleTimeTickEvent triggerAtTime = <*>", "type": 1}
+{"text": "Scheduling restart of crashed service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService in 1000ms", "label": "Scheduling restart of crashed service <*> in <*>", "type": 1}
+{"text": "Taking screenshot from Surface with crop:[Rect(0, 48 - 720, 1208)], width:[432], height:[696], minLayer:[21080], maxLayer:[21085], inRotation:[false], rot:[0]", "label": "Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[<*>], rot:[<*>]", "type": 1}
+{"text": "enqueueNotificationInternal: pkg=com.tencent.mobileqq id=121 notification=Notification(pri=1 contentView=null vibrate=[100] sound=null tick defaults=0x0 flags=0x11 color=0x00000000 vis=PRIVATE)", "label": "enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> vis=PRIVATE)", "type": 1}
+{"text": "makeExpandedInvisible: mExpandedVisible=true", "label": "makeExpandedInvisible: mExpandedVisible=<*>", "type": 1}
+{"text": "onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=317.0, y[0]=419.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=261851646, downTime=261851646, deviceId=3, source=0x1002 }, mBlockTouches=false", "label": "onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>", "type": 1}

@@ -1,8 +1,0 @@
-{"text": "connection from 203.101.45.59 (dsl-Chn-static-059.45.101.203.touchtelindia.net) at Sun Jul  3 10:05:25 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "connection from 206.196.21.129 (host129.206.196.21.maximumasp.com) at Sat Jul  9 22:53:19 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "Kerberos authentication failed", "label": "Kerberos authentication failed", "type": 1}
-{"text": "ALERT exited abnormally with [1]", "label": "ALERT exited abnormally with [<*>]", "type": 1}
-{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}
-{"text": "session opened for user news by (uid=0)", "label": "session opened for user <*> by (uid=<*>)", "type": 1}
-{"text": "connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "connection from 208.62.55.75 () at Wed Jun 29 10:48:01 2005", "label": "connection from <*> at <*>", "type": 1}

@@ -1,32 +1,32 @@
-{"text": "Client attempting to establish new session at /10.10.34.11:51097", "label": "Client attempting to establish new session at <*>:<*>"}
-{"text": "Processed session termination for sessionid: 0x14ede63a5a70023", "label": "Processed session termination for sessionid: <*>"}
-{"text": "Processed session termination for sessionid: 0x34ed9ac1c1e0078", "label": "Processed session termination for sessionid: <*>"}
-{"text": "Accepted socket connection from /10.10.34.12:59359", "label": "Accepted socket connection from <*>:<*>"}
-{"text": "Established session 0x24ed931194200af with negotiated timeout 10000 for client /10.10.34.16:56646", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
-{"text": "******* GOODBYE /10.10.34.12:59211 ********", "label": "******* GOODBYE <*>:<*> ********"}
-{"text": "Received connection request /10.10.34.12:49588", "label": "Received connection request <*>:<*>"}
-{"text": "Received connection request /10.10.34.13:47115", "label": "Received connection request <*>:<*>"}
-{"text": "Closed socket connection for client /10.10.34.11:41160 which had sessionid 0x34ed9ac1c1e00a9", "label": "Closed socket connection for client <*>:<*> which had sessionid <*>"}
-{"text": "Received connection request /10.10.34.12:51104", "label": "Received connection request <*>:<*>"}
-{"text": "Established session 0x24ede63a01b002a with negotiated timeout 20000 for client /10.10.34.11:54338", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
-{"text": "Expiring session 0x34f4a63146b0048, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
-{"text": "Received connection request /10.10.34.11:49361", "label": "Received connection request <*>:<*>"}
-{"text": "Processed session termination for sessionid: 0x34ee30a5c53000a", "label": "Processed session termination for sessionid: <*>"}
-{"text": "Established session 0x24f4a631df9000e with negotiated timeout 10000 for client /10.10.34.16:53681", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>"}
-{"text": "Expiring session 0x24ee30a54f50027, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
-{"text": "Received connection request /10.10.34.12:57965", "label": "Received connection request <*>:<*>"}
-{"text": "Accepted socket connection from /10.10.34.12:36358", "label": "Accepted socket connection from <*>:<*>"}
-{"text": "Received connection request /10.10.34.13:46922", "label": "Received connection request <*>:<*>"}
-{"text": "Received connection request /10.10.34.13:47340", "label": "Received connection request <*>:<*>"}
-{"text": "Received connection request /10.10.34.13:44795", "label": "Received connection request <*>:<*>"}
-{"text": "Received connection request /10.10.34.12:55803", "label": "Received connection request <*>:<*>"}
-{"text": "Accepted socket connection from /10.10.34.11:54839", "label": "Accepted socket connection from <*>:<*>"}
-{"text": "Connection request from old client /10.10.34.16:40418; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>:<*>; will be dropped if server is in r-o mode"}
-{"text": "Expiring session 0x14ed93111f2009f, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded"}
-{"text": "Received connection request /10.10.34.13:43921", "label": "Received connection request <*>:<*>"}
-{"text": "Connection request from old client /10.10.34.11:37116; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>:<*>; will be dropped if server is in r-o mode"}
-{"text": "Accepted socket connection from /10.10.34.13:54310", "label": "Accepted socket connection from <*>:<*>"}
-{"text": "Received connection request /10.10.34.13:43557", "label": "Received connection request <*>:<*>"}
-{"text": "Received connection request /10.10.34.11:47367", "label": "Received connection request <*>:<*>"}
-{"text": "Client attempting to establish new session at /10.10.34.12:43125", "label": "Client attempting to establish new session at <*>:<*>"}
-{"text": "Received connection request /10.10.34.13:60918", "label": "Received connection request <*>:<*>"}
+{"text": "Got user-level KeeperException when processing sessionid:0x34ed93485090001 type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper", "label": "Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>", "type": 1}
+{"text": "Connection request from old client /10.10.34.42:34164; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>; will be dropped if server is in r-o mode", "type": 1}
+{"text": "Cannot open channel to 3 at election address /10.10.34.13:3888", "label": "Cannot open channel to <*> at election address <*>", "type": 1}
+{"text": "Expiring session 0x34edfaa9c22000d, timeout of 10000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded", "type": 1}
+{"text": "Notification time out: 60000", "label": "Notification time out: <*>", "type": 1}
+{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}
+{"text": "Interrupted while waiting for message on queue", "label": "Interrupted while waiting for message on queue", "type": 1}
+{"text": "Unexpected exception causing shutdown while sock still open", "label": "Unexpected exception causing shutdown while sock still open", "type": 1}
+{"text": "Notification: 1 (n.leader), 0xb0000007b (n.zxid), 0x2 (n.round), LOOKING (n.state), 1 (n.sid), 0xb (n.peerEPoch), LEADING (my state)", "label": "Notification: <*> (n.leader), <*> (n.zxid), <*> (n.round), LOOKING (n.state), <*> (n.sid), <*> (n.peerEPoch), LEADING (my state)", "type": 1}
+{"text": "Server environment:zookeeper.version=3.4.5--1, built on 06/10/2013 17:26 GMT", "label": "Server environment:<*>", "type": 1}
+{"text": "Connection broken for id 188978561024, my id = 1, error =", "label": "Connection broken for id <*>, my id = <*>, error =", "type": 1}
+{"text": "FOLLOWING - LEADER ELECTION TOOK - 49", "label": "FOLLOWING - LEADER ELECTION TOOK - <*>", "type": 1}
+{"text": "Processed session termination for sessionid: 0x24ee30a54f5001a", "label": "Processed session termination for sessionid: <*>", "type": 1}
+{"text": "Starting quorum peer", "label": "Starting quorum peer", "type": 1}
+{"text": "Reading snapshot /var/lib/zookeeper/version-2/snapshot.b00000084", "label": "Reading snapshot <*>", "type": 1}
+{"text": "autopurge.purgeInterval set to 0", "label": "autopurge.purgeInterval set to <*>", "type": 1}
+{"text": "caught end of stream exception", "label": "caught end of stream exception", "type": 1}
+{"text": "Received connection request /10.10.34.13:43921", "label": "Received connection request <*>", "type": 1}
+{"text": "Revalidating client: 0x14f05578bd80013", "label": "Revalidating client: <*>", "type": 1}
+{"text": "Closed socket connection for client /10.10.34.13:54265 (no session established for client)", "label": "Closed socket connection for client <*> (no session established for client)", "type": 1}
+{"text": "Client attempting to establish new session at /10.10.34.35:59458", "label": "Client attempting to establish new session at <*>", "type": 1}
+{"text": "Accepted socket connection from /10.10.34.11:50822", "label": "Accepted socket connection from <*>", "type": 1}
+{"text": "Follower sid: 3 : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@33557fe4", "label": "Follower sid: <*> : info : org.apache.zookeeper.server.quorum.QuorumPeer$QuorumServer@<*>", "type": 1}
+{"text": "Established session 0x24ede63a01b006c with negotiated timeout 10000 for client /10.10.34.40:47637", "label": "Established session <*> with negotiated timeout <*> for client <*>", "type": 1}
+{"text": "Exception causing close of session 0x0 due to java.io.IOException: ZooKeeperServer not running", "label": "Exception causing close of session <*> due to java.io.IOException: ZooKeeperServer not running", "type": 1}
+{"text": "Server environment:user.name=zookeeper", "label": "Server environment:<*>", "type": 1}
+{"text": "Server environment:java.vendor=Oracle Corporation", "label": "Server environment:<*>", "type": 1}
+{"text": "Closed socket connection for client /10.10.34.24:45152 which had sessionid 0x24edfaa8717001a", "label": "Closed socket connection for client <*> which had sessionid <*>", "type": 1}
+{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
+{"text": "Client attempting to renew session 0x24f0557806a0020 at /10.10.34.17:55969", "label": "Client attempting to renew session <*> at <*>", "type": 1}
+{"text": "Unexpected Exception:", "label": "Unexpected Exception:", "type": 1}
+{"text": "minSessionTimeout set to -1", "label": "minSessionTimeout set to <*>", "type": 1}

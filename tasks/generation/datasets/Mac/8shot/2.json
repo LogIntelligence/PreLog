@@ -1,8 +1,0 @@
-{"text": "-[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] Hashing of the primary key failed. Dropping the journal record.", "label": "-[NetworkAnalyticsEngine _writeJournalRecord:fromCellFingerprint:key:atLOI:ofKind:lqm:isFaulty:] Hashing of the primary key failed. Dropping the journal record.", "type": 1}
-{"text": "ASL Sender Statistics", "label": "ASL Sender Statistics", "type": 1}
-{"text": "ARPT: 698896.274509: AirPort_Brcm43xx::powerChange: System Sleep", "label": "ARPT: <*>: <*>::powerChange: System Sleep", "type": 1}
-{"text": "Bluetooth -- LE is supported - Disable LE meta event", "label": "Bluetooth -- LE is supported - Disable LE meta event", "type": 1}
-{"text": "2017-07-05 16:18:06.450 GoogleSoftwareUpdateAgent[36128/0x7000002a0000] [lvl=2] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: \"https://tools.google.com/service/update2?cup2hreq=ac844e04cbb398fcef4cf81b4ffc44a3ebc863e89d19c0b5d39d02d78d26675b&cup2key=7:677488741\"", "label": "<*>-<*>-<*> <*>:<*>:<*> GoogleSoftwareUpdateAgent[<*>/<*>] [lvl=<*>] -[KSOutOfProcessFetcher beginFetchWithDelegate:] KSOutOfProcessFetcher fetching from URL: \"<*>\"", "type": 1}
-{"text": "Cocoa scripting error for '0x02420006': four character codes must be four characters long.", "label": "Cocoa scripting error for '<*>': four character codes must be four characters long.", "type": 1}
-{"text": "IO80211AWDLPeerManager::setAwdlAutoMode Resuming AWDL", "label": "<*>::setAwdlAutoMode Resuming AWDL", "type": 1}
-{"text": "CCFile::captureLog", "label": "CCFile::captureLog", "type": 1}

@@ -1,0 +1,16 @@
+{"text": "Loading offline registry hive: schema.dat, into registry key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}GLOBALROOT/Device/HarddiskVolumeShadowCopy2/Windows/system32/smi/store/Machine/schema.dat' from path '\\\\?\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy2\\Windows\\system32\\smi\\store\\Machine\\schema.dat'.", "label": "Loading offline registry hive: <*>, into registry key '<*>' from path '<*>'.", "type": 1}
+{"text": "Loaded Servicing Stack v6.1.7601.23505 with Core: C:\\Windows\\winsxs\\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\\cbscore.dll", "label": "Loaded Servicing Stack <*> with Core: <*>.dll", "type": 1}
+{"text": "Read out cached package applicability for package: Microsoft-Windows-RDP-BlueIP-Package-TopLevel~31bf3856ad364e35~amd64~~7.2.7601.16415, ApplicableState: 112, CurrentState:112", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
+{"text": "0000000c ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=FALSE applyflags=7", "label": "<*> ICSITransaction::Commit calling IStorePendingTransaction::Apply - coldpatching=<*> applyflags=<*>", "type": 1}
+{"text": "SQM: Warning: Failed to upload all unsent reports. [HRESULT = 0x80004005 - E_FAIL]", "label": "SQM: Warning: Failed to upload all unsent reports. [HRESULT = <*> - E_FAIL]", "type": 1}
+{"text": "Ending TrustedInstaller initialization.", "label": "Ending TrustedInstaller initialization.", "type": 1}
+{"text": "0000000a Performing 1 operations; 1 are not lock/unlock and follow:", "label": "<*> Performing <*> operations; <*> are not lock/unlock and follow:", "type": 1}
+{"text": "Session: 30546354_2868336240 initialized by client WindowsUpdateAgent.", "label": "Session: <*> initialized by client WindowsUpdateAgent.", "type": 1}
+{"text": "0000000b Store coherency cookie matches last scavenge cookie, skipping scavenge.", "label": "<*> Store coherency cookie matches last scavenge cookie, skipping scavenge.", "type": 1}
+{"text": "00000006 Created NT transaction (seq 1) result 0x00000000, handle @0x218", "label": "<*> Created NT transaction (seq <*>) result <*>, handle @<*>", "type": 1}
+{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
+{"text": "00000008 CSI Store 4991456 (0x00000000004c29e0) initialized", "label": "<*> CSI Store <*> (<*>) initialized", "type": 1}
+{"text": "NonStart: Success, startup processing not required as expected.", "label": "NonStart: Success, startup processing not required as expected.", "type": 1}
+{"text": "00000008@2016/9/28:16:00:46.635 PopulateComponentFamiliesKey - Begin", "label": "<*>@<*> PopulateComponentFamiliesKey - Begin", "type": 1}
+{"text": "SQM: Cleaning up report files older than 10 days.", "label": "SQM: Cleaning up report files older than <*> days.", "type": 1}
+{"text": "Scavenge: Completed, disposition: 0X1", "label": "Scavenge: Completed, disposition: <*>", "type": 1}

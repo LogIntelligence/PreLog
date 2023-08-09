@@ -1,8 +1,0 @@
-{"text": "Received connection request /10.10.34.11:46842", "label": "Received connection request <*>:<*>", "type": 1}
-{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
-{"text": "Received connection request /10.10.34.11:49215", "label": "Received connection request <*>:<*>", "type": 1}
-{"text": "Closed socket connection for client /10.10.34.11:53857 which had sessionid 0x24ed93119420082", "label": "Closed socket connection for client <*>:<*> which had sessionid <*>", "type": 1}
-{"text": "Processed session termination for sessionid: 0x34ed9ac1c1e0021", "label": "Processed session termination for sessionid: <*>", "type": 1}
-{"text": "Cannot open channel to 3 at election address /10.10.34.13:3888", "label": "Cannot open channel to <*> at election address <*>:<*>", "type": 1}
-{"text": "Received connection request /10.10.34.12:56786", "label": "Received connection request <*>:<*>", "type": 1}
-{"text": "Send worker leaving thread", "label": "Send worker leaving thread", "type": 1}

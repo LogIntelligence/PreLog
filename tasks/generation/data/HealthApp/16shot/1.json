@@ -1,0 +1,16 @@
+{"text": "startSync hiSyncOption = HiSyncOption{syncAction=1, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1", "label": "startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038680000##7163##548935##8661##16256##27442827", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "onExtend:1514038530000 14 0 4", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
+{"text": "checkInsertStatus stepStatSum or calorieStatSum is enough", "label": "checkInsertStatus stepStatSum or calorieStatSum is enough", "type": 1}
+{"text": "upLoadOneMinuteDataToEngine time=25233978,0,5,0,20002", "label": "upLoadOneMinuteDataToEngine time=<*>", "type": 1}
+{"text": "theDayChanged 1514044800216", "label": "theDayChanged <*>", "type": 1}
+{"text": "new date =20171223, type=40005,330.0,old=330.0", "label": "new date =<*>, type=<*>,old=<*>", "type": 1}
+{"text": "deleteHealthNotification()", "label": "deleteHealthNotification()", "type": 1}
+{"text": "sendSyncFailedBroadcast", "label": "sendSyncFailedBroadcast", "type": 1}
+{"text": "processHandleBroadcastAction action:android.intent.action.TIME_TICK", "label": "processHandleBroadcastAction action:android.intent.action.TIME_TICK", "type": 1}
+{"text": "initDataPrivacy the dataPrivacy switch is open, start push health data!", "label": "initDataPrivacy the dataPrivacy switch is open, start push health data!", "type": 1}
+{"text": "checkFirstSyncByType no such data in db ,type is 1 deviceCode is 0", "label": "checkFirstSyncByType no such data in db ,type is <*> deviceCode is <*>", "type": 1}
+{"text": "calculateCaloriesWithCache totalCalories=130673", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
+{"text": "setGoalNotifiShownRecord 1514044800237 false", "label": "setGoalNotifiShownRecord <*> <*>", "type": 1}
+{"text": "getBinderPackageName packageName = com.huawei.health", "label": "getBinderPackageName packageName = com.huawei.health", "type": 1}
+{"text": "uploadStaticsToDB failed message=true", "label": "uploadStaticsToDB failed message=<*>", "type": 1}

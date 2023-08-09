@@ -1,8 +1,0 @@
-{"text": "Failed password for root from 183.62.140.253 port 40121 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2", "type": 1}
-{"text": "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
-{"text": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.62.140.253", "label": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>", "type": 1}
-{"text": "Failed password for root from 183.62.140.253 port 53160 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2", "type": 1}
-{"text": "Failed password for root from 187.141.143.180 port 52176 ssh2", "label": "Failed password for <*> from <*> port <*> ssh2", "type": 1}
-{"text": "Received disconnect from 183.62.140.253: 11: Bye Bye [preauth]", "label": "Received disconnect from <*>: <*>: Bye Bye [preauth]", "type": 1}
-{"text": "pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.141.143.180  user=root", "label": "pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=<*>", "type": 1}
-{"text": "Invalid user oracle from 187.141.143.180", "label": "Invalid user <*> from <*>", "type": 1}

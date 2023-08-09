@@ -1,8 +1,0 @@
-{"text": " getTodayTotalDetailSteps = 1514043540000##7214##549659##8661##16256##32254765", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
-{"text": "REPORT : 7040 5026 150796 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
-{"text": " getTodayTotalDetailSteps = 1514039880000##7189##549659##8661##16256##28609620", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
-{"text": "onExtend:1514041026000 0 0 5", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
-{"text": "onExtend:1514038539000 1 0 4", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
-{"text": "onReceive action: android.intent.action.SCREEN_OFF", "label": "onReceive action: android.intent.action.SCREEN_OFF", "type": 1}
-{"text": " getTodayTotalDetailSteps = 1514038740000##7185##549353##8661##16256##27448486", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
-{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}

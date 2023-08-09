@@ -1,32 +1,32 @@
-{"text": "Disk quotas dquot_6.5.1", "label": "Disk quotas <*>"}
-{"text": "Warning: we failed to resolve data source name an782 an783 an784 an785 an786 an787 an788 an789 an790 an791 an792 an793 an794 an795 an796 an797 an798 an799 an800 an801 an802 an803 an804 an805 an806 an807 an808 an809 an810 an811 an812 an813 an814 an815 an816 an817 an818 an819 an820 an821 an822 an823 an824 an825 an826 an827 an828 an829 an830 an831 an832 an833 an834 an835 an836 an837 an838 an839 an840 an841 an842 an843 an844 an845 an846 an847 an848 an849 an850 an851 an852 an853 an854 an855 an856 an857 an858 an859 an860 an861 an862 an863 an864 an865 an866 an867 an868 an869 an870 an871 an872 an873 an874 an875 an876 an877 an878 an879 an880 an881 an882 an883 an884 an885 an886 an887 an888 an889 an890 an891 an892 an893 an894 an895 an896", "label": "Warning: we failed to resolve data source name <*>"}
-{"text": "fw version:[516A] bios version:[H418]", "label": "fw version:[<*>] bios version:[<*>]"}
-{"text": "Registered protocol family 1", "label": "Registered protocol family <*>"}
-{"text": "Using HPET based timekeeping.", "label": "Using HPET based timekeeping."}
-{"text": "syslog-ng version 1.6.7 starting", "label": "syslog-ng version <*> starting"}
-{"text": "jA9JBXVI027337: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1627080, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]", "label": "<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]"}
-{"text": "Warning: we failed to resolve data source name cn398 cn399 cn400 cn401 cn402 cn403 cn404 cn405 cn406 cn407 cn408 cn409 cn410 cn411 cn412 cn413 cn414 cn415 cn416 cn417 cn418 cn419 cn420 cn421 cn422 cn423 cn424 cn425 cn426 cn427 cn428 cn429 cn430 cn431 cn432 cn433 cn434 cn435 cn436 cn437 cn438 cn439 cn440 cn441 cn442 cn443 cn444 cn445 cn446 cn447 cn448 cn449 cn450 cn451 cn452 cn453 cn454 cn455 cn456 cn457 cn458 cn459 cn460 cn461 cn462 cn463 cn464 cn465 cn466 cn467 cn468 cn469 cn470 cn471 cn472 cn473 cn474 cn475 cn476 cn477 cn478 cn479 cn480 cn481 cn482 cn483 cn484 cn485 cn486 cn487 cn488 cn489 cn490 cn491 cn492 cn493 cn494 cn495 cn496 cn497 cn498 cn499 cn500 cn501 cn502 cn503 cn504 cn505 cn506 cn507 cn508 cn509 cn510 cn511 cn512", "label": "Warning: we failed to resolve data source name <*>"}
-{"text": "Power Button (FF) [PWRF]", "label": "Power Button (FF) [PWRF]"}
-{"text": "xinetd startup succeeded", "label": "xinetd startup succeeded"}
-{"text": "Warning: we failed to resolve data source name cn142 cn143 cn144 cn145 cn146 cn147 cn148 cn149 cn150 cn151 cn152 cn153 cn154 cn155 cn156 cn157 cn158 cn159 cn160 cn161 cn162 cn163 cn164 cn165 cn166 cn167 cn168 cn169 cn170 cn171 cn172 cn173 cn174 cn175 cn176 cn177 cn178 cn179 cn180 cn181 cn182 cn183 cn184 cn185 cn186 cn187 cn188 cn189 cn190 cn191 cn192 cn193 cn194 cn195 cn196 cn197 cn198 cn199 cn200 cn201 cn202 cn203 cn204 cn205 cn206 cn207 cn208 cn209 cn210 cn211 cn212 cn213 cn214 cn215 cn216 cn217 cn218 cn219 cn220 cn221 cn222 cn223 cn224 cn225 cn226 cn227 cn228 cn229 cn230 cn231 cn232 cn233 cn234 cn235 cn236 cn237 cn238 cn239 cn240 cn241 cn242 cn243 cn244 cn245 cn246 cn247 cn248 cn249 cn250 cn251 cn252 cn253 cn254 cn255 cn256", "label": "Warning: we failed to resolve data source name <*>"}
-{"text": "kernel time sync disabled 0041", "label": "kernel time sync disabled <*>"}
-{"text": "jA9JBWxH019649: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1626872, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]", "label": "<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]"}
-{"text": "Reading included configuration file: /etc/xinetd.d/cups-lpd [file=/etc/xinetd.d/cups-lpd] [line=17]", "label": "Reading included configuration file: <*> [file=<*>] [line=<*>]"}
-{"text": "PCI Interrupt Link [LNKG] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.", "label": "PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled."}
-{"text": "(root) CMD (/projects/tbird/temps/get_temps a)", "label": "(<*>) CMD (<*> <*>)"}
-{"text": "RRD_update (/var/lib/ganglia/rrds/C Nodes/cn304/pkts_out.rrd): illegal attempt to update using time 1131563037 when last update time is 1131563037 (minimum one second step)", "label": "RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)"}
-{"text": "PCI interrupt 0000:00:06.0[A] -> GSI 16 (level, low) -> IRQ 169", "label": "PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>"}
-{"text": "MCFG (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd854", "label": "<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>"}
-{"text": "Warning: we failed to resolve data source name cn910 cn911 cn912 cn913 cn914 cn915 cn916 cn917 cn918 cn919 cn920 cn921 cn922 cn923 cn924 cn925 cn926 cn927 cn928 cn929 cn930 cn931 cn932 cn933 cn934 cn935 cn936 cn937 cn938 cn939 cn940 cn941 cn942 cn943 cn944 cn945 cn946 cn947 cn948 cn949 cn950 cn951 cn952 cn953 cn954 cn955 cn956 cn957 cn958 cn959 cn960 cn961 cn962 cn963 cn964 cn965 cn966 cn967 cn968 cn969 cn970 cn971 cn972 cn973 cn974 cn975 cn976 cn977 cn978 cn979 cn980 cn981 cn982 cn983 cn984 cn985 cn986 cn987 cn988 cn989 cn990 cn991 cn992 cn993 cn994 cn995 cn996 cn997 cn998 cn999 cn1000 cn1001 cn1002 cn1003 cn1004 cn1005 cn1006 cn1007 cn1008 cn1009 cn1010 cn1011 cn1012 cn1013 cn1014 cn1015 cn1016 cn1017 cn1018 cn1019 cn1020 cn1021 cn1022 cn1023 cn1024", "label": "Warning: we failed to resolve data source name <*>"}
-{"text": "RRD_update (/var/lib/ganglia/rrds/D Nodes/dn731/pkts_out.rrd): illegal attempt to update using time 1131563089 when last update time is 1131563089 (minimum one second step)", "label": "RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)"}
-{"text": "jA9J1UvC004306: to=root, ctladdr=root (0/0), delay=00:00:01, xdelay=00:00:00, mailer=relay, pri=659060, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]", "label": "<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]"}
-{"text": "RRD_update (/var/lib/ganglia/rrds/C Nodes/cn776/pkts_out.rrd): illegal attempt to update using time 1131559854 when last update time is 1131559854 (minimum one second step)", "label": "RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)"}
-{"text": "My unqualified host name (badmin1) unknown; sleeping for retry", "label": "My unqualified host name (<*>) unknown; sleeping for retry"}
-{"text": "jA9JBWxH019649: from=root, size=1596872, class=0, nrcpts=1, msgid=<200511091911.jA9JBWxH019649@aadmin1>, relay=#7#@localhost", "label": "<*>: from=<*>, size=<*>, class=<*>, nrcpts=<*>, msgid=<*>, relay=<*>@localhost"}
-{"text": "(supports S0 S4 S5)", "label": "(supports <*>)"}
-{"text": "allocating divert_blk for eth0", "label": "allocating divert_blk for <*>"}
-{"text": "i8042 AUX port at 0x60,0x64 irq 12", "label": "<*> AUX port at <*>,<*> irq <*>"}
-{"text": "#38#-rh1 (Release Date: Fri Dec 10 19:02:14 EST 2004)", "label": "<*> (Release Date: <*> <*>)"}
-{"text": "registered new driver hiddev", "label": "registered new driver hiddev"}
-{"text": "Reading included configuration file: /etc/xinetd.d/ktalk [file=/etc/xinetd.d/ktalk] [line=13]", "label": "Reading included configuration file: <*> [file=<*>] [line=<*>]"}
-{"text": "IRQ0 used by override.", "label": "<*> used by override."}
+{"text": "jA9JBWxH019649: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1626872, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]", "label": "<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]", "type": 1}
+{"text": "DHCPDISCOVER from 00:11:43:e3:ba:c3 via eth1: network A_net: no free leases", "label": "DHCPDISCOVER from <*> via eth1: network A_net: no free leases", "type": 1}
+{"text": "Reading included configuration file: /etc/xinetd.d/echo-udp [file=/etc/xinetd.d/echo-udp] [line=14]", "label": "Reading included configuration file: <*> [file=<*>] [line=<*>]", "type": 1}
+{"text": "[ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************", "label": "[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ********************", "type": 1}
+{"text": "PCI interrupt 0000:09:0d.0[A] -> GSI 18 (level, low) -> IRQ 201", "label": "PCI interrupt <*> -> GSI <*> (level, low) -> IRQ <*>", "type": 1}
+{"text": "Using software bounce buffering for IO (SWIOTLB)", "label": "Using software bounce buffering for IO (SWIOTLB)", "type": 1}
+{"text": "INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)", "label": "INT_SRC_OVR (bus <*> bus_irq <*> global_irq <*> dfl dfl)", "type": 1}
+{"text": "IOAPIC (id[0x09] address[0xfec80000] gsi_base[32])", "label": "IOAPIC (id[<*>] address[<*>] gsi_base[<*>])", "type": 1}
+{"text": "DSDT (v001 DELL PE BKC 0x00000001 MSFT 0x0100000e) @ 0x0000000000000000", "label": "<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>", "type": 1}
+{"text": "LAPIC (acpi_id[0x04] lapic_id[0x07] enabled)", "label": "LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)", "type": 1}
+{"text": "#39# (Release Date: Mon Sep 27 22:15:07 EDT 2004)", "label": "<*> (Release Date: <*>)", "type": 1}
+{"text": "xinetd Version 2.3.13 started with libwrap loadavg options compiled in.", "label": "xinetd Version <*> started with libwrap loadavg options compiled in.", "type": 1}
+{"text": "Hash tables configured (established 262144 bind 65536)", "label": "Hash tables configured (established <*> bind <*>)", "type": 1}
+{"text": "PE/PV Model: 1x2 SCSI BP Rev: 1.0", "label": "PE/PV Model: <*> SCSI BP Rev: <*>", "type": 1}
+{"text": "Now running on #29#'s privileges.", "label": "Now running on <*>'s privileges.", "type": 1}
+{"text": "Registering secondary module capability", "label": "Registering secondary module capability", "type": 1}
+{"text": "Processor [CPU1] (supports C1)", "label": "Processor [<*>] (supports C1)", "type": 1}
+{"text": "assuming drive cache: write through", "label": "assuming drive cache: write through", "type": 1}
+{"text": "... autorun DONE.", "label": "... autorun DONE.", "type": 1}
+{"text": "initializing netlink socket (disabled)", "label": "initializing netlink socket (disabled)", "type": 1}
+{"text": "Mounting other filesystems: failed", "label": "Mounting other filesystems: failed", "type": 1}
+{"text": "time reset +0.182379 s", "label": "time reset +<*> s", "type": 1}
+{"text": "removing daytime", "label": "removing <*>", "type": 1}
+{"text": "v2.0:USB HID core driver", "label": "<*>:USB HID core driver", "type": 1}
+{"text": "Starting ts_fixup: succeeded", "label": "Starting ts_fixup: succeeded", "type": 1}
+{"text": "eth0: e1000_watchdog: NIC Link is Up 1000 Mbps Full Duplex", "label": "eth0: <*>: NIC Link is Up <*> Mbps Full Duplex", "type": 1}
+{"text": "(root) CMD (run-parts /etc/cron.hourly)", "label": "(<*>) CMD (run-parts <*>)", "type": 1}
+{"text": "RRD_update (/var/lib/ganglia/rrds/D Nodes/dn731/pkts_out.rrd): illegal attempt to update using time 1131563319 when last update time is 1131563319 (minimum one second step)", "label": "RRD_update (<*>): illegal attempt to update using time <*> when last update time is <*> (minimum one second step)", "type": 1}
+{"text": "connection lost: 'Connection closed.'", "label": "connection lost: 'Connection closed.'", "type": 1}
+{"text": "Compressed image found at block 0", "label": "Compressed image found at block <*>", "type": 1}
+{"text": "Power Button (FF) [PWRF]", "label": "Power Button (FF) [PWRF]", "type": 1}
+{"text": "colour VGA+ 80x25", "label": "colour VGA+ <*>", "type": 1}

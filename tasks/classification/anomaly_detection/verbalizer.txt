@@ -1,2 +1,2 @@
-good clean great
-abnormal bad failure
+clean normal
+faulty 

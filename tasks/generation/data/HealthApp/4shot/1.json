@@ -1,0 +1,4 @@
+{"text": "startSync hiSyncOption = HiSyncOption{syncAction=2, syncMethod=2, syncScope=0, syncDataType=20000, syncModel=2, pushAction=0},app = 1 who = 1", "label": "startSync hiSyncOption = HiSyncOption{syncAction=<*>, syncMethod=<*>, syncScope=<*>, syncDataType=<*>, syncModel=<*>, pushAction=<*>},app = <*> who = <*>", "type": 1}
+{"text": " getTodayTotalDetailSteps = 1514038440000##7021##548365##8661##13596##27181971", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
+{"text": "next day:steps0mLastReport7214", "label": "next day:<*>", "type": 1}
+{"text": "onExtend:1514038542000 1 0 4", "label": "onExtend:<*> <*> <*> <*>", "type": 1}

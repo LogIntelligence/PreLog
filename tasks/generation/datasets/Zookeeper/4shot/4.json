@@ -1,4 +1,0 @@
-{"text": "Interrupted while waiting for message on queue", "label": "Interrupted while waiting for message on queue", "type": 1}
-{"text": "Established session 0x34ede65503f0025 with negotiated timeout 10000 for client /10.10.34.11:50961", "label": "Established session <*> with negotiated timeout <*> for client <*>:<*>", "type": 1}
-{"text": "Interrupting SendWorker", "label": "Interrupting SendWorker", "type": 1}
-{"text": "Processed session termination for sessionid: 0x14ed93111f20000", "label": "Processed session termination for sessionid: <*>", "type": 1}

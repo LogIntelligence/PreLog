@@ -1,0 +1,16 @@
+{"text": "inconsistent nodesets node-1 0x000001fc <ok> node-2 0x000001fc <ok> node-7 0x000001fc <ok> node-4 0x000001fc <ok> node-6 0x000001fc <ok> node-5 0x000001fc <ok> node-3 0x000001fc <ok> node-14 0x0003fdfc <ok> node-13 0x0003fdfc <ok> node-12 0x0003fdfc <ok> node-10 0x0003fdfc <ok> node-16 0x0003fdfc <ok> node-15 0x0003fdfc <ok>", "label": "inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok>", "type": 1}
+{"text": "NIFF: node node-205 has detected an available network connection on network 10.128.0.0 via interface ee0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface ee0", "type": 1}
+{"text": "risBoot (command 1903) Error: Timed out while waiting for SRM prompt: <ABORT code completed>", "label": "risBoot (command <*>) Error: Timed out while waiting for SRM prompt: <ABORT code completed>", "type": 1}
+{"text": "Component State Change: Component \\042alt0\\042 is in the unavailable state (HWID=4159)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)", "type": 1}
+{"text": "Fan speeds ( 3552 3534 3375 **** 3515 3479 )", "label": "Fan speeds ( <*> <*> <*> <*> <*> <*> )", "type": 1}
+{"text": "Linkerror event interval expired", "label": "Linkerror event interval expired", "type": 1}
+{"text": "link errors remain current", "label": "link errors remain current", "type": 1}
+{"text": "not responding", "label": "not responding", "type": 1}
+{"text": "psu failure\\ ambient=31", "label": "psu failure\\ ambient=<*>", "type": 1}
+{"text": "Temperature (41C) exceeds warning threshold", "label": "Temperature (<*>) exceeds warning threshold", "type": 1}
+{"text": "ClusterFileSystem: ServerFileSystem domain root17_domain is no longer served by node node-240", "label": "ClusterFileSystem: ServerFileSystem domain <*> is no longer served by node node-<*>", "type": 1}
+{"text": "Targeting domains:node-D2 and nodes:node-[64-95] child of command 3488", "label": "Targeting domains:node-<*> and nodes:node-[<*>-<*>] child of command <*>", "type": 1}
+{"text": "configured out", "label": "configured out", "type": 1}
+{"text": "clusterAddMember  (command 1900)", "label": "clusterAddMember (command <*>)", "type": 1}
+{"text": "power/control problem", "label": "power/control problem", "type": 1}
+{"text": "Link error on broadcast tree Interconnect-0T00:00:2:1", "label": "Link error on broadcast tree Interconnect-<*>", "type": 1}

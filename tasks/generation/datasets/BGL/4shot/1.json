@@ -1,4 +1,0 @@
-{"text": "Node card VPD check: U01 node in processor card slot J14 do not match. VPD ecid 074C04C10F7BFFFF08051AE08ED2, found 04C180A5D12FFFFF05081BD088E2", "label": "Node card VPD check: <*> node in processor card slot <*> do not match. VPD ecid <*>, found <*>", "type": 1}
-{"text": "generating core.33399", "label": "generating core.<*>", "type": 1}
-{"text": "0 microseconds spent in the rbs signal handler during 0 calls. 0 microseconds was the maximum time for a single instance of a correctable ddr.", "label": "<*> microseconds spent in the rbs signal handler during <*> calls. <*> microseconds was the maximum time for a single instance of a correctable ddr.", "type": 1}
-{"text": "generating core.7881", "label": "generating core.<*>", "type": 1}

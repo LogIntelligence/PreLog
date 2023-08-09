@@ -1,0 +1,4 @@
+{"text": "Got user-level KeeperException when processing sessionid:0x34ed93485090001 type:create cxid:0x55b8bb0f zxid:0x100000010 txntype:-1 reqpath:n/a Error Path:/home/curi/.zookeeper Error:KeeperErrorCode = NodeExists for /home/curi/.zookeeper", "label": "Got user-level KeeperException when processing sessionid:<*> type:create cxid:<*> zxid:<*> txntype:<*> reqpath:<*> Error Path:<*> Error:KeeperErrorCode = NodeExists for <*>", "type": 1}
+{"text": "Connection request from old client /10.10.34.37:34701; will be dropped if server is in r-o mode", "label": "Connection request from old client <*>; will be dropped if server is in r-o mode", "type": 1}
+{"text": "Expiring session 0x14ed93111f20068, timeout of 20000ms exceeded", "label": "Expiring session <*>, timeout of <*> exceeded", "type": 1}
+{"text": "Reading snapshot /var/lib/zookeeper/version-2/snapshot.b00000084", "label": "Reading snapshot <*>", "type": 1}

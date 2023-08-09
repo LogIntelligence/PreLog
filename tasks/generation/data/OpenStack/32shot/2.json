@@ -1,32 +1,32 @@
-{"text": "10.11.21.130,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.2323599", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2570438", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1575 time: 0.2029319", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2683980", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2555051", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "[instance: c62f4f25-982c-4ea2-b5e4-93000edfcfbf] memory limit: 96258.00 MB, free: 95746.00 MB", "label": "[instance: <*>] memory limit: <*> MB, free: <*> MB"}
-{"text": "[instance: af5f7392-f7d4-4298-b647-c98924c64aa1] Total memory: 64172 MB, used: 512.00 MB", "label": "[instance: <*>] Total memory: <*> MB, used: <*> MB"}
-{"text": "[instance: 127e769a-4fe6-4548-93b1-513ac51e0452] Took 20.29 seconds to spawn the instance on the hypervisor.", "label": "[instance: <*>] Took <*> seconds to spawn the instance on the hypervisor."}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2742689", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2688880", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "[instance: c62f4f25-982c-4ea2-b5e4-93000edfcfbf] Creating image", "label": "[instance: <*>] Creating image"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1759 time: 0.2722960", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2923260", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2833471", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "[instance: d54b44eb-2d1a-4aa2-ba6b-074d35f8f12c] vcpu limit not specified, defaulting to unlimited", "label": "[instance: <*>] vcpu limit not specified, defaulting to unlimited"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2659788", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2676129", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2584429", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2680290", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1910 time: 0.2568409", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] vcpu limit not specified, defaulting to unlimited", "label": "[instance: <*>] vcpu limit not specified, defaulting to unlimited"}
-{"text": "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] Terminating instance", "label": "[instance: <*>] Terminating instance"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2727580", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2571011", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2558751", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2719712", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2535899", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.21.140,10.11.10.1 \"GET /openstack/2012-08-10/meta_data.json HTTP/1.1\" status: 200 len: 264 time: 0.2175281", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "[instance: d96a117b-0193-4549-bdcc-63b917273d1d] disk limit not specified, defaulting to unlimited", "label": "[instance: <*>] disk limit not specified, defaulting to unlimited"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2694011", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.21.137,10.11.10.1 \"GET /openstack/2013-10-17/meta_data.json HTTP/1.1\" status: 200 len: 967 time: 0.0013261", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
-{"text": "10.11.10.1 \"GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1\" status: 200 len: 1893 time: 0.2796719", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>"}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage", "label": "image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage", "type": 1}
+{"text": "10.11.10.1 \"DELETE /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/d54b44eb-2d1a-4aa2-ba6b-074d35f8f12c HTTP/1.1\" status: 204 len: 203 time: 0.2855930", "label": "<*> \"DELETE <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Final resource view: name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=2560MB phys_disk=15GB used_disk=20GB total_vcpus=16 used_vcpus=1 pci_stats=[]", "label": "Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[]", "type": 1}
+{"text": "Removing base or swap file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Removing base or swap file: <*>", "type": 1}
+{"text": "HTTP exception thrown: No instances found for any event", "label": "HTTP exception thrown: No instances found for any event", "type": 1}
+{"text": "Total usable vcpus: 16, total allocated vcpus: 0", "label": "Total usable vcpus: <*>, total allocated vcpus: <*>", "type": 1}
+{"text": "[instance: 95960536-049b-41f6-9049-05fc479b6a7c] During sync_power_state the instance has a pending task (spawning). Skip.", "label": "[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.", "type": 1}
+{"text": "[instance: be793e89-2cc3-4f99-9884-9c6a624a84bc] vcpu limit not specified, defaulting to unlimited", "label": "[instance: <*>] vcpu limit not specified, defaulting to unlimited", "type": 1}
+{"text": "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] Attempting claim: memory 2048 MB, disk 20 GB, vcpus 1 CPU", "label": "[instance: <*>] Attempting claim: memory <*> MB, disk <*> GB, vcpus <*> CPU", "type": 1}
+{"text": "[instance: a015cf14-84bb-4156-a48d-7c4824ac7a9d] VM Resumed (Lifecycle Event)", "label": "[instance: <*>] VM Resumed (Lifecycle Event)", "type": 1}
+{"text": "[instance: d96a117b-0193-4549-bdcc-63b917273d1d] Deletion of /var/lib/nova/instances/d96a117b-0193-4549-bdcc-63b917273d1d_del complete", "label": "[instance: <*>] Deletion of <*> complete", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking", "label": "image <*> at (<*>): checking", "type": 1}
+{"text": "Compute_service record updated for cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us:cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us", "label": "Compute_service record updated for <*>", "type": 1}
+{"text": "[instance: 7e7cc42f-3cb9-4d91-804c-f5a32d54f1c5] Took 0.54 seconds to deallocate network for instance.", "label": "[instance: <*>] Took <*> seconds to deallocate network for instance.", "type": 1}
+{"text": "Removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Removable base files: <*>", "type": 1}
+{"text": "[instance: 17288ea8-cbf4-4f0e-94fe-853fd2735f29] Total vcpu: 16 VCPU, used: 0.00 VCPU", "label": "[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU", "type": 1}
+{"text": "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] Deleting instance files /var/lib/nova/instances/b562ef10-ba2d-48ae-bf4a-18666cba4a51_del", "label": "[instance: <*>] Deleting instance files <*>", "type": 1}
+{"text": "[instance: af5f7392-f7d4-4298-b647-c98924c64aa1] memory limit: 96258.00 MB, free: 95746.00 MB", "label": "[instance: <*>] memory limit: <*> MB, free: <*> MB", "type": 1}
+{"text": "[instance: ae3a1b5d-eec1-45bb-b76a-c59d83b1471f] Claim successful", "label": "[instance: <*>] Claim successful", "type": 1}
+{"text": "Successfully synced instances from host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us'.", "label": "Successfully synced instances from host '<*>'.", "type": 1}
+{"text": "[instance: 127e769a-4fe6-4548-93b1-513ac51e0452] Creating image", "label": "[instance: <*>] Creating image", "type": 1}
+{"text": "Auditing locally available compute resources for node cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us", "label": "Auditing locally available compute resources for node <*>", "type": 1}
+{"text": "Creating event network-vif-plugged:e3871ffd-5cd5-4287-bddd-3529f7b59515 for instance b9000564-fe1a-409b-b8cc-1e88b294cd1d", "label": "Creating event network-vif-plugged:<*> for instance <*>", "type": 1}
+{"text": "The instance sync for host 'cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us' did not match. Re-created its InstanceList.", "label": "The instance sync for host '<*>' did not match. Re-created its InstanceList.", "type": 1}
+{"text": "10.11.10.2 \"GET /v2/e9746973ac574c6b8a9e8857f56a7608/servers/detail?all_tenants=True&changes-since=2017-05-16T05%3A55%3A11.521167%2B00%3A00&host=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us HTTP/1.1\" status: 200 len: 23222 time: 0.2740111", "label": "<*> \"GET <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Unknown base file: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Unknown base file: <*>", "type": 1}
+{"text": "[instance: faf974ea-cba5-4e1b-93f4-3a3bc606006f] Total disk: 15 GB, used: 0.00 GB", "label": "[instance: <*>] Total disk: <*> GB, used: <*> GB", "type": 1}
+{"text": "[instance: 96abccce-8d1f-4e07-b6d1-4b2ab87e23b4] Instance destroyed successfully.", "label": "[instance: <*>] Instance destroyed successfully.", "type": 1}
+{"text": "While synchronizing instance power states, found 1 instances in the database and 0 instances on the hypervisor.", "label": "While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.", "type": 1}
+{"text": "[instance: bf8c824d-f099-4433-a41e-e3da7578262e] Took 1.00 seconds to destroy the instance on the hypervisor.", "label": "[instance: <*>] Took <*> seconds to destroy the instance on the hypervisor.", "type": 1}
+{"text": "Base or swap file too young to remove: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Base or swap file too young to remove: <*>", "type": 1}
+{"text": "[instance: d6b7bd36-2943-4363-9235-fffdd89ea40e] Terminating instance", "label": "[instance: <*>] Terminating instance", "type": 1}

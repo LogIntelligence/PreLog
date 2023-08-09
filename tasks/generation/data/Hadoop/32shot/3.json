@@ -1,32 +1,32 @@
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 214 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "task_1445144423722_0020_m_000003 Task Transitioned from SCHEDULED to RUNNING", "label": "<*> Task Transitioned from SCHEDULED to RUNNING"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 234 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "attempt_1445144423722_0020_m_000002_1 TaskAttempt Transitioned from NEW to UNASSIGNED", "label": "<*> TaskAttempt Transitioned from NEW to UNASSIGNED"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 159 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 252 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 160 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 300 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 74 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "task_1445144423722_0020_m_000007 Task Transitioned from SCHEDULED to RUNNING", "label": "<*> Task Transitioned from SCHEDULED to RUNNING"}
-{"text": "attempt_1445144423722_0020_m_000009_0 TaskAttempt Transitioned from ASSIGNED to RUNNING", "label": "<*> TaskAttempt Transitioned from ASSIGNED to RUNNING"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 311 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "job_1445144423722_0020Job Transitioned from NEW to INITED", "label": "<*> Transitioned from NEW to INITED"}
-{"text": "JVM with ID: jvm_1445144423722_0020_m_000005 given task: attempt_1445144423722_0020_m_000003_0", "label": "JVM with ID: <*> given task: <*>"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 268 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Processing the event EventType: CONTAINER_REMOTE_LAUNCH for container container_1445144423722_0020_01_000005 taskAttempt attempt_1445144423722_0020_m_000003_0", "label": "Processing the event EventType: <*> for container <*> taskAttempt <*>"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 238 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 326 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 273 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 146 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000002_0 is : 0.06741504", "label": "Progress of TaskAttempt <*> is : <*>"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 255 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "attempt_1445144423722_0020_m_000005_0 TaskAttempt Transitioned from NEW to UNASSIGNED", "label": "<*> TaskAttempt Transitioned from NEW to UNASSIGNED"}
-{"text": "Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@7317849d", "label": "Error writing History Event: org.apache.hadoop.mapreduce.jobhistory.TaskAttemptUnsuccessfulCompletionEvent@<*>"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 205 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 336 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 257 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "task_1445144423722_0020_m_000004 Task Transitioned from SCHEDULED to RUNNING", "label": "<*> Task Transitioned from SCHEDULED to RUNNING"}
-{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000006_0 is : 0.4156165", "label": "Progress of TaskAttempt <*> is : <*>"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 334 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
-{"text": "attempt_1445144423722_0020_m_000007_0 TaskAttempt Transitioned from ASSIGNED to RUNNING", "label": "<*> TaskAttempt Transitioned from ASSIGNED to RUNNING"}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 289 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ..."}
+{"text": "Cannot assign container Container: [ContainerId: container_1445144423722_0020_01_000012, NodeId: MSRA-SA-39.fareast.corp.microsoft.com:28345, NodeHttpAddress: MSRA-SA-39.fareast.corp.microsoft.com:8042, Resource: <memory:1024, vCores:1>, Priority: 20, Token: Token { kind: ContainerToken, service: 172.22.149.145:28345 }, ] for a map as either  container memory less than required <memory:1024, vCores:1> or no pending map tasks - maps.isEmpty=true", "label": "Cannot assign container Container: [ContainerId: <*>, NodeId: <*>, NodeHttpAddress: <*>, Resource: <memory:<*>, vCores:<*>, Priority: <*>, Token: Token { kind: ContainerToken, service: <*> }, ] for a map as either container memory less than required <memory:<*>, vCores:<*> or no pending map tasks - maps.isEmpty=<*>", "type": 1}
+{"text": "Extract jar:file:/D:/hadoop-2.6.0-localbox/share/hadoop/yarn/hadoop-yarn-common-2.6.0-SNAPSHOT.jar!/webapps/mapreduce to C:\\Users\\msrabi\\AppData\\Local\\Temp\\Jetty_0_0_0_0_62267_mapreduce____.8n7xum\\webapp", "label": "Extract jar:file:<*> to <*>", "type": 1}
+{"text": "IPC Server listener on 62270: starting", "label": "IPC Server listener on <*>: starting", "type": 1}
+{"text": "yarn.client.max-cached-nodemanagers-proxies : 0", "label": "yarn.client.max-cached-nodemanagers-proxies : <*>", "type": 1}
+{"text": "Got allocated containers 1", "label": "Got allocated containers <*>", "type": 1}
+{"text": "ERROR IN CONTACTING RM.", "label": "ERROR IN CONTACTING RM.", "type": 1}
+{"text": "JVM with ID: jvm_1445144423722_0020_m_000005 given task: attempt_1445144423722_0020_m_000003_0", "label": "JVM with ID: <*> given task: <*>", "type": 1}
+{"text": "adding path spec: /ws/*", "label": "adding path spec: <*>", "type": 1}
+{"text": "Scheduled snapshot period at 10 second(s).", "label": "Scheduled snapshot period at <*> second(s).", "type": 1}
+{"text": "Using callQueue class java.util.concurrent.LinkedBlockingQueue", "label": "Using callQueue class java.util.concurrent.LinkedBlockingQueue", "type": 1}
+{"text": "Processing the event EventType: TASK_ABORT", "label": "Processing the event EventType: TASK_ABORT", "type": 1}
+{"text": "DefaultSpeculator.addSpeculativeAttempt -- we are speculating task_1445144423722_0020_m_000000", "label": "DefaultSpeculator.addSpeculativeAttempt -- we are speculating <*>", "type": 1}
+{"text": "Reduce slow start threshold reached. Scheduling reduces.", "label": "Reduce slow start threshold reached. Scheduling reduces.", "type": 1}
+{"text": "Input size for job job_1445144423722_0020 = 1256521728. Number of splits = 10", "label": "Input size for job <*> = <*>. Number of splits = <*>", "type": 1}
+{"text": "Address change detected. Old: msra-sa-41/10.190.173.170:9000 New: msra-sa-41:9000", "label": "Address change detected. Old: <*>/<*> New: <*>", "type": 1}
+{"text": "Task: attempt_1445144423722_0020_m_000002_0 - exited : java.net.NoRouteToHostException: No Route to Host from  MININT-FNANLI5/127.0.0.1 to msra-sa-41:9000 failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see:  http://wiki.apache.org/hadoop/NoRouteToHost", "label": "Task: <*> - exited : java.net.NoRouteToHostException: No Route to Host from MININT-<*>/<*> to <*> failed on socket timeout exception: java.net.NoRouteToHostException: No route to host: no further information; For more details see: http://wiki.apache.org/hadoop/NoRouteToHost", "type": 1}
+{"text": "After Scheduling: PendingReds:1 ScheduledMaps:7 ScheduledReds:0 AssignedMaps:3 AssignedReds:0 CompletedMaps:0 CompletedReds:0 ContAlloc:3 ContRel:0 HostLocal:0 RackLocal:3", "label": "After Scheduling: PendingReds:<*> ScheduledMaps:<*> ScheduledReds:<*> AssignedMaps:<*> AssignedReds:<*> CompletedMaps:<*> CompletedReds:<*> ContAlloc:<*> ContRel:<*> HostLocal:<*> RackLocal:<*>", "type": 1}
+{"text": "Retrying connect to server: msra-sa-41:8030. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)", "label": "Retrying connect to server: <*>. Already tried <*> time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=<*>, sleepTime=<*> MILLISECONDS)", "type": 1}
+{"text": "Recalculating schedule, headroom=<memory:0, vCores:-27>", "label": "Recalculating schedule, headroom=<memory:<*>, vCores:<*>", "type": 1}
+{"text": "Received completed container container_1445144423722_0020_01_000005", "label": "Received completed container <*>", "type": 1}
+{"text": "Not uberizing job_1445144423722_0020 because: not enabled; too many maps; too much input;", "label": "Not uberizing <*> because: not enabled; too many maps; too much input;", "type": 1}
+{"text": "The job-conf file on the remote FS is /tmp/hadoop-yarn/staging/msrabi/.staging/job_1445144423722_0020/job.xml", "label": "The job-conf file on the remote FS is <*>", "type": 1}
+{"text": "loaded properties from hadoop-metrics2.properties", "label": "loaded properties from hadoop-metrics2.properties", "type": 1}
+{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 356 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
+{"text": "Registering class org.apache.hadoop.mapreduce.v2.app.rm.ContainerAllocator$EventType for class org.apache.hadoop.mapreduce.v2.app.MRAppMaster$ContainerAllocatorRouter", "label": "Registering class <*> for class <*>", "type": 1}
+{"text": "Resolved MSRA-SA-41.fareast.corp.microsoft.com to /default-rack", "label": "Resolved <*> to <*>", "type": 1}
+{"text": "Thread Thread[eventHandlingThread,5,main] threw an Exception.", "label": "Thread Thread[eventHandlingThread,<*>,main] threw an Exception.", "type": 1}
+{"text": "All maps assigned. Ramping up all remaining reduces:1", "label": "All maps assigned. Ramping up all remaining reduces:<*>", "type": 1}
+{"text": "Auth successful for job_1445144423722_0020 (auth:SIMPLE)", "label": "Auth successful for <*> (auth:SIMPLE)", "type": 1}
+{"text": "Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog", "label": "Logging to <*>(<*>) via <*>", "type": 1}
+{"text": "attempt_1445144423722_0020_m_000005_0 TaskAttempt Transitioned from UNASSIGNED to ASSIGNED", "label": "<*> TaskAttempt Transitioned from UNASSIGNED to ASSIGNED", "type": 1}
+{"text": "Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: 20 cluster_timestamp: 1445144423722 } attemptId: 1 } keyId: -127633188)", "label": "Kind: YARN_AM_RM_TOKEN, Service: , Ident: (appAttemptId { application_id { id: <*> cluster_timestamp: <*> } attemptId: <*> } keyId: <*>)", "type": 1}

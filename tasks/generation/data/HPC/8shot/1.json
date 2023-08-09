@@ -1,0 +1,8 @@
+{"text": "inconsistent nodesets node-1 0x000001fc <ok> node-2 0x000001fc <ok> node-7 0x000001fc <ok> node-4 0x000001fc <ok> node-6 0x000001fc <ok> node-5 0x000001fc <ok> node-3 0x000001fc <ok> node-14 0x0003fdfc <ok> node-13 0x0003fdfc <ok> node-12 0x0003fdfc <ok> node-10 0x0003fdfc <ok> node-16 0x0003fdfc <ok> node-15 0x0003fdfc <ok>", "label": "inconsistent nodesets node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok> node-<*> <*> <ok>", "type": 1}
+{"text": "Component State Change: Component \\042SCSI-WWID:01000010:6005-08b4-0001-00c6-0006-3000-003d-0000\\042 is in the unavailable state (HWID=1973)", "label": "Component State Change: Component <*> is in the unavailable state (HWID=<*>)", "type": 1}
+{"text": "NIFF: node node-130 has detected an available network connection on network 10.96.0.0 via interface scip0", "label": "NIFF: node node-<*> has detected an available network connection on network <*> via interface scip0", "type": 1}
+{"text": "Fan speeds ( 3552 3534 3375 **** 3515 3479 )", "label": "Fan speeds ( <*> <*> <*> <*> <*> <*> )", "type": 1}
+{"text": "Linkerror event interval expired", "label": "Linkerror event interval expired", "type": 1}
+{"text": "link errors remain current", "label": "link errors remain current", "type": 1}
+{"text": "Failed subcommands 3406", "label": "Failed subcommands <*>", "type": 1}
+{"text": "Temperature (41C) exceeds warning threshold", "label": "Temperature (<*>) exceeds warning threshold", "type": 1}

@@ -1,32 +1,32 @@
-{"text": "[client 65.68.235.27] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>"}
-{"text": "jk2_init() Found child 2051 in scoreboard slot 8", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 32440 in scoreboard slot 10", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 5052 in scoreboard slot 10", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 6062 in scoreboard slot 9", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 1787 in scoreboard slot 9", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 1934 in scoreboard slot 9", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 5483 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 6294 in scoreboard slot 7", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 5034 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 6651 in scoreboard slot 8", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 1312 in scoreboard slot 10", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 32432 in scoreboard slot 7", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Can't find child 5619 in scoreboard", "label": "jk2_init() Can't find child <*> in scoreboard"}
-{"text": "jk2_init() Found child 5960 in scoreboard slot 9", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 1901 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 3669 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 5017 in scoreboard slot 8", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 2841 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 5481 in scoreboard slot 8", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 4961 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 32360 in scoreboard slot 11", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 32658 in scoreboard slot 10", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 6398 in scoreboard slot 8", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 6780 in scoreboard slot 7", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 1296 in scoreboard slot 6", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 1262 in scoreboard slot 9", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 32711 in scoreboard slot 10", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 6791 in scoreboard slot 8", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 6452 in scoreboard slot 8", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 5900 in scoreboard slot 8", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
-{"text": "jk2_init() Found child 32679 in scoreboard slot 8", "label": "jk2_init() Found child <*> in scoreboard slot <*>"}
+{"text": "[client 222.166.160.184] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "jk2_init() Found child 32623 in scoreboard slot 11", "label": "jk2_init() Found child <*> in scoreboard slot <*>", "type": 1}
+{"text": "mod_jk child init 1 -2", "label": "mod_jk child init <*> <*>", "type": 1}
+{"text": "mod_jk child workerEnv in error state 6", "label": "mod_jk child workerEnv in error state <*>", "type": 1}
+{"text": "jk2_init() Can't find child 2082 in scoreboard", "label": "jk2_init() Can't find child <*> in scoreboard", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "[client 63.13.186.196] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 216.216.185.130] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 207.203.80.15] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 67.154.58.130] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 141.153.150.164] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 208.51.151.210] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 198.232.168.9] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 61.138.216.82] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 141.154.18.244] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 125.30.38.52] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "[client 211.141.93.88] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 147.31.138.75] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 218.76.139.20] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 24.83.37.136] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "[client 216.127.124.16] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "[client 61.220.139.68] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "[client 4.245.93.87] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "[client 168.20.198.21] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}
+{"text": "workerEnv.init() ok /etc/httpd/conf/workers2.properties", "label": "workerEnv.init() ok <*>", "type": 1}
+{"text": "[client 207.12.15.211] Directory index forbidden by rule: /var/www/html/", "label": "[client <*>] Directory index forbidden by rule: <*>", "type": 1}

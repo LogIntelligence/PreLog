@@ -1,4 +1,0 @@
-{"text": "proxy.cse.cuhk.edu.hk:5070 close, 403 bytes sent, 426 bytes received, lifetime <1 sec", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
-{"text": "d.dropbox.com:443 close, 1337 bytes (1.30 KB) sent, 4946 bytes (4.83 KB) received, lifetime 01:00", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
-{"text": "proxy.cse.cuhk.edu.hk:5070 close, 0 bytes sent, 0 bytes received, lifetime 00:20", "label": "<*> close, <*> sent, <*> received, lifetime <*>", "type": 1}
-{"text": "mail-attachment.googleusercontent.com:443 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS", "label": "<*> open through proxy <*> HTTPS", "type": 1}

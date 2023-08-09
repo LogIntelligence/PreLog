@@ -1,4 +1,0 @@
-{"text": "onExtend:1514038808000 1 0 4", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
-{"text": "REPORT : 7050 5033 151011 240", "label": "REPORT : <*> <*> <*> <*>", "type": 1}
-{"text": "onStandStepChanged 3786", "label": "onStandStepChanged <*>", "type": 1}
-{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}

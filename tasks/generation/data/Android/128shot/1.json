@@ -1,0 +1,128 @@
+{"text": "Destroying surface Surface(name=com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.NewsDetailXmlActivity) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.removeLocked:1554 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2739 com.android.server.wm.WindowManagerService.removeWindowInnerLocked:2702 com.android.server.wm.WindowManagerService.removeWindowLocked:2691 com.android.server.wm.WindowManagerService.removeWindowLocked:2560 com.android.server.wm.WindowManagerService.removeWindow:2555", "label": "Destroying surface Surface(name=<*>) called by <*>", "type": 1}
+{"text": "setSystemUiVisibility vis=40000500 mask=ffffffff oldVal=80000508 newVal=40000500 diff=c0000008 fullscreenStackVis=0 dockedStackVis=0, fullscreenStackBounds=Rect(0, 0 - 720, 1280), dockedStackBounds=Rect(0, 0 - 0, 0)", "label": "setSystemUiVisibility vis=<*> mask=<*> oldVal=<*> newVal=<*> diff=<*> fullscreenStackVis=<*> dockedStackVis=<*>, fullscreenStackBounds=Rect(<*>, <*> - <*>, <*>), dockedStackBounds=Rect(<*>, <*> - <*>, <*>)", "type": 1}
+{"text": "ready=true,policy=3,wakefulness=1,wksummary=0x1,uasummary=0x1,bootcompleted=true,boostinprogress=false,waitmodeenable=false,mode=false,manual=38,auto=-1,adj=0.0userId=0", "label": "ready=<*>,policy=<*>,wakefulness=<*>,wksummary=<*>,uasummary=<*>,bootcompleted=<*>,boostinprogress=<*>,waitmodeenable=<*>,mode=<*>,manual=<*>,auto=<*>,adj=<*>.0userId=<*>", "type": 1}
+{"text": "getRunningAppProcesses: caller 10111 does not hold REAL_GET_TASKS; limiting output", "label": "getRunningAppProcesses: caller <*> does not hold REAL_GET_TASKS; limiting output", "type": 1}
+{"text": "updateNotificationShade: total=0, active=0", "label": "updateNotificationShade: total=<*>, active=<*>", "type": 1}
+{"text": "Animating brightness: target=38, rate=200", "label": "Animating brightness: target=<*>, rate=<*>", "type": 1}
+{"text": "interceptKeyBeforeQueueing: key 4 , result : 1", "label": "interceptKeyBeforeQueueing: key <*> , result : <*>", "type": 1}
+{"text": "rotationForOrientationLw(orient=-1, last=0); user=0 USER_ROTATION_LOCKED", "label": "rotationForOrientationLw(orient=<*>, last=<*>); user=<*> USER_ROTATION_LOCKED", "type": 1}
+{"text": "playSoundEffect   effectType: 0", "label": "playSoundEffect effectType: <*>", "type": 1}
+{"text": "resumeSuspendedAutohide", "label": "resumeSuspendedAutohide", "type": 1}
+{"text": "mHeadsUpExistenceChangedRunnable", "label": "mHeadsUpExistenceChangedRunnable", "type": 1}
+{"text": "The change in focus caused us to need to do a layout end", "label": "The change in focus caused us to need to do a layout end", "type": 1}
+{"text": "onTouchEvent::1, x=296.0, y=327.0", "label": "onTouchEvent::<*>, x=<*>, y=<*>", "type": 1}
+{"text": "disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >", "label": "disable: < expand ICONS* alerts SYSTEM_INFO* back home recent clock navigationbar search quick_settings >", "type": 1}
+{"text": "Start dump, calling from : pid=12782, uid=1000", "label": "Start dump, calling from : pid=<*>, uid=<*>", "type": 1}
+{"text": "ACTION_BATTERY_CHANGED AMP: 0; Volt: 0", "label": "ACTION_BATTERY_CHANGED AMP: <*>; Volt: <*>", "type": 1}
+{"text": "closeQs", "label": "closeQs", "type": 1}
+{"text": "instantCollapse", "label": "instantCollapse", "type": 1}
+{"text": "state.clipTopAmount:180, i:0", "label": "state.clipTopAmount:<*>, i:<*>", "type": 1}
+{"text": "Received TIME_TICK alarm; rescheduling", "label": "Received TIME_TICK alarm; rescheduling", "type": 1}
+{"text": "Releasing suspend blocker \"PowerManagerService.WakeLocks\".", "label": "Releasing suspend blocker \"PowerManagerService.WakeLocks\".", "type": 1}
+{"text": "visible is system.time.showampm", "label": "visible is <*>", "type": 1}
+{"text": "Skipping, withExcluded: false, tr.intent:Intent { flg=0x18800000 cmp=com.tencent.mm/.plugin.base.stub.WXEntryActivity (has extras) }", "label": "Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> (has extras) }", "type": 1}
+{"text": "shouldBlockLocation  ret:false", "label": "shouldBlockLocation ret:<*>", "type": 1}
+{"text": "setDataSource(166, 0, 576460752303423487)", "label": "setDataSource(<*>, <*>, <*>)", "type": 1}
+{"text": "getAllCellInfo is blocked by permission manager . callingPackage = com.tencent.mobileqq", "label": "getAllCellInfo is blocked by permission manager . callingPackage = <*>", "type": 1}
+{"text": "Taking screenshot from Surface with crop:[Rect(0, 48 - 720, 1208)], width:[432], height:[696], minLayer:[21085], maxLayer:[21085], inRotation:[false], rot:[0]", "label": "Taking screenshot from Surface with crop:[Rect(<*>, <*> - <*>, <*>)], width:[<*>], height:[<*>], minLayer:[<*>], maxLayer:[<*>], inRotation:[<*>], rot:[<*>]", "type": 1}
+{"text": "stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=false", "label": "stopWifiDisplayScanLocked record.mWifiDisplayScanRequested=<*>", "type": 1}
+{"text": "flingToHeight: vel=0.0, expand=false, target=0.0, collapseSpeedUpFactor=1.0, expandBecauseOfFalsing=false", "label": "flingToHeight: vel=<*>, expand=<*>, target=<*>, collapseSpeedUpFactor=<*>, expandBecauseOfFalsing=<*>", "type": 1}
+{"text": "userActivityNoUpdateLocked: eventTime=261851646, event=2, flags=0x0, uid=1000", "label": "userActivityNoUpdateLocked: eventTime=<*>, event=<*>, flags=<*>, uid=<*>", "type": 1}
+{"text": "animateCollapsePanels:flags=2, force=true, delayed=true, mExpandedVisible=true", "label": "animateCollapsePanels:flags=<*>, force=<*>, delayed=<*>, mExpandedVisible=<*>", "type": 1}
+{"text": "logNotificationVisibilityChanges runInThread start", "label": "logNotificationVisibilityChanges runInThread start", "type": 1}
+{"text": "schedulePeek", "label": "schedulePeek", "type": 1}
+{"text": "abandonAudioFocus", "label": "abandonAudioFocus", "type": 1}
+{"text": "ActivityRecord info: ActivityInfo{f39182 com.example.android.notepad.NotePadActivity}, euid: 0", "label": "ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*>", "type": 1}
+{"text": "registerCallback not in UI.", "label": "registerCallback not in UI.", "type": 1}
+{"text": "cancelNotificationLocked called,tell the app,reason = 8", "label": "cancelNotificationLocked called,tell the app,reason = <*>", "type": 1}
+{"text": "updateDimmedActivatedHideSensitive overlap:false", "label": "updateDimmedActivatedHideSensitive overlap:<*>", "type": 1}
+{"text": "[PhoneIntfMgr] getDataEnabled: subId=1 phoneId=1", "label": "[PhoneIntfMgr] getDataEnabled: subId=<*> phoneId=<*>", "type": 1}
+{"text": "getLastAudibleStreamVolume  treamType: 0", "label": "getLastAudibleStreamVolume treamType: <*>", "type": 1}
+{"text": "isSimPinSecure mSimDatas is null or empty", "label": "isSimPinSecure mSimDatas is <*> or empty", "type": 1}
+{"text": "getRecentTasks: num=20,flags=62,totalTasks=46", "label": "getRecentTasks: num=<*>,flags=<*>,totalTasks=<*>", "type": 1}
+{"text": "sending alarm Alarm{d764221 type 3 when 509262332 PendingIntent{1749923: PendingIntentRecord{9600e20 android broadcastIntent}}},repeatInterval = 0,listenerTag =time_tick", "label": "sending alarm Alarm{<*> type <*> when <*> PendingIntent{<*>: PendingIntentRecord{<*> android broadcastIntent}}},repeatInterval = <*>,listenerTag =time_tick", "type": 1}
+{"text": "onReceive, action:android.intent.action.BATTERY_CHANGED", "label": "onReceive, action:<*>", "type": 1}
+{"text": "cleanUpApplicationRecordLocked, reset pid: 5784, euid: 0", "label": "cleanUpApplicationRecordLocked, reset pid: <*>, euid: <*>", "type": 1}
+{"text": "enqueueNotificationInternal: pkg=com.tencent.mm id=4097 notification=Notification(pri=1 contentView=null vibrate=[] sound=null tick defaults=0x0 flags=0x101 color=0x00000000 category=msg vis=PRIVATE)", "label": "enqueueNotificationInternal: pkg=<*> id=<*> notification=Notification(pri=<*> contentView=<*> vibrate=[<*>] sound=<*> tick defaults=<*> flags=<*> color=<*> category=msg vis=PRIVATE)", "type": 1}
+{"text": "release:lock=233570404, flg=0x0, tag=\"View Lock\", name=com.android.systemui\", ws=null, uid=10037, pid=2227", "label": "release:lock=<*>, flg=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>", "type": 1}
+{"text": "getRingtonePlayer...", "label": "getRingtonePlayer...", "type": 1}
+{"text": "querySoundEffectsEnabled...", "label": "querySoundEffectsEnabled...", "type": 1}
+{"text": "Start proc 13003:com.tencent.mobileqq:qzone/u0a111 for service com.tencent.mobileqq/cooperation.qzone.remote.logic.QzoneWebPluginProxyService", "label": "Start proc <*> for service <*>", "type": 1}
+{"text": "applyOptionsLocked: Unknown animationType=0", "label": "applyOptionsLocked: Unknown animationType=<*>", "type": 1}
+{"text": "notifyUiVisibilityChanged:vis=0xc0000700, SystemUiVisibility=0xc0000700", "label": "notifyUiVisibilityChanged:vis=<*>, SystemUiVisibility=<*>", "type": 1}
+{"text": "startAnimation begin", "label": "startAnimation begin", "type": 1}
+{"text": "RefreshBatteryInfo isBatteryLow: 23", "label": "RefreshBatteryInfo isBatteryLow: <*>", "type": 1}
+{"text": "updateLightsLocked,mInCall =false,mScreenOn = true,ledNotification == null?true", "label": "updateLightsLocked,mInCall =<*>,mScreenOn = <*>,ledNotification == null?true", "type": 1}
+{"text": "Killing 23484:com.android.calendar/u0a13 (adj 906): empty for 1810s", "label": "Killing <*> (adj <*>): empty for <*>", "type": 1}
+{"text": "onTrackingStopped: true", "label": "onTrackingStopped: <*>", "type": 1}
+{"text": "mVisiblity.getValue is false", "label": "mVisiblity.getValue is <*>", "type": 1}
+{"text": "setWiredDeviceConnectionState  type: 4  state: 0", "label": "setWiredDeviceConnectionState type: <*> state: <*>", "type": 1}
+{"text": "battery changed pluggedType: 0", "label": "battery changed pluggedType: <*>", "type": 1}
+{"text": "removeNotificationChildren", "label": "removeNotificationChildren", "type": 1}
+{"text": "Sending non-protected broadcast com.android.systemui.statusbar.visible.change from system 2227:com.android.systemui/u0a37 pkg com.android.systemui", "label": "Sending non-protected broadcast <*> from system <*> pkg <*>", "type": 1}
+{"text": "onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=0, id[0]=0, x[0]=317.0, y[0]=419.0, toolType[0]=TOOL_TYPE_FINGER, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=261851646, downTime=261851646, deviceId=3, source=0x1002 }, mBlockTouches=false", "label": "onInterceptTouchEvent MotionEvent { action=ACTION_DOWN, actionButton=<*>, id[<*>]=<*>, x[<*>]=<*>, y[<*>]=<*>, toolType[<*>]=TOOL_TYPE_FINGER, buttonState=<*>, metaState=<*>, flags=<*>, edgeFlags=<*>, pointerCount=<*>, historySize=<*>, eventTime=<*>, downTime=<*>, deviceId=<*>, source=<*> }, mBlockTouches=<*>", "type": 1}
+{"text": "scheduleTimeTickEvent triggerAtTime = 509262332", "label": "scheduleTimeTickEvent triggerAtTime = <*>", "type": 1}
+{"text": "isMusicActive...", "label": "isMusicActive...", "type": 1}
+{"text": "printFreezingDisplayLogsopening app wtoken = AppWindowToken{9f4ef63 token=Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}}, allDrawn= false, startingDisplayed =  false, startingMoved =  false, isRelaunching =  false", "label": "printFreezingDisplayLogsopening app wtoken = AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>/.<*> t761}}}, allDrawn= <*>, startingDisplayed = <*>, startingMoved = <*>, isRelaunching = <*>", "type": 1}
+{"text": "overlapAmount:146.0, previousNotificationEnd:0.0, newYTranslation:-146.0, location:4, i:0, getTopPadding:333.0, getLocationOnScreen():-479", "label": "overlapAmount:<*>, previousNotificationEnd:<*>, newYTranslation:<*>, location:<*>, i:<*>, getTopPadding:<*>, getLocationOnScreen():<*>", "type": 1}
+{"text": "android.util.AndroidRuntimeException: Must execute in UI", "label": "<*>: Must execute in UI", "type": 1}
+{"text": "HBM brightnessOut =38", "label": "HBM brightnessOut =<*>", "type": 1}
+{"text": "onExpandingFinished", "label": "onExpandingFinished", "type": 1}
+{"text": "DefaultState what=155652", "label": "DefaultState what=<*>", "type": 1}
+{"text": "Application requested orientation 1, got rotation 0 which has compatible metrics", "label": "Application requested orientation <*>, got rotation <*> which has compatible metrics", "type": 1}
+{"text": "ChargingSpeed  Wattage: -1 ST: 5000000 --> 7500000", "label": "ChargingSpeed Wattage: <*> ST: <*> --> <*>", "type": 1}
+{"text": "interceptKeyTq keycode=4 interactive=true keyguardActive=false policyFlags=2b000002 down false canceled false", "label": "interceptKeyTq keycode=<*> interactive=<*> keyguardActive=<*> policyFlags=<*> down <*> canceled <*>", "type": 1}
+{"text": "Bad activity token: android.os.BinderProxy@2bd79ce", "label": "Bad activity token: <*>@<*>", "type": 1}
+{"text": "isWiredHeadsetOn...", "label": "isWiredHeadsetOn...", "type": 1}
+{"text": "Marking notification as seen 0|com.tencent.mm|4097|null|10112", "label": "Marking notification as seen <*>|<*>|<*>|<*>|<*>", "type": 1}
+{"text": "getRecentTasks: topActivity=ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}", "label": "getRecentTasks: topActivity=ComponentInfo{<*>}", "type": 1}
+{"text": "Pid:28601 MediaPlayer destructor", "label": "Pid:<*> MediaPlayer destructor", "type": 1}
+{"text": "*** unregister callback for null", "label": "*** unregister callback for <*>", "type": 1}
+{"text": "getRingerMode...", "label": "getRingerMode...", "type": 1}
+{"text": "onNotificationVisibilityChanged called", "label": "onNotificationVisibilityChanged called", "type": 1}
+{"text": "cancelNotification,index:-1", "label": "cancelNotification,index:<*>", "type": 1}
+{"text": "orientation change is complete, call stopFreezingDisplayLocked", "label": "orientation change is complete, call stopFreezingDisplayLocked", "type": 1}
+{"text": "cancelNotificationWithTag pid 28601,uid = 10111,tag = null,pkg =com.tencent.mobileqq,id =119", "label": "cancelNotificationWithTag pid <*>,uid = <*>,tag = <*>,pkg =<*>,id =<*>", "type": 1}
+{"text": "[HSM] stayAwake false uid: 10111, pid: 28601", "label": "[HSM] stayAwake <*> uid: <*>, pid: <*>", "type": 1}
+{"text": "updateLightsLocked,turn off notificationLight", "label": "updateLightsLocked,turn off notificationLight", "type": 1}
+{"text": "START u0 {act=com.tencent.mobileqq.action.MAINACTIVITY flg=0x14000000 cmp=com.tencent.mobileqq/.activity.SplashActivity (has extras)} from uid 10111 on display 0", "label": "START u0 {act=<*> flg=<*> cmp=<*> (has extras)} from uid <*> on display <*>", "type": 1}
+{"text": "updateIsPoweredLocked: wasPowered=false, mIsPowered=false, oldPlugType=0, mPlugType=0, mBatteryLevel=23", "label": "updateIsPoweredLocked: wasPowered=<*>, mIsPowered=<*>, oldPlugType=<*>, mPlugType=<*>, mBatteryLevel=<*>", "type": 1}
+{"text": "Process com.tencent.mobileqq:qzone (pid 12236) has died", "label": "Process <*>:qzone (pid <*>) has died", "type": 1}
+{"text": "updateClipping isOverlap:false, getTopPadding=333.0, Translation=-6.0", "label": "updateClipping isOverlap:<*>, getTopPadding=<*>, Translation=<*>", "type": 1}
+{"text": "cancelPeek: false", "label": "cancelPeek: <*>", "type": 1}
+{"text": "handleTimeUpdate", "label": "handleTimeUpdate", "type": 1}
+{"text": "suspendAutohide", "label": "suspendAutohide", "type": 1}
+{"text": "ActivityManagerService,attachApplication,callingPid = 13094", "label": "ActivityManagerService,attachApplication,callingPid = <*>", "type": 1}
+{"text": "makeExpandedInvisible: mExpandedVisible=true", "label": "makeExpandedInvisible: mExpandedVisible=<*>", "type": 1}
+{"text": "updateChargingLocked: charging=false", "label": "updateChargingLocked: charging=<*>", "type": 1}
+{"text": "Unable to start service Intent { act=com.tencent.android.tpush.action.keepalive cmp=com.qqgame.hlddz/com.tencent.android.tpush.service.XGPushService } U=0: not found", "label": "Unable to start service Intent { act=<*> cmp=<*> } U=<*>: not found", "type": 1}
+{"text": "setSpeakerphoneOn  on: true", "label": "setSpeakerphoneOn on: <*>", "type": 1}
+{"text": "getNeighboringCellInfo calling app is com.amap.android.ams", "label": "getNeighboringCellInfo calling app is <*>", "type": 1}
+{"text": "Skipping AppWindowToken{df0798e token=Token{78af589 ActivityRecord{3b04890 u0 com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity t761}}} -- going to hide", "label": "Skipping AppWindowToken{<*> token=Token{<*> ActivityRecord{<*> u0 <*>}}} -- going to hide", "type": 1}
+{"text": "received broadcast android.intent.action.TIME_TICK", "label": "received broadcast <*>", "type": 1}
+{"text": "ApStaDisabledState what=155652", "label": "ApStaDisabledState what=<*>", "type": 1}
+{"text": "cancelNotification,cancelNotificationLocked,callingUid = 10111,callingPid = 28601", "label": "cancelNotification,cancelNotificationLocked,callingUid = <*>,callingPid = <*>", "type": 1}
+{"text": "getRecentTasks: topActivity=ComponentInfo{com.example.android.notepad/com.example.android.notepad.NoteEditor}", "label": "getRecentTasks: topActivity=ComponentInfo{<*>}", "type": 1}
+{"text": "getDevicesForStream  streamType: 3", "label": "getDevicesForStream streamType: <*>", "type": 1}
+{"text": "*** unregister callback for com.android.systemui.statusbar.policy.KeyguardMonitor@712d093", "label": "*** unregister callback for <*>@<*>", "type": 1}
+{"text": "new Process app=ProcessRecord{6eaaf00 0:com.tencent.mobileqq:qzone/u0a111}, name: com.tencent.mobileqq:qzone, euid: 0", "label": "new Process app=ProcessRecord{<*> <*>}, name: <*>:qzone, euid: <*>", "type": 1}
+{"text": "Destroying surface Surface(name=SurfaceView - com.tencent.qt.qtl/com.tencent.video.player.activity.PlayerActivity) called by com.android.server.wm.WindowStateAnimator.destroyDeferredSurfaceLocked:942 com.android.server.wm.WindowManagerService.performDeferredDestroyWindow:3407 com.android.server.wm.Session.performDeferredDestroy:225 android.view.IWindowSession$Stub.onTransact:398 com.android.server.wm.Session.onTransact:136 android.os.Binder.execTransact:565 <bottom of call stack> <bottom of call stack>", "label": "Destroying surface Surface(name=<*>) called by <*>", "type": 1}
+{"text": "cancelAutohide", "label": "cancelAutohide", "type": 1}
+{"text": "isBluetoothScoOn...", "label": "isBluetoothScoOn...", "type": 1}
+{"text": "enqueueNotificationInternal: n.getKey = 0|com.tencent.mobileqq|121|null|10111", "label": "enqueueNotificationInternal: n.getKey = <*>", "type": 1}
+{"text": "remove(PendingIntent{e4e2534: PendingIntentRecord{e204f60 com.android.phone broadcastIntent}}) changed bounds; rebatching", "label": "remove(PendingIntent{<*>: PendingIntentRecord{<*> <*> broadcastIntent}}) changed bounds; rebatching", "type": 1}
+{"text": "ACTIVITY check resid: com.example.android.notepad, size=1", "label": "ACTIVITY check resid: <*>, size=<*>", "type": 1}
+{"text": "Screen frozen for +1s0ms due to Window{ca98d5 u0 com.tencent.qt.qtl/com.tencent.qt.qtl.activity.info.NewsDetailXmlActivity}", "label": "Screen frozen for <*> due to Window{<*> u0 <*>}", "type": 1}
+{"text": "acquire lock=155645244, flags=0x1, tag=\"AudioMix\", name=audioserver, ws=null, uid=1041, pid=0", "label": "acquire lock=<*>, flags=<*>, tag=\"<*>\", name=<*>, ws=<*>, uid=<*>, pid=<*>", "type": 1}
+{"text": "Skipping, withExcluded: false, tr.intent:Intent { flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[264,444][920,908] }", "label": "Skipping, withExcluded: <*>, tr.intent:Intent { flg=<*> cmp=<*> bnds=<*> }", "type": 1}
+{"text": "removeNotification:0|com.tencent.mobileqq|121|null|10111", "label": "removeNotification:<*>|<*>|<*>|<*>|<*>", "type": 1}
+{"text": "Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.MAIN flg=0x10840000 cmp=com.android.incallui/.InCallActivity (has extras) }", "label": "Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> flg=<*> cmp=<*> (has extras) }", "type": 1}
+{"text": "ActivityRecord info: ActivityInfo{80c2e70 com.tencent.mm.ui.LauncherUI}, euid: 0", "label": "ActivityRecord info: ActivityInfo{<*> <*>}, euid: <*>", "type": 1}
+{"text": "START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.example.android.notepad/.NotePadActivity bnds=[8,820][184,1011]} from uid 10057 on display 0", "label": "START u0 {act=<*> cat=[<*>] flg=<*> cmp=<*> bnds=<*>} from uid <*> on display <*>", "type": 1}
+{"text": "getRecentTasks: topActivity=ComponentInfo{com.tencent.mobileqq/com.tencent.mobileqq.activity.SplashActivity}", "label": "getRecentTasks: topActivity=ComponentInfo{<*>}", "type": 1}
+{"text": "getCellLocation is blocked by permission manager uid:10111 pid:28601", "label": "getCellLocation is blocked by permission manager uid:<*> pid:<*>", "type": 1}
+{"text": "unregisterAudioFocusListener...", "label": "unregisterAudioFocusListener...", "type": 1}
+{"text": "Destroying surface Surface(name=InputMethod) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.destroyOrSaveSurface:2201 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementInner:517 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacementLoop:291 com.android.server.wm.WindowSurfacePlacer.performSurfacePlacement:233 com.android.server.wm.WindowManagerService$H.handleMessage:8670 android.os.Handler.dispatchMessage:105", "label": "Destroying surface Surface(name=<*>) called by <*>", "type": 1}
+{"text": "Skipping, withExcluded: false, tr.intent:Intent { act=android.intent.action.VIEW dat=file:///storage/emulated/0/Tencent/QQfile_recv/b.apk typ=application/vnd.android.package-archive flg=0x10800000 cmp=com.android.packageinstaller/.PackageInstallerActivity (has extras) }", "label": "Skipping, withExcluded: <*>, tr.intent:Intent { act=<*> dat=<*> typ=<*> flg=<*> cmp=<*> (has extras) }", "type": 1}
+{"text": "onTrackingStarted", "label": "onTrackingStarted", "type": 1}
+{"text": "Destroying surface Surface(name=com.example.android.notepad/com.example.android.notepad.NoteEditor) called by com.android.server.wm.WindowStateAnimator.destroySurface:2060 com.android.server.wm.WindowStateAnimator.destroySurfaceLocked:913 com.android.server.wm.WindowState.destroyOrSaveSurface:2201 com.android.server.wm.AppWindowToken.destroySurfaces:374 com.android.server.wm.AppWindowToken.notifyAppStopped:400 com.android.server.wm.WindowManagerService.notifyAppStopped:4869 com.android.server.am.ActivityStack.activityStoppedLocked:1393 com.android.server.am.ActivityManagerService.activityStopped:7690", "label": "Destroying surface Surface(name=<*>) called by <*>", "type": 1}

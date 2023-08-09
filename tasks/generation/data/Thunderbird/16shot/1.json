@@ -1,0 +1,16 @@
+{"text": "jA9JBWxH019649: to=root, ctladdr=root (0/0), delay=00:00:02, xdelay=00:00:00, mailer=relay, pri=1626872, relay=[127.0.0.1] [127.0.0.1], dsn=4.0.0, stat=Deferred: Connection refused by [127.0.0.1]", "label": "<*>: to=<*>, ctladdr=<*> (0/0), delay=<*>, xdelay=<*>, mailer=relay, pri=<*>, relay=[<*>] [<*>], dsn=<*>, stat=Deferred: Connection refused by [<*>]", "type": 1}
+{"text": "DHCPREQUEST for 10.100.4.251 (10.100.0.250) from 00:11:43:e3:ba:c3 via eth1: unknown lease 10.100.4.251.", "label": "DHCPREQUEST for <*> (<*>) from <*> via eth1: unknown lease <*>.", "type": 1}
+{"text": "[ib_sm_sweep.c:1831]: ********************** NEW SWEEP ********************", "label": "[ib_sm_sweep.c:<*>]: ********************** NEW SWEEP ********************", "type": 1}
+{"text": "PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 7 10 11 12) *0, disabled.", "label": "PCI Interrupt Link [<*>] (IRQs <*> <*> <*> <*> <*> <*> <*> <*>) <*>, disabled.", "type": 1}
+{"text": "Reading included configuration file: /etc/xinetd.d/ktalk [file=/etc/xinetd.d/ktalk] [line=13]", "label": "Reading included configuration file: <*> [file=<*>] [line=<*>]", "type": 1}
+{"text": "apic_id 10, version 32, address 0xfec83000, GSI 64-87", "label": "apic_id <*>, version <*>, address <*>, GSI <*>", "type": 1}
+{"text": "SPCR (v001 DELL PE BKC 0x00000001 MSFT 0x0100000a) @ 0x00000000000fd7cc", "label": "<*> (v001 DELL PE BKC <*> MSFT <*>) @ <*>", "type": 1}
+{"text": "#38#-rh1 (Release Date: Fri Dec 10 19:02:14 EST 2004)", "label": "<*> (Release Date: <*>)", "type": 1}
+{"text": "Now running on #29#'s privileges.", "label": "Now running on <*>'s privileges.", "type": 1}
+{"text": "mounted filesystem with ordered data mode.", "label": "mounted filesystem with ordered data mode.", "type": 1}
+{"text": "Registered protocol family 17", "label": "Registered protocol family <*>", "type": 1}
+{"text": "Subsystem revision 20040816", "label": "Subsystem revision <*>", "type": 1}
+{"text": "PE/PV Model: 1x2 SCSI BP Rev: 1.0", "label": "PE/PV Model: <*> SCSI BP Rev: <*>", "type": 1}
+{"text": "LAPIC (acpi_id[0x01] lapic_id[0x00] enabled)", "label": "LAPIC (acpi_id[<*>] lapic_id[<*>] enabled)", "type": 1}
+{"text": "Trace cache: 12K uops, L1 D cache: 16K", "label": "Trace cache: <*> uops, L1 D cache: <*>", "type": 1}
+{"text": "Started working: 1 available service", "label": "Started working: <*> available service", "type": 1}

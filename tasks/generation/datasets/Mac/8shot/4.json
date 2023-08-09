@@ -1,8 +1,0 @@
-{"text": "ARPT: 682969.397322: AirPort_Brcm43xx::platformWoWEnable: WWEN[enable]", "label": "ARPT: <*>: <*>::platformWoWEnable: WWEN[enable]", "type": 1}
-{"text": "__73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value 2", "label": "<*>-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value <*>", "type": 1}
-{"text": "hibernate_setup(0) took 4429 ms", "label": "hibernate_setup(<*>) took <*> ms", "type": 1}
-{"text": "Cocoa scripting error for '0x008b6fb5': four character codes must be four characters long.", "label": "Cocoa scripting error for '<*>': four character codes must be four characters long.", "type": 1}
-{"text": "nw_nat64_post_new_ifstate successfully changed NAT64 ifstate from 0x4 to 0x8000000000000000", "label": "<*> successfully changed NAT64 ifstate from <*> to <*>", "type": 1}
-{"text": "__73-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value 2", "label": "<*>-[NetworkAnalyticsEngine observeValueForKeyPath:ofObject:change:context:]_block_invoke unexpected switch value <*>", "type": 1}
-{"text": "Thermal pressure state: 1 Memory pressure state: 0", "label": "Thermal pressure state: <*> Memory pressure state: <*>", "type": 1}
-{"text": "IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 12 unplug = 0", "label": "<*>(<*>)::listenerCallback - Thunderbolt HPD packet for route = <*> port = <*> unplug = <*>", "type": 1}

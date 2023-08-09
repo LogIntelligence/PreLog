@@ -1,4 +1,0 @@
-{"text": "Times: total = 39, boot = 18, init = 21, finish = 0", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
-{"text": "Running task 3.0 in stage 17.0 (TID 718)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
-{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:21876+7292", "label": "Input split: hdfs://<*>", "type": 1}
-{"text": "Block rdd_21_2 stored as bytes in memory (estimated size 163.0 B, free 403.5 KB)", "label": "Block <*> stored as bytes in memory (estimated size <*>, free <*>)", "type": 1}

@@ -1,0 +1,16 @@
+{"text": "SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)", "label": "SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(yarn, curi); users with modify permissions: Set(yarn, curi)", "type": 1}
+{"text": "Saved output of task 'attempt_201706092018_0024_m_000044_1129' to hdfs://10.10.34.11:9000/pjhe/test/1/_temporary/0/task_201706092018_0024_m_000044", "label": "Saved output of task '<*>' to hdfs://<*>", "type": 1}
+{"text": "Block broadcast_37 stored as values in memory (estimated size 8.8 KB, free 500.9 KB)", "label": "Block <*> stored as values in memory (estimated size <*>, free <*>)", "type": 1}
+{"text": "Times: total = 41, boot = -160, init = 200, finish = 1", "label": "Times: total = <*>, boot = <*>, init = <*>, finish = <*>", "type": 1}
+{"text": "Partition rdd_42_38 not found, computing it", "label": "Partition <*> not found, computing it", "type": 1}
+{"text": "Reading broadcast variable 14 took 12 ms", "label": "Reading broadcast variable <*> took <*> ms", "type": 1}
+{"text": "Slf4jLogger started", "label": "Slf4jLogger started", "type": 1}
+{"text": "File Output Committer Algorithm version is 1", "label": "File Output Committer Algorithm version is <*>", "type": 1}
+{"text": "Registered BlockManager", "label": "Registered BlockManager", "type": 1}
+{"text": "Input split: hdfs://10.10.34.11:9000/pjhe/logs/2kSOSP.log:277096+7292", "label": "Input split: hdfs://<*>", "type": 1}
+{"text": "Running task 164.0 in stage 24.0 (TID 1159)", "label": "Running task <*> in stage <*> (TID <*>)", "type": 1}
+{"text": "mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id", "label": "mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id", "type": 1}
+{"text": "Server created on 40984", "label": "Server created on <*>", "type": 1}
+{"text": "Successfully started service 'sparkExecutorActorSystem' on port 55904.", "label": "Successfully started service 'sparkExecutorActorSystem' on port <*>.", "type": 1}
+{"text": "Got assigned task 1351", "label": "Got assigned task <*>", "type": 1}
+{"text": "Starting remoting", "label": "Starting remoting", "type": 1}

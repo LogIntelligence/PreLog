@@ -1,8 +1,0 @@
-{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}
-{"text": "connection from 207.30.238.8 (host8.topspot.net) at Sun Jul 17 14:03:04 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "session opened for user test by (uid=509)", "label": "session opened for user <*> by (uid=<*>)", "type": 1}
-{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=200.60.37.201", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}
-{"text": "session closed for user news", "label": "session closed for user <*>", "type": 1}
-{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=62-192-102-94.dsl.easynet.nl  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
-{"text": "connection from 211.107.232.1 () at Sun Jul 24 13:46:32 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}

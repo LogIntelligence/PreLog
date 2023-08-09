@@ -1,4 +1,0 @@
-{"text": "Read out cached package applicability for package: Microsoft-Windows-Embedded-EmbeddedLockdown-Package-TopLevel~31bf3856ad364e35~amd64~~7.1.7601.16511, ApplicableState: 112, CurrentState:0", "label": "Read out cached package applicability for package: <*>, ApplicableState: <*>, CurrentState:<*>", "type": 1}
-{"text": "Failed to get next element [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Failed to get next element [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}
-{"text": "Warning: Unrecognized packageExtended attribute.", "label": "Warning: Unrecognized packageExtended attribute.", "type": 1}
-{"text": "Expecting attribute name [HRESULT = 0x800f080d - CBS_E_MANIFEST_INVALID_ITEM]", "label": "Expecting attribute name [HRESULT = <*> - CBS_E_MANIFEST_INVALID_ITEM]", "type": 1}

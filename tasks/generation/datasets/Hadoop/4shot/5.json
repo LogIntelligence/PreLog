@@ -1,4 +1,0 @@
-{"text": "Progress of TaskAttempt attempt_1445144423722_0020_m_000009_0 is : 0.5323719", "label": "Progress of TaskAttempt <*> is : <*>", "type": 1}
-{"text": "Reduce slow start threshold not met. completedMapsForReduceSlowstart 1", "label": "Reduce slow start threshold not met. completedMapsForReduceSlowstart <*>", "type": 1}
-{"text": "Failed to renew lease for [DFSClient_NONMAPREDUCE_1537864556_1] for 258 seconds.  Will retry shortly ...", "label": "Failed to renew lease for [<*>] for <*> seconds. Will retry shortly ...", "type": 1}
-{"text": "Opening proxy : MSRA-SA-41.fareast.corp.microsoft.com:7109", "label": "Opening proxy : <*>:<*>", "type": 1}

@@ -2,6 +2,7 @@
 
 DATA_DIR="data/logs"
 SAVE_DIR=prelog_pretrain
+CHECKPOINT_PATH="checkpoints.pt"
 
 MAX_UPDATE=100000
 WARMUP_UPDATES=10000
@@ -13,6 +14,7 @@ UPDATE_FREQ=1
 fairseq-train $DATA_DIR \
     --dataset-impl 'mmap' \
     --arch bart_base \
+    --restore-file $CHECKPOINT_PATH \
     --max-tokens $MAX_TOKENS \
     --max-sentences $MAX_SENTENCES \
     --update-freq $UPDATE_FREQ \

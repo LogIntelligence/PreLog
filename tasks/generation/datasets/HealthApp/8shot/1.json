@@ -1,8 +1,0 @@
-{"text": "onExtend:1514038675000 1 0 4", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
-{"text": "getBinderPackageName packageName = com.huawei.health", "label": "getBinderPackageName packageName = com.huawei.health", "type": 1}
-{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}
-{"text": "calculateCaloriesWithCache totalCalories=131208", "label": "calculateCaloriesWithCache totalCalories=<*>", "type": 1}
-{"text": "onExtend:1514045222000 0 0 5", "label": "onExtend:<*> <*> <*> <*>", "type": 1}
-{"text": " getTodayTotalDetailSteps = 1514041560000##7189##549659##8661##16256##30314585", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
-{"text": " getTodayTotalDetailSteps = 1514040600000##7189##549659##8661##16256##29341927", "label": "getTodayTotalDetailSteps = <*>##<*>##<*>##<*>##<*>##<*>", "type": 1}
-{"text": "calculateAltitudeWithCache totalAltitude=240", "label": "calculateAltitudeWithCache totalAltitude=<*>", "type": 1}

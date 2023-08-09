@@ -1,8 +1,0 @@
-{"text": "boot  (command 1973)", "label": "boot (command <*>)", "type": 1}
-{"text": "warning", "label": "warning", "type": 1}
-{"text": "running", "label": "running", "type": 1}
-{"text": "ClusterFileSystem: There is no server for ServerFileSystem domain storage1612", "label": "ClusterFileSystem: There is no server for ServerFileSystem domain <*>", "type": 1}
-{"text": "normal", "label": "normal", "type": 1}
-{"text": "ambient=27", "label": "ambient=<*>", "type": 1}
-{"text": "configured out", "label": "configured out", "type": 1}
-{"text": "closing", "label": "closing", "type": 1}

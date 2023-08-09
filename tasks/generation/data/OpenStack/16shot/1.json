@@ -1,0 +1,16 @@
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): in use: on this node 1 local, 0 on other nodes sharing this instance storage", "label": "image <*> at (<*>): in use: on this node <*> local, <*> on other nodes sharing this instance storage", "type": 1}
+{"text": "Final resource view: name=cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us phys_ram=64172MB used_ram=2560MB phys_disk=15GB used_disk=20GB total_vcpus=16 used_vcpus=1 pci_stats=[]", "label": "Final resource view: name=<*> phys_ram=<*> used_ram=<*> phys_disk=<*> used_disk=<*> total_vcpus=<*> used_vcpus=<*> pci_stats=[]", "type": 1}
+{"text": "10.11.10.1 \"DELETE /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/fecdd5a9-3ca0-4c82-9336-63b7774f738e HTTP/1.1\" status: 204 len: 203 time: 0.2630820", "label": "<*> \"DELETE <*>\" status: <*> len: <*> time: <*>", "type": 1}
+{"text": "Base or swap file too young to remove: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Base or swap file too young to remove: <*>", "type": 1}
+{"text": "Total usable vcpus: 16, total allocated vcpus: 1", "label": "Total usable vcpus: <*>, total allocated vcpus: <*>", "type": 1}
+{"text": "HTTP exception thrown: No instances found for any event", "label": "HTTP exception thrown: No instances found for any event", "type": 1}
+{"text": "[instance: c62f4f25-982c-4ea2-b5e4-93000edfcfbf] During sync_power_state the instance has a pending task (spawning). Skip.", "label": "[instance: <*>] During sync_power_state the instance has a pending task (spawning). Skip.", "type": 1}
+{"text": "[instance: d54b44eb-2d1a-4aa2-ba6b-074d35f8f12c] memory limit: 96258.00 MB, free: 95746.00 MB", "label": "[instance: <*>] memory limit: <*> MB, free: <*> MB", "type": 1}
+{"text": "[instance: b562ef10-ba2d-48ae-bf4a-18666cba4a51] Total vcpu: 16 VCPU, used: 0.00 VCPU", "label": "[instance: <*>] Total vcpu: <*> VCPU, used: <*> VCPU", "type": 1}
+{"text": "Removable base files: /var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742", "label": "Removable base files: <*>", "type": 1}
+{"text": "[instance: 95960536-049b-41f6-9049-05fc479b6a7c] VM Stopped (Lifecycle Event)", "label": "[instance: <*>] VM Stopped (Lifecycle Event)", "type": 1}
+{"text": "While synchronizing instance power states, found 1 instances in the database and 0 instances on the hypervisor.", "label": "While synchronizing instance power states, found <*> instances in the database and <*> instances on the hypervisor.", "type": 1}
+{"text": "[instance: fecdd5a9-3ca0-4c82-9336-63b7774f738e] Took 0.54 seconds to deallocate network for instance.", "label": "[instance: <*>] Took <*> seconds to deallocate network for instance.", "type": 1}
+{"text": "[instance: af5f7392-f7d4-4298-b647-c98924c64aa1] Deletion of /var/lib/nova/instances/af5f7392-f7d4-4298-b647-c98924c64aa1_del complete", "label": "[instance: <*>] Deletion of <*> complete", "type": 1}
+{"text": "image 0673dd71-34c5-4fbb-86c4-40623fbe45b4 at (/var/lib/nova/instances/_base/a489c868f0c37da93b76227c91bb03908ac0e742): checking", "label": "image <*> at (<*>): checking", "type": 1}
+{"text": "Auditing locally available compute resources for node cp-1.slowvm1.tcloud-pg0.utah.cloudlab.us", "label": "Auditing locally available compute resources for node <*>", "type": 1}

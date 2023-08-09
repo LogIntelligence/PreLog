@@ -1,8 +1,0 @@
-{"text": "connection from 83.116.207.11 (aml-sfh-3310b.adsl.wanadoo.nl) at Sun Jul 17 06:13:37 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "connection from 220.94.205.45 () at Sun Jul 10 13:17:22 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "connection from 211.57.88.250 () at Sat Jul  9 11:35:59 2005", "label": "connection from <*> at <*>", "type": 1}
-{"text": "Initializing CPU#0", "label": "Initializing CPU#<*>", "type": 1}
-{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.181.236.180  user=root", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*> user=<*>", "type": 1}
-{"text": "session closed for user news", "label": "session closed for user <*>", "type": 1}
-{"text": "authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=ip-216-69-169-168.ip.secureserver.net", "label": "authentication failure; logname= uid=<*> euid=<*> tty=NODEVssh ruser= rhost=<*>", "type": 1}
-{"text": "connection from 217.187.83.139 () at Sun Jul 10 03:55:15 2005", "label": "connection from <*> at <*>", "type": 1}
