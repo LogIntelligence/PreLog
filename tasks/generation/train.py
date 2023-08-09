@@ -141,12 +141,11 @@ if __name__ == '__main__':
     )
 
     args = parser.parse_args()
-
     tokenizer = AutoTokenizer.from_pretrained(args.model_path,
                                               use_fast=False,
                                               add_prefix_space=True,
                                               do_lower_case=False)
-    tokenizer.model_max_length = 1024
+    tokenizer.model_max_length = 512
     model = BartForConditionalGeneration.from_pretrained(args.model_path)
     tokenizer, model, p_token_ids = add_parameter_token(tokenizer, model)
 
@@ -155,8 +154,9 @@ if __name__ == '__main__':
     test_raw_dataset = load_dataset(
         'json', data_files={'validation': args.test_file})
     # dataset = parsing_tokenize_dataset(
-    #     tokenizer, raw_dataset, 256, False, p_token_ids)
+    #     tokenizer, raw_dataset, 512, False, p_token_ids)
     train_dataset, variable_list = parsing_v1(tokenizer, train_raw_dataset, True)
+    logger.info(variable_list)
     #model = assign_embedding_for_parameter_token(tokenizer, model, variable_list)
     test_dataset, _ = parsing_v1(tokenizer, test_raw_dataset)
     train_dataset = train_dataset['train']
@@ -170,7 +170,7 @@ if __name__ == '__main__':
         per_device_train_batch_size=32,
         # per_device_eval_batch_size=8,
         max_steps=2000,
-        weight_decay=1e-3,
+        weight_decay=1e-4,
         do_train=True,
         do_eval=False,
         # eval_steps=1,
@@ -183,7 +183,7 @@ if __name__ == '__main__':
         gradient_accumulation_steps=1,
         # label_smoothing_factor=0.1,
         predict_with_generate=True,
-        generation_max_length=1024,
+        generation_max_length=512,
         generation_num_beams=8,
         logging_steps=200,
         # logging_strategy='no',
@@ -204,20 +204,19 @@ if __name__ == '__main__':
     logger.info(outputs)
     trainer.save_model(f"./p_models/{args.outdir}/{args.dataset}_full/last/")
     #logger.info(trainer.predict(train_dataset,
-    #                             max_length=1024))
+    #                             max_length=512))
     model = trainer.model
-
     '''
     Test
-    # '''
-    #tokenizer = AutoTokenizer.from_pretrained(f"./p_models/{args.outdir}/{args.dataset}_full/last/",
-    #                                          use_fast=False,
-    #                                          add_prefix_space=True,
-    #                                          do_lower_case=False)
-    #tokenizer.model_max_length = 1024
-    #model = BartForConditionalGeneration.from_pretrained(
-    #    f"./p_models/{args.outdir}/{args.dataset}_full/last/")
-
+    
+    tokenizer = AutoTokenizer.from_pretrained(f"./p_models/{args.outdir}/{args.dataset}_full/last/",
+                                              use_fast=False,
+                                              add_prefix_space=True,
+                                              do_lower_case=False)
+    tokenizer.model_max_length = 512
+    model = BartForConditionalGeneration.from_pretrained(
+        f"./p_models/{args.outdir}/{args.dataset}_full/last/")
+    '''
     # test_raw_dataset = load_dataset(
     #     'json', data_files={'validation': args.test_file})
     # test_dataset, _ = parsing_v1(tokenizer, test_raw_dataset)
@@ -229,7 +228,6 @@ if __name__ == '__main__':
     #     test_dataset, batch_size=8, collate_fn=data_collator, shuffle=False)
 
     res = generate_template(tokenizer, model, f"logs/{args.dataset}/{args.dataset}_2k.log_structured.csv", accelerator)
-    logger.info(len(res))
     if accelerator.is_local_main_process:
         log_df = pd.read_csv(
             f"logs/{args.dataset}/{args.dataset}_2k.log_structured_corrected.csv")
@@ -237,13 +235,14 @@ if __name__ == '__main__':
         gf = [" ".join(x.split()) for x in gf]
         rs = [x.strip() for x in res]
         log_df.EventTemplate = pd.Series([x.strip() for x in res])
-        os.makedirs(f"benchmark_results/{args.outdir}/", exist_ok=True)
-        log_df.to_csv(f"benchmark_results/{args.outdir}/{args.dataset}_2k.log_structured.csv")
+        os.makedirs(
+            f"benchmark_results/{args.outdir}/", exist_ok=True)
+        log_df.to_csv(
+            f"benchmark_results/{args.outdir}/{args.dataset}_2k.log_structured.csv")
         templates = [(i + 1, t, c) for i, (t, c) in enumerate(
             sorted(Counter(res).items(), key=lambda x: x[1], reverse=True))]
         template_df = pd.DataFrame(
             templates, columns=['EventId', 'EventTemplate', 'Occurences'])
-        logger.info(template_df.head(5))
         template_df.to_csv(
             f"benchmark_results/{args.outdir}/{args.dataset}_2k.log_templates.csv")
 

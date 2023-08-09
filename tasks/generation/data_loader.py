@@ -12,14 +12,14 @@ masking = [
      "mask_with": "<*>"},
     {"regex_pattern": "((?<=[^A-Za-z0-9])|^)(\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})((?=[^A-Za-z0-9])|$)",
      "mask_with": "<*>"},
-    {"regex_pattern": "((?<=[^A-Za-z0-9])|^)([0-9a-f]{6,} ?){3,}((?=[^A-Za-z0-9])|$)",
+    {"regex_pattern": "((?<=[^A-Za-z0-9])|^)([0-9a-f]{6,8})((?=[^A-Za-z0-9])|$)",
      "mask_with": "<*>"},
     {"regex_pattern": "((?<=[^A-Za-z0-9])|^)([0-9A-F]{4} ?){4,}((?=[^A-Za-z0-9])|$)",
      "mask_with": "<*>"},
     {"regex_pattern": "((?<=[^A-Za-z0-9])|^)(0x[a-f0-9A-F]+)((?=[^A-Za-z0-9])|$)",
      "mask_with": "<*>"},
     {"regex_pattern": "((?<=[^A-Za-z0-9])|^)([\\-\\+]?\\d+)((?=[^A-Za-z0-9])|$)", "mask_with": "<*>"},
-    {"regex_pattern": "((?<=[^A-Za-z0-9])|^)([a-f0-9A-F]+)((?=[^A-Za-z0-9])|$)", "mask_with": "<*>"},
+    # {"regex_pattern": "((?<=[^A-Za-z0-9])|^)([a-f0-9A-F]{7})((?=[^A-Za-z0-9])|$)", "mask_with": "<*>"},
     {"regex_pattern": "(?<=executed cmd )(\".+?\")", "mask_with": "<*>"}
 ]
 
@@ -363,7 +363,7 @@ def parsing_v1(tokenizer, raw_dataset, is_train=False):
                 example_batch['text'][i], example_batch['label'][i]))
 
         #if not is_train:
-        example_batch['text'] = [preprocess(x) for x in example_batch['text']]
+        #example_batch['text'] = [preprocess(x) for x in example_batch['text']]
         example_batch['label'] = [" ".join(x.split())
                                   for x in example_batch['label']]
         # for i in range(len(example_batch['text'])):
@@ -386,7 +386,7 @@ def parsing_v1(tokenizer, raw_dataset, is_train=False):
                            key=lambda k: k[1], reverse=True)
 
     variable_list = [x[0] for x in variable_list]
-    variable_list = [x for x in variable_list if len(x) >= 2]
+    variable_list = [x for x in variable_list if len(x) >= 3]
     return dataset, variable_list[:8]
 
 
@@ -432,10 +432,10 @@ def generate_template(tokenizer, model, log_file, accelerator):
         # batch = {k: v.to(device) for k, v in batch.items()}
         with torch.no_grad():
             outputs = accelerator.unwrap_model(model).generate(input_ids=batch['input_ids'].to(device), max_length=512,
-                                     attention_mask=batch['attention_mask'].to(
-                                         device),
-                                     num_beams=8,
-                                     )
+                    attention_mask=batch['attention_mask'].to(device),
+                    num_beams=8,
+                    temperature=0.0
+                    )
         predictions = accelerator.pad_across_processes(
             outputs, dim=1, pad_index=tokenizer.pad_token_id)
         predictions_gathered = accelerator.gather(predictions)
