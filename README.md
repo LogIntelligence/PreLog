@@ -167,7 +167,7 @@ $ accelerate launch train.py \
 
 ## 4. Results
 
-### 4.1. RQ1: Log Parsing Results
+### 4.1. RQ1: Log Parsing
 
 <p align="center"><img src="docs/images/RQ1-accuracy.png" width="1000"></p>
 
@@ -175,7 +175,7 @@ $ accelerate launch train.py \
 
 <p align="center"><img src="docs/images/RQ1-robustness.png" width="500"></p>
 
-### 4.2. RQ2: Anomaly Detection Results
+### 4.2. RQ2: Anomaly Detection
 
 - **_With Stable Logs_**:
 
