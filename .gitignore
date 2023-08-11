@@ -128,7 +128,8 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-/models
+/models/checkpoints/
+/models/PreLog*
 /data
 .DS_Store
 /.idea
