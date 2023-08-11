@@ -1,6 +1,0 @@
---2023-07-13 16:33:39--  https://s3-eu-west-1.amazonaws.com/pfigshare-u-files/39185807/models.zip?X-Amz-Algorithm=AWS4-HMAC-SHA256
-Resolving s3-eu-west-1.amazonaws.com (s3-eu-west-1.amazonaws.com)... 52.218.63.3, 52.92.1.240, 52.218.97.99, ...
-Connecting to s3-eu-west-1.amazonaws.com (s3-eu-west-1.amazonaws.com)|52.218.63.3|:443... connected.
-HTTP request sent, awaiting response... 400 Bad Request
-2023-07-13 16:33:40 ERROR 400: Bad Request.
-

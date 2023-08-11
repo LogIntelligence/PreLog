@@ -169,13 +169,24 @@ $ accelerate launch train.py \
 
 ### 4.1. RQ1: Log Parsing
 
+We evaluate the accuracy of log parsing performed by PreLog. We compare PreLog with the top-performing data-driven log parsers, i.e., Spell, Drain, Logram, and SPINE; and the current state-of-the-art DL-based log parser, i.e., LogPPT.
+
+- Source code for Spell, Drain, and Logram is adopted from [LogPAI](https://github.com/logpai/logparser) and [empirical study](https://figshare.com/articles/software/Artifact_for_Guidelines_for_Assessing_the_Accuracy_of_Log_Message_Template_Identification_Techniques_/18858332).
+- We use the implementation provided by authors for [SPINE](https://doi.org/10.1145/3540250.3549176).
+- Source for LogPPT is adopted from [LogPPT](https://github.com/LogIntelligence/LogPPT).
+
 <p align="center"><img src="docs/images/RQ1-accuracy.png" width="1000"></p>
-
-
 
 <p align="center"><img src="docs/images/RQ1-robustness.png" width="500"></p>
 
+**Take-away points:**
+- PreLog achieves the best GA on 9 out of 16 datasets, a GA of over 0.9 on 12 datasets and 1.0 accuracy on seven datasets.
+- PreLog significantly outperforms data-driven log parsers and achieves comparable results with LogPPT.
+- The performance of PreLog can be improved if more labelled samples are provided, and it can achieve good results with 16 or more labelled samples.
+
 ### 4.2. RQ2: Anomaly Detection
+
+We compare PreLog with CNN, LogRobust, and NeuralLog, which are the state-of-the-arts on anomaly detection.
 
 - **_With Stable Logs_**:
 
@@ -189,8 +200,13 @@ $ accelerate launch train.py \
 
 <p align="center"><img src="docs/images/RQ2-sequences.png" width="500"></p>
 
-### 4.3. RQ3: Ablation Study
+**Take-away points:**
+- PreLog can capture the semantic meaning of log sequences more effectively via pre-training on a large amount of data, thus leading to the better results compared to the state-of-the-art.
+- PreLog maintains a consistently high accuracy (F-measure ranging from 0.936 to 0.942 with unstable log events and from 0.936 to 0.950 with unstable log sequences) under high injection ratios.
+- PreLog is effective and robust for log-based anomaly detection on both stable and unstable log data.
 
+### 4.3. RQ3: Ablation Study
+We evaluate the effectiveness of each pre-training objective when the model is trained without it.
 - **_Log Parsing_**:
 
 <p align="center"><img src="docs/images/RQ3-parsing.png" width="500"></p>
@@ -205,44 +221,21 @@ $ accelerate launch train.py \
     - _Unstable Log Sequences_
       <p align="center"><img src="docs/images/RQ3-ad-seq.png" width="500"></p>
 
-[//]: # ()
-
-[//]: # (### 4.4. RQ4: Compare with Different Pre-trained Models)
-
-[//]: # ()
-
-[//]: # (- **_Log Parsing_**:)
-
-[//]: # ()
-
-[//]: # (<p align="center"><img src="docs/images/RQ4-logparsing.png" width="700"></p>)
-
-[//]: # ()
-
-[//]: # (- **_Anomaly Detection with Stable Logs_**:)
-
-[//]: # ()
-
-[//]: # (<p align="center"><img src="docs/images/RQ4-ad-stable.png"></p>)
-
-[//]: # ()
-
-[//]: # (- **_Anomaly Detection with Unstable Logs_**:)
-
-[//]: # (    - _Unstable Log Events_:)
-
-[//]: # (      <p align="center"><img src="docs/images/RQ4-ad-event.png"></p>)
-
-[//]: # (    - _Unstable Log Sequences_)
-
-[//]: # (      <p align="center"><img src="docs/images/RQ4-ad-seq.png"></p>)
-
+**Take-away points:**
+- Pre-training with both entry-level and sequence-level objectives is important for log parsing.
+- PreLog performs worse when one of the pre-training objectives is excluded on unstable log data.
+    
 ### 4.4. Other log analytics tasks
 
 - Failure Identification on OpenStack:
 
+    We ask PreLog to identify the failure types of OpenStack system. The results show that PreLog can achieve an F-measure of over 0.95 for all failure types on the OpenStack dataset.
+
 <p align="center"><img src="docs/images/failure-identification.png" width="500"></p>
 
 - Fault-indicated Event Identification:
+    
+    We ask PreLog to locate the logs in log sequence that are most likely to cause anomalies. By leveraging attention scores assigned for each log message, PreLog can locate anomalies in log sequences with high accuracy, especially on the Spirit dataset.
 
 <p align="center"><img src="docs/images/inference.png" width="500"></p>
+
