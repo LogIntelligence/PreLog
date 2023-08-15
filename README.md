@@ -35,6 +35,7 @@ $ pip install -r requirements.txt
 $ cd fairseq && python setup.py install
 ```
 
+
 ### 2.2. Models and data
 
 Download and unzip checkpoint for pre-training, a small set of pre-training data, and the pre-trained
@@ -240,3 +241,17 @@ We evaluate the effectiveness of each pre-training objective when the model is t
 
 ## 5. Full supplementary
 A complete version of the supplementary with python environment, unpacked models, and data can be found [here](https://figshare.com/s/5a08ef8b02b94f6726c2).
+
+
+To use pre-built enviroment:
+```shell
+$ source prelog_env/bin/activate
+```
+
+## Acknowledgement
+- Baselines and evaluation metrics for log parsing are adopted from [logparser](https://github.com/logpai/logparser)
+and an [empirical study](https://figshare.com/articles/software/Artifact_for_Guidelines_for_Assessing_the_Accuracy_of_Log_Message_Template_Identification_Techniques_/18858332).
+
+- Baselines and evaluation metrics for anomaly detection are adopted from [LogADEmpirical](https://github.com/LogIntelligence/LogADEmpirical).
+
+- We use the implementation provided by authors for [SPINE](https://doi.org/10.1145/3540250.3549176) and [LogPPT](https://doi.org/10.1109/ICSE48619.2023.00204)
