@@ -22,7 +22,7 @@ be uniformly applied to many log analytics tasks through a prompt tuning paradig
 
 ### 2.1. Environment
 
-- Python 3.8
+- Python >= 3.8
 - torch
 - transformers
 - accelerate
