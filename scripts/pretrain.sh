@@ -1,7 +1,7 @@
 #!/bin/bash
 
-DATA_DIR="data/logs"
-SAVE_DIR=prelog_pretrain
+DATA_DIR="data"
+SAVE_DIR=pretrained_models
 CHECKPOINT_PATH="checkpoints.pt"
 
 MAX_UPDATE=100000

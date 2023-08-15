@@ -227,10 +227,10 @@ if __name__ == '__main__':
     # data_loader = DataLoader(
     #     test_dataset, batch_size=8, collate_fn=data_collator, shuffle=False)
 
-    res = generate_template(tokenizer, model, f"logs/{args.dataset}/{args.dataset}_2k.log_structured.csv", accelerator)
+    res = generate_template(tokenizer, model, f"datasets/{args.dataset}/{args.dataset}_2k.log_structured.csv", accelerator)
     if accelerator.is_local_main_process:
         log_df = pd.read_csv(
-            f"logs/{args.dataset}/{args.dataset}_2k.log_structured_corrected.csv")
+            f"datasets/{args.dataset}/{args.dataset}_2k.log_structured_corrected.csv")
         gf = log_df.EventTemplate.tolist()
         gf = [" ".join(x.split()) for x in gf]
         rs = [x.strip() for x in res]

@@ -234,7 +234,7 @@ def main(args):
     plm, tokenizer, model_config, WrapperClass = load_plm(args.model_name, args.model_path)
 
     promptTemplate = ManualTemplate(tokenizer=tokenizer).from_file(args.prompt_template)
-    promptVerbalizer = ManualVerbalizer(classes=['normal', 'abnormal'], tokenizer=tokenizer).from_file(args.verbalizer)
+    promptVerbalizer = ManualVerbalizer(classes=classes, tokenizer=tokenizer).from_file(args.verbalizer)
 
     max_length = max(tokenizer.max_model_input_sizes.values())
     prompt_model = PromptForClassification(plm=plm, template=promptTemplate, verbalizer=promptVerbalizer)

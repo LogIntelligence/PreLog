@@ -132,7 +132,7 @@ dmypy.json
 /models/PreLog*
 /data
 .DS_Store
-/.idea
+/.idea/
 *.zip
 tasks/classification/failure_identification/result.txt
 fairseq/fairseq/data/data_utils_fast.cpp
@@ -146,3 +146,4 @@ tasks/generation/benchmark.sh.e91051039
 /tasks/classification/anomaly_detection/data/
 /tasks/generation/datasets/
 tasks/generation/datasets/
+*.pt

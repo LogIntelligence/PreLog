@@ -148,7 +148,7 @@ $ accelerate launch train.py \
 $ cd task/classification
 $ export MODEL_PATH="path to PreLog model"    # default: ../PreLog
 $ accelerate launch train.py \
-    --dataset BGL \
+    --dataset OpenStack \
     --model-path $MODEL_PATH \
     --train-file failure_identification/data/OpenStack/train.json \   # path to training data
     --test-file failure_identification/data/OpenStack/test.json \   # path to test data

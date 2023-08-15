@@ -1,11 +1,11 @@
 #!/bin/bash
 
-MODEL_NAME="../../../models/PreLog"
+MODEL_NAME="../PreLog"
 shot=32
 for rtime in 1 2 3 4 5; do
   for dataset in Android Apache BGL Hadoop HDFS HealthApp HPC Linux Mac OpenSSH OpenStack Proxifier Spark Thunderbird Windows Zookeeper; do
     echo "${rtime} - ${shot} - ${dataset}"
-    accelerate launch train.py \
+    python train.py \
     --dataset ${dataset} \
     --model-path $MODEL_NAME \
     --train-file ./datasets/${dataset}/${shot}shot/${rtime}.json \

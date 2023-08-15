@@ -1,51 +1,0 @@
-07/13/2023 17:56:26 - __main__ - INFO - Distributed environment: NO
-Num processes: 1
-Process index: 0
-Local process index: 0
-Device: cuda
-
-Mixed precision type: no
-
-07/13/2023 17:56:26 - datasets.builder - WARNING - Found cached dataset json (/home/575/vl6246/.cache/huggingface/datasets/json/default-64cdf7ea2ea0d90d/0.0.0/8bb11242116d547c741b2e8a1f18598ffdd40a1d4f2a2872c7a28b697434bc96)
-  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 419.56it/s]
-You are using a model of type bart to instantiate a model of type PreLog. This is not supported for all configurations of models and can yield errors.
-07/13/2023 17:56:28 - root - INFO - using template: {"placeholder":"text_a"} {"special": "</s>"} This sequence was {"mask"}
-tokenizing: 0it [00:00, ?it/s]tokenizing: 39it [00:00, 386.91it/s]tokenizing: 78it [00:00, 353.15it/s]tokenizing: 90it [00:00, 371.79it/s]
-07/13/2023 17:56:29 - __main__ - INFO - ***** Running training *****
---- Logging error ---
-Traceback (most recent call last):
-  File "/apps/python3/3.9.2/lib/python3.9/logging/__init__.py", line 1079, in emit
-    msg = self.format(record)
-  File "/apps/python3/3.9.2/lib/python3.9/logging/__init__.py", line 923, in format
-    return fmt.format(record)
-  File "/apps/python3/3.9.2/lib/python3.9/logging/__init__.py", line 659, in format
-    record.message = record.getMessage()
-  File "/apps/python3/3.9.2/lib/python3.9/logging/__init__.py", line 363, in getMessage
-    msg = msg % self.args
-TypeError: not all arguments converted during string formatting
-Call stack:
-  File "/scratch/rd66/vl6246/PreLog/tasks/classification/train.py", line 192, in <module>
-    main(args)
-  File "/scratch/rd66/vl6246/PreLog/tasks/classification/train.py", line 91, in main
-    logger.info("  Num examples = ", len(dataset))
-Message: '  Num examples = '
-Arguments: (90,)
---- Logging error ---
-Traceback (most recent call last):
-  File "/apps/python3/3.9.2/lib/python3.9/logging/__init__.py", line 1079, in emit
-    msg = self.format(record)
-  File "/apps/python3/3.9.2/lib/python3.9/logging/__init__.py", line 923, in format
-    return fmt.format(record)
-  File "/apps/python3/3.9.2/lib/python3.9/logging/__init__.py", line 659, in format
-    record.message = record.getMessage()
-  File "/apps/python3/3.9.2/lib/python3.9/logging/__init__.py", line 363, in getMessage
-    msg = msg % self.args
-TypeError: not all arguments converted during string formatting
-Call stack:
-  File "/scratch/rd66/vl6246/PreLog/tasks/classification/train.py", line 192, in <module>
-    main(args)
-  File "/scratch/rd66/vl6246/PreLog/tasks/classification/train.py", line 93, in main
-    logger.info("  Total optimization steps = ", max_steps)
-Message: '  Total optimization steps = '
-Arguments: (100,)
-  0%|          | 0/100 [00:00<?, ?it/s]  1%|          | 1/100 [00:03<06:11,  3.76s/it]Loss: 15.83439826965332:   1%|          | 1/100 [00:03<06:11,  3.76s/it]Loss: 15.83439826965332:   2%|▏         | 2/100 [00:07<05:44,  3.51s/it]Loss: 15.261003494262695:   2%|▏         | 2/100 [00:07<05:44,  3.51s/it]Loss: 15.261003494262695:   3%|▎         | 3/100 [00:10<05:32,  3.43s/it]Loss: 13.83317756652832:   3%|▎         | 3/100 [00:10<05:32,  3.43s/it] Loss: 13.83317756652832:   4%|▍         | 4/100 [00:13<05:25,  3.39s/it]Loss: 8.597694396972656:   4%|▍         | 4/100 [00:13<05:25,  3.39s/it]Loss: 8.597694396972656:   5%|▌         | 5/100 [00:17<05:20,  3.37s/it]Loss: 7.0101094245910645:   5%|▌         | 5/100 [00:17<05:20,  3.37s/it]
