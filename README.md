@@ -82,12 +82,12 @@ $ python ./scripts/convert_fairseq_to_hf.py
 ```shell
 # to run on HDFS dataset
 $ cd tasks/generation/logparsing
-$ export MODEL_PATH="path to PreLog model"
+$ export MODEL_PATH="path to PreLog model"    # default: ../PreLog
 $ accelerate launch train.py \
     --dataset HDFS \
     --model-path $MODEL_PATH \
-    --train-file data/HDFS/32shot/1.json \
-    --test-file data/HDFS/test.json \
+    --train-file data/HDFS/32shot/1.json \  # path to training data
+    --test-file data/HDFS/test.json \   # path to test data
     --outdir parsing_hdfs
 ```
 
@@ -113,14 +113,13 @@ $ ./benchmark.sh
 
 ```shell
 $ cd task/classification
-$ export MODEL_PATH="path to PreLog model"
-$ export DATADIR="path to anomaly detection data"
+$ export MODEL_PATH="path to PreLog model"    # default: ../PreLog
 $ accelerate launch train.py \
     --dataset BGL \
     --model-path $MODEL_PATH \
-    --train-file $DATADIR/train.json \
-    --test-file $DATADIR/test.json \
-    --prompt-template prompt_template.txt \
+    --train-file anomaly_detection/data/BGL/train/1.json \  # path to training data
+    --test-file anomaly_detection/data/BGL/test.json \  # path to test data
+    --prompt-template prompt_template.txt \ 
     --verbalizer anomaly_detection/verbalizer.txt \
     --batch-size 16 \
     --lr 3e-5 \
@@ -147,13 +146,12 @@ $ accelerate launch train.py \
 
 ```shell
 $ cd task/classification
-$ export MODEL_PATH="path to PreLog model"
-$ export DATADIR="path to failure identification data"
+$ export MODEL_PATH="path to PreLog model"    # default: ../PreLog
 $ accelerate launch train.py \
     --dataset BGL \
     --model-path $MODEL_PATH \
-    --train-file $DATADIR/train.json \
-    --test-file $DATADIR/test.json \
+    --train-file failure_identification/data/OpenStack/train.json \   # path to training data
+    --test-file failure_identification/data/OpenStack/test.json \   # path to test data
     --prompt-template prompt_template.txt \
     --verbalizer failure_identification/verbalizer.txt \
     --batch-size 16 \
@@ -239,3 +237,6 @@ We evaluate the effectiveness of each pre-training objective when the model is t
 
 <p align="center"><img src="docs/images/inference.png" width="500"></p>
 
+
+## 5. Full supplementary
+A complete version of the supplementary with python environment, unpacked models, and data can be found [here](https://figshare.com/s/5a08ef8b02b94f6726c2).
