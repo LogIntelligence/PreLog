@@ -178,7 +178,7 @@ We evaluate the accuracy of log parsing performed by PreLog. We compare PreLog w
 
 <p align="center"><img src="docs/images/RQ1-robustness.png" width="500"></p>
 
-**Take-away points:**
+**Take-home points:**
 - PreLog achieves the best GA on 9 out of 16 datasets, a GA of over 0.9 on 12 datasets and 1.0 accuracy on seven datasets.
 - PreLog significantly outperforms data-driven log parsers and achieves comparable results with LogPPT.
 - The performance of PreLog can be improved if more labelled samples are provided, and it can achieve good results with 16 or more labelled samples.
@@ -199,7 +199,7 @@ We compare PreLog with CNN, LogRobust, and NeuralLog, which are the state-of-the
 
 <p align="center"><img src="docs/images/RQ2-sequences.png" width="500"></p>
 
-**Take-away points:**
+**Take-home points:**
 - PreLog can capture the semantic meaning of log sequences more effectively via pre-training on a large amount of data, thus leading to the better results compared to the state-of-the-art.
 - PreLog maintains a consistently high accuracy (F-measure ranging from 0.936 to 0.942 with unstable log events and from 0.936 to 0.950 with unstable log sequences) under high injection ratios.
 - PreLog is effective and robust for log-based anomaly detection on both stable and unstable log data.
@@ -220,7 +220,7 @@ We evaluate the effectiveness of each pre-training objective when the model is t
     - _Unstable Log Sequences_
       <p align="center"><img src="docs/images/RQ3-ad-seq.png" width="500"></p>
 
-**Take-away points:**
+**Take-home points:**
 - Pre-training with both entry-level and sequence-level objectives is important for log parsing.
 - PreLog performs worse when one of the pre-training objectives is excluded on unstable log data.
     
@@ -238,9 +238,13 @@ We evaluate the effectiveness of each pre-training objective when the model is t
 
 <p align="center"><img src="docs/images/inference.png" width="500"></p>
 
+**Take-home points:**
+- PreLog can be applied to other log analytics tasks with a prompt tuning paradigm.
+- PreLog can achieve good results on other log analytics tasks.
+
 
 ## 5. Full supplementary
-A complete version of the supplementary with python environment, unpacked models, and data can be found [here](https://figshare.com/s/5a08ef8b02b94f6726c2).
+A complete version of the supplementary with python environment, unpacked models, and data can be found [here](https://drive.google.com/file/d/1kXLcGqhtCyWBjpXKAWE1vhTZekcOfKUb/view?usp=sharing).
 
 
 To use pre-built enviroment:
@@ -254,4 +258,4 @@ and an [empirical study](https://figshare.com/articles/software/Artifact_for_Gui
 
 - Baselines and evaluation metrics for anomaly detection are adopted from [LogADEmpirical](https://github.com/LogIntelligence/LogADEmpirical).
 
-- We use the implementation provided by authors for [SPINE](https://doi.org/10.1145/3540250.3549176) and [LogPPT](https://doi.org/10.1109/ICSE48619.2023.00204)
+- We use the implementation provided by authors for [SPINE](https://doi.org/10.1145/3540250.3549176) and [LogPPT](https://doi.org/10.1109/ICSE48619.2023.00204).
