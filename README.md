@@ -68,6 +68,8 @@ We the following settings:
 
 ### B. Pre-training
 
+To verify the contributions of pre-training, we leverage the model architecture of PreLog to train a model from scratch (w/o pre-training) for anomaly detection.
+
 #### B1. Results on stable logs
 
 |  Dataset   |   Metric   | PreLog (w/ Pre-training) | PreLog (w/o Pre-training) |
@@ -117,8 +119,13 @@ We the following settings:
 |                 | Recall    |          0.988           |           0.967           |
 |                 | F-measure |        **0.945**         |          0.666            |
 
+#### **Findings:**
+The model fails to achieve satisfactory performance without pre-training
+
 
 ### C. Efficiency and Comparison with LLMs
+
+We fine-tune a FLAN-T5 model, an enhanced version of T5, for log-based anomaly detection and compare it with PreLog. We choose the FLAN- T5 XL version with 3 billion parameters (approximately 20 times larger than PreLog) and fine-tune it using Low-Rank Adaptation (LoRA).
 
 #### C1. Results on stable logs
 
@@ -175,6 +182,12 @@ We the following settings:
 |        20%      | Precision |     0.905     |     0.844    |
 |                 | Recall    |     0.988     |     0.995    |
 |                 | F-measure |   **0.945**   |   0.926  |
+
+
+#### **Findings:**
+- PreLog achieves better or comparable results with FLAN-T5 with 20 times fewer parameters.
+- PreLog is much more efficient than FLAN-T5, making it more suitable for real-world applications.
+- PreLog is more robust than FLAN-T5 when dealing with unstable log data.
 
 
 ## 1. Framework
