@@ -2,8 +2,8 @@
 
 **Abstract**: Large-scale software-intensive systems often produce a large volume of logs to record runtime status and events for troubleshooting purposes. The rich information in log data enables a variety of system management and diagnosis tasks. Over the years, many approaches have been proposed for automated log analytics. However, these approaches usually design separate models for each specific task, which cannot be generalized to other tasks. They are also not robust when dealing with logs from heterogeneous sources. In this paper, we propose PreLog, a novel pre-trained model for log analytics. PreLog is pre-trained on a large amount of unlabelled log data to capture the semantic meaning of logs. We design two log-specific pre-training objectives, including entry-level and sequence-level objectives, which enable PreLog to better understand the hidden structure and semantic meaning of logs. To perform downstream log analytics tasks, we leverage a prompt tuning paradigm to convert downstream tasks’ objectives into a similar form as the pre-training stage. We have conducted extensive experiments on two main log analytics tasks (i.e., log parsing and log-based anomaly detection). Experimental results show that PreLog achieves better or comparable results in comparison with the state-of-the-art, task-specific approaches. PreLog is cost-effective and can be uniformly applied to many log analytics tasks through the prompt tuning paradigm.
 
-## <u> Additional Results on Anomaly Detection:</u>
-
+## <u> Additional Results:</u>
+### A. Prompt Tuning vs. Fine-tuning
 To demonstrate the benefits of the current prompt tuning design (i.e., hard prompt tuning), we conduct additional experiments on anomaly detection.
 We the following settings:
 - Hard prompt (i.e., the current design of PreLog): We use the template of **"[S] This sequence is [MASK]"**, where **[S]** and **[MASK]** are the unfilled slots for the input log sequence and label, respectively.
@@ -11,14 +11,7 @@ We the following settings:
 - Fine tune (freeze LM): We freeze the pre-trained PreLog and only fine-tune the classification head.
 - Fine tune (full parameters): We add a classification head on top of the pre-trained PreLog and fine-tune all parameters.
 
-### A0. Findings
-
-- PreLog performs the best with hard prompt tuning.
-- Fine-tuning with only a small data cannot achieve as good results as hard prompt tuning.
-- Soft prompt tuning can achieve similar results as fine-tuning.
-- Only fine-tuning the classification head (i.e., freeze LM) perform the worst.
-
-### A1. Results with stable logs
+#### A1. Results with stable logs
 
 |  Dataset   |   Metric   | Hard Prompt<br/>(PreLog) | Soft Prompt | Fine tune<br/>(freeze LM) | Fine tune<br/>(full params) |
 |:----------:|:----------:|:------------------------:|:-----------:|:-------------------------:|:---------------------------:|
@@ -33,7 +26,7 @@ We the following settings:
 |            | F-measure  |        **0.998**         |    0.797    |           0.521           |            0.784            |
 
 
-### A2. Results with unstable log events
+#### A2. Results with unstable log events
 | Injection Ratio |   Metric  | Hard Prompt<br/>(PreLog) | Soft Prompt | Fine tune<br/>(freeze LM) | Fine tune<br/>(full params) |
 |:---------------:|:---------:|:------------------------:|:-----------:|:-------------------------:|:---------------------------:|
 |        5%       | Precision |          0.900           |    0.735    |           0.550           |            0.762            |
@@ -49,7 +42,7 @@ We the following settings:
 |                 | Recall    |          0.987           |    0.998    |           0.898           |            0.999            |
 |                 | F-measure |        **0.936**         |    0.838    |           0.750           |            0.843            |
 
-### A3. Results with unstable log sequences
+#### A3. Results with unstable log sequences
 | Injection Ratio |   Metric  | Hard Prompt<br>(PreLog) | Soft Prompt | Fine tune<br>(freeze LM) | Fine tune<br>(full params) |
 |:---------------:|:---------:|:-----------------------:|:-----------:|:------------------------:|:--------------------------:|
 |        5%       | Precision |          0.903          |    0.735    |           0.688          |            0.814           |
@@ -64,6 +57,125 @@ We the following settings:
 |       20%       | Precision |          0.905          |    0.722    |           0.593          |            0.804           |
 |                 | Recall    |          0.988          |    0.998    |           0.916          |            0.998           |
 |                 | F-measure |        **0.945**        |    0.838    |           0.720          |            0.891           |
+
+
+#### **Findings**
+
+- PreLog performs the best with hard prompt tuning.
+- Fine-tuning with only a small data cannot achieve as good results as hard prompt tuning.
+- Soft prompt tuning can achieve similar results as fine-tuning.
+- Only fine-tuning the classification head (i.e., freeze LM) perform the worst.
+
+### B. Pre-training
+
+#### B1. Results on stable logs
+
+|  Dataset   |   Metric   | PreLog (w/ Pre-training) | PreLog (w/o Pre-training) |
+|:----------:|:----------:|:------------------------:|:-------------------------:|
+|  **HDFS**  | Precision  |          0.897           |           0.751           |
+|            |   Recall   |           1.0            |            0.987            |
+|            | F-measure  |        **0.946**         |          0.853            |
+|  **BGL**   | Precision  |          0.967           |           0.818           |
+|            |   Recall   |          0.982           |           0.968           |
+|            | F-measure  |        **0.974**         |          0.886            |
+| **Spirit** | Precision  |           1.0            |            0.987            |
+|            |   Recall   |          0.996           |           0.994           |
+|            | F-measure  |        **0.998**         |          0.990            |
+
+#### B2. Results on unstable log events
+
+| Injection Ratio |   Metric  | PreLog (w/ Pre-training) | PreLog (w/o Pre-training) |
+|:---------------:|:---------:|:------------------------:|:-------------------------:|
+|        5%       | Precision |          0.900           |           0.446           |
+|                 | Recall    |          0.988           |           0.959           |
+|                 | F-measure |        **0.942**         |          0.608            |
+|       10%       | Precision |          0.897           |           0.579           |
+|                 | Recall    |          0.985           |           0.956           |
+|                 | F-measure |        **0.939**         |          0.721            |
+|       15%       | Precision |          0.891           |           0.453           |
+|                 | Recall    |          0.986           |           0.959           |
+|                 | F-measure |        **0.939**         |          0.616            |
+|       20%       | Precision |          0.889           |           0.527           |
+|                 | Recall    |          0.987           |           0.955           |
+|                 | F-measure |        **0.936**         |          0.679            |
+
+
+#### B3. Results on unstable log sequences
+
+| Injection Ratio |   Metric  | PreLog (w/ Pre-training) | PreLog (w/o Pre-training) |
+|:---------------:|:---------:|:------------------------:|:-------------------------:|
+|        5%       | Precision |          0.903           |           0.599           |
+|                 | Recall    |          0.988           |           0.967           |
+|                 | F-measure |        **0.943**         |          0.740            |
+|       10%       | Precision |          0.915           |           0.505           |
+|                 | Recall    |          0.988           |           0.967           |
+|                 | F-measure |        **0.950**         |          0.663            |
+|       15%       | Precision |          0.912           |           0.549           |
+|                 | Recall    |          0.988           |           0.967           |
+|                 | F-measure |        **0.936**         |          0.700            |
+|       20%       | Precision |          0.905           |           0.508           |
+|                 | Recall    |          0.988           |           0.967           |
+|                 | F-measure |        **0.945**         |          0.666            |
+
+
+### C. Efficiency and Comparison with LLMs
+
+#### C1. Results on stable logs
+
+| Dataset   |   Metric   | PreLog (140M) | FLAN-T5 (3B) |
+|:---------:|:----------:|:-------------:|:------------:|
+| **HDFS**  | Precision  |     0.897     |     0.790    |
+|           |   Recall   |      1.0      |      1.0     |
+|           | F-measure  |   **0.946**   |   0.870  |
+|           |  $T_{infer}$ with V100 GPU  |     **12 ms**     |     timeout    |
+|        |  $T_{infer}$ with A100 GPU  |     **7 ms**     |     245 ms    |
+| **BGL**   | Precision  |     0.967     |     0.961    |
+|           |   Recall   |     0.982     |     0.995    |
+|           | F-measure  |   0.974   |   **0.977**  |
+|           |  $T_{infer}$ with V100 GPU  |     **12 ms**     |     392 ms    |
+|        |  $T_{infer}$ with A100 GPU  |     **7 ms**     |     265 ms    |
+| **Spirit** | Precision  |      1.0      |      0.997     |
+|           |   Recall   |     0.996     |     0.996    |
+|           | F-measure  |   **0.998**   |   0.996  |
+|           |  $T_{infer}$ with V100 GPU  |     **11 ms**     |     386 ms    |
+|        |  $T_{infer}$ with A100 GPU  |     **7 ms**     |     247 ms    |
+
+
+#### C2. Results on unstable log events
+
+| Injection Ratio |   Metric  | PreLog (140M) | FLAN-T5 (3B) |
+|:---------------:|:---------:|:-------------:|:------------:|
+|        5%       | Precision |     0.900     |     0.839    |
+|                 | Recall    |     0.988     |     0.992    |
+|                 | F-measure |   **0.942**   |      0.909  |
+|        10%      | Precision |     0.897     |     0.867    |
+|                 | Recall    |     0.985     |     0.992    |
+|                 | F-measure |   **0.939**   |   0.925  |
+|        15%      | Precision |     0.891     |     0.727    |
+|                 | Recall    |     0.986     |     0.997    |
+|                 | F-measure |   **0.939**   |   0.841  |
+|        20%      | Precision |     0.889     |     0.725    |
+|                 | Recall    |     0.987     |     0.992    |
+|                 | F-measure |   **0.936**   |   0.834  |
+
+
+#### C3. Results on unstable log sequences
+
+| Injection Ratio |   Metric  | PreLog (140M) | FLAN-T5 (3B) |
+|:---------------:|:---------:|:-------------:|:------------:|
+|        5%       | Precision |     0.903     |     0.865    |
+|                 | Recall    |     0.988     |     0.996    |
+|                 | F-measure |   **0.943**   |   0.926  |
+|        10%      | Precision |     0.915     |     0.996   |
+|                 | Recall    |     0.988     |     0.992    |
+|                 | F-measure |   **0.950**   |   0.926  |
+|        15%      | Precision |     0.912     |     0.870    |
+|                 | Recall    |     0.988     |     0.996    |
+|                 | F-measure |   **0.936**   |   0.929  |
+|        20%      | Precision |     0.905     |     0.844    |
+|                 | Recall    |     0.988     |     0.995    |
+|                 | F-measure |   **0.945**   |   0.926  |
+
 
 ## 1. Framework
 
